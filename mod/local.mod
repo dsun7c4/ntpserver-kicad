@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu Dec 11 22:11:59 2014
+PCBNEW-LibModule-V1  Mon Dec 15 11:05:33 2014
 # encoding utf-8
 Units mm
 $INDEX
@@ -7,11 +7,11 @@ MRA400xT3G
 TO92TO220
 $EndINDEX
 $MODULE DCDCSIP4
-Po 0 0 0 15 548263C1 54825E8F ~~
+Po 0 0 0 15 548263C1 00000000 ~~
 Li DCDCSIP4
 Cd Double rangee de contacts 2 x 5 pins
 Kw CONN
-Sc 54825E8F
+Sc 0
 AR /548118FC
 Op 0 0 0
 T0 0 -6.35 1.016 1.016 0 0.2032 N V 21 N "U1"
@@ -48,12 +48,6 @@ At STD N 00E0FFFF
 Ne 4 "N-000005"
 Po 3.81 0
 $EndPAD
-$SHAPE3D
-Na "pin_array\\pins_array_4x1.wrl"
-Sc 1 1 1
-Of 0 0 0
-Ro 0 0 0
-$EndSHAPE3D
 $EndMODULE DCDCSIP4
 $MODULE MRA400xT3G
 Po 0 0 0 15 548A3824 00000000 ~~
