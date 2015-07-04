@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LDD-A814RI
+D 0.80" 7 Segment Dual Digit Display
+K 7-seg dual display
+$ENDCMP
+#
+$CMP TLC59282
+D 16-Channel, Constant-Current LED Driver
+K LED driver constant-current 16-channel
+$ENDCMP
+#
 $CMP TPS56428DDA
 D 4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM
 K 4A Synchronous buck converter
