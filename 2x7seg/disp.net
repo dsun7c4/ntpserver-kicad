@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/2x7seg/disp.sch)
-    (date "Sat Jul  4 14:05:14 2015")
+    (date "Sun Jul  5 01:04:50 2015")
     (tool "Eeschema (2015-06-05 BZR 5717)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,13 +29,13 @@
       (tstamp 55975809))
     (comp (ref P1)
       (value CONN_01X08)
-      (footprint Pin_Headers:Pin_Header_Straight_1x08)
+      (footprint local:Pin_Header_1x08_edge)
       (libsource (lib conn) (part CONN_01X08))
       (sheetpath (names /) (tstamps /))
       (tstamp 5597595F))
     (comp (ref P2)
       (value CONN_01X08)
-      (footprint Pin_Headers:Pin_Header_Straight_1x08)
+      (footprint local:Pin_Header_1x08_edge)
       (libsource (lib conn) (part CONN_01X08))
       (sheetpath (names /) (tstamps /))
       (tstamp 559759A0))
@@ -82,31 +82,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55975C3F)))
   (libparts
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistor)
-      (footprints
-        (fp R_*)
-        (fp Resistor_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_01X08)
       (footprints
         (fp Pin_Header_Straight_1X08)
@@ -125,6 +100,17 @@
         (pin (num 6) (name P6) (type passive))
         (pin (num 7) (name P7) (type passive))
         (pin (num 8) (name P8) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (footprints
+        (fp R_*)
+        (fp Resistor_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib local) (part LDD-A814RI)
       (description "0.80\" 7 Segment Dual Digit Display")
       (fields
@@ -178,14 +164,28 @@
         (pin (num 21) (name BLANK) (type input))
         (pin (num 22) (name SOUT) (type output))
         (pin (num 23) (name IREF) (type passive))
-        (pin (num 24) (name VCC) (type power_in)))))
+        (pin (num 24) (name VCC) (type power_in))))
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
+    (library (logical local)
+      (uri /home/guest/cae/kicad/lib/local.lib))
     (library (logical device)
       (uri /home/cae/kicad/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /home/cae/kicad/share/kicad/library/conn.lib))
-    (library (logical local)
-      (uri /home/guest/cae/kicad/lib/local.lib)))
+      (uri /home/cae/kicad/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /D2DP)
       (node (ref U2) (pin 9))
