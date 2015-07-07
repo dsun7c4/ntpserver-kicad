@@ -1,4 +1,4 @@
-update=Tue Jun 23 12:19:02 2015
+update=Sun Jul  5 18:19:39 2015
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,11 +43,12 @@ LibName30=local
 [pcbnew]
 version=1
 PageLayoutDescrFile=
+LastNetListRead=
 UseCmpFile=0
 PadDrill=0
 PadDrillOvalY=0
-PadSizeH=2.95
-PadSizeV=5.2
+PadSizeH=4.064
+PadSizeV=1.778
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
@@ -56,6 +57,6 @@ ModuleTextSizeH=1
 ModuleTextSizeThickness=0.15
 SolderMaskClearance=0
 SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
+DrawSegmentWidth=0.15
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
