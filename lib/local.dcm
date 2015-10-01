@@ -1,8 +1,48 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 61083_02X50
+D Bergstack 0.8mm 2x50 HDR
+K connector 2x50
+$ENDCMP
+#
+$CMP AD5662
+D AD5662, Single 16-bit nanoDAC, 2.7V to 5.5V, 250uA
+K Single DAC 1ch 16bit
+$ENDCMP
+#
+$CMP ADT7410
+D +-0.5 deg C 16-bit Digital I2C Temperature Sensor
+K I2C Temperature
+$ENDCMP
+#
+$CMP DS3231
+D I2C-Integrated RTC/TCXO/Crystal
+K RTC I2C TCXO Crystal
+$ENDCMP
+#
+$CMP L
+D Inductor
+K Inductor L
+$ENDCMP
+#
 $CMP LDD-A814RI
 D 0.80" 7 Segment Dual Digit Display
 K 7-seg dual display
+$ENDCMP
+#
+$CMP LTC2990
+D Quad I2C Voltage, Current and Temperature Monitor
+K I2C Voltage Current Temperature
+$ENDCMP
+#
+$CMP NE5532
+D Dual Op amp (low power)
+K ampliop
+$ENDCMP
+#
+$CMP R_local
+D Resistor
+K Resistor R
 $ENDCMP
 #
 $CMP TLC59282
@@ -10,9 +50,19 @@ D 16-Channel, Constant-Current LED Driver
 K LED driver constant-current 16-channel
 $ENDCMP
 #
+$CMP TPS56428
+D 4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM
+K 4A Synchronous buck converter
+$ENDCMP
+#
 $CMP TPS56428DDA
 D 4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM
 K 4A Synchronous buck converter
+$ENDCMP
+#
+$CMP cx210
+D OCXO Stratum 3E High Stability
+K OCXO
 $ENDCMP
 #
 #End Doc Library
