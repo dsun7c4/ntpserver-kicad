@@ -15,9 +15,19 @@ D +-0.5 deg C 16-bit Digital I2C Temperature Sensor
 K I2C Temperature
 $ENDCMP
 #
+$CMP Adafruit746
+D Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates
+K GPS
+$ENDCMP
+#
 $CMP DS3231
 D I2C-Integrated RTC/TCXO/Crystal
 K RTC I2C TCXO Crystal
+$ENDCMP
+#
+$CMP FVXO-HC53
+D HCMOS 5 x 3.2mm 3.3V VCXO
+K VCXO
 $ENDCMP
 #
 $CMP L
@@ -30,14 +40,34 @@ D 0.80" 7 Segment Dual Digit Display
 K 7-seg dual display
 $ENDCMP
 #
+$CMP LP3853
+D 3A Ultra Low Dropout Linear Regulators
+K LDO 3A
+$ENDCMP
+#
 $CMP LTC2990
 D Quad I2C Voltage, Current and Temperature Monitor
 K I2C Voltage Current Temperature
 $ENDCMP
 #
+$CMP MIC5225
+D Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator
+K LDO 150mA
+$ENDCMP
+#
 $CMP NE5532
 D Dual Op amp (low power)
 K ampliop
+$ENDCMP
+#
+$CMP PA6H
+D LadyBird-1 GPS Antenna Module
+K GPS
+$ENDCMP
+#
+$CMP PCA9306
+D Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator
+K I2C translator
 $ENDCMP
 #
 $CMP R_local
