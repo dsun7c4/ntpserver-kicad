@@ -20,6 +20,11 @@ D Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates
 K GPS
 $ENDCMP
 #
+$CMP DAC8830
+D 16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter
+K Single DAC 1ch 16bit
+$ENDCMP
+#
 $CMP DS3231
 D I2C-Integrated RTC/TCXO/Crystal
 K RTC I2C TCXO Crystal
@@ -48,6 +53,11 @@ $ENDCMP
 $CMP LTC2990
 D Quad I2C Voltage, Current and Temperature Monitor
 K I2C Voltage Current Temperature
+$ENDCMP
+#
+$CMP LVM722
+D 10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier
+K opamp
 $ENDCMP
 #
 $CMP MIC5225
