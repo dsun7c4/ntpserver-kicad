@@ -11,7 +11,7 @@ K Single DAC 1ch 16bit
 $ENDCMP
 #
 $CMP ADT7410
-D +-0.5 deg C 16-bit Digital I2C Temperature Sensor
+D ±0.5 deg C 16-bit Digital I2C Temperature Sensor
 K I2C Temperature
 $ENDCMP
 #
@@ -45,6 +45,11 @@ D 0.80" 7 Segment Dual Digit Display
 K 7-seg dual display
 $ENDCMP
 #
+$CMP LMV722
+D 10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier
+K opamp
+$ENDCMP
+#
 $CMP LP3853
 D 3A Ultra Low Dropout Linear Regulators
 K LDO 3A
@@ -53,11 +58,6 @@ $ENDCMP
 $CMP LTC2990
 D Quad I2C Voltage, Current and Temperature Monitor
 K I2C Voltage Current Temperature
-$ENDCMP
-#
-$CMP LVM722
-D 10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier
-K opamp
 $ENDCMP
 #
 $CMP MIC5225
@@ -95,11 +95,6 @@ D 4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-mode
 K 4A Synchronous buck converter
 $ENDCMP
 #
-$CMP TPS56428DDA
-D 4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM
-K 4A Synchronous buck converter
-$ENDCMP
-#
 $CMP VCCO
 K POWER, PWR
 $ENDCMP
@@ -115,6 +110,10 @@ $ENDCMP
 $CMP cx210
 D OCXO Stratum 3E High Stability
 K OCXO
+$ENDCMP
+#
+$CMP template
+D Part Template
 $ENDCMP
 #
 #End Doc Library
