@@ -5,6 +5,16 @@ D Bergstack 0.8mm 2x50 HDR
 K connector 2x50
 $ENDCMP
 #
+$CMP 74LVC244
+D 8 bits Bus Buffer 3 State out
+K CMOS Buffer BUS 3State
+$ENDCMP
+#
+$CMP 74LVC541
+D 8bits Buffer/Line Driver 3 state Out
+K CMOS BUFFER 3State BUS
+$ENDCMP
+#
 $CMP AD5662
 D AD5662, Single 16-bit nanoDAC, 2.7V to 5.5V, 250uA
 K Single DAC 1ch 16bit
