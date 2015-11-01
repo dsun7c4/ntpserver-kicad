@@ -95,6 +95,11 @@ D 16-Channel, Constant-Current LED Driver
 K LED driver constant-current 16-channel
 $ENDCMP
 #
+$CMP TO220_heatsink
+D T0-220 Vertical Heatsink
+K T0-220 Heatsink
+$ENDCMP
+#
 $CMP TPS56428
 D 4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM
 K 4A Synchronous buck converter
