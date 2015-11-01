@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title "12v Synchronous Buck Converter"
 Date "Thu Jun 18 2015"
 Rev "1.0.0"
