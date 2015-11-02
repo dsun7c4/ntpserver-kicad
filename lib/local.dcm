@@ -75,6 +75,11 @@ D Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator
 K LDO 150mA
 $ENDCMP
 #
+$CMP NC7SZ125
+D TinyLogic® UHS Buffer with Three-State Output
+K CMOS Buffer
+$ENDCMP
+#
 $CMP NE5532
 D Dual Op amp (low power)
 K ampliop
@@ -113,6 +118,10 @@ $ENDCMP
 $CMP TPS56428
 D 4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM
 K 4A Synchronous buck converter
+$ENDCMP
+#
+$CMP VCC
+K POWER, PWR
 $ENDCMP
 #
 $CMP VCCO
