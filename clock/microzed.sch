@@ -500,29 +500,29 @@ Text HLabel 2100 1650 0    60   Input ~ 0
 +1.8V_PG
 Text HLabel 3100 1750 2    60   Input ~ 0
 VCCO_PG
-Text HLabel 7850 3000 2    60   Input ~ 0
+Text HLabel 7100 3550 2    60   Input ~ 0
 GPS_TX
-Text HLabel 7850 3200 2    60   Input ~ 0
+Text HLabel 7100 3650 2    60   Input ~ 0
 GPS_RX
-Text HLabel 7850 3800 2    60   Input ~ 0
+Text HLabel 1900 2050 0    60   Input ~ 0
 OCXO_SCL
-Text HLabel 7850 3950 2    60   Input ~ 0
+Text HLabel 1900 2150 0    60   Input ~ 0
 OCXO_SDA
-Text HLabel 7900 4250 2    60   Input ~ 0
+Text HLabel 1400 2650 0    60   Input ~ 0
 ~DAC_CS~
-Text HLabel 7900 4400 2    60   Input ~ 0
+Text HLabel 1400 2750 0    60   Input ~ 0
 DAC_SCLK
-Text HLabel 7900 4550 2    60   Input ~ 0
+Text HLabel 1400 2950 0    60   Input ~ 0
 DAC_SIN
-Text HLabel 7850 3400 2    60   Input ~ 0
+Text HLabel 7100 3850 2    60   Input ~ 0
 GPS_ENA
-Text HLabel 7850 4100 2    60   Input ~ 0
+Text HLabel 1900 2350 0    60   Input ~ 0
 OCXO_ENA
-Text HLabel 900  2550 0    60   Input ~ 0
+Text HLabel 900  3550 0    60   Input ~ 0
 10MHZ
-Text HLabel 900  2950 0    60   Input ~ 0
-1PPS
 Text HLabel 900  3250 0    60   Input ~ 0
+1PPS
+Text HLabel 900  3350 0    60   Input ~ 0
 3DFIX
 $Comp
 L VIN #PWR?
@@ -664,7 +664,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 1650 9800 1650
 Wire Wire Line
-	9600 2050 10200 2050
+	9800 2050 10200 2050
 Text Label 9850 1350 0    40   ~ 0
 DISP0
 Text Label 9850 1450 0    40   ~ 0
@@ -692,13 +692,13 @@ L R_local R?
 U 1 1 563694E5
 P 9650 1350
 F 0 "R?" V 9200 1050 50  0000 C CNN
-F 1 "100R" V 9200 1350 50  0000 C CNN
+F 1 "0R" V 9200 1350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1350 30  0001 C CNN
 F 3 "" V 9730 1350 30  0000 C CNN
 F 4 "1%" V 9500 1350 50  0001 C CNN "Tolerance"
 F 5 "0.125W" V 9425 1350 50  0001 C CNN "Power"
 F 6 "Vishay Dale" V 9650 1350 50  0001 C CNN "Manufacturer"
-F 7 "CRCW0805100RFKEA" V 9800 1350 50  0001 C CNN "PartNum"
+F 7 "CRCW08050000Z0EA" V 9800 1350 50  0001 C CNN "PartNum"
 	1    9650 1350
 	0    1    1    0   
 $EndComp
@@ -706,62 +706,17 @@ Wire Wire Line
 	9500 1350 9100 1350
 $Comp
 L R_local R?
-U 1 1 5636971A
-P 9650 1450
-F 0 "R?" V 9200 1150 50  0000 C CNN
-F 1 "100R" V 9200 1450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1450 30  0001 C CNN
-F 3 "" V 9730 1450 30  0000 C CNN
-F 4 "1%" V 9500 1450 50  0001 C CNN "Tolerance"
-F 5 "0.125W" V 9425 1450 50  0001 C CNN "Power"
-F 6 "Vishay Dale" V 9650 1450 50  0001 C CNN "Manufacturer"
-F 7 "CRCW0805100RFKEA" V 9800 1450 50  0001 C CNN "PartNum"
-	1    9650 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L R_local R?
-U 1 1 56369741
-P 9650 1550
-F 0 "R?" V 9200 1250 50  0000 C CNN
-F 1 "100R" V 9200 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1550 30  0001 C CNN
-F 3 "" V 9730 1550 30  0000 C CNN
-F 4 "1%" V 9500 1550 50  0001 C CNN "Tolerance"
-F 5 "0.125W" V 9425 1550 50  0001 C CNN "Power"
-F 6 "Vishay Dale" V 9650 1550 50  0001 C CNN "Manufacturer"
-F 7 "CRCW0805100RFKEA" V 9800 1550 50  0001 C CNN "PartNum"
-	1    9650 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L R_local R?
-U 1 1 5636976B
-P 9650 1650
-F 0 "R?" V 9200 1350 50  0000 C CNN
-F 1 "100R" V 9200 1650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1650 30  0001 C CNN
-F 3 "" V 9730 1650 30  0000 C CNN
-F 4 "1%" V 9500 1650 50  0001 C CNN "Tolerance"
-F 5 "0.125W" V 9425 1650 50  0001 C CNN "Power"
-F 6 "Vishay Dale" V 9650 1650 50  0001 C CNN "Manufacturer"
-F 7 "CRCW0805100RFKEA" V 9800 1650 50  0001 C CNN "PartNum"
-	1    9650 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L R_local R?
 U 1 1 5636980F
-P 9450 2050
-F 0 "R?" V 9550 1950 50  0000 C CNN
-F 1 "100R" V 9550 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9380 2050 30  0001 C CNN
-F 3 "" V 9530 2050 30  0000 C CNN
-F 4 "1%" V 9300 2050 50  0001 C CNN "Tolerance"
-F 5 "0.125W" V 9225 2050 50  0001 C CNN "Power"
-F 6 "Vishay Dale" V 9450 2050 50  0001 C CNN "Manufacturer"
-F 7 "CRCW0805100RFKEA" V 9600 2050 50  0001 C CNN "PartNum"
-	1    9450 2050
+P 9650 2050
+F 0 "R?" V 9750 1950 50  0000 C CNN
+F 1 "1.00K" V 9750 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 2050 30  0001 C CNN
+F 3 "" V 9730 2050 30  0000 C CNN
+F 4 "1%" V 9500 2050 50  0001 C CNN "Tolerance"
+F 5 "0.125W" V 9425 2050 50  0001 C CNN "Power"
+F 6 "Vishay Dale" V 9650 2050 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08051K00FKEA" V 9800 2050 50  0001 C CNN "PartNum"
+	1    9650 2050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -771,7 +726,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 1650 9100 1650
 Wire Wire Line
-	9300 2050 9100 2050
+	9500 2050 9100 2050
 Wire Wire Line
 	7700 2250 7500 2250
 Wire Wire Line
@@ -792,13 +747,13 @@ F 3 "" H 7500 2450 60  0000 C CNN
 	1    7500 2450
 	1    0    0    -1  
 $EndComp
-Text HLabel 9750 3450 2    60   Input ~ 0
+Text HLabel 7050 4850 2    60   Input ~ 0
 RTC_SCL
-Text HLabel 9750 3550 2    60   Input ~ 0
+Text HLabel 7050 4950 2    60   Input ~ 0
 RTC_SDA
-Text HLabel 9750 3950 2    60   Input ~ 0
+Text HLabel 7050 5250 2    60   Input ~ 0
 TEMP_SCL
-Text HLabel 9750 3850 2    60   Input ~ 0
+Text HLabel 7050 5350 2    60   Input ~ 0
 TEMP_SDA
 Text Label 9150 1350 0    40   ~ 0
 BUF_SCLK
@@ -808,4 +763,229 @@ Text Label 9150 1550 0    40   ~ 0
 BUF_LAT
 Text Label 9150 1650 0    40   ~ 0
 BUF_SIN
+Wire Wire Line
+	2300 3550 900  3550
+Wire Wire Line
+	900  3250 2300 3250
+Wire Wire Line
+	2300 3350 900  3350
+Text HLabel 10200 3050 2    60   Input ~ 0
+FAN_TACH
+$Comp
+L ZENER D?
+U 1 1 56390BFE
+P 9150 3350
+F 0 "D?" H 9150 3450 50  0000 C CNN
+F 1 "ZENER" H 9150 3250 50  0000 C CNN
+F 2 "" H 9150 3350 60  0000 C CNN
+F 3 "" H 9150 3350 60  0000 C CNN
+	1    9150 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R_local R?
+U 1 1 56390C22
+P 10000 2800
+F 0 "R?" V 10080 2800 50  0000 C CNN
+F 1 "10.0K" V 9925 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9930 2800 30  0001 C CNN
+F 3 "" V 10080 2800 30  0000 C CNN
+F 4 "1%" V 9850 2800 50  0000 C CNN "Tolerance"
+F 5 "0.125W" V 9775 2800 50  0000 C CNN "Power"
+F 6 "Vishay Dale" V 10000 2800 50  0001 C CNN "Manufacturer"
+F 7 "CRCW080510K0FKEA" V 10150 2800 50  0001 C CNN "PartNum"
+	1    10000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_local R?
+U 1 1 56390E57
+P 9500 3050
+F 0 "R?" V 9580 3050 50  0000 C CNN
+F 1 "10.0K" V 9425 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9430 3050 30  0001 C CNN
+F 3 "" V 9580 3050 30  0000 C CNN
+F 4 "1%" V 9350 3050 50  0000 C CNN "Tolerance"
+F 5 "0.125W" V 9275 3050 50  0000 C CNN "Power"
+F 6 "Vishay Dale" V 9500 3050 50  0001 C CNN "Manufacturer"
+F 7 "CRCW080510K0FKEA" V 9650 3050 50  0001 C CNN "PartNum"
+	1    9500 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 3050 9150 3050
+Wire Wire Line
+	9150 3050 9350 3050
+Wire Wire Line
+	10000 3050 10000 2950
+Wire Wire Line
+	9150 3050 9150 3150
+$Comp
+L VCC #PWR?
+U 1 1 563911B0
+P 10000 2550
+F 0 "#PWR?" H 10000 2400 50  0001 C CNN
+F 1 "VCC" H 10000 2700 50  0000 C CNN
+F 2 "" H 10000 2550 60  0000 C CNN
+F 3 "" H 10000 2550 60  0000 C CNN
+	1    10000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 563911DC
+P 9150 3650
+F 0 "#PWR?" H 9150 3400 50  0001 C CNN
+F 1 "GND" H 9150 3500 50  0000 C CNN
+F 2 "" H 9150 3650 60  0000 C CNN
+F 3 "" H 9150 3650 60  0000 C CNN
+	1    9150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2650 10000 2550
+Wire Wire Line
+	9150 3550 9150 3650
+Wire Wire Line
+	9650 3050 10000 3050
+Wire Wire Line
+	10000 3050 10200 3050
+Wire Wire Line
+	5900 2050 6650 2050
+Wire Wire Line
+	6650 2050 6650 1350
+Wire Wire Line
+	6650 1350 7700 1350
+Wire Wire Line
+	7700 1450 6750 1450
+Wire Wire Line
+	6750 1450 6750 2150
+Wire Wire Line
+	6750 2150 5900 2150
+Wire Wire Line
+	5900 2350 6850 2350
+Wire Wire Line
+	6850 2350 6850 1550
+Wire Wire Line
+	6850 1550 7700 1550
+Wire Wire Line
+	7700 1650 6950 1650
+Wire Wire Line
+	6950 1650 6950 2450
+Wire Wire Line
+	6950 2450 5900 2450
+Wire Wire Line
+	5900 2650 7050 2650
+Wire Wire Line
+	7050 2650 7050 1750
+Wire Wire Line
+	7050 1750 7700 1750
+Wire Wire Line
+	7700 1850 7150 1850
+Wire Wire Line
+	7150 1850 7150 2750
+Wire Wire Line
+	7150 2750 5900 2750
+Wire Wire Line
+	5900 2950 7250 2950
+Wire Wire Line
+	7250 2950 7250 1950
+Wire Wire Line
+	7250 1950 7700 1950
+Wire Wire Line
+	5900 3050 7350 3050
+Wire Wire Line
+	7350 3050 7350 2050
+Wire Wire Line
+	7350 2050 7700 2050
+Wire Wire Line
+	5900 3250 8300 3250
+Wire Wire Line
+	8300 3250 8300 3050
+Connection ~ 9150 3050
+Wire Wire Line
+	1900 2050 2300 2050
+Wire Wire Line
+	2300 2150 1900 2150
+Wire Wire Line
+	1900 2350 2300 2350
+Wire Wire Line
+	2300 2650 1400 2650
+Wire Wire Line
+	1400 2750 2300 2750
+Wire Wire Line
+	2300 2950 1400 2950
+Wire Wire Line
+	5900 5250 7050 5250
+Wire Wire Line
+	7050 5350 5900 5350
+Wire Wire Line
+	7050 4950 5900 4950
+Wire Wire Line
+	5900 4850 7050 4850
+Wire Wire Line
+	7100 3550 5900 3550
+Wire Wire Line
+	5900 3650 7100 3650
+Wire Wire Line
+	7100 3850 5900 3850
+Connection ~ 10000 3050
+$Comp
+L Microzed Microzed?
+U 1 1 563ABEE6
+P 850 7550
+F 0 "Microzed?" H 850 7750 60  0000 C CNN
+F 1 "Microzed" H 850 7600 60  0000 C CNN
+F 2 "" H 750 7650 60  0000 C CNN
+F 3 "" H 850 7750 60  0000 C CNN
+F 4 "Avnet" H 850 7900 50  0001 C CNN "Manufacturer"
+F 5 "AES-Z7MB-7Z010-G" H 850 7825 50  0001 C CNN "PartNum"
+	1    850  7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_local R?
+U 1 1 563F4285
+P 9650 1450
+F 0 "R?" V 9200 1150 50  0000 C CNN
+F 1 "0R" V 9200 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1450 30  0001 C CNN
+F 3 "" V 9730 1450 30  0000 C CNN
+F 4 "1%" V 9500 1450 50  0001 C CNN "Tolerance"
+F 5 "0.125W" V 9425 1450 50  0001 C CNN "Power"
+F 6 "Vishay Dale" V 9650 1450 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08050000Z0EA" V 9800 1450 50  0001 C CNN "PartNum"
+	1    9650 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L R_local R?
+U 1 1 563F42BB
+P 9650 1550
+F 0 "R?" V 9200 1250 50  0000 C CNN
+F 1 "0R" V 9200 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1550 30  0001 C CNN
+F 3 "" V 9730 1550 30  0000 C CNN
+F 4 "1%" V 9500 1550 50  0001 C CNN "Tolerance"
+F 5 "0.125W" V 9425 1550 50  0001 C CNN "Power"
+F 6 "Vishay Dale" V 9650 1550 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08050000Z0EA" V 9800 1550 50  0001 C CNN "PartNum"
+	1    9650 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L R_local R?
+U 1 1 563F42F4
+P 9650 1650
+F 0 "R?" V 9200 1350 50  0000 C CNN
+F 1 "0R" V 9200 1650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1650 30  0001 C CNN
+F 3 "" V 9730 1650 30  0000 C CNN
+F 4 "1%" V 9500 1650 50  0001 C CNN "Tolerance"
+F 5 "0.125W" V 9425 1650 50  0001 C CNN "Power"
+F 6 "Vishay Dale" V 9650 1650 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08050000Z0EA" V 9800 1650 50  0001 C CNN "PartNum"
+	1    9650 1650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

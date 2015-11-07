@@ -167,29 +167,33 @@ F 7 "CRCW08051K00FKEA" V 4650 2050 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 2350 5150 2350
+	3650 2350 4500 2350
+Wire Wire Line
+	4500 2350 5150 2350
 Wire Wire Line
 	4500 2350 4500 2200
 Wire Wire Line
-	3650 2450 5150 2450
+	3650 2450 4050 2450
+Wire Wire Line
+	4050 2450 5150 2450
 Wire Wire Line
 	4050 2450 4050 2200
 Connection ~ 4050 2450
 Wire Wire Line
 	4050 1900 4050 1800
 Wire Wire Line
-	4750 1800 4750 1700
+	4300 1800 4300 1700
 Wire Wire Line
 	4500 1800 4500 1900
 $Comp
 L VCC #PWR?
 U 1 1 5636BBAE
-P 4750 1700
-F 0 "#PWR?" H 4750 1550 50  0001 C CNN
-F 1 "VCC" H 4750 1850 50  0000 C CNN
-F 2 "" H 4750 1700 60  0000 C CNN
-F 3 "" H 4750 1700 60  0000 C CNN
-	1    4750 1700
+P 4300 1700
+F 0 "#PWR?" H 4300 1550 50  0001 C CNN
+F 1 "VCC" H 4300 1850 50  0000 C CNN
+F 2 "" H 4300 1700 60  0000 C CNN
+F 3 "" H 4300 1700 60  0000 C CNN
+	1    4300 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -204,7 +208,9 @@ F 3 "" V 6950 2840 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 2550 7500 2550
+	6350 2550 6950 2550
+Wire Wire Line
+	6950 2550 7500 2550
 Wire Wire Line
 	6950 2550 6950 2650
 $Comp
@@ -223,31 +229,9 @@ Wire Wire Line
 Text HLabel 7500 2550 2    60   Input ~ 0
 BATTERY
 Connection ~ 6950 2550
-$Comp
-L R_local R?
-U 1 1 5636BE04
-P 4950 2050
-F 0 "R?" V 5030 2050 50  0000 C CNN
-F 1 "1K" V 4875 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4880 2050 30  0001 C CNN
-F 3 "" V 5030 2050 30  0000 C CNN
-F 4 "1%" V 4800 2050 50  0000 C CNN "Tolerance"
-F 5 "0.125W" V 4725 2050 50  0000 C CNN "Power"
-F 6 "Vishay Dale" V 4950 2050 50  0001 C CNN "Manufacturer"
-F 7 "CRCW08051K00FKEA" V 5100 2050 50  0001 C CNN "PartNum"
-	1    4950 2050
-	1    0    0    -1  
-$EndComp
+Connection ~ 4300 1800
 Wire Wire Line
-	4950 2200 4950 2550
-Wire Wire Line
-	4950 2550 5150 2550
-Wire Wire Line
-	4950 1800 4950 1900
-Connection ~ 4500 1800
-Connection ~ 4750 1800
-Wire Wire Line
-	4050 1800 4950 1800
+	4050 1800 4500 1800
 Connection ~ 4500 2350
 $Comp
 L ADT7410 U?
@@ -366,10 +350,16 @@ F 3 "" H 5800 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 4000 6450 4000
+	5550 4000 5800 4000
+Wire Wire Line
+	5800 4000 6000 4000
+Wire Wire Line
+	6000 4000 6450 4000
 Connection ~ 5800 4000
 Wire Wire Line
-	5250 4550 6600 4550
+	5250 4550 6000 4550
+Wire Wire Line
+	6000 4550 6600 4550
 Wire Wire Line
 	5250 4550 5250 3700
 Wire Wire Line
@@ -377,10 +367,14 @@ Wire Wire Line
 Wire Wire Line
 	3400 3700 3400 4550
 Wire Wire Line
-	2950 4550 3700 4550
+	2950 4550 3400 4550
+Wire Wire Line
+	3400 4550 3700 4550
 Connection ~ 6000 4550
 Wire Wire Line
-	5150 4650 6600 4650
+	5150 4650 5550 4650
+Wire Wire Line
+	5550 4650 6600 4650
 Wire Wire Line
 	5150 4650 5150 3800
 Wire Wire Line
@@ -388,7 +382,9 @@ Wire Wire Line
 Wire Wire Line
 	3500 3800 3500 4650
 Wire Wire Line
-	2950 4650 3700 4650
+	2950 4650 3500 4650
+Wire Wire Line
+	3500 4650 3700 4650
 Connection ~ 5550 4650
 $Comp
 L R_local R?
@@ -429,7 +425,9 @@ Wire Wire Line
 Wire Wire Line
 	3100 4850 3100 5150
 Wire Wire Line
-	3550 5450 3550 5650
+	3550 5450 3550 5550
+Wire Wire Line
+	3550 5550 3550 5650
 Wire Wire Line
 	3550 5550 3100 5550
 Wire Wire Line
@@ -466,7 +464,9 @@ Wire Wire Line
 Wire Wire Line
 	6450 4950 6450 5150
 Wire Wire Line
-	6450 5450 6450 5650
+	6450 5450 6450 5550
+Wire Wire Line
+	6450 5550 6450 5650
 Connection ~ 6450 5550
 $Comp
 L GND #PWR?

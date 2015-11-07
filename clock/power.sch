@@ -45,17 +45,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C?
-U 1 1 55FF67A9
-P 8700 2600
-F 0 "C?" H 8725 2700 50  0000 L CNN
-F 1 "50pF" H 8725 2500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8738 2450 30  0001 C CNN
-F 3 "" H 8700 2600 60  0000 C CNN
-	1    8700 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L L L?
 U 1 1 55FF67B2
 P 8200 2350
@@ -85,8 +74,8 @@ Wire Wire Line
 	8700 2350 8700 2450
 Connection ~ 8700 2350
 Wire Wire Line
-	9100 2350 9100 2450
-Connection ~ 9100 2350
+	9200 2350 9200 2450
+Connection ~ 9200 2350
 Wire Wire Line
 	9500 2350 9500 2700
 Connection ~ 9500 2350
@@ -94,18 +83,18 @@ Wire Wire Line
 	9900 2350 9900 2700
 Connection ~ 9900 2350
 Wire Wire Line
-	9100 2750 9100 2950
+	9200 2750 9200 2950
 Wire Wire Line
 	6750 3450 6750 2950
 Wire Wire Line
-	9100 3450 9100 3250
+	9200 3450 9200 3250
 Wire Wire Line
-	8350 2850 9100 2850
+	8350 2850 9200 2850
 Wire Wire Line
 	8350 2850 8350 2500
 Wire Wire Line
 	8350 2500 7300 2500
-Connection ~ 9100 2850
+Connection ~ 9200 2850
 Wire Wire Line
 	8700 2750 8700 2850
 Connection ~ 8700 2850
@@ -122,7 +111,7 @@ Wire Wire Line
 	7400 2750 7300 2750
 Wire Wire Line
 	9500 3450 9500 3000
-Connection ~ 9100 3450
+Connection ~ 9200 3450
 Wire Wire Line
 	9900 3450 9900 3000
 Connection ~ 9500 3450
@@ -187,45 +176,12 @@ Text Label 8800 2350 0    60   ~ 0
 Vout5
 Text Label 8850 3600 0    60   ~ 0
 PG5
-$Comp
-L R_local R?
-U 1 1 5608875E
-P 9100 3100
-F 0 "R?" V 9180 3100 50  0000 C CNN
-F 1 "4.99K" V 9025 3100 50  0000 C CNN
-F 2 "" V 9030 3100 30  0000 C CNN
-F 3 "" H 9100 3100 30  0000 C CNN
-	1    9100 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_local R?
-U 1 1 560887C6
-P 9100 2600
-F 0 "R?" V 9180 2600 50  0000 C CNN
-F 1 "36.5K" V 9025 2600 50  0000 C CNN
-F 2 "" V 9030 2600 30  0000 C CNN
-F 3 "" H 9100 2600 30  0000 C CNN
-	1    9100 2600
-	1    0    0    -1  
-$EndComp
 Text Label 4050 2750 0    60   ~ 0
 ENA5
 Text Label 6150 2750 0    30   ~ 0
 ENA_R5
 Text Label 5650 2250 0    60   ~ 0
 Vin
-$Comp
-L C C?
-U 1 1 5619E44C
-P 8700 5200
-F 0 "C?" H 8725 5300 50  0000 L CNN
-F 1 "50pF" H 8725 5100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8738 5050 30  0001 C CNN
-F 3 "" H 8700 5200 60  0000 C CNN
-	1    8700 5200
-	1    0    0    -1  
-$EndComp
 $Comp
 L L L?
 U 1 1 5619E46A
@@ -256,8 +212,8 @@ Wire Wire Line
 	8700 4950 8700 5050
 Connection ~ 8700 4950
 Wire Wire Line
-	9100 4950 9100 5050
-Connection ~ 9100 4950
+	9200 4950 9200 5050
+Connection ~ 9200 4950
 Wire Wire Line
 	9500 4950 9500 5300
 Connection ~ 9500 4950
@@ -265,20 +221,20 @@ Wire Wire Line
 	9900 4950 9900 5300
 Connection ~ 9900 4950
 Wire Wire Line
-	9100 5350 9100 5550
+	9200 5350 9200 5550
 Wire Wire Line
 	6750 6050 6750 5550
 Wire Wire Line
 	4700 6050 10300 6050
 Wire Wire Line
-	9100 6050 9100 5850
+	9200 6050 9200 5850
 Wire Wire Line
-	8350 5450 9100 5450
+	8350 5450 9200 5450
 Wire Wire Line
 	8350 5450 8350 5100
 Wire Wire Line
 	8350 5100 7300 5100
-Connection ~ 9100 5450
+Connection ~ 9200 5450
 Wire Wire Line
 	8700 5350 8700 5450
 Connection ~ 8700 5450
@@ -295,7 +251,7 @@ Wire Wire Line
 	7400 5350 7300 5350
 Wire Wire Line
 	9500 6050 9500 5600
-Connection ~ 9100 6050
+Connection ~ 9200 6050
 Wire Wire Line
 	9900 6050 9900 5600
 Connection ~ 9500 6050
@@ -351,28 +307,6 @@ Text Label 8800 4950 0    60   ~ 0
 Vout3.3
 Text Label 8850 6200 0    60   ~ 0
 PG3.3
-$Comp
-L R_local R?
-U 1 1 5619E4D9
-P 9100 5700
-F 0 "R?" V 9180 5700 50  0000 C CNN
-F 1 "4.99K" V 9025 5700 50  0000 C CNN
-F 2 "" V 9030 5700 30  0000 C CNN
-F 3 "" H 9100 5700 30  0000 C CNN
-	1    9100 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_local R?
-U 1 1 5619E4DF
-P 9100 5200
-F 0 "R?" V 9180 5200 50  0000 C CNN
-F 1 "22.6K" V 9025 5200 50  0000 C CNN
-F 2 "" V 9030 5200 30  0000 C CNN
-F 3 "" H 9100 5200 30  0000 C CNN
-	1    9100 5200
-	1    0    0    -1  
-$EndComp
 Text Label 7450 5100 0    60   ~ 0
 Vfb3.3
 Text Label 7450 4950 0    60   ~ 0
@@ -383,17 +317,6 @@ Text Label 4050 5350 0    60   ~ 0
 ENA3.3
 Text Label 6150 5350 0    30   ~ 0
 ENA_R3.3
-$Comp
-L C C?
-U 1 1 561A0F5D
-P 8700 7500
-F 0 "C?" H 8725 7600 50  0000 L CNN
-F 1 "50pF" H 8725 7400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8738 7350 30  0001 C CNN
-F 3 "" H 8700 7500 60  0000 C CNN
-	1    8700 7500
-	1    0    0    -1  
-$EndComp
 $Comp
 L L L?
 U 1 1 561A0F7B
@@ -424,8 +347,8 @@ Wire Wire Line
 	8700 7250 8700 7350
 Connection ~ 8700 7250
 Wire Wire Line
-	9100 7250 9100 7350
-Connection ~ 9100 7250
+	9200 7250 9200 7350
+Connection ~ 9200 7250
 Wire Wire Line
 	9500 7250 9500 7600
 Connection ~ 9500 7250
@@ -433,20 +356,20 @@ Wire Wire Line
 	9900 7250 9900 7600
 Connection ~ 9900 7250
 Wire Wire Line
-	9100 7650 9100 7850
+	9200 7650 9200 7850
 Wire Wire Line
 	6750 8350 6750 7850
 Wire Wire Line
 	4700 8350 10300 8350
 Wire Wire Line
-	9100 8350 9100 8150
+	9200 8350 9200 8150
 Wire Wire Line
-	8350 7750 9100 7750
+	8350 7750 9200 7750
 Wire Wire Line
 	8350 7750 8350 7400
 Wire Wire Line
 	8350 7400 7300 7400
-Connection ~ 9100 7750
+Connection ~ 9200 7750
 Wire Wire Line
 	8700 7650 8700 7750
 Connection ~ 8700 7750
@@ -463,7 +386,7 @@ Wire Wire Line
 	7400 7650 7300 7650
 Wire Wire Line
 	9500 8350 9500 7900
-Connection ~ 9100 8350
+Connection ~ 9200 8350
 Wire Wire Line
 	9900 8350 9900 7900
 Connection ~ 9500 8350
@@ -519,28 +442,6 @@ Text Label 8800 7250 0    60   ~ 0
 Vout3.0
 Text Label 8850 8500 0    60   ~ 0
 PG3.0
-$Comp
-L R_local R?
-U 1 1 561A0FE7
-P 9100 8000
-F 0 "R?" V 9180 8000 50  0000 C CNN
-F 1 "4.99K" V 9025 8000 50  0000 C CNN
-F 2 "" V 9030 8000 30  0000 C CNN
-F 3 "" H 9100 8000 30  0000 C CNN
-	1    9100 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_local R?
-U 1 1 561A0FED
-P 9100 7500
-F 0 "R?" V 9180 7500 50  0000 C CNN
-F 1 "20.0K" V 9025 7500 50  0000 C CNN
-F 2 "" V 9030 7500 30  0000 C CNN
-F 3 "" H 9100 7500 30  0000 C CNN
-	1    9100 7500
-	1    0    0    -1  
-$EndComp
 Text Label 7450 7400 0    60   ~ 0
 Vfb3.0
 Text Label 7450 7250 0    60   ~ 0
@@ -1164,4 +1065,182 @@ F 5 "TPS56428DDA" H 6775 7475 50  0001 C CNN "PartNum"
 	1    6800 7400
 	1    0    0    -1  
 $EndComp
+$Comp
+L R_local R?
+U 1 1 5638B0E2
+P 9200 3100
+F 0 "R?" V 9280 3100 50  0000 C CNN
+F 1 "4.99K" V 9125 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 3100 30  0001 C CNN
+F 3 "" V 9280 3100 30  0000 C CNN
+F 4 "1%" V 9050 3100 50  0000 C CNN "Tolerance"
+F 5 "0.125W" V 8975 3100 50  0000 C CNN "Power"
+F 6 "Vishay Dale" V 9200 3100 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08054K99FKEA" V 9350 3100 50  0001 C CNN "PartNum"
+	1    9200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_local R?
+U 1 1 5638B956
+P 9200 2600
+F 0 "R?" V 9280 2600 50  0000 C CNN
+F 1 "36.5K" V 9125 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 2600 30  0001 C CNN
+F 3 "" V 9280 2600 30  0000 C CNN
+F 4 "1%" V 9050 2600 50  0000 C CNN "Tolerance"
+F 5 "0.125W" V 8975 2600 50  0000 C CNN "Power"
+F 6 "Vishay Dale" V 9200 2600 50  0001 C CNN "Manufacturer"
+F 7 "CRCW080536K5FKEA" V 9350 2600 50  0001 C CNN "PartNum"
+	1    9200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_local R?
+U 1 1 5638C467
+P 9200 5700
+F 0 "R?" V 9280 5700 50  0000 C CNN
+F 1 "4.99K" V 9125 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 5700 30  0001 C CNN
+F 3 "" V 9280 5700 30  0000 C CNN
+F 4 "1%" V 9050 5700 50  0000 C CNN "Tolerance"
+F 5 "0.125W" V 8975 5700 50  0000 C CNN "Power"
+F 6 "Vishay Dale" V 9200 5700 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08054K99FKEA" V 9350 5700 50  0001 C CNN "PartNum"
+	1    9200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_local R?
+U 1 1 5638CF60
+P 9200 8000
+F 0 "R?" V 9280 8000 50  0000 C CNN
+F 1 "4.99K" V 9125 8000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 8000 30  0001 C CNN
+F 3 "" V 9280 8000 30  0000 C CNN
+F 4 "1%" V 9050 8000 50  0000 C CNN "Tolerance"
+F 5 "0.125W" V 8975 8000 50  0000 C CNN "Power"
+F 6 "Vishay Dale" V 9200 8000 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08054K99FKEA" V 9350 8000 50  0001 C CNN "PartNum"
+	1    9200 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_local R?
+U 1 1 5638D111
+P 9200 5200
+F 0 "R?" V 9280 5200 50  0000 C CNN
+F 1 "22.6K" V 9125 5200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 5200 30  0001 C CNN
+F 3 "" V 9280 5200 30  0000 C CNN
+F 4 "1%" V 9050 5200 50  0000 C CNN "Tolerance"
+F 5 "0.125W" V 8975 5200 50  0000 C CNN "Power"
+F 6 "Vishay Dale" V 9200 5200 50  0001 C CNN "Manufacturer"
+F 7 "CRCW080522K6FKEA" V 9350 5200 50  0001 C CNN "PartNum"
+	1    9200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_local R?
+U 1 1 5638D4CA
+P 9200 7500
+F 0 "R?" V 9280 7500 50  0000 C CNN
+F 1 "20.0K" V 9125 7500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9130 7500 30  0001 C CNN
+F 3 "" V 9280 7500 30  0000 C CNN
+F 4 "1%" V 9050 7500 50  0000 C CNN "Tolerance"
+F 5 "0.125W" V 8975 7500 50  0000 C CNN "Power"
+F 6 "Vishay Dale" V 9200 7500 50  0001 C CNN "Manufacturer"
+F 7 "CRCW080520K0FKEA" V 9350 7500 50  0001 C CNN "PartNum"
+	1    9200 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 563B59EA
+P 8700 2600
+F 0 "C?" H 8725 2700 50  0000 L CNN
+F 1 "47pF" H 8725 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8738 2450 30  0001 C CNN
+F 3 "" H 8700 2600 60  0000 C CNN
+F 4 "50V" H 8600 2500 50  0000 C CNN "Voltage"
+F 5 "5%" H 8800 2400 50  0000 C CNN "Tolerance"
+F 6 "COG" H 8600 2700 50  0000 C CNN "Dielectric"
+F 7 "Kemet" H 8700 2600 50  0001 C CNN "Manufacturer"
+F 8 "C0805C470J5GACTU" H 8700 2600 50  0001 C CNN "PartNum"
+	1    8700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 563B5E1E
+P 8700 5200
+F 0 "C?" H 8725 5300 50  0000 L CNN
+F 1 "47pF" H 8725 5100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8738 5050 30  0001 C CNN
+F 3 "" H 8700 5200 60  0000 C CNN
+F 4 "50V" H 8600 5100 50  0000 C CNN "Voltage"
+F 5 "5%" H 8800 5000 50  0000 C CNN "Tolerance"
+F 6 "COG" H 8600 5300 50  0000 C CNN "Dielectric"
+F 7 "Kemet" H 8700 5200 50  0001 C CNN "Manufacturer"
+F 8 "C0805C470J5GACTU" H 8700 5200 50  0001 C CNN "PartNum"
+	1    8700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 563B64ED
+P 8700 7500
+F 0 "C?" H 8725 7600 50  0000 L CNN
+F 1 "47pF" H 8725 7400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8738 7350 30  0001 C CNN
+F 3 "" H 8700 7500 60  0000 C CNN
+F 4 "50V" H 8600 7400 50  0000 C CNN "Voltage"
+F 5 "5%" H 8800 7300 50  0000 C CNN "Tolerance"
+F 6 "COG" H 8600 7600 50  0000 C CNN "Dielectric"
+F 7 "Kemet" H 8700 7500 50  0001 C CNN "Manufacturer"
+F 8 "C0805C470J5GACTU" H 8700 7500 50  0001 C CNN "PartNum"
+	1    8700 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 4950
+Connection ~ 10700 4950
+Connection ~ 10700 6200
+Connection ~ 10300 7250
+Connection ~ 10700 7250
+Connection ~ 10700 8500
+Text HLabel 3500 2250 0    60   Input ~ 0
++12V
+Wire Wire Line
+	4300 4650 4150 4650
+Wire Wire Line
+	3950 4650 3750 4650
+Connection ~ 3750 4650
+$Comp
+L Jumper_NO_Small JP?
+U 1 1 563D66B6
+P 4050 4650
+F 0 "JP?" H 4050 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 4590 50  0001 C CNN
+F 2 "" H 4050 4650 60  0000 C CNN
+F 3 "" H 4050 4650 60  0000 C CNN
+	1    4050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP?
+U 1 1 563D6D74
+P 4050 6950
+F 0 "JP?" H 4050 7030 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 6890 50  0001 C CNN
+F 2 "" H 4050 6950 60  0000 C CNN
+F 3 "" H 4050 6950 60  0000 C CNN
+	1    4050 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 6950 4150 6950
+Wire Wire Line
+	3950 6950 3750 6950
+Connection ~ 3750 6950
 $EndSCHEMATC
