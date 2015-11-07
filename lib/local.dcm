@@ -30,6 +30,11 @@ D Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates
 K GPS
 $ENDCMP
 #
+$CMP CONN_FAN_PWM
+D PWM Fan Connector 4-pin
+K CONN FAN PWM
+$ENDCMP
+#
 $CMP DAC8830
 D 16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter
 K Single DAC 1ch 16bit
@@ -73,6 +78,11 @@ $ENDCMP
 $CMP MIC5225
 D Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator
 K LDO 150mA
+$ENDCMP
+#
+$CMP Microzed
+D Microzed Mechanical Mounting Holes
+K Microzed Zynq SoC
 $ENDCMP
 #
 $CMP NC7SZ125
