@@ -35,6 +35,11 @@ D PWM Fan Connector 4-pin
 K CONN FAN PWM
 $ENDCMP
 #
+$CMP CX210
+D OCXO Stratum 3E High Stability
+K OCXO
+$ENDCMP
+#
 $CMP DAC8830
 D 16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter
 K Single DAC 1ch 16bit
@@ -144,11 +149,6 @@ $ENDCMP
 #
 $CMP VXO
 K POWER, PWR
-$ENDCMP
-#
-$CMP cx210
-D OCXO Stratum 3E High Stability
-K OCXO
 $ENDCMP
 #
 $CMP template
