@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/clock/clock.sch</source>
-    <date>Sat Nov  7 22:22:58 2015</date>
+    <date>Sat Nov  7 23:56:56 2015</date>
     <tool>Eeschema (2015-09-12 BZR 6188)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -379,7 +379,7 @@
       <tstamp>563284A1</tstamp>
     </comp>
     <comp ref="R203">
-      <value>10K</value>
+      <value>10.0K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -392,7 +392,7 @@
       <tstamp>563285F8</tstamp>
     </comp>
     <comp ref="R204">
-      <value>10K</value>
+      <value>10.0K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -504,10 +504,10 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
-        <field name="Tolerance">10%</field>
-        <field name="Dielectric">NPO</field>
+        <field name="Tolerance">5%</field>
+        <field name="Dielectric">C0G</field>
         <field name="Manufacturer">Kemet</field>
-        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="PartNum">C0805C100J5GACTU</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/ocxo/" tstamps="/56132794/"/>
@@ -584,14 +584,14 @@
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
         <field name="Manufacturer">Vishay Dale</field>
-        <field name="PartNum">CRCW0805100KFKEA</field>
+        <field name="PartNum">CRCW080536R5FKEA</field>
       </fields>
       <libsource lib="local" part="R_local"/>
       <sheetpath names="/ocxo/" tstamps="/56132794/"/>
       <tstamp>563825CF</tstamp>
     </comp>
     <comp ref="R201">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -604,7 +604,7 @@
       <tstamp>56383EA5</tstamp>
     </comp>
     <comp ref="R202">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -622,7 +622,7 @@
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
-        <field name="Dielectric">COG</field>
+        <field name="Dielectric">C0G</field>
         <field name="Manufacturer">Kemet</field>
         <field name="PartNum">C0805C471J5GACTU</field>
       </fields>
@@ -642,20 +642,8 @@
       <sheetpath names="/ocxo/" tstamps="/56132794/"/>
       <tstamp>563D90D0</tstamp>
     </comp>
-    <comp ref="Y202">
-      <value>cx210</value>
-      <footprint>local:CX210_HandSoldering</footprint>
-      <fields>
-        <field name="Frequency">10MHz</field>
-        <field name="Manufacturer">Connor Winfield</field>
-        <field name="PartNum">OH300-50503CV-010.0M</field>
-      </fields>
-      <libsource lib="local" part="cx210"/>
-      <sheetpath names="/ocxo/" tstamps="/56132794/"/>
-      <tstamp>563D9183</tstamp>
-    </comp>
     <comp ref="R207">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -668,7 +656,7 @@
       <tstamp>5640052F</tstamp>
     </comp>
     <comp ref="R211">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -692,6 +680,18 @@
       <libsource lib="local" part="R_local"/>
       <sheetpath names="/ocxo/" tstamps="/56132794/"/>
       <tstamp>56401686</tstamp>
+    </comp>
+    <comp ref="Y202">
+      <value>CX210</value>
+      <footprint>local:CX210_HandSoldering</footprint>
+      <fields>
+        <field name="Frequency">10.0MHz</field>
+        <field name="Manufacturer">Connor Winfield</field>
+        <field name="PartNum">OH300-50503CV-010.0M</field>
+      </fields>
+      <libsource lib="local" part="CX210"/>
+      <sheetpath names="/ocxo/" tstamps="/56132794/"/>
+      <tstamp>563F1575</tstamp>
     </comp>
     <comp ref="FB301">
       <value>FILTER</value>
@@ -789,7 +789,7 @@
       <tstamp>56329634</tstamp>
     </comp>
     <comp ref="R301">
-      <value>10K</value>
+      <value>10.0K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1041,7 +1041,7 @@
       <tstamp>5630BC92</tstamp>
     </comp>
     <comp ref="R504">
-      <value>10K</value>
+      <value>10.0K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1176,7 +1176,7 @@
       <tstamp>56318C84</tstamp>
     </comp>
     <comp ref="R505">
-      <value>10K</value>
+      <value>10.0K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1351,7 +1351,7 @@
       <tstamp>5631BF8B</tstamp>
     </comp>
     <comp ref="R506">
-      <value>10K</value>
+      <value>10.0K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1513,7 +1513,7 @@
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
-        <field name="Dielectric">COG</field>
+        <field name="Dielectric">C0G</field>
         <field name="Manufacturer">Kemet</field>
         <field name="PartNum">C0805C470J5GACTU</field>
       </fields>
@@ -1527,7 +1527,7 @@
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
-        <field name="Dielectric">COG</field>
+        <field name="Dielectric">C0G</field>
         <field name="Manufacturer">Kemet</field>
         <field name="PartNum">C0805C470J5GACTU</field>
       </fields>
@@ -1541,7 +1541,7 @@
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
-        <field name="Dielectric">COG</field>
+        <field name="Dielectric">C0G</field>
         <field name="Manufacturer">Kemet</field>
         <field name="PartNum">C0805C470J5GACTU</field>
       </fields>
@@ -1586,7 +1586,7 @@
       <tstamp>5636A81E</tstamp>
     </comp>
     <comp ref="R603">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1599,7 +1599,7 @@
       <tstamp>5636BA4F</tstamp>
     </comp>
     <comp ref="R604">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1629,7 +1629,7 @@
       <tstamp>5636C07C</tstamp>
     </comp>
     <comp ref="R605">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1642,7 +1642,7 @@
       <tstamp>5636C195</tstamp>
     </comp>
     <comp ref="R606">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1655,7 +1655,7 @@
       <tstamp>5636C19F</tstamp>
     </comp>
     <comp ref="R601">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1668,7 +1668,7 @@
       <tstamp>5636C415</tstamp>
     </comp>
     <comp ref="R602">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1681,7 +1681,7 @@
       <tstamp>5636C41F</tstamp>
     </comp>
     <comp ref="R608">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1694,7 +1694,7 @@
       <tstamp>5636C5C2</tstamp>
     </comp>
     <comp ref="R607">
-      <value>1K</value>
+      <value>1.00K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
@@ -1750,6 +1750,555 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="local" part="LTC2990">
+      <description>Quad I2C Voltage, Current and Temperature Monitor</description>
+      <footprints>
+        <fp>MSOP-10*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC2990</field>
+        <field name="Manufacturer">Linear Technology</field>
+        <field name="PartNum">LTC2990CMS#PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V1" type="passive"/>
+        <pin num="2" name="V2" type="passive"/>
+        <pin num="3" name="V3" type="passive"/>
+        <pin num="4" name="V4" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SDA" type="BiDi"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="ADR0" type="input"/>
+        <pin num="9" name="ADR1" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="MIC5225">
+      <description>Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5225</field>
+        <field name="Voltage">V</field>
+        <field name="Current">0.15A</field>
+        <field name="Manufacturer">Micrel</field>
+        <field name="PartNum">MIC5225-vvvYM5-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC/ADJ" type="passive"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="DS3231">
+      <description>I2C-Integrated RTC/TCXO/Crystal</description>
+      <footprints>
+        <fp>SOIC-16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231</field>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="PartNum">DS3231S#</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="openCol"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~INT~/SQW" type="openCol"/>
+        <pin num="4" name="~RST~" type="input"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="CONN_FAN_PWM">
+      <description>PWM Fan Connector 4-pin</description>
+      <footprints>
+        <fp>CONN_47053*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_FAN_PWM</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="PartNum">47053-1000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="+12V" type="power_in"/>
+        <pin num="3" name="TACH" type="output"/>
+        <pin num="4" name="PWM" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="L">
+      <description>Inductor</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Current">A</field>
+        <field name="Manufacturer">Co</field>
+        <field name="PartNum">PN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="Microzed">
+      <description>Microzed Mechanical Mounting Holes</description>
+      <footprints>
+        <fp>Microzed_RevF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Microzed</field>
+        <field name="Manufacturer">Avnet</field>
+        <field name="PartNum">AES-Z7MB-7Z010-G</field>
+      </fields>
+    </libpart>
+    <libpart lib="local" part="TPS56428">
+      <description>4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM</description>
+      <footprints>
+        <fp>SO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS56428</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TPS56428DDA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="VFB" type="passive"/>
+        <pin num="3" name="VREG5" type="power_out"/>
+        <pin num="4" name="PG" type="openCol"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SW" type="power_out"/>
+        <pin num="7" name="VBST" type="power_out"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="PwPd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="74LVC541">
+      <description>8bits Buffer/Line Driver 3 state Out</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC541</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">SN74LVC541APWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="A2" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A5" type="input"/>
+        <pin num="8" name="A6" type="input"/>
+        <pin num="9" name="A7" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Y7" type="3state"/>
+        <pin num="12" name="Y6" type="3state"/>
+        <pin num="13" name="Y5" type="3state"/>
+        <pin num="14" name="Y4" type="3state"/>
+        <pin num="15" name="Y3" type="3state"/>
+        <pin num="16" name="Y2" type="3state"/>
+        <pin num="17" name="Y1" type="3state"/>
+        <pin num="18" name="Y0" type="3state"/>
+        <pin num="19" name="G2" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="CX210">
+      <description>OCXO Stratum 3E High Stability</description>
+      <footprints>
+        <fp>CX210*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">CX210</field>
+        <field name="Frequency">10.0MHz</field>
+        <field name="Manufacturer">Connor Winfield</field>
+        <field name="PartNum">OH300-50503CV-010.0M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC" type="input"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RF" type="output"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="FVXO-HC53">
+      <description>HCMOS 5 x 3.2mm 3.3V VCXO</description>
+      <footprints>
+        <fp>FVXO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">FVXO-HC53</field>
+        <field name="Frequency">10MHz</field>
+        <field name="Manufacturer">Fox</field>
+        <field name="PartNum">FVXO-HC53BR-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC" type="input"/>
+        <pin num="2" name="E/~D~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X08">
+      <footprints>
+        <fp>Pin_Header_Straight_2X08</fp>
+        <fp>Pin_Header_Angled_2X08</fp>
+        <fp>Socket_Strip_Straight_2X08</fp>
+        <fp>Socket_Strip_Angled_2X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BNC">
+      <footprints>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="PCA9306">
+      <description>Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9306</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">PCA9306DCTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VREF1" type="power_in"/>
+        <pin num="3" name="SCL1" type="input"/>
+        <pin num="4" name="SDA1" type="BiDi"/>
+        <pin num="5" name="SDA2" type="BiDi"/>
+        <pin num="6" name="SCL2" type="output"/>
+        <pin num="7" name="VREF2" type="power_in"/>
+        <pin num="8" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="Adafruit746">
+      <description>Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates</description>
+      <footprints>
+        <fp>Adafruit746*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Adafruit746</field>
+        <field name="Manufacturer">Adafruit</field>
+        <field name="PartNum">Adafruit746</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1PPS" type="output"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="RX_5V" type="input"/>
+        <pin num="5" name="TX" type="output"/>
+        <pin num="6" name="FIX" type="output"/>
+        <pin num="7" name="VBACKUP" type="power_in"/>
+        <pin num="8" name="ENABLE" type="input"/>
+        <pin num="9" name="3.3V" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LP3853">
+      <description>3A Ultra Low Dropout Linear Regulators</description>
+      <footprints>
+        <fp>TO220-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP3853</field>
+        <field name="Voltage">V</field>
+        <field name="Current">3A</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">LP3853ET-vvv/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~SD~" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="~ERROR~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LMV722">
+      <description>10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV722</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">LMV722MX/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="R_local">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_local</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Co</field>
+        <field name="PartNum">CRCW0805vvvvFKEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="NC7SZ125">
+      <description>TinyLogic® UHS Buffer with Three-State Output</description>
+      <footprints>
+        <fp>SOT23-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NC7SZ125</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="PartNum">NC7SZ125M5X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="3state"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="ADT7410">
+      <description>±0.5 deg C 16-bit Digital I2C Temperature Sensor</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADT7410</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="PartNum">ADT7410TRZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="A0" type="input"/>
+        <pin num="4" name="A1" type="input"/>
+        <pin num="5" name="~INT~" type="openCol"/>
+        <pin num="6" name="~CT~" type="openCol"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="DAC8830">
+      <description>16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter</description>
+      <footprints>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DAC8830</field>
+        <field name="Tolerance">± 1 LSB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">DAC8830ICD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="output"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="Vref" type="power_in"/>
+        <pin num="4" name="~CS~" type="input"/>
+        <pin num="5" name="SCLK" type="input"/>
+        <pin num="6" name="SDI" type="input"/>
+        <pin num="7" name="DGND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="TO220_heatsink">
+      <description>T0-220 Vertical Heatsink</description>
+      <footprints>
+        <fp>Heatsink*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">TO220_heatsink</field>
+        <field name="Manufacturer">Aavid</field>
+        <field name="PartNum">581002B02500G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="local" part="61083_02X50">
       <description>Bergstack 0.8mm 2x50 HDR</description>
       <footprints>
@@ -1864,296 +2413,25 @@
         <pin num="100" name="100" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="74LVC541">
-      <description>8bits Buffer/Line Driver 3 state Out</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">74LVC541</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">SN74LVC541APWR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G1" type="input"/>
-        <pin num="2" name="A0" type="input"/>
-        <pin num="3" name="A1" type="input"/>
-        <pin num="4" name="A2" type="input"/>
-        <pin num="5" name="A3" type="input"/>
-        <pin num="6" name="A4" type="input"/>
-        <pin num="7" name="A5" type="input"/>
-        <pin num="8" name="A6" type="input"/>
-        <pin num="9" name="A7" type="input"/>
-        <pin num="10" name="GND" type="power_in"/>
-        <pin num="11" name="Y7" type="3state"/>
-        <pin num="12" name="Y6" type="3state"/>
-        <pin num="13" name="Y5" type="3state"/>
-        <pin num="14" name="Y4" type="3state"/>
-        <pin num="15" name="Y3" type="3state"/>
-        <pin num="16" name="Y2" type="3state"/>
-        <pin num="17" name="Y1" type="3state"/>
-        <pin num="18" name="Y0" type="3state"/>
-        <pin num="19" name="G2" type="input"/>
-        <pin num="20" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="ADT7410">
-      <description>±0.5 deg C 16-bit Digital I2C Temperature Sensor</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ADT7410</field>
-        <field name="Manufacturer">Analog Devices</field>
-        <field name="PartNum">ADT7410TRZ</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SCL" type="input"/>
-        <pin num="2" name="SDA" type="BiDi"/>
-        <pin num="3" name="A0" type="input"/>
-        <pin num="4" name="A1" type="input"/>
-        <pin num="5" name="~INT~" type="openCol"/>
-        <pin num="6" name="~CT~" type="openCol"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="8" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="Adafruit746">
-      <description>Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates</description>
+    <libpart lib="local" part="R_CSM2512">
+      <description>Resistor Current Sense</description>
       <footprints>
-        <fp>Adafruit746*</fp>
+        <fp>CSM2512*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">Adafruit746</field>
-        <field name="Manufacturer">Adafruit</field>
-        <field name="PartNum">Adafruit746</field>
+        <field name="Reference">R</field>
+        <field name="Value">R_CSM2512</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">1W</field>
+        <field name="Manufacturer">Vishay Foil</field>
+        <field name="PartNum">Y1487vvvvvvvB9R</field>
       </fields>
       <pins>
-        <pin num="1" name="1PPS" type="output"/>
-        <pin num="2" name="VIN" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="RX_5V" type="input"/>
-        <pin num="5" name="TX" type="output"/>
-        <pin num="6" name="FIX" type="output"/>
-        <pin num="7" name="VBACKUP" type="power_in"/>
-        <pin num="8" name="ENABLE" type="input"/>
-        <pin num="9" name="3.3V" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="CONN_FAN_PWM">
-      <description>PWM Fan Connector 4-pin</description>
-      <footprints>
-        <fp>CONN_47053*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_FAN_PWM</field>
-        <field name="Manufacturer">Molex</field>
-        <field name="PartNum">47053-1000</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="+12V" type="power_in"/>
-        <pin num="3" name="TACH" type="output"/>
-        <pin num="4" name="PWM" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="DAC8830">
-      <description>16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter</description>
-      <footprints>
-        <fp>SOIC*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">DAC8830</field>
-        <field name="Tolerance">± 1 LSB</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">DAC8830ICD</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Vout" type="output"/>
-        <pin num="2" name="AGND" type="power_in"/>
-        <pin num="3" name="Vref" type="power_in"/>
-        <pin num="4" name="~CS~" type="input"/>
-        <pin num="5" name="SCLK" type="input"/>
-        <pin num="6" name="SDI" type="input"/>
-        <pin num="7" name="DGND" type="power_in"/>
-        <pin num="8" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="DS3231">
-      <description>I2C-Integrated RTC/TCXO/Crystal</description>
-      <footprints>
-        <fp>SOIC-16*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">DS3231</field>
-        <field name="Manufacturer">Maxim Integrated</field>
-        <field name="PartNum">DS3231S#</field>
-      </fields>
-      <pins>
-        <pin num="1" name="32KHZ" type="openCol"/>
-        <pin num="2" name="VCC" type="power_in"/>
-        <pin num="3" name="~INT~/SQW" type="openCol"/>
-        <pin num="4" name="~RST~" type="input"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="NC" type="NotConnected"/>
-        <pin num="8" name="NC" type="NotConnected"/>
-        <pin num="9" name="NC" type="NotConnected"/>
-        <pin num="10" name="NC" type="NotConnected"/>
-        <pin num="11" name="NC" type="NotConnected"/>
-        <pin num="12" name="NC" type="NotConnected"/>
-        <pin num="13" name="GND" type="power_in"/>
-        <pin num="14" name="VBAT" type="power_in"/>
-        <pin num="15" name="SDA" type="BiDi"/>
-        <pin num="16" name="SCL" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="FVXO-HC53">
-      <description>HCMOS 5 x 3.2mm 3.3V VCXO</description>
-      <footprints>
-        <fp>FVXO*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">FVXO-HC53</field>
-        <field name="Frequency">10.0MHz</field>
-        <field name="Manufacturer">Fox</field>
-        <field name="PartNum">FVXO-HC53BR-10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VC" type="input"/>
-        <pin num="2" name="E/~D~" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="OUT" type="output"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="L">
-      <description>Inductor</description>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L</field>
-        <field name="Current">A</field>
-        <field name="Manufacturer">Co</field>
-        <field name="PartNum">PN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LMV722">
-      <description>10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LMV722</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">LMV722MX/NOPB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="output"/>
-        <pin num="2" name="-" type="input"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="+" type="input"/>
-        <pin num="6" name="-" type="input"/>
-        <pin num="7" name="~" type="output"/>
-        <pin num="8" name="V+" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LP3853">
-      <description>3A Ultra Low Dropout Linear Regulators</description>
-      <footprints>
-        <fp>TO220-5*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LP3853</field>
-        <field name="Voltage">V</field>
-        <field name="Current">3A</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">LP3853ET-vvv/NOPB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~SD~" type="input"/>
-        <pin num="2" name="VIN" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="VOUT" type="power_out"/>
-        <pin num="5" name="~ERROR~" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LTC2990">
-      <description>Quad I2C Voltage, Current and Temperature Monitor</description>
-      <footprints>
-        <fp>MSOP-10*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LTC2990</field>
-        <field name="Manufacturer">Linear Technology</field>
-        <field name="PartNum">LTC2990CMS#PBF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="V1" type="passive"/>
-        <pin num="2" name="V2" type="passive"/>
-        <pin num="3" name="V3" type="passive"/>
-        <pin num="4" name="V4" type="passive"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SDA" type="BiDi"/>
-        <pin num="7" name="SCL" type="input"/>
-        <pin num="8" name="ADR0" type="input"/>
-        <pin num="9" name="ADR1" type="input"/>
-        <pin num="10" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="MIC5225">
-      <description>Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MIC5225</field>
-        <field name="Voltage">V</field>
-        <field name="Current">0.15A</field>
-        <field name="Manufacturer">Micrel</field>
-        <field name="PartNum">MIC5225-vvvYM5-TR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="NC/ADJ" type="passive"/>
-        <pin num="5" name="OUT" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="Microzed">
-      <description>Microzed Mechanical Mounting Holes</description>
-      <footprints>
-        <fp>Microzed_RevF*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">A</field>
-        <field name="Value">Microzed</field>
-        <field name="Manufacturer">Avnet</field>
-        <field name="PartNum">AES-Z7MB-7Z010-G</field>
-      </fields>
-    </libpart>
-    <libpart lib="local" part="NC7SZ125">
-      <description>TinyLogic® UHS Buffer with Three-State Output</description>
-      <footprints>
-        <fp>SOT23-5*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">NC7SZ125</field>
-        <field name="Manufacturer">Fairchild Semiconductor</field>
-        <field name="PartNum">NC7SZ125M5X</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="~" type="3state"/>
-        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="~" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="local" part="PA6H">
@@ -2190,294 +2468,16 @@
         <pin num="20" name="NC" type="NotConnected"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="PCA9306">
-      <description>Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">PCA9306</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">PCA9306DCTR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VREF1" type="power_in"/>
-        <pin num="3" name="SCL1" type="input"/>
-        <pin num="4" name="SDA1" type="BiDi"/>
-        <pin num="5" name="SDA2" type="BiDi"/>
-        <pin num="6" name="SCL2" type="output"/>
-        <pin num="7" name="VREF2" type="power_in"/>
-        <pin num="8" name="EN" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="R_CSM2512">
-      <description>Resistor Current Sense</description>
-      <footprints>
-        <fp>CSM2512*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_CSM2512</field>
-        <field name="Tolerance">0.1%</field>
-        <field name="Power">1W</field>
-        <field name="Manufacturer">Vishay Foil</field>
-        <field name="PartNum">Y1487vvvvvvvB9R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="~" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="R_local">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_local</field>
-        <field name="Tolerance">1%</field>
-        <field name="Power">0.125W</field>
-        <field name="Manufacturer">Co</field>
-        <field name="PartNum">CRCW0805vvvvFKEA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="TO220_heatsink">
-      <description>T0-220 Vertical Heatsink</description>
-      <footprints>
-        <fp>Heatsink*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">HS</field>
-        <field name="Value">TO220_heatsink</field>
-        <field name="Manufacturer">Aavid</field>
-        <field name="PartNum">581002B02500G</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="TPS56428">
-      <description>4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM</description>
-      <footprints>
-        <fp>SO*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TPS56428</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">TPS56428DDA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="EN" type="input"/>
-        <pin num="2" name="VFB" type="passive"/>
-        <pin num="3" name="VREG5" type="power_out"/>
-        <pin num="4" name="PG" type="openCol"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SW" type="power_out"/>
-        <pin num="7" name="VBST" type="power_out"/>
-        <pin num="8" name="VIN" type="power_in"/>
-        <pin num="9" name="PwPd" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="cx210">
-      <description>OCXO Stratum 3E High Stability</description>
-      <footprints>
-        <fp>CX210*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">cx210</field>
-        <field name="Frequency">10MHz</field>
-        <field name="Manufacturer">Connor Winfield</field>
-        <field name="PartNum">OH300-50503CV-010.0M</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VC" type="input"/>
-        <pin num="2" name="NC" type="NotConnected"/>
-        <pin num="3" name="VCC" type="power_in"/>
-        <pin num="4" name="RF" type="output"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Battery">
-      <fields>
-        <field name="Reference">BT</field>
-        <field name="Value">Battery</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="D_Schottky">
-      <description>Diode schottky</description>
-      <footprints>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>Diode_*</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>*_Diode_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="FILTER">
-      <description>Filtre EMI</description>
-      <fields>
-        <field name="Reference">FB</field>
-        <field name="Value">FILTER</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Jumper_NO_Small">
-      <description>Jumper normally open</description>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_NO_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Q_NPN_BEC">
-      <description>Transistor NPN (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_NPN_BEC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="ZENER">
-      <description>Diode zener</description>
-      <footprints>
-        <fp>D?</fp>
-        <fp>SO*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">ZENER</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="BNC">
-      <footprints>
-        <fp>BNC_*</fp>
-        <fp>bnc</fp>
-        <fp>bnc-*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">BNC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="In" type="passive"/>
-        <pin num="2" name="Ext" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <footprints>
-        <fp>Pin_Header_Straight_1X03</fp>
-        <fp>Pin_Header_Angled_1X03</fp>
-        <fp>Socket_Strip_Straight_1X03</fp>
-        <fp>Socket_Strip_Angled_1X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X08">
-      <footprints>
-        <fp>Pin_Header_Straight_2X08</fp>
-        <fp>Pin_Header_Angled_2X08</fp>
-        <fp>Socket_Strip_Straight_2X08</fp>
-        <fp>Socket_Strip_Angled_2X08</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X08</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-        <pin num="15" name="P15" type="passive"/>
-        <pin num="16" name="P16" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/home/cae/src/kicad/install.6188/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/home/cae/src/kicad/install.6188/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/home/cae/src/kicad/install.6188/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -2715,9 +2715,9 @@
       <node ref="U205" pin="1"/>
     </net>
     <net code="20" name="VIN">
-      <node ref="U302" pin="1"/>
       <node ref="C508" pin="1"/>
       <node ref="C507" pin="1"/>
+      <node ref="U302" pin="1"/>
       <node ref="PX1" pin="57"/>
       <node ref="P102" pin="2"/>
       <node ref="C501" pin="1"/>
@@ -2730,20 +2730,19 @@
       <node ref="C503" pin="1"/>
       <node ref="PX2" pin="57"/>
       <node ref="C504" pin="1"/>
-      <node ref="R513" pin="1"/>
-      <node ref="U502" pin="8"/>
+      <node ref="R501" pin="1"/>
       <node ref="R212" pin="2"/>
       <node ref="C522" pin="1"/>
-      <node ref="R207" pin="1"/>
-      <node ref="R501" pin="1"/>
       <node ref="U204" pin="10"/>
       <node ref="U501" pin="8"/>
       <node ref="C502" pin="1"/>
       <node ref="PX1" pin="59"/>
       <node ref="PX1" pin="58"/>
+      <node ref="R513" pin="1"/>
       <node ref="C301" pin="1"/>
       <node ref="C519" pin="1"/>
       <node ref="P101" pin="3"/>
+      <node ref="R207" pin="1"/>
       <node ref="R211" pin="1"/>
       <node ref="R507" pin="1"/>
       <node ref="U301" pin="2"/>
@@ -2757,21 +2756,22 @@
       <node ref="PX2" pin="60"/>
       <node ref="JP501" pin="1"/>
       <node ref="U503" pin="8"/>
-      <node ref="D501" pin="1"/>
       <node ref="PX2" pin="12"/>
+      <node ref="U502" pin="8"/>
+      <node ref="D501" pin="1"/>
     </net>
     <net code="21" name="/microzed/+1.8V_PG">
-      <node ref="R506" pin="2"/>
-      <node ref="PX2" pin="10"/>
       <node ref="D101" pin="2"/>
+      <node ref="PX2" pin="10"/>
       <node ref="R505" pin="2"/>
       <node ref="R502" pin="2"/>
       <node ref="R503" pin="2"/>
+      <node ref="R506" pin="2"/>
     </net>
     <net code="22" name="/microzed/GPS_TX">
       <node ref="PX2" pin="64"/>
-      <node ref="U303" pin="9"/>
       <node ref="U301" pin="5"/>
+      <node ref="U303" pin="9"/>
     </net>
     <net code="23" name="/microzed/10MHZ">
       <node ref="R214" pin="1"/>
@@ -2782,9 +2782,9 @@
       <node ref="U202" pin="6"/>
     </net>
     <net code="26" name="/microzed/GPS_RX">
-      <node ref="PX2" pin="62"/>
-      <node ref="U303" pin="10"/>
       <node ref="U301" pin="4"/>
+      <node ref="U303" pin="10"/>
+      <node ref="PX2" pin="62"/>
     </net>
     <net code="27" name="/microzed/DAC_SCLK">
       <node ref="PX2" pin="32"/>
@@ -2830,17 +2830,17 @@
       <node ref="P103" pin="13"/>
       <node ref="PX2" pin="98"/>
       <node ref="PX2" pin="78"/>
+      <node ref="R509" pin="1"/>
       <node ref="C219" pin="1"/>
       <node ref="R202" pin="1"/>
       <node ref="R201" pin="1"/>
       <node ref="C517" pin="1"/>
       <node ref="C217" pin="1"/>
-      <node ref="R301" pin="1"/>
       <node ref="D502" pin="1"/>
-      <node ref="R509" pin="1"/>
-      <node ref="U207" pin="5"/>
+      <node ref="R301" pin="1"/>
       <node ref="C202" pin="1"/>
       <node ref="U206" pin="5"/>
+      <node ref="U207" pin="5"/>
     </net>
     <net code="31" name="/power/+5V_ENA">
       <node ref="R501" pin="2"/>
@@ -2848,31 +2848,31 @@
     </net>
     <net code="32" name="/gps/3DFIX">
       <node ref="U303" pin="5"/>
-      <node ref="PX2" pin="56"/>
       <node ref="U301" pin="6"/>
+      <node ref="PX2" pin="56"/>
     </net>
     <net code="33" name="/gps/1PPS">
-      <node ref="PX2" pin="54"/>
       <node ref="U301" pin="1"/>
+      <node ref="PX2" pin="54"/>
       <node ref="U303" pin="13"/>
     </net>
     <net code="34" name="/microzed/+5V_PG">
-      <node ref="D101" pin="1"/>
       <node ref="PX1" pin="5"/>
-      <node ref="U501" pin="4"/>
+      <node ref="D101" pin="1"/>
       <node ref="R513" pin="2"/>
+      <node ref="U501" pin="4"/>
     </net>
     <net code="35" name="Net-(JP502-Pad2)">
-      <node ref="JP502" pin="2"/>
       <node ref="R503" pin="1"/>
+      <node ref="JP502" pin="2"/>
     </net>
     <net code="36" name="/power/Vreg5">
-      <node ref="U501" pin="3"/>
       <node ref="C513" pin="1"/>
+      <node ref="U501" pin="3"/>
     </net>
     <net code="37" name="/power/Vbst5">
-      <node ref="U501" pin="7"/>
       <node ref="C510" pin="1"/>
+      <node ref="U501" pin="7"/>
     </net>
     <net code="38" name="Net-(JP501-Pad2)">
       <node ref="R502" pin="1"/>
@@ -2881,8 +2881,8 @@
     <net code="39" name="/power/Vfb3.0">
       <node ref="U503" pin="2"/>
       <node ref="C518" pin="2"/>
-      <node ref="R511" pin="2"/>
       <node ref="R512" pin="1"/>
+      <node ref="R511" pin="2"/>
     </net>
     <net code="40" name="/power/Vbst3.3">
       <node ref="U502" pin="7"/>
@@ -2893,31 +2893,31 @@
       <node ref="R506" pin="1"/>
     </net>
     <net code="42" name="/power/Vbst3.0">
-      <node ref="C512" pin="1"/>
       <node ref="U503" pin="7"/>
+      <node ref="C512" pin="1"/>
     </net>
     <net code="43" name="/power/Vreg3.0">
-      <node ref="U503" pin="3"/>
       <node ref="C515" pin="1"/>
+      <node ref="U503" pin="3"/>
     </net>
     <net code="44" name="/power/ENA_R5">
-      <node ref="U501" pin="1"/>
       <node ref="R504" pin="1"/>
+      <node ref="U501" pin="1"/>
     </net>
     <net code="45" name="/power/SW5">
-      <node ref="L501" pin="1"/>
       <node ref="U501" pin="6"/>
+      <node ref="L501" pin="1"/>
       <node ref="C510" pin="2"/>
     </net>
     <net code="46" name="/power/Vfb5">
+      <node ref="U501" pin="2"/>
       <node ref="C516" pin="2"/>
       <node ref="R508" pin="1"/>
-      <node ref="U501" pin="2"/>
       <node ref="R507" pin="2"/>
     </net>
     <net code="47" name="/power/SW3.0">
-      <node ref="C512" pin="2"/>
       <node ref="U503" pin="6"/>
+      <node ref="C512" pin="2"/>
       <node ref="L503" pin="1"/>
     </net>
     <net code="48" name="/power/ENA_R3.3">
@@ -2925,131 +2925,131 @@
       <node ref="R505" pin="1"/>
     </net>
     <net code="49" name="/power/SW3.3">
-      <node ref="C511" pin="2"/>
       <node ref="U502" pin="6"/>
       <node ref="L502" pin="1"/>
+      <node ref="C511" pin="2"/>
     </net>
     <net code="50" name="/power/Vfb3.3">
-      <node ref="C517" pin="2"/>
       <node ref="R510" pin="1"/>
-      <node ref="R509" pin="2"/>
       <node ref="U502" pin="2"/>
+      <node ref="C517" pin="2"/>
+      <node ref="R509" pin="2"/>
     </net>
     <net code="51" name="/power/Vreg3.3">
-      <node ref="C514" pin="1"/>
       <node ref="U502" pin="3"/>
+      <node ref="C514" pin="1"/>
     </net>
     <net code="52" name="Net-(R207-Pad2)">
-      <node ref="U201" pin="6"/>
       <node ref="U204" pin="7"/>
       <node ref="R207" pin="2"/>
+      <node ref="U201" pin="6"/>
     </net>
-    <net code="53" name="Net-(Y202-Pad6)">
-      <node ref="Y202" pin="6"/>
+    <net code="54" name="Net-(Y202-Pad2)">
+      <node ref="Y202" pin="2"/>
     </net>
     <net code="55" name="VXO">
       <node ref="Y201" pin="6"/>
-      <node ref="Y202" pin="3"/>
-      <node ref="C216" pin="1"/>
-      <node ref="C218" pin="1"/>
-      <node ref="C213" pin="1"/>
       <node ref="R213" pin="1"/>
-      <node ref="R203" pin="1"/>
-      <node ref="U205" pin="4"/>
       <node ref="U202" pin="3"/>
-      <node ref="U202" pin="8"/>
-      <node ref="U203" pin="8"/>
-      <node ref="C215" pin="1"/>
+      <node ref="C213" pin="1"/>
+      <node ref="U205" pin="4"/>
       <node ref="C209" pin="1"/>
       <node ref="C201" pin="1"/>
       <node ref="C205" pin="1"/>
+      <node ref="C218" pin="1"/>
+      <node ref="C216" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="Y202" pin="3"/>
+      <node ref="C215" pin="1"/>
+      <node ref="U203" pin="8"/>
+      <node ref="U202" pin="8"/>
     </net>
-    <net code="56" name="Net-(R213-Pad2)">
+    <net code="56" name="Net-(Y202-Pad5)">
+      <node ref="Y202" pin="5"/>
+    </net>
+    <net code="57" name="Net-(Y202-Pad6)">
+      <node ref="Y202" pin="6"/>
+    </net>
+    <net code="58" name="Net-(R213-Pad2)">
       <node ref="R213" pin="2"/>
       <node ref="Y201" pin="2"/>
     </net>
-    <net code="57" name="Net-(R208-Pad1)">
-      <node ref="R208" pin="1"/>
+    <net code="59" name="Net-(R208-Pad1)">
       <node ref="U202" pin="1"/>
+      <node ref="R208" pin="1"/>
     </net>
-    <net code="58" name="Net-(R209-Pad2)">
+    <net code="60" name="Net-(R209-Pad2)">
       <node ref="R209" pin="2"/>
       <node ref="R210" pin="1"/>
     </net>
-    <net code="59" name="Net-(U203-Pad6)">
+    <net code="61" name="Net-(U203-Pad6)">
       <node ref="U203" pin="7"/>
       <node ref="U203" pin="6"/>
       <node ref="Y202" pin="1"/>
       <node ref="Y201" pin="1"/>
     </net>
-    <net code="60" name="Net-(C206-Pad1)">
+    <net code="62" name="Net-(C206-Pad1)">
       <node ref="U203" pin="5"/>
       <node ref="R208" pin="2"/>
-      <node ref="R209" pin="1"/>
       <node ref="C206" pin="1"/>
+      <node ref="R209" pin="1"/>
     </net>
-    <net code="61" name="Net-(R212-Pad3)">
-      <node ref="U204" pin="2"/>
+    <net code="63" name="Net-(R212-Pad3)">
       <node ref="R212" pin="3"/>
+      <node ref="U204" pin="2"/>
     </net>
-    <net code="62" name="Net-(R212-Pad4)">
+    <net code="64" name="Net-(R212-Pad4)">
       <node ref="U204" pin="1"/>
       <node ref="R212" pin="4"/>
     </net>
-    <net code="63" name="Net-(R205-Pad2)">
-      <node ref="U201" pin="8"/>
+    <net code="65" name="Net-(R205-Pad2)">
       <node ref="R205" pin="2"/>
+      <node ref="U201" pin="8"/>
     </net>
-    <net code="64" name="Net-(R211-Pad2)">
-      <node ref="U204" pin="6"/>
-      <node ref="U201" pin="5"/>
-      <node ref="R211" pin="2"/>
-    </net>
-    <net code="65" name="Net-(U205-Pad5)">
+    <net code="66" name="Net-(U205-Pad5)">
       <node ref="U205" pin="5"/>
     </net>
-    <net code="66" name="Net-(C210-Pad1)">
+    <net code="67" name="Net-(C210-Pad1)">
       <node ref="Q201" pin="3"/>
-      <node ref="C210" pin="1"/>
-      <node ref="Q201" pin="1"/>
       <node ref="U204" pin="3"/>
+      <node ref="Q201" pin="1"/>
+      <node ref="C210" pin="1"/>
     </net>
-    <net code="67" name="Net-(C210-Pad2)">
+    <net code="68" name="Net-(C210-Pad2)">
+      <node ref="Q201" pin="2"/>
       <node ref="U204" pin="4"/>
       <node ref="C210" pin="2"/>
-      <node ref="Q201" pin="2"/>
     </net>
-    <net code="68" name="Net-(C212-Pad1)">
-      <node ref="C212" pin="1"/>
+    <net code="69" name="Net-(C212-Pad1)">
+      <node ref="R212" pin="1"/>
       <node ref="C214" pin="1"/>
       <node ref="U205" pin="2"/>
-      <node ref="R212" pin="1"/>
+      <node ref="C212" pin="1"/>
     </net>
-    <net code="69" name="Net-(C203-Pad1)">
+    <net code="70" name="Net-(C203-Pad1)">
       <node ref="C203" pin="1"/>
-      <node ref="R203" pin="2"/>
-      <node ref="R204" pin="1"/>
       <node ref="U203" pin="3"/>
+      <node ref="R204" pin="1"/>
+      <node ref="R203" pin="2"/>
     </net>
-    <net code="70" name="Net-(C206-Pad2)">
-      <node ref="C206" pin="2"/>
-      <node ref="C207" pin="1"/>
-      <node ref="U203" pin="1"/>
-      <node ref="U203" pin="2"/>
+    <net code="71" name="Net-(C206-Pad2)">
       <node ref="R210" pin="2"/>
+      <node ref="C207" pin="1"/>
+      <node ref="C206" pin="2"/>
+      <node ref="U203" pin="2"/>
+      <node ref="U203" pin="1"/>
     </net>
-    <net code="71" name="Net-(U206-Pad2)">
+    <net code="72" name="Net-(U206-Pad2)">
       <node ref="U206" pin="2"/>
       <node ref="Y201" pin="4"/>
     </net>
-    <net code="72" name="Net-(Y201-Pad5)">
+    <net code="73" name="Net-(Y201-Pad5)">
       <node ref="Y201" pin="5"/>
     </net>
-    <net code="73" name="Net-(Y202-Pad2)">
-      <node ref="Y202" pin="2"/>
-    </net>
-    <net code="74" name="Net-(Y202-Pad5)">
-      <node ref="Y202" pin="5"/>
+    <net code="74" name="Net-(R211-Pad2)">
+      <node ref="R211" pin="2"/>
+      <node ref="U201" pin="5"/>
+      <node ref="U204" pin="6"/>
     </net>
     <net code="75" name="Net-(R214-Pad2)">
       <node ref="U206" pin="4"/>
@@ -3057,13 +3057,13 @@
       <node ref="U207" pin="4"/>
     </net>
     <net code="76" name="Net-(C211-Pad1)">
-      <node ref="U207" pin="2"/>
       <node ref="C211" pin="1"/>
+      <node ref="U207" pin="2"/>
       <node ref="Y202" pin="4"/>
     </net>
     <net code="77" name="Net-(P301-Pad1)">
-      <node ref="P301" pin="1"/>
       <node ref="U303" pin="11"/>
+      <node ref="P301" pin="1"/>
     </net>
     <net code="78" name="Net-(U301-Pad8)">
       <node ref="U301" pin="8"/>
@@ -3091,8 +3091,8 @@
       <node ref="U301" pin="9"/>
     </net>
     <net code="86" name="Net-(FB301-Pad1)">
-      <node ref="U302" pin="5"/>
       <node ref="FB301" pin="1"/>
+      <node ref="U302" pin="5"/>
     </net>
     <net code="87" name="Net-(U303-Pad20)">
       <node ref="U303" pin="20"/>
@@ -3105,9 +3105,9 @@
     </net>
     <net code="90" name="Net-(C302-Pad1)">
       <node ref="FB301" pin="2"/>
-      <node ref="C302" pin="1"/>
-      <node ref="C303" pin="1"/>
       <node ref="U303" pin="1"/>
+      <node ref="C303" pin="1"/>
+      <node ref="C302" pin="1"/>
     </net>
     <net code="91" name="Net-(PX1-Pad17)">
       <node ref="PX1" pin="17"/>
