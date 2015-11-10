@@ -47,6 +47,7 @@ R207,1.00K,Resistors_SMD:R_0805_HandSoldering,,Vishay Dale,CRCW08051K00FKEA,,1%,
 R211,1.00K,Resistors_SMD:R_0805_HandSoldering,,Vishay Dale,CRCW08051K00FKEA,,1%,,0.125W,,
 R206,100K,Resistors_SMD:R_0805_HandSoldering,,Vishay Dale,CRCW0805100KFKEA,,1%,,0.125W,,
 Y202,CX210,local:CX210_HandSoldering,,Connor Winfield,OH300-50503CV-010.0M,,,,,,10.0MHz
+FB201,60@100MHz,Resistors_SMD:R_0805_HandSoldering,,Pulse Electronics,PE-0805PFB600ST,,25%,,,3A,
 FB301,60@100MHz,Resistors_SMD:R_0805_HandSoldering,,Pulse Electronics,PE-0805PFB600ST,,25%,,,3A,
 P301,MCRF,local:MCRF_73412,,Molex,073412-0110,,,,,,
 C302,10uF,Capacitors_SMD:C_1206_HandSoldering,,TDK,C3216X5R1E106K160AB,25V,10%,X5R,,,
