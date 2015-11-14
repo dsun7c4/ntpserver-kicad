@@ -1566,4 +1566,19 @@ Connection ~ 8300 3250
 Connection ~ 8050 3550
 Connection ~ 6750 3550
 Connection ~ 8050 4950
+$Comp
+L CX210_Cover A201
+U 1 1 56459BA1
+P 8800 6150
+F 0 "A201" H 8800 6350 60  0000 C CNN
+F 1 "CX210_Cover" H 8800 6200 50  0000 C CNN
+F 2 "local:CX210_Cover" H 8700 6250 60  0001 C CNN
+F 3 "" H 8800 6350 60  0000 C CNN
+F 4 "Custom" H 8800 6500 50  0001 C CNN "Manufacturer"
+F 5 "PN" H 8800 6425 50  0001 C CNN "PartNum"
+	1    8800 6150
+	1    0    0    -1  
+$EndComp
+Text Label 3250 2900 1    40   ~ 0
+LV_ENA
 $EndSCHEMATC

@@ -44,17 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L L L501
-U 1 1 55FF67B2
-P 8200 2350
-F 0 "L501" V 8150 2350 50  0000 C CNN
-F 1 "3.3uH" V 8400 2350 50  0000 C CNN
-F 2 "local:Choke_SMD_7.1x6.5_H3.0_HandSoldering" H 8200 2350 60  0001 C CNN
-F 3 "" H 8200 2350 60  0000 C CNN
-	1    8200 2350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8500 2350 12150 2350
 Wire Wire Line
@@ -180,17 +169,6 @@ Text Label 4050 2750 0    60   ~ 0
 ENA5
 Text Label 6150 2750 0    30   ~ 0
 ENA_R5
-$Comp
-L L L502
-U 1 1 5619E46A
-P 8200 4950
-F 0 "L502" V 8150 4950 50  0000 C CNN
-F 1 "2.2uH" V 8400 4950 50  0000 C CNN
-F 2 "local:Choke_SMD_7.1x6.5_H3.0_HandSoldering" H 8200 4950 60  0001 C CNN
-F 3 "" H 8200 4950 60  0000 C CNN
-	1    8200 4950
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8500 4950 12150 4950
 Wire Wire Line
@@ -223,7 +201,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 6050 6750 5550
 Wire Wire Line
-	4700 6050 10300 6050
+	4700 6050 9900 6050
 Wire Wire Line
 	9200 6050 9200 5850
 Wire Wire Line
@@ -315,17 +293,6 @@ Text Label 4050 5350 0    60   ~ 0
 ENA3.3
 Text Label 6150 5350 0    30   ~ 0
 ENA_R3.3
-$Comp
-L L L503
-U 1 1 561A0F7B
-P 8200 7250
-F 0 "L503" V 8150 7250 50  0000 C CNN
-F 1 "2.2uH" V 8400 7250 50  0000 C CNN
-F 2 "local:Choke_SMD_7.1x6.5_H3.0_HandSoldering" H 8200 7250 60  0001 C CNN
-F 3 "" H 8200 7250 60  0000 C CNN
-	1    8200 7250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8500 7250 12150 7250
 Wire Wire Line
@@ -358,7 +325,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 8350 6750 7850
 Wire Wire Line
-	4700 8350 10300 8350
+	4700 8350 9900 8350
 Wire Wire Line
 	9200 8350 9200 8150
 Wire Wire Line
@@ -450,8 +417,6 @@ Text Label 4050 7650 0    60   ~ 0
 ENA3.0
 Text Label 6150 7650 0    30   ~ 0
 ENA_R3.0
-Wire Wire Line
-	4700 3450 10300 3450
 Text HLabel 12150 2350 2    60   Input ~ 0
 +5V
 Text HLabel 12150 4950 2    60   Input ~ 0
@@ -476,23 +441,6 @@ Wire Wire Line
 	12150 7450 11150 7450
 Wire Wire Line
 	11150 7450 11150 8500
-$Comp
-L ZENER D501
-U 1 1 5624EF68
-P 10300 2850
-F 0 "D501" H 10300 2950 50  0000 C CNN
-F 1 "ZENER" H 10300 2750 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 10300 2850 60  0001 C CNN
-F 3 "" H 10300 2850 60  0000 C CNN
-	1    10300 2850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10300 2650 10300 2350
-Connection ~ 10300 2350
-Wire Wire Line
-	10300 3450 10300 3050
-Connection ~ 9900 3450
 Wire Wire Line
 	10700 2700 10700 2350
 Connection ~ 10700 2350
@@ -503,42 +451,10 @@ Wire Wire Line
 	10700 5300 10700 4950
 Wire Wire Line
 	10700 5600 10700 6200
-$Comp
-L ZENER D502
-U 1 1 56250706
-P 10300 5450
-F 0 "D502" H 10300 5550 50  0000 C CNN
-F 1 "ZENER" H 10300 5350 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 10300 5450 60  0001 C CNN
-F 3 "" H 10300 5450 60  0000 C CNN
-	1    10300 5450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10300 5250 10300 4950
-Wire Wire Line
-	10300 6050 10300 5650
-Connection ~ 9900 6050
 Wire Wire Line
 	10700 7600 10700 7250
 Wire Wire Line
 	10700 7900 10700 8500
-$Comp
-L ZENER D503
-U 1 1 56250BB4
-P 10300 7750
-F 0 "D503" H 10300 7850 50  0000 C CNN
-F 1 "ZENER" H 10300 7650 50  0000 C CNN
-F 2 "Diodes_SMD:SOD-123" H 10300 7750 60  0001 C CNN
-F 3 "" H 10300 7750 60  0000 C CNN
-	1    10300 7750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10300 7550 10300 7250
-Wire Wire Line
-	10300 8350 10300 7950
-Connection ~ 9900 8350
 Text HLabel 3500 2750 0    60   Input ~ 0
 +5V_ENA
 Text HLabel 3500 5350 0    60   Input ~ 0
@@ -1201,10 +1117,8 @@ F 8 "C0805C470J5GACTU" H 8700 7500 50  0001 C CNN "PartNum"
 	1    8700 7500
 	1    0    0    -1  
 $EndComp
-Connection ~ 10300 4950
 Connection ~ 10700 4950
 Connection ~ 10700 6200
-Connection ~ 10300 7250
 Connection ~ 10700 7250
 Connection ~ 10700 8500
 Text HLabel 3500 2250 0    60   Input ~ 0
@@ -1300,4 +1214,48 @@ $EndComp
 Wire Wire Line
 	11150 7150 11150 7250
 Connection ~ 11150 7250
+$Comp
+L L L501
+U 1 1 56453093
+P 8200 2350
+F 0 "L501" V 8150 2350 50  0000 C CNN
+F 1 "3.3uH" V 8400 2350 50  0000 C CNN
+F 2 "local:Choke_SMD_7.1x6.5_H3.0_HandSoldering" H 8200 2350 60  0001 C CNN
+F 3 "" V 8150 2350 60  0000 C CNN
+F 4 "6.2A" V 8475 2350 50  0000 C CNN "Current"
+F 5 "TDK" V 8550 2350 50  0001 C CNN "Manufacturer"
+F 6 "SPM6530T-3R3M" V 8625 2350 50  0001 C CNN "PartNum"
+	1    8200 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L L502
+U 1 1 56454394
+P 8200 4950
+F 0 "L502" V 8150 4950 50  0000 C CNN
+F 1 "2.2uH" V 8400 4950 50  0000 C CNN
+F 2 "local:Choke_SMD_7.1x6.5_H3.0_HandSoldering" H 8200 4950 60  0001 C CNN
+F 3 "" V 8150 4950 60  0000 C CNN
+F 4 "8.4A" V 8475 4950 50  0000 C CNN "Current"
+F 5 "TDK" V 8550 4950 50  0001 C CNN "Manufacturer"
+F 6 "SPM6530T-2R2M" V 8625 4950 50  0001 C CNN "PartNum"
+	1    8200 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L L L503
+U 1 1 56454A2E
+P 8200 7250
+F 0 "L503" V 8150 7250 50  0000 C CNN
+F 1 "2.2uH" V 8400 7250 50  0000 C CNN
+F 2 "local:Choke_SMD_7.1x6.5_H3.0_HandSoldering" H 8200 7250 60  0001 C CNN
+F 3 "" V 8150 7250 60  0000 C CNN
+F 4 "8.4A" V 8475 7250 50  0000 C CNN "Current"
+F 5 "TDK" V 8550 7250 50  0001 C CNN "Manufacturer"
+F 6 "SPM6530T-2R2M" V 8625 7250 50  0001 C CNN "PartNum"
+	1    8200 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3450 9900 3450
 $EndSCHEMATC
