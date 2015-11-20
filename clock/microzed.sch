@@ -1250,7 +1250,6 @@ Wire Wire Line
 	5300 1450 4550 1450
 Text Label 4650 1450 0    40   ~ 0
 ~CARRIER_SRST~
-NoConn ~ 4550 1450
 Wire Wire Line
 	5300 1650 4550 1650
 Text Label 4650 1650 0    40   ~ 0
@@ -1447,4 +1446,6 @@ Wire Wire Line
 Text Label 6550 3250 2    40   ~ 0
 PX1_LVDS_10_P
 NoConn ~ 6650 3250
+Text HLabel 4550 1450 0    60   Input ~ 0
+~CARRIER_SRST~
 $EndSCHEMATC
