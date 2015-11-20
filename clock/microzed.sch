@@ -393,29 +393,29 @@ Text HLabel 1400 1650 0    60   Input ~ 0
 +1.8V_PG
 Text HLabel 3100 1750 2    60   Input ~ 0
 VCCO_PG
-Text HLabel 1100 4350 0    60   Input ~ 0
+Text HLabel 3650 2750 2    60   Input ~ 0
 GPS_TX
-Text HLabel 1100 4250 0    60   Input ~ 0
+Text HLabel 3650 2950 2    60   Input ~ 0
 GPS_RX
-Text HLabel 1400 2050 0    60   Input ~ 0
+Text HLabel 3650 4550 2    60   Input ~ 0
 OCXO_SCL
-Text HLabel 1400 2150 0    60   Input ~ 0
+Text HLabel 3650 4650 2    60   Input ~ 0
 OCXO_SDA
-Text HLabel 1400 2650 0    60   Input ~ 0
+Text HLabel 3650 2050 2    60   Input ~ 0
 ~DAC_CS~
-Text HLabel 1400 2750 0    60   Input ~ 0
+Text HLabel 3650 2150 2    60   Input ~ 0
 DAC_SCLK
-Text HLabel 1400 2950 0    60   Input ~ 0
+Text HLabel 3650 2350 2    60   Input ~ 0
 DAC_SIN
-Text HLabel 1100 4550 0    60   Input ~ 0
+Text HLabel 3650 5550 2    60   Input ~ 0
 GPS_ENA
-Text HLabel 1400 2350 0    60   Input ~ 0
+Text HLabel 4550 3550 0    60   Input ~ 0
 OCXO_ENA
-Text HLabel 900  3550 0    60   Input ~ 0
+Text HLabel 4550 3250 0    60   Input ~ 0
 10MHZ
-Text HLabel 900  3850 0    60   Input ~ 0
+Text HLabel 3650 3050 2    60   Input ~ 0
 1PPS
-Text HLabel 900  3950 0    60   Input ~ 0
+Text HLabel 3650 2650 2    60   Input ~ 0
 3DFIX
 $Comp
 L VIN #PWR063
@@ -522,39 +522,39 @@ F 5 "SN74LVC541APWR" H 8400 2550 50  0001 C CNN "PartNum"
 	1    8400 1850
 	1    0    0    -1  
 $EndComp
-Text HLabel 10200 2050 2    60   Input ~ 0
+Text HLabel 10200 1350 2    60   Input ~ 0
 FAN_PWM
 Entry Wire Line
-	10050 1350 10150 1250
+	10050 1750 10150 1650
 Entry Wire Line
-	10050 1450 10150 1350
+	10050 1850 10150 1750
 Wire Bus Line
-	10150 1200 10150 1650
+	10150 1600 10150 2050
 Wire Bus Line
-	10150 1200 10400 1200
+	10150 1600 10400 1600
 Entry Wire Line
-	10050 1550 10150 1450
+	10050 1950 10150 1850
 Entry Wire Line
-	10050 1650 10150 1550
-Text HLabel 10400 1200 2    60   Input ~ 0
+	10050 2050 10150 1950
+Text HLabel 10400 1600 2    60   Input ~ 0
 DISP[0..3]
 Wire Wire Line
-	9800 1350 10050 1350
+	9800 1750 10050 1750
 Wire Wire Line
-	10050 1450 9800 1450
+	10050 1850 9800 1850
 Wire Wire Line
-	9800 1550 10050 1550
+	9800 1950 10050 1950
 Wire Wire Line
-	10050 1650 9800 1650
+	10050 2050 9800 2050
 Wire Wire Line
-	9800 2050 10200 2050
-Text Label 9850 1350 0    40   ~ 0
+	9800 1350 10200 1350
+Text Label 9850 1750 0    40   ~ 0
 DISP0
-Text Label 9850 1450 0    40   ~ 0
+Text Label 9850 1850 0    40   ~ 0
 DISP1
-Text Label 9850 1550 0    40   ~ 0
+Text Label 9850 1950 0    40   ~ 0
 DISP2
-Text Label 9850 1650 0    40   ~ 0
+Text Label 9850 2050 0    40   ~ 0
 DISP3
 $Comp
 L VCC #PWR066
@@ -573,43 +573,43 @@ Connection ~ 1900 850
 $Comp
 L R_local R402
 U 1 1 563694E5
+P 9650 1750
+F 0 "R402" V 9200 1450 50  0000 C CNN
+F 1 "0R" V 9200 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1750 30  0001 C CNN
+F 3 "" V 9730 1750 30  0000 C CNN
+F 4 "1%" V 9500 1750 50  0001 C CNN "Tolerance"
+F 5 "0.125W" V 9425 1750 50  0001 C CNN "Power"
+F 6 "Vishay Dale" V 9650 1750 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08050000Z0EA" V 9800 1750 50  0001 C CNN "PartNum"
+	1    9650 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 1750 9100 1750
+$Comp
+L R_local R406
+U 1 1 5636980F
 P 9650 1350
-F 0 "R402" V 9200 1050 50  0000 C CNN
-F 1 "0R" V 9200 1350 50  0000 C CNN
+F 0 "R406" V 9750 1250 50  0000 C CNN
+F 1 "1.00K" V 9750 1500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1350 30  0001 C CNN
 F 3 "" V 9730 1350 30  0000 C CNN
 F 4 "1%" V 9500 1350 50  0001 C CNN "Tolerance"
 F 5 "0.125W" V 9425 1350 50  0001 C CNN "Power"
 F 6 "Vishay Dale" V 9650 1350 50  0001 C CNN "Manufacturer"
-F 7 "CRCW08050000Z0EA" V 9800 1350 50  0001 C CNN "PartNum"
+F 7 "CRCW08051K00FKEA" V 9800 1350 50  0001 C CNN "PartNum"
 	1    9650 1350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9500 1350 9100 1350
-$Comp
-L R_local R406
-U 1 1 5636980F
-P 9650 2050
-F 0 "R406" V 9750 1950 50  0000 C CNN
-F 1 "1.00K" V 9750 2200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 2050 30  0001 C CNN
-F 3 "" V 9730 2050 30  0000 C CNN
-F 4 "1%" V 9500 2050 50  0001 C CNN "Tolerance"
-F 5 "0.125W" V 9425 2050 50  0001 C CNN "Power"
-F 6 "Vishay Dale" V 9650 2050 50  0001 C CNN "Manufacturer"
-F 7 "CRCW08051K00FKEA" V 9800 2050 50  0001 C CNN "PartNum"
-	1    9650 2050
-	0    1    1    0   
-$EndComp
+	9500 1850 9100 1850
 Wire Wire Line
-	9500 1450 9100 1450
-Wire Wire Line
-	9500 1550 9100 1550
-Wire Wire Line
-	9500 1650 9100 1650
+	9500 1950 9100 1950
 Wire Wire Line
 	9500 2050 9100 2050
+Wire Wire Line
+	9500 1350 9100 1350
 Wire Wire Line
 	7700 2250 7500 2250
 Wire Wire Line
@@ -628,28 +628,28 @@ F 3 "" H 7500 2450 60  0000 C CNN
 	1    7500 2450
 	1    0    0    -1  
 $EndComp
-Text HLabel 7050 4850 2    60   Input ~ 0
+Text HLabel 4550 5250 0    60   Input ~ 0
 RTC_SCL
-Text HLabel 7050 4950 2    60   Input ~ 0
+Text HLabel 4550 5350 0    60   Input ~ 0
 RTC_SDA
-Text HLabel 7050 5250 2    60   Input ~ 0
+Text HLabel 4550 3950 0    60   Input ~ 0
 TEMP_SCL
-Text HLabel 7050 5350 2    60   Input ~ 0
+Text HLabel 4550 3850 0    60   Input ~ 0
 TEMP_SDA
-Text Label 9150 1350 0    40   ~ 0
+Text Label 9150 1750 0    40   ~ 0
 BUF_SCLK
-Text Label 9150 1450 0    40   ~ 0
+Text Label 9150 1850 0    40   ~ 0
 BUF_BLANK
-Text Label 9150 1550 0    40   ~ 0
+Text Label 9150 1950 0    40   ~ 0
 BUF_LAT
-Text Label 9150 1650 0    40   ~ 0
+Text Label 9150 2050 0    40   ~ 0
 BUF_SIN
 Wire Wire Line
-	2300 3550 900  3550
+	2300 3550 1550 3550
 Wire Wire Line
-	900  3850 2300 3850
+	1550 3850 2300 3850
 Wire Wire Line
-	2300 3950 900  3950
+	2300 3950 1550 3950
 Text HLabel 10200 3050 2    60   Input ~ 0
 FAN_TACH
 $Comp
@@ -698,7 +698,7 @@ F 7 "CRCW080510K0FKEA" V 9650 3050 50  0001 C CNN "PartNum"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8300 3050 9350 3050
+	6950 3050 9350 3050
 Wire Wire Line
 	10000 3050 10000 2950
 Wire Wire Line
@@ -734,131 +734,111 @@ Wire Wire Line
 Wire Wire Line
 	5900 2050 6650 2050
 Wire Wire Line
-	6650 2050 6650 1350
-Wire Wire Line
-	6650 1350 7700 1350
-Wire Wire Line
-	7700 1450 6750 1450
-Wire Wire Line
-	6750 1450 6750 2150
-Wire Wire Line
-	6750 2150 5900 2150
-Wire Wire Line
-	5900 2350 6850 2350
-Wire Wire Line
-	6850 2350 6850 1550
-Wire Wire Line
-	6850 1550 7700 1550
-Wire Wire Line
-	7700 1650 6950 1650
-Wire Wire Line
-	6950 1650 6950 2450
-Wire Wire Line
-	6950 2450 5900 2450
-Wire Wire Line
-	5900 2650 7050 2650
-Wire Wire Line
-	7050 2650 7050 1750
-Wire Wire Line
 	7050 1750 7700 1750
 Wire Wire Line
-	7700 1850 7150 1850
+	7700 1850 7050 1850
 Wire Wire Line
-	7150 1850 7150 2750
+	6650 2150 5900 2150
 Wire Wire Line
-	7150 2750 5900 2750
+	5900 2350 6950 2350
 Wire Wire Line
-	5900 2950 7250 2950
+	7050 1950 7700 1950
 Wire Wire Line
-	7250 2950 7250 1950
+	7700 2050 7050 2050
 Wire Wire Line
-	7250 1950 7700 1950
+	6650 2450 5900 2450
 Wire Wire Line
-	5900 3050 7350 3050
+	5900 2650 6650 2650
 Wire Wire Line
-	7350 3050 7350 2050
+	7050 1350 7700 1350
 Wire Wire Line
-	7350 2050 7700 2050
+	7700 1450 7050 1450
 Wire Wire Line
-	5900 3250 8300 3250
+	6650 2750 5900 2750
 Wire Wire Line
-	8300 3250 8300 3050
+	5900 2950 6650 2950
+Wire Wire Line
+	7050 1550 7700 1550
+Wire Wire Line
+	5900 3050 6650 3050
+Wire Wire Line
+	7050 1650 7700 1650
 Connection ~ 9150 3050
 Wire Wire Line
-	1400 2050 2300 2050
+	1550 2050 2300 2050
 Wire Wire Line
-	2300 2150 1400 2150
+	2300 2150 1550 2150
 Wire Wire Line
-	1400 2350 2300 2350
+	1550 2350 2300 2350
 Wire Wire Line
-	2300 2650 1400 2650
+	2300 2650 1550 2650
 Wire Wire Line
-	1400 2750 2300 2750
+	1550 2750 2300 2750
 Wire Wire Line
-	2300 2950 1400 2950
+	2300 2950 1550 2950
 Wire Wire Line
-	5900 5250 7050 5250
+	5900 5250 6650 5250
 Wire Wire Line
-	7050 5350 5900 5350
+	6650 5350 5900 5350
 Wire Wire Line
-	7050 4950 5900 4950
+	6650 4950 5900 4950
 Wire Wire Line
-	5900 4850 7050 4850
+	5900 4850 6650 4850
 Wire Wire Line
-	1100 4350 2300 4350
+	1550 4350 2300 4350
 Wire Wire Line
-	2300 4250 1100 4250
+	2300 4250 1550 4250
 Wire Wire Line
-	1100 4550 2300 4550
+	1550 4550 2300 4550
 Connection ~ 10000 3050
 $Comp
 L R_local R403
 U 1 1 563F4285
-P 9650 1450
-F 0 "R403" V 9200 1150 50  0000 C CNN
-F 1 "0R" V 9200 1450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1450 30  0001 C CNN
-F 3 "" V 9730 1450 30  0000 C CNN
-F 4 "1%" V 9500 1450 50  0001 C CNN "Tolerance"
-F 5 "0.125W" V 9425 1450 50  0001 C CNN "Power"
-F 6 "Vishay Dale" V 9650 1450 50  0001 C CNN "Manufacturer"
-F 7 "CRCW08050000Z0EA" V 9800 1450 50  0001 C CNN "PartNum"
-	1    9650 1450
+P 9650 1850
+F 0 "R403" V 9200 1550 50  0000 C CNN
+F 1 "0R" V 9200 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1850 30  0001 C CNN
+F 3 "" V 9730 1850 30  0000 C CNN
+F 4 "1%" V 9500 1850 50  0001 C CNN "Tolerance"
+F 5 "0.125W" V 9425 1850 50  0001 C CNN "Power"
+F 6 "Vishay Dale" V 9650 1850 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08050000Z0EA" V 9800 1850 50  0001 C CNN "PartNum"
+	1    9650 1850
 	0    1    1    0   
 $EndComp
 $Comp
 L R_local R404
 U 1 1 563F42BB
-P 9650 1550
-F 0 "R404" V 9200 1250 50  0000 C CNN
-F 1 "0R" V 9200 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1550 30  0001 C CNN
-F 3 "" V 9730 1550 30  0000 C CNN
-F 4 "1%" V 9500 1550 50  0001 C CNN "Tolerance"
-F 5 "0.125W" V 9425 1550 50  0001 C CNN "Power"
-F 6 "Vishay Dale" V 9650 1550 50  0001 C CNN "Manufacturer"
-F 7 "CRCW08050000Z0EA" V 9800 1550 50  0001 C CNN "PartNum"
-	1    9650 1550
+P 9650 1950
+F 0 "R404" V 9200 1650 50  0000 C CNN
+F 1 "0R" V 9200 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1950 30  0001 C CNN
+F 3 "" V 9730 1950 30  0000 C CNN
+F 4 "1%" V 9500 1950 50  0001 C CNN "Tolerance"
+F 5 "0.125W" V 9425 1950 50  0001 C CNN "Power"
+F 6 "Vishay Dale" V 9650 1950 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08050000Z0EA" V 9800 1950 50  0001 C CNN "PartNum"
+	1    9650 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L R_local R405
 U 1 1 563F42F4
-P 9650 1650
-F 0 "R405" V 9200 1350 50  0000 C CNN
-F 1 "0R" V 9200 1650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 1650 30  0001 C CNN
-F 3 "" V 9730 1650 30  0000 C CNN
-F 4 "1%" V 9500 1650 50  0001 C CNN "Tolerance"
-F 5 "0.125W" V 9425 1650 50  0001 C CNN "Power"
-F 6 "Vishay Dale" V 9650 1650 50  0001 C CNN "Manufacturer"
-F 7 "CRCW08050000Z0EA" V 9800 1650 50  0001 C CNN "PartNum"
-	1    9650 1650
+P 9650 2050
+F 0 "R405" V 9200 1750 50  0000 C CNN
+F 1 "0R" V 9200 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9580 2050 30  0001 C CNN
+F 3 "" V 9730 2050 30  0000 C CNN
+F 4 "1%" V 9500 2050 50  0001 C CNN "Tolerance"
+F 5 "0.125W" V 9425 2050 50  0001 C CNN "Power"
+F 6 "Vishay Dale" V 9650 2050 50  0001 C CNN "Manufacturer"
+F 7 "CRCW08050000Z0EA" V 9800 2050 50  0001 C CNN "PartNum"
+	1    9650 2050
 	0    1    1    0   
 $EndComp
-NoConn ~ 9100 1750
-NoConn ~ 9100 1850
-NoConn ~ 9100 1950
+NoConn ~ 9100 1450
+NoConn ~ 9100 1550
+NoConn ~ 9100 1650
 $Comp
 L VCCO #PWR070
 U 1 1 563E2413
@@ -883,19 +863,19 @@ F 5 "AES-Z7MB-7Z010-G" H 800 7825 50  0001 C CNN "PartNum"
 	1    800  7550
 	1    0    0    -1  
 $EndComp
-Text Label 7100 1350 0    40   ~ 0
+Text Label 7100 1750 0    40   ~ 0
 SCLK
-Text Label 7100 1450 0    40   ~ 0
+Text Label 7100 1850 0    40   ~ 0
 BLANK
-Text Label 7100 1550 0    40   ~ 0
+Text Label 7100 1950 0    40   ~ 0
 LAT
-Text Label 7100 1650 0    40   ~ 0
+Text Label 7100 2050 0    40   ~ 0
 SIN
-Text Label 7450 2050 0    40   ~ 0
+Text Label 7100 1350 0    40   ~ 0
 PWM
-Text Label 9200 2050 0    40   ~ 0
+Text Label 9200 1350 0    40   ~ 0
 BUF_PWM
-Text Label 7450 3250 0    40   ~ 0
+Text Label 7500 3050 0    40   ~ 0
 TACH
 $Comp
 L GND #PWR071
@@ -1039,12 +1019,12 @@ Wire Wire Line
 	2900 2150 3650 2150
 Text Label 3550 2150 2    40   ~ 0
 PX2_LVDS_0_N
-NoConn ~ 3650 2150
+NoConn ~ 1550 2750
 Wire Wire Line
 	2900 2050 3650 2050
 Text Label 3550 2050 2    40   ~ 0
 PX2_LVDS_0_P
-NoConn ~ 3650 2050
+NoConn ~ 1550 2650
 Wire Wire Line
 	2900 2450 3650 2450
 Text Label 3550 2450 2    40   ~ 0
@@ -1054,27 +1034,27 @@ Wire Wire Line
 	2900 2350 3650 2350
 Text Label 3550 2350 2    40   ~ 0
 PX2_LVDS_2_P
-NoConn ~ 3650 2350
+NoConn ~ 1550 2950
 Wire Wire Line
 	2900 2750 3650 2750
 Text Label 3550 2750 2    40   ~ 0
 PX2_LVDS_4_N
-NoConn ~ 3650 2750
+NoConn ~ 1550 3950
 Wire Wire Line
 	2900 2650 3650 2650
 Text Label 3550 2650 2    40   ~ 0
 PX2_LVDS_4_P
-NoConn ~ 3650 2650
+NoConn ~ 1550 3850
 Wire Wire Line
 	2900 3050 3650 3050
 Text Label 3550 3050 2    40   ~ 0
 PX2_LVDS_6_N
-NoConn ~ 3650 3050
+NoConn ~ 1550 4350
 Wire Wire Line
 	2900 2950 3650 2950
 Text Label 3550 2950 2    40   ~ 0
 PX2_LVDS_6_P
-NoConn ~ 3650 2950
+NoConn ~ 1550 4250
 Wire Wire Line
 	2900 3350 3650 3350
 Text Label 3550 3350 2    40   ~ 0
@@ -1144,12 +1124,12 @@ Wire Wire Line
 	2900 4650 3650 4650
 Text Label 3550 4650 2    40   ~ 0
 PX2_LVDS_16_N
-NoConn ~ 3650 4650
+NoConn ~ 1550 2150
 Wire Wire Line
 	2900 4550 3650 4550
 Text Label 3550 4550 2    40   ~ 0
 PX2_LVDS_16_P
-NoConn ~ 3650 4550
+NoConn ~ 1550 2050
 Wire Wire Line
 	2900 4950 3650 4950
 Text Label 3550 4950 2    40   ~ 0
@@ -1179,7 +1159,7 @@ Wire Wire Line
 	2900 5550 3650 5550
 Text Label 3550 5550 2    40   ~ 0
 PX2_LVDS_22_P
-NoConn ~ 3650 5550
+NoConn ~ 1550 4550
 Wire Wire Line
 	2300 5350 1550 5350
 Text Label 1650 5350 0    40   ~ 0
@@ -1278,49 +1258,24 @@ PX1_SE_1
 NoConn ~ 4550 1650
 Wire Wire Line
 	5300 1850 4550 1850
-Text Label 4650 1850 0    40   ~ 0
-PX1_LVDS_1_N
-NoConn ~ 4550 1850
 Wire Wire Line
 	5300 1750 4550 1750
-Text Label 4650 1750 0    40   ~ 0
-PX1_LVDS_1_P
-NoConn ~ 4550 1750
 Wire Wire Line
 	5300 2150 4550 2150
-Text Label 4650 2150 0    40   ~ 0
-PX1_LVDS_3_N
-NoConn ~ 4550 2150
 Wire Wire Line
 	5300 2050 4550 2050
-Text Label 4650 2050 0    40   ~ 0
-PX1_LVDS_3_P
-NoConn ~ 4550 2050
 Wire Wire Line
 	5300 2450 4550 2450
-Text Label 4650 2450 0    40   ~ 0
-PX1_LVDS_5_N
-NoConn ~ 4550 2450
 Wire Wire Line
 	5300 2350 4550 2350
-Text Label 4650 2350 0    40   ~ 0
-PX1_LVDS_5_P
-NoConn ~ 4550 2350
 Wire Wire Line
 	5300 2750 4550 2750
-Text Label 4650 2750 0    40   ~ 0
-PX1_LVDS_7_N
-NoConn ~ 4550 2750
 Wire Wire Line
 	5300 2650 4550 2650
 Text Label 4650 2650 0    40   ~ 0
 PX1_LVDS_7_P
-NoConn ~ 4550 2650
 Wire Wire Line
 	5300 3050 4550 3050
-Text Label 4650 3050 0    40   ~ 0
-PX1_LVDS_9_N
-NoConn ~ 4550 3050
 Wire Wire Line
 	5300 2950 4550 2950
 Text Label 4650 2950 0    40   ~ 0
@@ -1335,7 +1290,7 @@ Wire Wire Line
 	5300 3250 4550 3250
 Text Label 4650 3250 0    40   ~ 0
 PX1_LVDS_11_P
-NoConn ~ 4550 3250
+NoConn ~ 1550 3550
 Wire Wire Line
 	5300 3650 4550 3650
 Text Label 4650 3650 0    40   ~ 0
@@ -1345,17 +1300,17 @@ Wire Wire Line
 	5300 3550 4550 3550
 Text Label 4650 3550 0    40   ~ 0
 PX1_LVDS_13_P
-NoConn ~ 4550 3550
+NoConn ~ 1550 2350
 Wire Wire Line
 	5300 3950 4550 3950
 Text Label 4650 3950 0    40   ~ 0
 PX1_LVDS_15_N
-NoConn ~ 4550 3950
+NoConn ~ 6650 5350
 Wire Wire Line
 	5300 3850 4550 3850
 Text Label 4650 3850 0    40   ~ 0
 PX1_LVDS_15_P
-NoConn ~ 4550 3850
+NoConn ~ 6650 5250
 Wire Wire Line
 	5900 3950 6650 3950
 Text Label 6550 3950 2    40   ~ 0
@@ -1424,12 +1379,12 @@ Wire Wire Line
 	5300 5350 4550 5350
 Text Label 4650 5350 0    40   ~ 0
 PX1_LVDS_23_N
-NoConn ~ 4550 5350
+NoConn ~ 6650 4950
 Wire Wire Line
 	5300 5250 4550 5250
 Text Label 4650 5250 0    40   ~ 0
 PX1_LVDS_23_P
-NoConn ~ 4550 5250
+NoConn ~ 6650 4850
 Text Label 6550 5250 2    40   ~ 0
 PX1_LVDS_22_P
 Text Label 6550 5350 2    40   ~ 0
@@ -1454,4 +1409,42 @@ Wire Wire Line
 Text Label 6550 6050 2    40   ~ 0
 VP_0_P
 NoConn ~ 6650 6050
+Text Label 6550 3050 2    40   ~ 0
+PX1_LVDS_8_N
+Text Label 6550 2450 2    40   ~ 0
+PX1_LVDS_4_N
+Text Label 6550 2050 2    40   ~ 0
+PX1_LVDS_2_P
+Text Label 6550 2150 2    40   ~ 0
+PX1_LVDS_2_N
+Text Label 4650 2750 0    40   ~ 0
+PWM
+Text Label 4650 2150 0    40   ~ 0
+SCLK
+Text Label 4650 2050 0    40   ~ 0
+BLANK
+Text Label 4650 1850 0    40   ~ 0
+LAT
+Text Label 4650 1750 0    40   ~ 0
+SIN
+Text Label 4650 2350 0    40   ~ 0
+PX1_LVDS_5_P
+Text Label 4650 2450 0    40   ~ 0
+PX1_LVDS_5_N
+Text Label 7100 1450 0    40   ~ 0
+PX1_LVDS_7_P
+Text Label 7100 1550 0    40   ~ 0
+PX1_LVDS_5_N
+Text Label 7100 1650 0    40   ~ 0
+PX1_LVDS_5_P
+Text Label 4650 3050 0    40   ~ 0
+PX1_LVDS_9_N
+NoConn ~ 4550 3050
+Wire Wire Line
+	6950 2350 6950 3050
+Wire Wire Line
+	5900 3250 6650 3250
+Text Label 6550 3250 2    40   ~ 0
+PX1_LVDS_10_P
+NoConn ~ 6650 3250
 $EndSCHEMATC

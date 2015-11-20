@@ -410,4 +410,6 @@ Wire Wire Line
 	7750 1800 7750 1900
 Connection ~ 7750 1900
 NoConn ~ 6300 4550
+Text Label 4250 5050 0    60   ~ 0
+~RESET~
 $EndSCHEMATC
