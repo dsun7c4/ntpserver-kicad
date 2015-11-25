@@ -168,6 +168,8 @@ F 0 "P103" H 9700 1900 50  0000 C CNN
 F 1 "CONN_02X08" V 9700 1450 50  0000 C CNN
 F 2 "Connect:he10-16d" H 9700 250 60  0001 C CNN
 F 3 "" H 9700 250 60  0000 C CNN
+F 4 "Omron Electronics" H 9700 1450 50  0001 C CNN "Manufacturer"
+F 5 "XG4A-1631" H 9700 1450 50  0001 C CNN "PartNum"
 	1    9700 1450
 	1    0    0    -1  
 $EndComp
@@ -257,6 +259,8 @@ F 0 "P101" H 850 7200 50  0000 C CNN
 F 1 "CONN_01X03" V 950 7000 50  0000 C CNN
 F 2 "local:Terminal_Block_1x03" H 850 7000 60  0001 C CNN
 F 3 "" H 850 7000 60  0000 C CNN
+F 4 "Phoenix Contact" H 850 7000 50  0001 C CNN "Manufacturer"
+F 5 "1729131" H 850 7000 50  0001 C CNN "PartNum"
 	1    850  7000
 	-1   0    0    1   
 $EndComp

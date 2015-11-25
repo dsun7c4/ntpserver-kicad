@@ -1,9 +1,9 @@
 Reference, Value, Footprint, Datasheet, Manufacturer, PartNum, Voltage, Tolerance, Dielectric, Power, Current, Frequency
 D101,CUS520,local:SOD-323_USC,,Toshiba,CUS520,,,,,,
-P103,CONN_02X08,Connect:he10-16d,
+P103,CONN_02X08,Connect:he10-16d,,Omron Electronics,XG4A-1631,,,,,,
 P102,CONN_FAN_PWM,local:CONN_47053,,Molex,47053-1000,,,,,,
-P101,CONN_01X03,local:Terminal_Block_1x03,
-Q201,MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering,,,MMBT3904,,,,,,
+P101,CONN_01X03,local:Terminal_Block_1x03,,Phoenix Contact,1729131,,,,,,
+Q201,MMBT3904,Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering,,NXP Semiconductors,MMBT3904,,,,,,
 C212,10uF,Capacitors_SMD:C_1206_HandSoldering,,TDK,C3216X5R1E106K160AB,25V,10%,X5R,,,
 C202,0.1uF,Capacitors_SMD:C_0805_HandSoldering,,Kemet,C0805C104K5RACTU,50V,10%,X7R,,,
 C204,0.1uF,Capacitors_SMD:C_0805_HandSoldering,,Kemet,C0805C104K5RACTU,50V,10%,X7R,,,

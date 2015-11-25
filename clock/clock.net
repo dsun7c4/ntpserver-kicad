@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/clock/clock.sch)
-    (date "Fri Nov 20 17:17:09 2015")
+    (date "Tue Nov 24 20:57:48 2015")
     (tool "Eeschema (2015-09-12 BZR 6188)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -82,6 +82,9 @@
     (comp (ref P103)
       (value CONN_02X08)
       (footprint Connect:he10-16d)
+      (fields
+        (field (name Manufacturer) "Omron Electronics")
+        (field (name PartNum) XG4A-1631))
       (libsource (lib conn) (part CONN_02X08))
       (sheetpath (names /) (tstamps /))
       (tstamp 5632C7F9))
@@ -97,6 +100,9 @@
     (comp (ref P101)
       (value CONN_01X03)
       (footprint local:Terminal_Block_1x03)
+      (fields
+        (field (name Manufacturer) "Phoenix Contact")
+        (field (name PartNum) 1729131))
       (libsource (lib conn) (part CONN_01X03))
       (sheetpath (names /) (tstamps /))
       (tstamp 563D5B9B))
@@ -104,6 +110,7 @@
       (value MMBT3904)
       (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering)
       (fields
+        (field (name Manufacturer) "NXP Semiconductors")
         (field (name PartNum) MMBT3904))
       (libsource (lib device) (part Q_NPN_BEC))
       (sheetpath (names /ocxo/) (tstamps /56132794/))
