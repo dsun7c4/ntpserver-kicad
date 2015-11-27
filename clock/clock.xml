@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/clock/clock.sch</source>
-    <date>Tue Nov 24 20:57:52 2015</date>
+    <date>Thu Nov 26 19:08:09 2015</date>
     <tool>Eeschema (2015-09-12 BZR 6188)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -96,8 +96,8 @@
       <tstamp>56266B0B</tstamp>
     </comp>
     <comp ref="P103">
-      <value>CONN_02X08</value>
-      <footprint>Connect:he10-16d</footprint>
+      <value>XG4A-1631</value>
+      <footprint>local:XG4A-1631</footprint>
       <fields>
         <field name="Manufacturer">Omron Electronics</field>
         <field name="PartNum">XG4A-1631</field>
@@ -130,7 +130,7 @@
     </comp>
     <comp ref="Q201">
       <value>MMBT3904</value>
-      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering</footprint>
+      <footprint>local:SOT-23-3_NXP_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">NXP Semiconductors</field>
         <field name="PartNum">MMBT3904</field>
@@ -1809,6 +1809,134 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="local" part="TO220_heatsink">
+      <description>T0-220 Vertical Heatsink</description>
+      <footprints>
+        <fp>Heatsink*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">TO220_heatsink</field>
+        <field name="Manufacturer">Aavid</field>
+        <field name="PartNum">581002B02500G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="DS3231">
+      <description>I2C-Integrated RTC/TCXO/Crystal</description>
+      <footprints>
+        <fp>SOIC-16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231</field>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="PartNum">DS3231S#</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="openCol"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~INT~/SQW" type="openCol"/>
+        <pin num="4" name="~RST~" type="input"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LMV722">
+      <description>10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV722</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">LMV722MX/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="PCA9306">
+      <description>Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9306</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">PCA9306DCTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VREF1" type="power_in"/>
+        <pin num="3" name="SCL1" type="input"/>
+        <pin num="4" name="SDA1" type="BiDi"/>
+        <pin num="5" name="SDA2" type="BiDi"/>
+        <pin num="6" name="SCL2" type="output"/>
+        <pin num="7" name="VREF2" type="power_in"/>
+        <pin num="8" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="R_CSM2512">
+      <description>Resistor Current Sense</description>
+      <footprints>
+        <fp>CSM2512*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_CSM2512</field>
+        <field name="Tolerance">0.1%</field>
+        <field name="Power">1W</field>
+        <field name="Manufacturer">Vishay Foil</field>
+        <field name="PartNum">Y1487vvvvvvvB9R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="~" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="Adafruit746">
+      <description>Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates</description>
+      <footprints>
+        <fp>Adafruit746*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Adafruit746</field>
+        <field name="Manufacturer">Adafruit</field>
+        <field name="PartNum">Adafruit746</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1PPS" type="output"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="RX_5V" type="input"/>
+        <pin num="5" name="TX" type="output"/>
+        <pin num="6" name="FIX" type="output"/>
+        <pin num="7" name="VBACKUP" type="power_in"/>
+        <pin num="8" name="ENABLE" type="input"/>
+        <pin num="9" name="3.3V" type="power_out"/>
+      </pins>
+    </libpart>
     <libpart lib="local" part="61083_02X50">
       <description>Bergstack 0.8mm 2x50 HDR</description>
       <footprints>
@@ -1954,299 +2082,19 @@
         <pin num="20" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="ADT7410">
-      <description>±0.5 deg C 16-bit Digital I2C Temperature Sensor</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ADT7410</field>
-        <field name="Manufacturer">Analog Devices</field>
-        <field name="PartNum">ADT7410TRZ</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SCL" type="input"/>
-        <pin num="2" name="SDA" type="BiDi"/>
-        <pin num="3" name="A0" type="input"/>
-        <pin num="4" name="A1" type="input"/>
-        <pin num="5" name="~INT~" type="openCol"/>
-        <pin num="6" name="~CT~" type="openCol"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="8" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="Adafruit746">
-      <description>Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates</description>
+    <libpart lib="conn" part="BNC">
       <footprints>
-        <fp>Adafruit746*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">Adafruit746</field>
-        <field name="Manufacturer">Adafruit</field>
-        <field name="PartNum">Adafruit746</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1PPS" type="output"/>
-        <pin num="2" name="VIN" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="RX_5V" type="input"/>
-        <pin num="5" name="TX" type="output"/>
-        <pin num="6" name="FIX" type="output"/>
-        <pin num="7" name="VBACKUP" type="power_in"/>
-        <pin num="8" name="ENABLE" type="input"/>
-        <pin num="9" name="3.3V" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="CONN_FAN_PWM">
-      <description>PWM Fan Connector 4-pin</description>
-      <footprints>
-        <fp>CONN_47053*</fp>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">CONN_FAN_PWM</field>
-        <field name="Manufacturer">Molex</field>
-        <field name="PartNum">47053-1000</field>
+        <field name="Value">BNC</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="+12V" type="power_in"/>
-        <pin num="3" name="TACH" type="output"/>
-        <pin num="4" name="PWM" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="CX210">
-      <description>OCXO Stratum 3E High Stability</description>
-      <footprints>
-        <fp>CX210*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">CX210</field>
-        <field name="Frequency">10.0MHz</field>
-        <field name="Manufacturer">Connor Winfield</field>
-        <field name="PartNum">OH300-50503CV-010.0M</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VC" type="input"/>
-        <pin num="2" name="NC" type="NotConnected"/>
-        <pin num="3" name="VCC" type="power_in"/>
-        <pin num="4" name="RF" type="output"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="CX210_Cover">
-      <description>CX210 OCXO Cover</description>
-      <footprints>
-        <fp>CX210_Cover*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">A</field>
-        <field name="Value">CX210_Cover</field>
-        <field name="Manufacturer">Custom</field>
-        <field name="PartNum">PN</field>
-      </fields>
-    </libpart>
-    <libpart lib="local" part="DAC8830">
-      <description>16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter</description>
-      <footprints>
-        <fp>SOIC*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">DAC8830</field>
-        <field name="Tolerance">± 1 LSB</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">DAC8830ICD</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Vout" type="output"/>
-        <pin num="2" name="AGND" type="power_in"/>
-        <pin num="3" name="Vref" type="power_in"/>
-        <pin num="4" name="~CS~" type="input"/>
-        <pin num="5" name="SCLK" type="input"/>
-        <pin num="6" name="SDI" type="input"/>
-        <pin num="7" name="DGND" type="power_in"/>
-        <pin num="8" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="DS3231">
-      <description>I2C-Integrated RTC/TCXO/Crystal</description>
-      <footprints>
-        <fp>SOIC-16*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">DS3231</field>
-        <field name="Manufacturer">Maxim Integrated</field>
-        <field name="PartNum">DS3231S#</field>
-      </fields>
-      <pins>
-        <pin num="1" name="32KHZ" type="openCol"/>
-        <pin num="2" name="VCC" type="power_in"/>
-        <pin num="3" name="~INT~/SQW" type="openCol"/>
-        <pin num="4" name="~RST~" type="input"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="NC" type="NotConnected"/>
-        <pin num="8" name="NC" type="NotConnected"/>
-        <pin num="9" name="NC" type="NotConnected"/>
-        <pin num="10" name="NC" type="NotConnected"/>
-        <pin num="11" name="NC" type="NotConnected"/>
-        <pin num="12" name="NC" type="NotConnected"/>
-        <pin num="13" name="GND" type="power_in"/>
-        <pin num="14" name="VBAT" type="power_in"/>
-        <pin num="15" name="SDA" type="BiDi"/>
-        <pin num="16" name="SCL" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="FVXO-HC53">
-      <description>HCMOS 5 x 3.2mm 3.3V VCXO</description>
-      <footprints>
-        <fp>FVXO*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">FVXO-HC53</field>
-        <field name="Frequency">10MHz</field>
-        <field name="Manufacturer">Fox</field>
-        <field name="PartNum">FVXO-HC53BR-10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VC" type="input"/>
-        <pin num="2" name="E/~D~" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="OUT" type="output"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="L">
-      <description>Inductor</description>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L</field>
-        <field name="Current">A</field>
-        <field name="Manufacturer">Co</field>
-        <field name="PartNum">PN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LMV722">
-      <description>10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LMV722</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">LMV722MX/NOPB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="output"/>
-        <pin num="2" name="-" type="input"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="+" type="input"/>
-        <pin num="6" name="-" type="input"/>
-        <pin num="7" name="~" type="output"/>
-        <pin num="8" name="V+" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LP3853">
-      <description>3A Ultra Low Dropout Linear Regulators</description>
-      <footprints>
-        <fp>TO220-5*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LP3853</field>
-        <field name="Voltage">V</field>
-        <field name="Current">3A</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">LP3853ET-vvv/NOPB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~SD~" type="input"/>
-        <pin num="2" name="VIN" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="VOUT" type="power_out"/>
-        <pin num="5" name="~ERROR~" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LTC2990">
-      <description>Quad I2C Voltage, Current and Temperature Monitor</description>
-      <footprints>
-        <fp>MSOP-10*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LTC2990</field>
-        <field name="Manufacturer">Linear Technology</field>
-        <field name="PartNum">LTC2990CMS#PBF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="V1" type="passive"/>
-        <pin num="2" name="V2" type="passive"/>
-        <pin num="3" name="V3" type="passive"/>
-        <pin num="4" name="V4" type="passive"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SDA" type="BiDi"/>
-        <pin num="7" name="SCL" type="input"/>
-        <pin num="8" name="ADR0" type="input"/>
-        <pin num="9" name="ADR1" type="input"/>
-        <pin num="10" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="MIC5225">
-      <description>Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MIC5225</field>
-        <field name="Voltage">V</field>
-        <field name="Current">0.15A</field>
-        <field name="Manufacturer">Micrel</field>
-        <field name="PartNum">MIC5225-vvvYM5-TR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="NC/ADJ" type="passive"/>
-        <pin num="5" name="OUT" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="Microzed">
-      <description>Microzed Mechanical Mounting Holes</description>
-      <footprints>
-        <fp>Microzed_RevF*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">A</field>
-        <field name="Value">Microzed</field>
-        <field name="Manufacturer">Avnet</field>
-        <field name="PartNum">AES-Z7MB-7Z010-G</field>
-      </fields>
-    </libpart>
-    <libpart lib="local" part="NC7SZ125">
-      <description>TinyLogic® UHS Buffer with Three-State Output</description>
-      <footprints>
-        <fp>SOT23-5*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">NC7SZ125</field>
-        <field name="Manufacturer">Fairchild Semiconductor</field>
-        <field name="PartNum">NC7SZ125M5X</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="~" type="3state"/>
-        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="local" part="PA6H">
@@ -2283,230 +2131,44 @@
         <pin num="20" name="NC" type="NotConnected"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="PCA9306">
-      <description>Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator</description>
+    <libpart lib="local" part="MIC5225">
+      <description>Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator</description>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">PCA9306</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">PCA9306DCTR</field>
+        <field name="Value">MIC5225</field>
+        <field name="Voltage">V</field>
+        <field name="Current">0.15A</field>
+        <field name="Manufacturer">Micrel</field>
+        <field name="PartNum">MIC5225-vvvYM5-TR</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VREF1" type="power_in"/>
-        <pin num="3" name="SCL1" type="input"/>
-        <pin num="4" name="SDA1" type="BiDi"/>
-        <pin num="5" name="SDA2" type="BiDi"/>
-        <pin num="6" name="SCL2" type="output"/>
-        <pin num="7" name="VREF2" type="power_in"/>
-        <pin num="8" name="EN" type="input"/>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC/ADJ" type="passive"/>
+        <pin num="5" name="OUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="R_CSM2512">
-      <description>Resistor Current Sense</description>
+    <libpart lib="local" part="CX210">
+      <description>OCXO Stratum 3E High Stability</description>
       <footprints>
-        <fp>CSM2512*</fp>
+        <fp>CX210*</fp>
       </footprints>
       <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_CSM2512</field>
-        <field name="Tolerance">0.1%</field>
-        <field name="Power">1W</field>
-        <field name="Manufacturer">Vishay Foil</field>
-        <field name="PartNum">Y1487vvvvvvvB9R</field>
+        <field name="Reference">Y</field>
+        <field name="Value">CX210</field>
+        <field name="Frequency">10.0MHz</field>
+        <field name="Manufacturer">Connor Winfield</field>
+        <field name="PartNum">OH300-50503CV-010.0M</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="~" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="R_local">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_local</field>
-        <field name="Tolerance">1%</field>
-        <field name="Power">0.125W</field>
-        <field name="Manufacturer">Co</field>
-        <field name="PartNum">CRCW0805vvvvFKEA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="TO220_heatsink">
-      <description>T0-220 Vertical Heatsink</description>
-      <footprints>
-        <fp>Heatsink*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">HS</field>
-        <field name="Value">TO220_heatsink</field>
-        <field name="Manufacturer">Aavid</field>
-        <field name="PartNum">581002B02500G</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="TPS56428">
-      <description>4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM</description>
-      <footprints>
-        <fp>SO*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TPS56428</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">TPS56428DDA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="EN" type="input"/>
-        <pin num="2" name="VFB" type="passive"/>
-        <pin num="3" name="VREG5" type="power_out"/>
-        <pin num="4" name="PG" type="openCol"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SW" type="power_out"/>
-        <pin num="7" name="VBST" type="power_out"/>
-        <pin num="8" name="VIN" type="power_in"/>
-        <pin num="9" name="PwPd" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Battery">
-      <fields>
-        <field name="Reference">BT</field>
-        <field name="Value">Battery</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="D_Schottky">
-      <description>Diode schottky</description>
-      <footprints>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>Diode_*</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>*_Diode_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="FILTER">
-      <description>Filtre EMI</description>
-      <fields>
-        <field name="Reference">FB</field>
-        <field name="Value">FILTER</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Jumper_NO_Small">
-      <description>Jumper normally open</description>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_NO_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Q_NPN_BEC">
-      <description>Transistor NPN (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_NPN_BEC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="ZENER">
-      <description>Diode zener</description>
-      <footprints>
-        <fp>D?</fp>
-        <fp>SO*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">ZENER</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="BNC">
-      <footprints>
-        <fp>BNC_*</fp>
-        <fp>bnc</fp>
-        <fp>bnc-*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">BNC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="In" type="passive"/>
-        <pin num="2" name="Ext" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <footprints>
-        <fp>Pin_Header_Straight_1X03</fp>
-        <fp>Pin_Header_Angled_1X03</fp>
-        <fp>Socket_Strip_Straight_1X03</fp>
-        <fp>Socket_Strip_Angled_1X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
+        <pin num="1" name="VC" type="input"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RF" type="output"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GND" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_02X08">
@@ -2539,16 +2201,354 @@
         <pin num="16" name="P16" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="local" part="L">
+      <description>Inductor</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Current">A</field>
+        <field name="Manufacturer">Co</field>
+        <field name="PartNum">PN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="CX210_Cover">
+      <description>CX210 OCXO Cover</description>
+      <footprints>
+        <fp>CX210_Cover*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">CX210_Cover</field>
+        <field name="Manufacturer">Custom</field>
+        <field name="PartNum">PN</field>
+      </fields>
+    </libpart>
+    <libpart lib="local" part="CONN_FAN_PWM">
+      <description>PWM Fan Connector 4-pin</description>
+      <footprints>
+        <fp>CONN_47053*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_FAN_PWM</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="PartNum">47053-1000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="+12V" type="power_in"/>
+        <pin num="3" name="TACH" type="output"/>
+        <pin num="4" name="PWM" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="ADT7410">
+      <description>±0.5 deg C 16-bit Digital I2C Temperature Sensor</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADT7410</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="PartNum">ADT7410TRZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="A0" type="input"/>
+        <pin num="4" name="A1" type="input"/>
+        <pin num="5" name="~INT~" type="openCol"/>
+        <pin num="6" name="~CT~" type="openCol"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LP3853">
+      <description>3A Ultra Low Dropout Linear Regulators</description>
+      <footprints>
+        <fp>TO220-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP3853</field>
+        <field name="Voltage">V</field>
+        <field name="Current">3A</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">LP3853ET-vvv/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~SD~" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="~ERROR~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="TPS56428">
+      <description>4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-modeTM</description>
+      <footprints>
+        <fp>SO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS56428</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TPS56428DDA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="VFB" type="passive"/>
+        <pin num="3" name="VREG5" type="power_out"/>
+        <pin num="4" name="PG" type="openCol"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SW" type="power_out"/>
+        <pin num="7" name="VBST" type="power_out"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="PwPd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="R_local">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_local</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Co</field>
+        <field name="PartNum">CRCW0805vvvvFKEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="Microzed">
+      <description>Microzed Mechanical Mounting Holes</description>
+      <footprints>
+        <fp>Microzed_RevF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Microzed</field>
+        <field name="Manufacturer">Avnet</field>
+        <field name="PartNum">AES-Z7MB-7Z010-G</field>
+      </fields>
+    </libpart>
+    <libpart lib="local" part="NC7SZ125">
+      <description>TinyLogic® UHS Buffer with Three-State Output</description>
+      <footprints>
+        <fp>SOT23-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NC7SZ125</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="PartNum">NC7SZ125M5X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="3state"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LTC2990">
+      <description>Quad I2C Voltage, Current and Temperature Monitor</description>
+      <footprints>
+        <fp>MSOP-10*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC2990</field>
+        <field name="Manufacturer">Linear Technology</field>
+        <field name="PartNum">LTC2990CMS#PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V1" type="passive"/>
+        <pin num="2" name="V2" type="passive"/>
+        <pin num="3" name="V3" type="passive"/>
+        <pin num="4" name="V4" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SDA" type="BiDi"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="ADR0" type="input"/>
+        <pin num="9" name="ADR1" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="DAC8830">
+      <description>16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter</description>
+      <footprints>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DAC8830</field>
+        <field name="Tolerance">± 1 LSB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">DAC8830ICD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="output"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="Vref" type="power_in"/>
+        <pin num="4" name="~CS~" type="input"/>
+        <pin num="5" name="SCLK" type="input"/>
+        <pin num="6" name="SDI" type="input"/>
+        <pin num="7" name="DGND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="FVXO-HC53">
+      <description>HCMOS 5 x 3.2mm 3.3V VCXO</description>
+      <footprints>
+        <fp>FVXO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">FVXO-HC53</field>
+        <field name="Frequency">10MHz</field>
+        <field name="Manufacturer">Fox</field>
+        <field name="PartNum">FVXO-HC53BR-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC" type="input"/>
+        <pin num="2" name="E/~D~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="local">
-      <uri>/home/guest/cae/kicad/lib/local.lib</uri>
-    </library>
     <library logical="device">
       <uri>/home/cae/src/kicad/install.6188/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/home/cae/src/kicad/install.6188/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="local">
+      <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
   </libraries>
   <nets>
