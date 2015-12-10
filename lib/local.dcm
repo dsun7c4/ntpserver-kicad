@@ -30,6 +30,11 @@ D Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates
 K GPS
 $ENDCMP
 #
+$CMP CONN_02X08_MTG
+D Connector 2x8 with mounting pad
+K connector header
+$ENDCMP
+#
 $CMP CONN_FAN_PWM
 D PWM Fan Connector 4-pin
 K CONN FAN PWM
