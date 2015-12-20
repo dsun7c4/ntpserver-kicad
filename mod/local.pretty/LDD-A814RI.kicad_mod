@@ -157,4 +157,9 @@
   (pad 16 thru_hole circle (at -5.08 -11) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 17 thru_hole circle (at -7.62 -11) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 18 thru_hole circle (at -10.16 -11) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/LDD-A814RI.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.393701 0.393701 0.393701))
+    (rotate (xyz 0 0 0))
+  )
 )
