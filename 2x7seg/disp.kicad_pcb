@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-09-12 BZR 6188)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-12-09 BZR 6195)-product")
 
   (general
     (links 63)
     (no_connects 0)
-    (area 125.774667 83.276 163.785334 114.694)
+    (area 126.949999 83.769999 162.610001 114.350001)
     (thickness 1.6)
     (drawings 24)
     (tracks 331)
@@ -740,6 +740,11 @@
       (net 18 /D1g))
     (pad 18 thru_hole circle (at -10.16 11 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 19 /D1f))
+    (model /home/guest/cae/kicad/mod/local.pretty/packages3d/LDD-A814RI.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.393700787402 0.393700787402 0.393700787402))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_text SCLK (at 156.972 105.41) (layer F.SilkS)
