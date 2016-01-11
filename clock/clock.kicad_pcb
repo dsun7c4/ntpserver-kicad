@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 190.449999 165.049999 367.334001 246.430001)
     (thickness 1.6)
-    (drawings 69)
+    (drawings 70)
     (tracks 1497)
     (zones 0)
     (modules 288)
@@ -3996,6 +3996,11 @@
       (net 6 /power/SW5) (zone_connect 2))
     (pad 2 smd rect (at 3.275 0 270) (size 2.85 3.4) (layers F.Cu F.Paste F.Mask)
       (net 4 VIN) (zone_connect 2))
+    (model /home/guest/cae/kicad/mod/local.pretty/packages3d/spm6530.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.393700787402 0.393700787402 0.393700787402))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module local:Choke_SMD_7.1x6.5_H3.0_HandSoldering (layer F.Cu) (tedit 56492333) (tstamp 563D88DC)
@@ -4026,6 +4031,11 @@
       (net 8 /power/SW3.3) (zone_connect 2))
     (pad 2 smd rect (at 3.275 0 270) (size 2.85 3.4) (layers F.Cu F.Paste F.Mask)
       (net 3 VCC) (zone_connect 2))
+    (model /home/guest/cae/kicad/mod/local.pretty/packages3d/spm6530.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.393701 0.393700787402 0.393700787402))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module local:Choke_SMD_7.1x6.5_H3.0_HandSoldering (layer F.Cu) (tedit 5648DC92) (tstamp 563D88E2)
@@ -4056,6 +4066,11 @@
       (net 10 /power/SW3.0) (zone_connect 2))
     (pad 2 smd rect (at 3.275 0 270) (size 2.85 3.4) (layers F.Cu F.Paste F.Mask)
       (net 16 /power/+3.0V) (zone_connect 2))
+    (model /home/guest/cae/kicad/mod/local.pretty/packages3d/spm6530.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.393700787402 0.393700787402 0.393700787402))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module local:Terminal_Block_1x03 (layer F.Cu) (tedit 5657797D) (tstamp 563D88F1)
@@ -7155,13 +7170,13 @@
       (net 2 GND))
   )
 
-  (module local:SOT-23-3_NXP_HandSoldering (layer F.Cu) (tedit 565799BE) (tstamp 5657B92D)
+  (module local:SOT-23-3_NXP_HandSoldering (layer F.Cu) (tedit 567B392D) (tstamp 5657B92D)
     (at 302.387 217.678 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /56132794/562FC26B)
     (attr smd)
-    (fp_text reference Q201 (at 0 -3.4 180) (layer F.SilkS)
+    (fp_text reference Q201 (at -0.254 -3.429 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MMBT3904 (at 0 3.5 180) (layer F.Fab)
@@ -7182,7 +7197,7 @@
       (net 111 /ocxo/TSENSE_C))
     (pad 3 smd rect (at 0 -1.5 180) (size 0.6 1.7) (layers F.Cu F.Paste F.Mask)
       (net 110 /ocxo/TSENSE_A))
-    (model Housings_SOT-23_SOT-143_TSOT-6.3dshapes/SOT-23.wrl
+    (model TO_SOT_Packages_SMD.3dshapes/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7243,6 +7258,9 @@
     )
   )
 
+  (gr_text ~RST~ (at 213.614 179.451 90) (layer F.SilkS)
+    (effects (font (size 0.6 0.6) (thickness 0.127)))
+  )
   (gr_text PWM (at 212.09 180.721) (layer F.SilkS) (tstamp 56577A9C)
     (effects (font (size 0.6 0.6) (thickness 0.127)))
   )
