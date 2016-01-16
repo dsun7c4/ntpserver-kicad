@@ -1017,43 +1017,26 @@ PX2_SE_0
 NoConn ~ 3400 1850
 Wire Wire Line
 	2650 2150 3400 2150
-Text Label 3300 2150 2    40   ~ 0
-PX2_LVDS_0_N
 NoConn ~ 1300 2750
 Wire Wire Line
 	2650 2050 3400 2050
-Text Label 3300 2050 2    40   ~ 0
-PX2_LVDS_0_P
 NoConn ~ 1300 2650
 Wire Wire Line
 	2650 2450 3400 2450
-Text Label 3300 2450 2    40   ~ 0
-PX2_LVDS_2_N
-NoConn ~ 3400 2450
 Wire Wire Line
 	2650 2350 3400 2350
-Text Label 3300 2350 2    40   ~ 0
-PX2_LVDS_2_P
 NoConn ~ 1300 2950
 Wire Wire Line
 	2650 2750 3400 2750
-Text Label 3300 2750 2    40   ~ 0
-PX2_LVDS_4_N
 NoConn ~ 1300 3950
 Wire Wire Line
 	2650 2650 3400 2650
-Text Label 3300 2650 2    40   ~ 0
-PX2_LVDS_4_P
 NoConn ~ 1300 3850
 Wire Wire Line
 	2650 3050 3400 3050
-Text Label 3300 3050 2    40   ~ 0
-PX2_LVDS_6_N
 NoConn ~ 1300 4350
 Wire Wire Line
 	2650 2950 3400 2950
-Text Label 3300 2950 2    40   ~ 0
-PX2_LVDS_6_P
 NoConn ~ 1300 4250
 Wire Wire Line
 	2650 3350 3400 3350
@@ -1097,12 +1080,10 @@ Wire Wire Line
 	2650 4350 3400 4350
 Text Label 3300 4350 2    40   ~ 0
 PX2_LVDS_14_N
-NoConn ~ 3400 2750
 Wire Wire Line
 	2650 4250 3400 4250
 Text Label 3300 4250 2    40   ~ 0
 PX2_LVDS_14_P
-NoConn ~ 3400 2650
 Text Label 1400 4550 0    40   ~ 0
 PX2_LVDS_17_P
 Wire Wire Line
@@ -1134,12 +1115,10 @@ Wire Wire Line
 	2650 4950 3400 4950
 Text Label 3300 4950 2    40   ~ 0
 PX2_LVDS_18_N
-NoConn ~ 3400 2150
 Wire Wire Line
 	2650 4850 3400 4850
 Text Label 3300 4850 2    40   ~ 0
 PX2_LVDS_18_P
-NoConn ~ 3400 2050
 Wire Wire Line
 	2650 5350 3400 5350
 Text Label 3300 5350 2    40   ~ 0
@@ -1149,7 +1128,6 @@ Wire Wire Line
 	2650 5250 3400 5250
 Text Label 3300 5250 2    40   ~ 0
 PX2_LVDS_20_P
-NoConn ~ 3400 2350
 Wire Wire Line
 	2650 5650 3400 5650
 Text Label 3300 5650 2    40   ~ 0
@@ -1359,7 +1337,6 @@ Wire Wire Line
 	5300 4550 4550 4550
 Text Label 4650 4550 0    40   ~ 0
 PX1_LVDS_19_P
-NoConn ~ 3400 2950
 Text Label 6550 4850 2    40   ~ 0
 PX1_LVDS_20_P
 Text Label 6550 4950 2    40   ~ 0
@@ -1368,7 +1345,6 @@ Wire Wire Line
 	5300 4950 4550 4950
 Text Label 4650 4950 0    40   ~ 0
 PX1_LVDS_21_N
-NoConn ~ 3400 3050
 Wire Wire Line
 	5300 4850 4550 4850
 Text Label 4650 4850 0    40   ~ 0
@@ -1448,4 +1424,93 @@ PX1_LVDS_10_P
 NoConn ~ 6650 3250
 Text HLabel 4550 1450 0    60   Input ~ 0
 ~CARRIER_SRST~
+$Comp
+L CONN_01X10 P401
+U 1 1 569829DE
+P 10100 5250
+F 0 "P401" H 10100 5800 50  0000 C CNN
+F 1 "CONN_01X10" V 10200 5250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x10" H 10100 5250 50  0001 C CNN
+F 3 "" H 10100 5250 50  0000 C CNN
+	1    10100 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4800 9800 4800
+Wire Wire Line
+	9800 4800 9800 4600
+$Comp
+L VCC #PWR069
+U 1 1 56982CA5
+P 9800 4600
+F 0 "#PWR069" H 9800 4450 50  0001 C CNN
+F 1 "VCC" H 9800 4750 50  0000 C CNN
+F 2 "" H 9800 4600 60  0000 C CNN
+F 3 "" H 9800 4600 60  0000 C CNN
+	1    9800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR070
+U 1 1 56982CDA
+P 9800 5900
+F 0 "#PWR070" H 9800 5650 50  0001 C CNN
+F 1 "GND" H 9800 5750 50  0000 C CNN
+F 2 "" H 9800 5900 60  0000 C CNN
+F 3 "" H 9800 5900 60  0000 C CNN
+	1    9800 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 5900 9800 4900
+Wire Wire Line
+	9800 4900 9900 4900
+Wire Wire Line
+	9900 5000 9350 5000
+Text Label 9450 5000 0    40   ~ 0
+GPIO0
+Wire Wire Line
+	9900 5100 9350 5100
+Text Label 9450 5100 0    40   ~ 0
+GPIO1
+Wire Wire Line
+	9900 5200 9350 5200
+Text Label 9450 5200 0    40   ~ 0
+GPIO2
+Wire Wire Line
+	9900 5300 9350 5300
+Text Label 9450 5300 0    40   ~ 0
+GPIO3
+Wire Wire Line
+	9900 5400 9350 5400
+Text Label 9450 5400 0    40   ~ 0
+GPIO4
+Wire Wire Line
+	9900 5500 9350 5500
+Text Label 9450 5500 0    40   ~ 0
+GPIO5
+Wire Wire Line
+	9900 5600 9350 5600
+Text Label 9450 5600 0    40   ~ 0
+GPIO6
+Wire Wire Line
+	9900 5700 9350 5700
+Text Label 9450 5700 0    40   ~ 0
+GPIO7
+Text Label 3300 3050 2    40   ~ 0
+GPIO0
+Text Label 3300 2950 2    40   ~ 0
+GPIO1
+Text Label 3300 2750 2    40   ~ 0
+GPIO2
+Text Label 3300 2650 2    40   ~ 0
+GPIO3
+Text Label 3300 2450 2    40   ~ 0
+GPIO4
+Text Label 3300 2350 2    40   ~ 0
+GPIO5
+Text Label 3300 2150 2    40   ~ 0
+GPIO6
+Text Label 3300 2050 2    40   ~ 0
+GPIO7
 $EndSCHEMATC

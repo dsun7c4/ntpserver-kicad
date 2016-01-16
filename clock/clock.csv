@@ -67,6 +67,7 @@ R404,0R,Resistors_SMD:R_0805_HandSoldering,,Vishay Dale,CRCW08050000Z0EA,,1%,,0.
 R405,0R,Resistors_SMD:R_0805_HandSoldering,,Vishay Dale,CRCW08050000Z0EA,,1%,,0.125W,,
 A401,Microzed,local:Microzed_RevF,,Avnet,AES-Z7MB-7Z010-G,,,,,,
 C401,0.1uF,Capacitors_SMD:C_0805_HandSoldering,,Kemet,C0805C104K5RACTU,50V,10%,X7R,,,
+P401,CONN_01X10,Pin_Headers:Pin_Header_Angled_1x10,
 C504,10uF,Capacitors_SMD:C_1206_HandSoldering,,TDK,C3216X5R1E106K160AB,25V,10%,X5R,,,
 C507,0.1uF,Capacitors_SMD:C_0805_HandSoldering,,Kemet,C0805C104K5RACTU,50V,10%,X7R,,,
 C501,10uF,Capacitors_SMD:C_1206_HandSoldering,,TDK,C3216X5R1E106K160AB,25V,10%,X5R,,,

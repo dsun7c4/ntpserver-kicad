@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/clock/clock.sch</source>
-    <date>Sun Dec  6 18:43:13 2015</date>
-    <tool>Eeschema (2015-09-12 BZR 6188)-product</tool>
+    <date>Thu Jan 14 15:31:01 2016</date>
+    <tool>Eeschema (2015-12-09 BZR 6195)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Clock</title>
@@ -951,6 +951,13 @@
       <sheetpath names="/microzed/" tstamps="/5623D297/"/>
       <tstamp>56403C40</tstamp>
     </comp>
+    <comp ref="P401">
+      <value>CONN_01X10</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x10</footprint>
+      <libsource lib="conn" part="CONN_01X10"/>
+      <sheetpath names="/microzed/" tstamps="/5623D297/"/>
+      <tstamp>569829DE</tstamp>
+    </comp>
     <comp ref="C504">
       <value>10uF</value>
       <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
@@ -1758,67 +1765,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="local" part="DAC8830">
-      <description>16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter</description>
-      <footprints>
-        <fp>SOIC*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">DAC8830</field>
-        <field name="Tolerance">± 1 LSB</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">DAC8830ICD</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Vout" type="output"/>
-        <pin num="2" name="AGND" type="power_in"/>
-        <pin num="3" name="Vref" type="power_in"/>
-        <pin num="4" name="~CS~" type="input"/>
-        <pin num="5" name="SCLK" type="input"/>
-        <pin num="6" name="SDI" type="input"/>
-        <pin num="7" name="DGND" type="power_in"/>
-        <pin num="8" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="NC7SZ125">
-      <description>TinyLogic® UHS Buffer with Three-State Output</description>
-      <footprints>
-        <fp>SOT23-5*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">NC7SZ125</field>
-        <field name="Manufacturer">Fairchild Semiconductor</field>
-        <field name="PartNum">NC7SZ125M5X</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="~" type="3state"/>
-        <pin num="5" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LMV722">
-      <description>10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LMV722</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">LMV722MX/NOPB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="output"/>
-        <pin num="2" name="-" type="input"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
-        <pin num="5" name="+" type="input"/>
-        <pin num="6" name="-" type="input"/>
-        <pin num="7" name="~" type="output"/>
-        <pin num="8" name="V+" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="local" part="61083_02X50">
       <description>Bergstack 0.8mm 2x50 HDR</description>
       <footprints>
@@ -1933,6 +1879,303 @@
         <pin num="100" name="100" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="local" part="74LVC541">
+      <description>8bits Buffer/Line Driver 3 state Out</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC541</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">SN74LVC541APWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="A2" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A5" type="input"/>
+        <pin num="8" name="A6" type="input"/>
+        <pin num="9" name="A7" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Y7" type="3state"/>
+        <pin num="12" name="Y6" type="3state"/>
+        <pin num="13" name="Y5" type="3state"/>
+        <pin num="14" name="Y4" type="3state"/>
+        <pin num="15" name="Y3" type="3state"/>
+        <pin num="16" name="Y2" type="3state"/>
+        <pin num="17" name="Y1" type="3state"/>
+        <pin num="18" name="Y0" type="3state"/>
+        <pin num="19" name="G2" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="ADT7410">
+      <description>±0.5 deg C 16-bit Digital I2C Temperature Sensor</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADT7410</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="PartNum">ADT7410TRZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="A0" type="input"/>
+        <pin num="4" name="A1" type="input"/>
+        <pin num="5" name="~INT~" type="openCol"/>
+        <pin num="6" name="~CT~" type="openCol"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="Adafruit746">
+      <description>Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates</description>
+      <footprints>
+        <fp>Adafruit746*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Adafruit746</field>
+        <field name="Manufacturer">Adafruit</field>
+        <field name="PartNum">Adafruit746</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1PPS" type="output"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="RX_5V" type="input"/>
+        <pin num="5" name="TX" type="output"/>
+        <pin num="6" name="FIX" type="output"/>
+        <pin num="7" name="VBACKUP" type="power_in"/>
+        <pin num="8" name="ENABLE" type="input"/>
+        <pin num="9" name="3.3V" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BNC">
+      <footprints>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X10">
+      <description>Connector 01x10</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X10</fp>
+        <fp>Pin_Header_Angled_1X10</fp>
+        <fp>Socket_Strip_Straight_1X10</fp>
+        <fp>Socket_Strip_Angled_1X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="CONN_02X08_MTG">
+      <description>Connector 2x8 with mounting pad</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X08</fp>
+        <fp>Pin_Header_Angled_2X08</fp>
+        <fp>Socket_Strip_Straight_2X08</fp>
+        <fp>Socket_Strip_Angled_2X08</fp>
+        <fp>XG4A-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X08_MTG</field>
+      </fields>
+      <pins>
+        <pin num="0" name="~" type="passive"/>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="CONN_FAN_PWM">
+      <description>PWM Fan Connector 4-pin</description>
+      <footprints>
+        <fp>CONN_47053*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_FAN_PWM</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="PartNum">47053-1000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="+12V" type="power_in"/>
+        <pin num="3" name="TACH" type="output"/>
+        <pin num="4" name="PWM" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="CX210">
+      <description>OCXO Stratum 3E High Stability</description>
+      <footprints>
+        <fp>CX210*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">CX210</field>
+        <field name="Frequency">10.0MHz</field>
+        <field name="Manufacturer">Connor Winfield</field>
+        <field name="PartNum">OH300-50503CV-010.0M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC" type="input"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RF" type="output"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="CX210_Cover">
+      <description>CX210 OCXO Cover</description>
+      <footprints>
+        <fp>CX210_Cover*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">CX210_Cover</field>
+        <field name="Manufacturer">Custom</field>
+        <field name="PartNum">PN</field>
+      </fields>
+    </libpart>
+    <libpart lib="local" part="DAC8830">
+      <description>16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter</description>
+      <footprints>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DAC8830</field>
+        <field name="Tolerance">± 1 LSB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">DAC8830ICD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="output"/>
+        <pin num="2" name="AGND" type="power_in"/>
+        <pin num="3" name="Vref" type="power_in"/>
+        <pin num="4" name="~CS~" type="input"/>
+        <pin num="5" name="SCLK" type="input"/>
+        <pin num="6" name="SDI" type="input"/>
+        <pin num="7" name="DGND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="DS3231">
+      <description>I2C-Integrated RTC/TCXO/Crystal</description>
+      <footprints>
+        <fp>SOIC-16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231</field>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="PartNum">DS3231S#</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="openCol"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~INT~/SQW" type="openCol"/>
+        <pin num="4" name="~RST~" type="input"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="NC" type="NotConnected"/>
+        <pin num="11" name="NC" type="NotConnected"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="D_Schottky">
       <description>Diode schottky</description>
       <footprints>
@@ -1949,6 +2192,155 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="L">
+      <description>Inductor</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Current">A</field>
+        <field name="Manufacturer">Co</field>
+        <field name="PartNum">PN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LMV722">
+      <description>10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV722</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">LMV722MX/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LP3853">
+      <description>3A Ultra Low Dropout Linear Regulators</description>
+      <footprints>
+        <fp>TO220-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP3853</field>
+        <field name="Voltage">V</field>
+        <field name="Current">3A</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">LP3853ET-vvv/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~SD~" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="~ERROR~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="LTC2990">
+      <description>Quad I2C Voltage, Current and Temperature Monitor</description>
+      <footprints>
+        <fp>MSOP-10*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC2990</field>
+        <field name="Manufacturer">Linear Technology</field>
+        <field name="PartNum">LTC2990CMS#PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V1" type="passive"/>
+        <pin num="2" name="V2" type="passive"/>
+        <pin num="3" name="V3" type="passive"/>
+        <pin num="4" name="V4" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SDA" type="BiDi"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="ADR0" type="input"/>
+        <pin num="9" name="ADR1" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="MIC5225">
+      <description>Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5225</field>
+        <field name="Voltage">V</field>
+        <field name="Current">0.15A</field>
+        <field name="Manufacturer">Micrel</field>
+        <field name="PartNum">MIC5225-vvvYM5-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC/ADJ" type="passive"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="Microzed">
+      <description>Microzed Mechanical Mounting Holes</description>
+      <footprints>
+        <fp>Microzed_RevF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Microzed</field>
+        <field name="Manufacturer">Avnet</field>
+        <field name="PartNum">AES-Z7MB-7Z010-G</field>
+      </fields>
+    </libpart>
+    <libpart lib="local" part="NC7SZ125">
+      <description>TinyLogic® UHS Buffer with Three-State Output</description>
+      <footprints>
+        <fp>SOT23-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NC7SZ125</field>
+        <field name="Manufacturer">Fairchild Semiconductor</field>
+        <field name="PartNum">NC7SZ125M5X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="3state"/>
+        <pin num="5" name="VCC" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="local" part="PA6H">
@@ -1985,214 +2377,35 @@
         <pin num="20" name="NC" type="NotConnected"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="CX210">
-      <description>OCXO Stratum 3E High Stability</description>
-      <footprints>
-        <fp>CX210*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">CX210</field>
-        <field name="Frequency">10.0MHz</field>
-        <field name="Manufacturer">Connor Winfield</field>
-        <field name="PartNum">OH300-50503CV-010.0M</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VC" type="input"/>
-        <pin num="2" name="NC" type="NotConnected"/>
-        <pin num="3" name="VCC" type="power_in"/>
-        <pin num="4" name="RF" type="output"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="74LVC541">
-      <description>8bits Buffer/Line Driver 3 state Out</description>
+    <libpart lib="local" part="PCA9306">
+      <description>Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator</description>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">74LVC541</field>
+        <field name="Value">PCA9306</field>
         <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">SN74LVC541APWR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G1" type="input"/>
-        <pin num="2" name="A0" type="input"/>
-        <pin num="3" name="A1" type="input"/>
-        <pin num="4" name="A2" type="input"/>
-        <pin num="5" name="A3" type="input"/>
-        <pin num="6" name="A4" type="input"/>
-        <pin num="7" name="A5" type="input"/>
-        <pin num="8" name="A6" type="input"/>
-        <pin num="9" name="A7" type="input"/>
-        <pin num="10" name="GND" type="power_in"/>
-        <pin num="11" name="Y7" type="3state"/>
-        <pin num="12" name="Y6" type="3state"/>
-        <pin num="13" name="Y5" type="3state"/>
-        <pin num="14" name="Y4" type="3state"/>
-        <pin num="15" name="Y3" type="3state"/>
-        <pin num="16" name="Y2" type="3state"/>
-        <pin num="17" name="Y1" type="3state"/>
-        <pin num="18" name="Y0" type="3state"/>
-        <pin num="19" name="G2" type="input"/>
-        <pin num="20" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Jumper_NO_Small">
-      <description>Jumper normally open</description>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_NO_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="L">
-      <description>Inductor</description>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L</field>
-        <field name="Current">A</field>
-        <field name="Manufacturer">Co</field>
-        <field name="PartNum">PN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LTC2990">
-      <description>Quad I2C Voltage, Current and Temperature Monitor</description>
-      <footprints>
-        <fp>MSOP-10*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LTC2990</field>
-        <field name="Manufacturer">Linear Technology</field>
-        <field name="PartNum">LTC2990CMS#PBF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="V1" type="passive"/>
-        <pin num="2" name="V2" type="passive"/>
-        <pin num="3" name="V3" type="passive"/>
-        <pin num="4" name="V4" type="passive"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SDA" type="BiDi"/>
-        <pin num="7" name="SCL" type="input"/>
-        <pin num="8" name="ADR0" type="input"/>
-        <pin num="9" name="ADR1" type="input"/>
-        <pin num="10" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="CONN_FAN_PWM">
-      <description>PWM Fan Connector 4-pin</description>
-      <footprints>
-        <fp>CONN_47053*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_FAN_PWM</field>
-        <field name="Manufacturer">Molex</field>
-        <field name="PartNum">47053-1000</field>
+        <field name="PartNum">PCA9306DCTR</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="+12V" type="power_in"/>
-        <pin num="3" name="TACH" type="output"/>
-        <pin num="4" name="PWM" type="input"/>
+        <pin num="2" name="VREF1" type="power_in"/>
+        <pin num="3" name="SCL1" type="input"/>
+        <pin num="4" name="SDA1" type="BiDi"/>
+        <pin num="5" name="SDA2" type="BiDi"/>
+        <pin num="6" name="SCL2" type="output"/>
+        <pin num="7" name="VREF2" type="power_in"/>
+        <pin num="8" name="EN" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
       <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="LP3853">
-      <description>3A Ultra Low Dropout Linear Regulators</description>
-      <footprints>
-        <fp>TO220-5*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LP3853</field>
-        <field name="Voltage">V</field>
-        <field name="Current">3A</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">LP3853ET-vvv/NOPB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~SD~" type="input"/>
-        <pin num="2" name="VIN" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="VOUT" type="power_out"/>
-        <pin num="5" name="~ERROR~" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="BNC">
-      <footprints>
-        <fp>BNC_*</fp>
-        <fp>bnc</fp>
-        <fp>bnc-*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">BNC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="In" type="passive"/>
-        <pin num="2" name="Ext" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="ADT7410">
-      <description>±0.5 deg C 16-bit Digital I2C Temperature Sensor</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ADT7410</field>
-        <field name="Manufacturer">Analog Devices</field>
-        <field name="PartNum">ADT7410TRZ</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SCL" type="input"/>
-        <pin num="2" name="SDA" type="BiDi"/>
-        <pin num="3" name="A0" type="input"/>
-        <pin num="4" name="A1" type="input"/>
-        <pin num="5" name="~INT~" type="openCol"/>
-        <pin num="6" name="~CT~" type="openCol"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="8" name="VDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <footprints>
-        <fp>Pin_Header_Straight_1X03</fp>
-        <fp>Pin_Header_Angled_1X03</fp>
-        <fp>Socket_Strip_Straight_1X03</fp>
-        <fp>Socket_Strip_Angled_1X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="local" part="R_CSM2512">
@@ -2216,72 +2429,39 @@
         <pin num="~" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="PCA9306">
-      <description>Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">PCA9306</field>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">PCA9306DCTR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VREF1" type="power_in"/>
-        <pin num="3" name="SCL1" type="input"/>
-        <pin num="4" name="SDA1" type="BiDi"/>
-        <pin num="5" name="SDA2" type="BiDi"/>
-        <pin num="6" name="SCL2" type="output"/>
-        <pin num="7" name="VREF2" type="power_in"/>
-        <pin num="8" name="EN" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="CONN_02X08_MTG">
-      <description>Connector 2x8 with mounting pad</description>
+    <libpart lib="local" part="R_local">
+      <description>Resistor</description>
       <footprints>
-        <fp>Pin_Header_Straight_2X08</fp>
-        <fp>Pin_Header_Angled_2X08</fp>
-        <fp>Socket_Strip_Straight_2X08</fp>
-        <fp>Socket_Strip_Angled_2X08</fp>
-        <fp>XG4A-*</fp>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X08_MTG</field>
+        <field name="Reference">R</field>
+        <field name="Value">R_local</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Co</field>
+        <field name="PartNum">CRCW0805vvvvFKEA</field>
       </fields>
       <pins>
-        <pin num="0" name="~" type="passive"/>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-        <pin num="15" name="P15" type="passive"/>
-        <pin num="16" name="P16" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="ZENER">
-      <description>Diode zener</description>
+    <libpart lib="local" part="TO220_heatsink">
+      <description>T0-220 Vertical Heatsink</description>
       <footprints>
-        <fp>D?</fp>
-        <fp>SO*</fp>
-        <fp>SM*</fp>
+        <fp>Heatsink*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">ZENER</field>
+        <field name="Reference">HS</field>
+        <field name="Value">TO220_heatsink</field>
+        <field name="Manufacturer">Aavid</field>
+        <field name="PartNum">581002B02500G</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="local" part="TPS56428">
@@ -2307,473 +2487,328 @@
         <pin num="9" name="PwPd" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Q_NPN_BEC">
-      <description>Transistor NPN (general)</description>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Q_NPN_BEC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="FILTER">
-      <description>Filtre EMI</description>
-      <fields>
-        <field name="Reference">FB</field>
-        <field name="Value">FILTER</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="R_local">
-      <description>Resistor</description>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
       <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
       </footprints>
       <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_local</field>
-        <field name="Tolerance">1%</field>
-        <field name="Power">0.125W</field>
-        <field name="Manufacturer">Co</field>
-        <field name="PartNum">CRCW0805vvvvFKEA</field>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="MIC5225">
-      <description>Ultra-Low Quiescent Current 150mA μCap Low Dropout Regulator</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MIC5225</field>
-        <field name="Voltage">V</field>
-        <field name="Current">0.15A</field>
-        <field name="Manufacturer">Micrel</field>
-        <field name="PartNum">MIC5225-vvvYM5-TR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="NC/ADJ" type="passive"/>
-        <pin num="5" name="OUT" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Battery">
-      <fields>
-        <field name="Reference">BT</field>
-        <field name="Value">Battery</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="DS3231">
-      <description>I2C-Integrated RTC/TCXO/Crystal</description>
-      <footprints>
-        <fp>SOIC-16*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">DS3231</field>
-        <field name="Manufacturer">Maxim Integrated</field>
-        <field name="PartNum">DS3231S#</field>
-      </fields>
-      <pins>
-        <pin num="1" name="32KHZ" type="openCol"/>
-        <pin num="2" name="VCC" type="power_in"/>
-        <pin num="3" name="~INT~/SQW" type="openCol"/>
-        <pin num="4" name="~RST~" type="input"/>
-        <pin num="5" name="NC" type="NotConnected"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="NC" type="NotConnected"/>
-        <pin num="8" name="NC" type="NotConnected"/>
-        <pin num="9" name="NC" type="NotConnected"/>
-        <pin num="10" name="NC" type="NotConnected"/>
-        <pin num="11" name="NC" type="NotConnected"/>
-        <pin num="12" name="NC" type="NotConnected"/>
-        <pin num="13" name="GND" type="power_in"/>
-        <pin num="14" name="VBAT" type="power_in"/>
-        <pin num="15" name="SDA" type="BiDi"/>
-        <pin num="16" name="SCL" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="CX210_Cover">
-      <description>CX210 OCXO Cover</description>
-      <footprints>
-        <fp>CX210_Cover*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">A</field>
-        <field name="Value">CX210_Cover</field>
-        <field name="Manufacturer">Custom</field>
-        <field name="PartNum">PN</field>
-      </fields>
-    </libpart>
-    <libpart lib="local" part="Adafruit746">
-      <description>Adafruit Ultimate GPS Breakout 66 channel w/10 Hz updates</description>
-      <footprints>
-        <fp>Adafruit746*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">Adafruit746</field>
-        <field name="Manufacturer">Adafruit</field>
-        <field name="PartNum">Adafruit746</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1PPS" type="output"/>
-        <pin num="2" name="VIN" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="RX_5V" type="input"/>
-        <pin num="5" name="TX" type="output"/>
-        <pin num="6" name="FIX" type="output"/>
-        <pin num="7" name="VBACKUP" type="power_in"/>
-        <pin num="8" name="ENABLE" type="input"/>
-        <pin num="9" name="3.3V" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="Microzed">
-      <description>Microzed Mechanical Mounting Holes</description>
-      <footprints>
-        <fp>Microzed_RevF*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">A</field>
-        <field name="Value">Microzed</field>
-        <field name="Manufacturer">Avnet</field>
-        <field name="PartNum">AES-Z7MB-7Z010-G</field>
-      </fields>
-    </libpart>
-    <libpart lib="local" part="TO220_heatsink">
-      <description>T0-220 Vertical Heatsink</description>
-      <footprints>
-        <fp>Heatsink*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">HS</field>
-        <field name="Value">TO220_heatsink</field>
-        <field name="Manufacturer">Aavid</field>
-        <field name="PartNum">581002B02500G</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
+    </library>
     <library logical="local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
     <library logical="conn">
-      <uri>/home/cae/src/kicad/install.6188/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/home/cae/src/kicad/install.6188/share/kicad/library/device.lib</uri>
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="VIN">
+      <node ref="R507" pin="1"/>
+      <node ref="PX1" pin="57"/>
+      <node ref="PX1" pin="59"/>
+      <node ref="C522" pin="1"/>
+      <node ref="C519" pin="1"/>
       <node ref="R513" pin="1"/>
+      <node ref="PX1" pin="58"/>
+      <node ref="C516" pin="1"/>
+      <node ref="L501" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="R211" pin="1"/>
+      <node ref="R207" pin="1"/>
       <node ref="R212" pin="2"/>
-      <node ref="PX2" pin="58"/>
-      <node ref="PX2" pin="60"/>
-      <node ref="PX2" pin="12"/>
+      <node ref="PX2" pin="59"/>
       <node ref="C208" pin="1"/>
       <node ref="C204" pin="1"/>
-      <node ref="L501" pin="2"/>
-      <node ref="C301" pin="1"/>
-      <node ref="U302" pin="1"/>
-      <node ref="U301" pin="2"/>
+      <node ref="PX2" pin="57"/>
       <node ref="PX1" pin="60"/>
-      <node ref="R507" pin="1"/>
-      <node ref="C522" pin="1"/>
-      <node ref="PX1" pin="59"/>
-      <node ref="C519" pin="1"/>
-      <node ref="PX1" pin="58"/>
-      <node ref="PX2" pin="59"/>
+      <node ref="PX2" pin="58"/>
       <node ref="U201" pin="7"/>
       <node ref="U204" pin="10"/>
+      <node ref="PX2" pin="12"/>
+      <node ref="PX2" pin="60"/>
       <node ref="R205" pin="1"/>
-      <node ref="C516" pin="1"/>
-      <node ref="R207" pin="1"/>
-      <node ref="R211" pin="1"/>
-      <node ref="PX2" pin="57"/>
-      <node ref="PX1" pin="57"/>
+      <node ref="C301" pin="1"/>
+      <node ref="U302" pin="1"/>
     </net>
     <net code="2" name="/microzed/~DAC_CS~">
       <node ref="U202" pin="4"/>
-      <node ref="PX2" pin="17"/>
+      <node ref="PX2" pin="73"/>
     </net>
     <net code="3" name="/ocxo/ENA">
       <node ref="R206" pin="1"/>
-      <node ref="U205" pin="1"/>
       <node ref="PX1" pin="48"/>
+      <node ref="U205" pin="1"/>
     </net>
     <net code="4" name="/DISP0">
-      <node ref="R402" pin="1"/>
       <node ref="P103" pin="3"/>
+      <node ref="R402" pin="1"/>
     </net>
     <net code="5" name="/power/+12V">
-      <node ref="JP501" pin="1"/>
-      <node ref="JP502" pin="1"/>
-      <node ref="C504" pin="1"/>
-      <node ref="C509" pin="1"/>
-      <node ref="U502" pin="8"/>
-      <node ref="U503" pin="8"/>
-      <node ref="C503" pin="1"/>
-      <node ref="C506" pin="1"/>
-      <node ref="P101" pin="1"/>
-      <node ref="R501" pin="1"/>
-      <node ref="C501" pin="1"/>
       <node ref="C507" pin="1"/>
-      <node ref="U501" pin="8"/>
+      <node ref="P101" pin="1"/>
+      <node ref="C506" pin="1"/>
+      <node ref="C503" pin="1"/>
+      <node ref="JP501" pin="1"/>
+      <node ref="U503" pin="8"/>
+      <node ref="JP502" pin="1"/>
+      <node ref="U502" pin="8"/>
+      <node ref="C505" pin="1"/>
       <node ref="C508" pin="1"/>
       <node ref="C502" pin="1"/>
-      <node ref="C505" pin="1"/>
+      <node ref="U501" pin="8"/>
       <node ref="P102" pin="2"/>
+      <node ref="C501" pin="1"/>
+      <node ref="R501" pin="1"/>
+      <node ref="C509" pin="1"/>
+      <node ref="C504" pin="1"/>
     </net>
     <net code="6" name="/rtctemp/BATTERY">
-      <node ref="U602" pin="14"/>
-      <node ref="BT601" pin="1"/>
       <node ref="U301" pin="7"/>
+      <node ref="BT601" pin="1"/>
       <node ref="U303" pin="4"/>
+      <node ref="U602" pin="14"/>
     </net>
     <net code="7" name="VCC">
-      <node ref="R202" pin="1"/>
-      <node ref="C219" pin="1"/>
-      <node ref="R201" pin="1"/>
-      <node ref="U207" pin="5"/>
+      <node ref="R407" pin="1"/>
       <node ref="C202" pin="1"/>
-      <node ref="R206" pin="2"/>
-      <node ref="U201" pin="2"/>
-      <node ref="C517" pin="1"/>
-      <node ref="R509" pin="1"/>
+      <node ref="R605" pin="1"/>
+      <node ref="PX1" pin="78"/>
       <node ref="L502" pin="2"/>
+      <node ref="R603" pin="1"/>
+      <node ref="U602" pin="2"/>
+      <node ref="R604" pin="1"/>
       <node ref="R514" pin="1"/>
       <node ref="C523" pin="1"/>
       <node ref="C520" pin="1"/>
-      <node ref="PX2" pin="79"/>
-      <node ref="PX2" pin="78"/>
-      <node ref="PX2" pin="98"/>
-      <node ref="PX2" pin="80"/>
-      <node ref="R301" pin="1"/>
-      <node ref="C602" pin="1"/>
-      <node ref="P103" pin="13"/>
-      <node ref="PX1" pin="80"/>
-      <node ref="C603" pin="1"/>
-      <node ref="U401" pin="20"/>
-      <node ref="PX1" pin="79"/>
-      <node ref="PX1" pin="78"/>
-      <node ref="R607" pin="1"/>
-      <node ref="R604" pin="1"/>
       <node ref="U603" pin="8"/>
-      <node ref="U602" pin="2"/>
-      <node ref="R605" pin="1"/>
+      <node ref="PX1" pin="80"/>
+      <node ref="C401" pin="1"/>
+      <node ref="C517" pin="1"/>
+      <node ref="R509" pin="1"/>
+      <node ref="R206" pin="2"/>
+      <node ref="C602" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="U207" pin="5"/>
+      <node ref="P103" pin="13"/>
+      <node ref="U601" pin="8"/>
       <node ref="R606" pin="1"/>
       <node ref="C601" pin="1"/>
-      <node ref="U601" pin="8"/>
-      <node ref="R603" pin="1"/>
-      <node ref="C401" pin="1"/>
-      <node ref="R407" pin="1"/>
+      <node ref="C219" pin="1"/>
+      <node ref="R202" pin="1"/>
+      <node ref="C603" pin="1"/>
+      <node ref="P401" pin="1"/>
+      <node ref="U401" pin="20"/>
+      <node ref="PX1" pin="79"/>
+      <node ref="PX2" pin="78"/>
+      <node ref="U201" pin="2"/>
+      <node ref="PX2" pin="98"/>
+      <node ref="PX2" pin="80"/>
+      <node ref="PX2" pin="79"/>
+      <node ref="R607" pin="1"/>
+      <node ref="R301" pin="1"/>
     </net>
     <net code="8" name="/DISP1">
-      <node ref="R403" pin="1"/>
       <node ref="P103" pin="5"/>
+      <node ref="R403" pin="1"/>
     </net>
     <net code="9" name="/microzed/~CARRIER_SRST~">
       <node ref="P103" pin="1"/>
       <node ref="PX1" pin="6"/>
     </net>
     <net code="10" name="/power/+3.0V">
-      <node ref="R511" pin="1"/>
-      <node ref="C518" pin="1"/>
-      <node ref="L503" pin="2"/>
-      <node ref="C521" pin="1"/>
-      <node ref="R515" pin="1"/>
       <node ref="P103" pin="15"/>
+      <node ref="C518" pin="1"/>
+      <node ref="R511" pin="1"/>
+      <node ref="R515" pin="1"/>
+      <node ref="L503" pin="2"/>
       <node ref="C524" pin="1"/>
+      <node ref="C521" pin="1"/>
     </net>
     <net code="11" name="GND">
-      <node ref="C601" pin="2"/>
-      <node ref="C211" pin="2"/>
-      <node ref="C215" pin="2"/>
-      <node ref="C603" pin="2"/>
-      <node ref="C219" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="U302" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="R602" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="U401" pin="19"/>
+      <node ref="U601" pin="7"/>
+      <node ref="U303" pin="12"/>
+      <node ref="U303" pin="19"/>
+      <node ref="U301" pin="3"/>
+      <node ref="P103" pin="10"/>
+      <node ref="R608" pin="2"/>
+      <node ref="PX2" pin="21"/>
+      <node ref="U201" pin="1"/>
+      <node ref="C519" pin="2"/>
+      <node ref="C522" pin="2"/>
+      <node ref="U203" pin="4"/>
+      <node ref="PX2" pin="51"/>
+      <node ref="U202" pin="7"/>
+      <node ref="PX2" pin="71"/>
+      <node ref="PX2" pin="91"/>
+      <node ref="U401" pin="1"/>
+      <node ref="PX2" pin="22"/>
+      <node ref="U202" pin="2"/>
+      <node ref="U204" pin="5"/>
+      <node ref="U603" pin="7"/>
+      <node ref="C501" pin="2"/>
+      <node ref="PX2" pin="52"/>
+      <node ref="C504" pin="2"/>
       <node ref="D401" pin="2"/>
-      <node ref="U303" pin="3"/>
+      <node ref="U204" pin="8"/>
+      <node ref="C513" pin="2"/>
+      <node ref="U205" pin="3"/>
+      <node ref="R204" pin="2"/>
+      <node ref="P103" pin="16"/>
+      <node ref="U401" pin="10"/>
+      <node ref="P103" pin="14"/>
+      <node ref="P401" pin="2"/>
+      <node ref="P103" pin="12"/>
+      <node ref="P103" pin="8"/>
+      <node ref="P103" pin="6"/>
+      <node ref="P103" pin="4"/>
+      <node ref="P103" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="U204" pin="9"/>
+      <node ref="C213" pin="2"/>
+      <node ref="C207" pin="2"/>
+      <node ref="PX2" pin="72"/>
+      <node ref="C203" pin="2"/>
+      <node ref="PX2" pin="92"/>
+      <node ref="C201" pin="2"/>
+      <node ref="P103" pin="0"/>
+      <node ref="PX2" pin="40"/>
+      <node ref="C218" pin="2"/>
+      <node ref="C216" pin="2"/>
+      <node ref="C214" pin="2"/>
+      <node ref="Y202" pin="7"/>
+      <node ref="C219" pin="2"/>
+      <node ref="C601" pin="2"/>
+      <node ref="C603" pin="2"/>
+      <node ref="C211" pin="2"/>
       <node ref="HS201" pin="2"/>
       <node ref="HS201" pin="1"/>
       <node ref="U207" pin="3"/>
-      <node ref="BT601" pin="2"/>
-      <node ref="U603" pin="7"/>
-      <node ref="U602" pin="13"/>
-      <node ref="U601" pin="7"/>
-      <node ref="Y202" pin="7"/>
-      <node ref="PX1" pin="52"/>
-      <node ref="PX1" pin="72"/>
-      <node ref="PX1" pin="33"/>
-      <node ref="PX1" pin="40"/>
-      <node ref="PX1" pin="85"/>
-      <node ref="PX2" pin="66"/>
-      <node ref="PX2" pin="46"/>
-      <node ref="PX2" pin="16"/>
-      <node ref="PX2" pin="65"/>
-      <node ref="PX2" pin="45"/>
-      <node ref="PX2" pin="15"/>
-      <node ref="PX1" pin="95"/>
-      <node ref="PX1" pin="27"/>
-      <node ref="PX1" pin="66"/>
-      <node ref="PX1" pin="86"/>
-      <node ref="PX1" pin="96"/>
-      <node ref="PX1" pin="34"/>
-      <node ref="PX1" pin="77"/>
-      <node ref="PX1" pin="28"/>
-      <node ref="PX1" pin="15"/>
-      <node ref="PX1" pin="22"/>
-      <node ref="PX1" pin="21"/>
-      <node ref="PX2" pin="86"/>
-      <node ref="PX1" pin="51"/>
-      <node ref="PX1" pin="71"/>
-      <node ref="U302" pin="2"/>
-      <node ref="C301" pin="2"/>
-      <node ref="C303" pin="2"/>
-      <node ref="C302" pin="2"/>
-      <node ref="PX2" pin="28"/>
-      <node ref="PX2" pin="40"/>
-      <node ref="PX2" pin="52"/>
+      <node ref="C215" pin="2"/>
       <node ref="C602" pin="2"/>
-      <node ref="P301" pin="2"/>
-      <node ref="PX2" pin="22"/>
-      <node ref="U303" pin="8"/>
-      <node ref="PX1" pin="65"/>
-      <node ref="U301" pin="3"/>
-      <node ref="U303" pin="19"/>
-      <node ref="U303" pin="12"/>
       <node ref="R601" pin="2"/>
-      <node ref="U401" pin="19"/>
-      <node ref="PX1" pin="46"/>
-      <node ref="PX1" pin="39"/>
-      <node ref="U401" pin="10"/>
-      <node ref="PX2" pin="77"/>
-      <node ref="PX1" pin="16"/>
-      <node ref="PX2" pin="27"/>
-      <node ref="U401" pin="1"/>
-      <node ref="PX2" pin="39"/>
-      <node ref="PX2" pin="34"/>
-      <node ref="PX2" pin="33"/>
-      <node ref="PX2" pin="92"/>
-      <node ref="PX2" pin="85"/>
-      <node ref="R608" pin="2"/>
-      <node ref="PX2" pin="91"/>
-      <node ref="PX2" pin="71"/>
-      <node ref="PX2" pin="51"/>
-      <node ref="PX2" pin="21"/>
-      <node ref="C401" pin="2"/>
-      <node ref="PX1" pin="45"/>
-      <node ref="R602" pin="2"/>
-      <node ref="PX2" pin="72"/>
-      <node ref="P103" pin="12"/>
-      <node ref="U503" pin="9"/>
-      <node ref="P103" pin="10"/>
-      <node ref="U502" pin="5"/>
-      <node ref="C212" pin="2"/>
-      <node ref="C202" pin="2"/>
-      <node ref="P103" pin="8"/>
-      <node ref="P103" pin="6"/>
-      <node ref="C208" pin="2"/>
-      <node ref="C501" pin="2"/>
-      <node ref="C504" pin="2"/>
-      <node ref="C513" pin="2"/>
-      <node ref="C519" pin="2"/>
-      <node ref="C522" pin="2"/>
-      <node ref="R510" pin="2"/>
-      <node ref="R508" pin="2"/>
-      <node ref="P103" pin="16"/>
-      <node ref="P103" pin="14"/>
-      <node ref="P103" pin="0"/>
-      <node ref="C503" pin="2"/>
-      <node ref="C506" pin="2"/>
-      <node ref="C204" pin="2"/>
-      <node ref="P103" pin="4"/>
+      <node ref="U303" pin="8"/>
+      <node ref="BT601" pin="2"/>
+      <node ref="P103" pin="11"/>
       <node ref="P101" pin="2"/>
-      <node ref="P103" pin="2"/>
-      <node ref="R213" pin="2"/>
-      <node ref="C205" pin="2"/>
-      <node ref="C201" pin="2"/>
-      <node ref="C203" pin="2"/>
-      <node ref="C207" pin="2"/>
-      <node ref="C213" pin="2"/>
-      <node ref="U204" pin="9"/>
-      <node ref="C218" pin="2"/>
-      <node ref="C507" pin="2"/>
-      <node ref="U202" pin="2"/>
+      <node ref="P102" pin="1"/>
+      <node ref="U303" pin="3"/>
+      <node ref="P301" pin="2"/>
+      <node ref="PX1" pin="95"/>
+      <node ref="PX1" pin="96"/>
+      <node ref="PX1" pin="86"/>
+      <node ref="PX1" pin="66"/>
+      <node ref="PX1" pin="46"/>
+      <node ref="PX1" pin="16"/>
+      <node ref="PX1" pin="27"/>
+      <node ref="PX1" pin="85"/>
+      <node ref="PX1" pin="65"/>
+      <node ref="PX1" pin="45"/>
+      <node ref="PX1" pin="39"/>
+      <node ref="PX1" pin="15"/>
+      <node ref="C506" pin="2"/>
       <node ref="C523" pin="2"/>
+      <node ref="U602" pin="13"/>
       <node ref="C520" pin="2"/>
-      <node ref="U502" pin="9"/>
-      <node ref="U202" pin="7"/>
-      <node ref="U203" pin="4"/>
+      <node ref="U502" pin="5"/>
+      <node ref="R510" pin="2"/>
       <node ref="U503" pin="5"/>
+      <node ref="R508" pin="2"/>
+      <node ref="U503" pin="9"/>
+      <node ref="U502" pin="9"/>
+      <node ref="C503" pin="2"/>
+      <node ref="C401" pin="2"/>
       <node ref="C509" pin="2"/>
       <node ref="C524" pin="2"/>
-      <node ref="P103" pin="11"/>
       <node ref="C521" pin="2"/>
       <node ref="C515" pin="2"/>
-      <node ref="P102" pin="1"/>
-      <node ref="R204" pin="2"/>
-      <node ref="U205" pin="3"/>
       <node ref="R512" pin="2"/>
-      <node ref="C214" pin="2"/>
-      <node ref="C216" pin="2"/>
-      <node ref="U204" pin="8"/>
-      <node ref="U501" pin="9"/>
+      <node ref="C204" pin="2"/>
+      <node ref="PX1" pin="52"/>
+      <node ref="C202" pin="2"/>
+      <node ref="PX1" pin="22"/>
+      <node ref="C212" pin="2"/>
+      <node ref="R213" pin="2"/>
+      <node ref="PX2" pin="28"/>
+      <node ref="PX2" pin="15"/>
+      <node ref="PX2" pin="34"/>
+      <node ref="PX1" pin="51"/>
+      <node ref="PX1" pin="21"/>
+      <node ref="PX1" pin="40"/>
       <node ref="C514" pin="2"/>
+      <node ref="PX1" pin="34"/>
+      <node ref="PX2" pin="77"/>
+      <node ref="PX2" pin="45"/>
+      <node ref="PX1" pin="33"/>
+      <node ref="PX2" pin="39"/>
+      <node ref="C208" pin="2"/>
+      <node ref="C507" pin="2"/>
+      <node ref="PX2" pin="85"/>
+      <node ref="PX2" pin="65"/>
+      <node ref="PX2" pin="16"/>
+      <node ref="PX2" pin="66"/>
+      <node ref="PX2" pin="86"/>
+      <node ref="PX2" pin="27"/>
+      <node ref="PX2" pin="46"/>
+      <node ref="PX2" pin="33"/>
+      <node ref="PX1" pin="71"/>
+      <node ref="PX1" pin="72"/>
+      <node ref="PX1" pin="28"/>
+      <node ref="PX1" pin="77"/>
       <node ref="U501" pin="5"/>
-      <node ref="C502" pin="2"/>
-      <node ref="C505" pin="2"/>
-      <node ref="U204" pin="5"/>
       <node ref="C508" pin="2"/>
-      <node ref="U201" pin="1"/>
+      <node ref="C505" pin="2"/>
+      <node ref="U501" pin="9"/>
+      <node ref="C502" pin="2"/>
     </net>
     <net code="12" name="/gps/1PPS">
-      <node ref="U303" pin="13"/>
-      <node ref="PX2" pin="37"/>
+      <node ref="PX2" pin="69"/>
       <node ref="U301" pin="1"/>
+      <node ref="U303" pin="13"/>
     </net>
     <net code="13" name="/power/+3.0V_PG">
-      <node ref="U503" pin="4"/>
       <node ref="PX2" pin="11"/>
-      <node ref="R515" pin="2"/>
       <node ref="U502" pin="4"/>
+      <node ref="U503" pin="4"/>
       <node ref="R514" pin="2"/>
+      <node ref="R515" pin="2"/>
     </net>
     <net code="14" name="/DISP2">
       <node ref="P103" pin="7"/>
       <node ref="R404" pin="1"/>
     </net>
     <net code="15" name="/microzed/FAN_TACH">
-      <node ref="P102" pin="3"/>
       <node ref="R401" pin="1"/>
+      <node ref="P102" pin="3"/>
       <node ref="R407" pin="2"/>
     </net>
     <net code="16" name="/microzed/OCXO_SDA">
       <node ref="R201" pin="2"/>
-      <node ref="PX2" pin="69"/>
+      <node ref="PX1" pin="74"/>
       <node ref="U201" pin="4"/>
     </net>
     <net code="17" name="/microzed/RTC_SCL">
-      <node ref="PX1" pin="82"/>
       <node ref="U602" pin="16"/>
+      <node ref="PX1" pin="82"/>
       <node ref="R604" pin="2"/>
     </net>
     <net code="18" name="/microzed/RTC_SDA">
@@ -2782,29 +2817,29 @@
       <node ref="U602" pin="15"/>
     </net>
     <net code="19" name="/microzed/+5V_PG">
-      <node ref="PX1" pin="5"/>
-      <node ref="R513" pin="2"/>
       <node ref="U501" pin="4"/>
+      <node ref="R513" pin="2"/>
       <node ref="D101" pin="1"/>
+      <node ref="PX1" pin="5"/>
     </net>
     <net code="20" name="/microzed/TEMP_SCL">
+      <node ref="U601" pin="1"/>
       <node ref="U603" pin="1"/>
       <node ref="R605" pin="2"/>
-      <node ref="U601" pin="1"/>
       <node ref="PX1" pin="56"/>
     </net>
     <net code="21" name="/microzed/+1.8V_PG">
+      <node ref="D101" pin="2"/>
+      <node ref="R503" pin="2"/>
       <node ref="R506" pin="2"/>
+      <node ref="PX2" pin="10"/>
       <node ref="R505" pin="2"/>
       <node ref="R502" pin="2"/>
-      <node ref="D101" pin="2"/>
-      <node ref="PX2" pin="10"/>
-      <node ref="R503" pin="2"/>
     </net>
     <net code="22" name="/microzed/GPS_TX">
-      <node ref="U303" pin="9"/>
+      <node ref="PX2" pin="63"/>
       <node ref="U301" pin="5"/>
-      <node ref="PX2" pin="31"/>
+      <node ref="U303" pin="9"/>
     </net>
     <net code="23" name="/microzed/10MHZ">
       <node ref="PX1" pin="42"/>
@@ -2816,139 +2851,139 @@
     </net>
     <net code="25" name="/microzed/DAC_SCLK">
       <node ref="U202" pin="5"/>
-      <node ref="PX2" pin="19"/>
+      <node ref="PX2" pin="75"/>
     </net>
     <net code="26" name="/microzed/GPS_RX">
-      <node ref="PX2" pin="35"/>
-      <node ref="U303" pin="10"/>
       <node ref="U301" pin="4"/>
+      <node ref="PX2" pin="67"/>
+      <node ref="U303" pin="10"/>
     </net>
     <net code="27" name="/ocxo/DAC_SDI">
       <node ref="U202" pin="6"/>
-      <node ref="PX2" pin="23"/>
+      <node ref="PX2" pin="81"/>
     </net>
     <net code="28" name="/microzed/OCXO_SCL">
-      <node ref="U201" pin="3"/>
-      <node ref="PX2" pin="67"/>
+      <node ref="PX1" pin="76"/>
       <node ref="R202" pin="2"/>
+      <node ref="U201" pin="3"/>
     </net>
     <net code="30" name="/microzed/TEMP_SDA">
       <node ref="PX1" pin="54"/>
+      <node ref="R606" pin="2"/>
       <node ref="U601" pin="2"/>
       <node ref="U603" pin="2"/>
-      <node ref="R606" pin="2"/>
     </net>
     <net code="31" name="/microzed/FAN_PWM">
-      <node ref="R406" pin="1"/>
       <node ref="P102" pin="4"/>
+      <node ref="R406" pin="1"/>
     </net>
     <net code="33" name="/power/+5V_ENA">
       <node ref="R501" pin="2"/>
-      <node ref="R504" pin="2"/>
       <node ref="P101" pin="3"/>
+      <node ref="R504" pin="2"/>
     </net>
     <net code="34" name="/gps/3DFIX">
-      <node ref="U303" pin="5"/>
-      <node ref="PX2" pin="29"/>
       <node ref="U301" pin="6"/>
+      <node ref="U303" pin="5"/>
+      <node ref="PX2" pin="61"/>
     </net>
     <net code="35" name="/gps/ENA">
-      <node ref="R301" pin="2"/>
       <node ref="PX2" pin="87"/>
+      <node ref="R301" pin="2"/>
       <node ref="U302" pin="3"/>
     </net>
     <net code="36" name="/power/Vreg5">
-      <node ref="C513" pin="1"/>
       <node ref="U501" pin="3"/>
+      <node ref="C513" pin="1"/>
     </net>
     <net code="37" name="/power/Vbst5">
       <node ref="U501" pin="7"/>
       <node ref="C510" pin="1"/>
     </net>
     <net code="38" name="/power/Vbst3.3">
-      <node ref="C511" pin="1"/>
       <node ref="U502" pin="7"/>
+      <node ref="C511" pin="1"/>
     </net>
     <net code="39" name="Net-(JP502-Pad2)">
       <node ref="JP502" pin="2"/>
       <node ref="R503" pin="1"/>
     </net>
     <net code="40" name="Net-(JP501-Pad2)">
-      <node ref="JP501" pin="2"/>
       <node ref="R502" pin="1"/>
+      <node ref="JP501" pin="2"/>
     </net>
     <net code="41" name="/power/Vbst3.0">
-      <node ref="U503" pin="7"/>
       <node ref="C512" pin="1"/>
+      <node ref="U503" pin="7"/>
     </net>
     <net code="42" name="/power/Vreg3.0">
       <node ref="U503" pin="3"/>
       <node ref="C515" pin="1"/>
     </net>
     <net code="43" name="/power/Vfb3.0">
-      <node ref="R512" pin="1"/>
-      <node ref="U503" pin="2"/>
-      <node ref="C518" pin="2"/>
       <node ref="R511" pin="2"/>
+      <node ref="R512" pin="1"/>
+      <node ref="C518" pin="2"/>
+      <node ref="U503" pin="2"/>
     </net>
     <net code="44" name="/power/ENA_R3.0">
-      <node ref="U503" pin="1"/>
       <node ref="R506" pin="1"/>
+      <node ref="U503" pin="1"/>
     </net>
     <net code="45" name="/power/ENA_R5">
-      <node ref="U501" pin="1"/>
       <node ref="R504" pin="1"/>
+      <node ref="U501" pin="1"/>
     </net>
     <net code="46" name="/power/SW5">
       <node ref="C510" pin="2"/>
-      <node ref="L501" pin="1"/>
       <node ref="U501" pin="6"/>
+      <node ref="L501" pin="1"/>
     </net>
     <net code="47" name="/power/Vfb5">
       <node ref="U501" pin="2"/>
       <node ref="R508" pin="1"/>
-      <node ref="C516" pin="2"/>
       <node ref="R507" pin="2"/>
+      <node ref="C516" pin="2"/>
     </net>
     <net code="48" name="/power/SW3.0">
       <node ref="C512" pin="2"/>
-      <node ref="U503" pin="6"/>
       <node ref="L503" pin="1"/>
+      <node ref="U503" pin="6"/>
     </net>
     <net code="49" name="/power/ENA_R3.3">
-      <node ref="R505" pin="1"/>
       <node ref="U502" pin="1"/>
+      <node ref="R505" pin="1"/>
     </net>
     <net code="50" name="/power/SW3.3">
+      <node ref="U502" pin="6"/>
       <node ref="C511" pin="2"/>
       <node ref="L502" pin="1"/>
-      <node ref="U502" pin="6"/>
     </net>
     <net code="51" name="/power/Vfb3.3">
       <node ref="U502" pin="2"/>
       <node ref="R510" pin="1"/>
-      <node ref="C517" pin="2"/>
       <node ref="R509" pin="2"/>
+      <node ref="C517" pin="2"/>
     </net>
     <net code="52" name="/power/Vreg3.3">
-      <node ref="C514" pin="1"/>
       <node ref="U502" pin="3"/>
+      <node ref="C514" pin="1"/>
     </net>
     <net code="53" name="VXO">
       <node ref="C216" pin="1"/>
-      <node ref="U203" pin="8"/>
-      <node ref="FB201" pin="1"/>
-      <node ref="R203" pin="1"/>
+      <node ref="U205" pin="4"/>
       <node ref="C218" pin="1"/>
       <node ref="C205" pin="1"/>
       <node ref="C201" pin="1"/>
+      <node ref="FB201" pin="1"/>
       <node ref="U202" pin="3"/>
-      <node ref="U205" pin="4"/>
       <node ref="U202" pin="8"/>
+      <node ref="U203" pin="8"/>
+      <node ref="R203" pin="1"/>
     </net>
-    <net code="54" name="Net-(R213-Pad1)">
-      <node ref="U207" pin="1"/>
+    <net code="54" name="/ocxo/BUF_ENA">
       <node ref="R213" pin="1"/>
+      <node ref="U207" pin="1"/>
     </net>
     <net code="55" name="/ocxo/LV_ENA">
       <node ref="U201" pin="8"/>
@@ -2958,14 +2993,14 @@
       <node ref="U205" pin="5"/>
     </net>
     <net code="57" name="Net-(R209-Pad2)">
-      <node ref="R209" pin="2"/>
       <node ref="R210" pin="1"/>
+      <node ref="R209" pin="2"/>
     </net>
     <net code="58" name="/ocxo/VIN_REG">
-      <node ref="R212" pin="1"/>
-      <node ref="C212" pin="1"/>
       <node ref="C214" pin="1"/>
+      <node ref="C212" pin="1"/>
       <node ref="U205" pin="2"/>
+      <node ref="R212" pin="1"/>
     </net>
     <net code="59" name="/ocxo/TSENSE_C">
       <node ref="Q201" pin="2"/>
@@ -2973,27 +3008,27 @@
       <node ref="U204" pin="4"/>
     </net>
     <net code="60" name="/ocxo/TSENSE_A">
+      <node ref="U204" pin="3"/>
+      <node ref="Q201" pin="1"/>
       <node ref="Q201" pin="3"/>
       <node ref="C210" pin="1"/>
-      <node ref="Q201" pin="1"/>
-      <node ref="U204" pin="3"/>
     </net>
     <net code="61" name="/ocxo/CSENSE-">
       <node ref="R212" pin="3"/>
       <node ref="U204" pin="2"/>
     </net>
     <net code="62" name="/ocxo/CSENSE+">
-      <node ref="U204" pin="1"/>
       <node ref="R212" pin="4"/>
+      <node ref="U204" pin="1"/>
     </net>
     <net code="63" name="/ocxo/SCL5">
-      <node ref="R207" pin="2"/>
       <node ref="U201" pin="6"/>
+      <node ref="R207" pin="2"/>
       <node ref="U204" pin="7"/>
     </net>
     <net code="64" name="/ocxo/SDA5">
-      <node ref="R211" pin="2"/>
       <node ref="U201" pin="5"/>
+      <node ref="R211" pin="2"/>
       <node ref="U204" pin="6"/>
     </net>
     <net code="65" name="/ocxo/VC">
@@ -3002,26 +3037,26 @@
       <node ref="Y202" pin="1"/>
     </net>
     <net code="66" name="/ocxo/DAC_OUT">
-      <node ref="R208" pin="1"/>
       <node ref="U202" pin="1"/>
+      <node ref="R208" pin="1"/>
     </net>
     <net code="67" name="/ocxo/DAC_OUT_DIV">
-      <node ref="R208" pin="2"/>
       <node ref="R209" pin="1"/>
-      <node ref="C206" pin="1"/>
       <node ref="U203" pin="5"/>
+      <node ref="C206" pin="1"/>
+      <node ref="R208" pin="2"/>
     </net>
     <net code="68" name="/ocxo/BUF_VGND_1.65V">
-      <node ref="R210" pin="2"/>
       <node ref="C206" pin="2"/>
-      <node ref="C207" pin="1"/>
       <node ref="U203" pin="2"/>
+      <node ref="R210" pin="2"/>
       <node ref="U203" pin="1"/>
+      <node ref="C207" pin="1"/>
     </net>
     <net code="69" name="/ocxo/VGND_1.65V">
       <node ref="R203" pin="2"/>
-      <node ref="U203" pin="3"/>
       <node ref="R204" pin="1"/>
+      <node ref="U203" pin="3"/>
       <node ref="C203" pin="1"/>
     </net>
     <net code="70" name="Net-(Y202-Pad6)">
@@ -3034,19 +3069,19 @@
       <node ref="Y202" pin="2"/>
     </net>
     <net code="73" name="/ocxo/FILT_VXO">
-      <node ref="Y202" pin="3"/>
-      <node ref="C215" pin="1"/>
       <node ref="C213" pin="1"/>
       <node ref="FB201" pin="2"/>
+      <node ref="Y202" pin="3"/>
+      <node ref="C215" pin="1"/>
     </net>
     <net code="74" name="/ocxo/OCXO_10M">
-      <node ref="U207" pin="2"/>
       <node ref="Y202" pin="4"/>
       <node ref="C211" pin="1"/>
+      <node ref="U207" pin="2"/>
     </net>
     <net code="75" name="/ocxo/BUF_10M">
-      <node ref="R214" pin="2"/>
       <node ref="U207" pin="4"/>
+      <node ref="R214" pin="2"/>
     </net>
     <net code="76" name="/gps/GPS_3.3V">
       <node ref="FB301" pin="1"/>
@@ -3068,8 +3103,8 @@
       <node ref="U303" pin="20"/>
     </net>
     <net code="82" name="/gps/~RESET~">
-      <node ref="U303" pin="2"/>
       <node ref="U301" pin="8"/>
+      <node ref="U303" pin="2"/>
     </net>
     <net code="83" name="/gps/GPS_ANT">
       <node ref="U303" pin="11"/>
@@ -3091,411 +3126,419 @@
       <node ref="U303" pin="15"/>
     </net>
     <net code="89" name="/gps/FILT_GPS_3.3V">
-      <node ref="U303" pin="1"/>
-      <node ref="C303" pin="1"/>
       <node ref="C302" pin="1"/>
+      <node ref="C303" pin="1"/>
+      <node ref="U303" pin="1"/>
       <node ref="FB301" pin="2"/>
     </net>
-    <net code="90" name="/microzed/PX2_LVDS_21_P">
-      <node ref="PX2" pin="82"/>
-    </net>
-    <net code="91" name="/microzed/PX2_LVDS_23_P">
-      <node ref="PX2" pin="88"/>
-    </net>
-    <net code="92" name="/microzed/PX1_LVDS_12_N">
-      <node ref="PX1" pin="49"/>
-    </net>
-    <net code="93" name="/microzed/PX1_LVDS_12_P">
-      <node ref="PX1" pin="47"/>
-    </net>
-    <net code="94" name="/microzed/PX2_LVDS_23_N">
-      <node ref="PX2" pin="90"/>
-    </net>
-    <net code="95" name="/microzed/PX2_LVDS_21_N">
-      <node ref="PX2" pin="84"/>
-    </net>
-    <net code="96" name="/microzed/PX2_LVDS_22_N">
-      <node ref="PX2" pin="89"/>
-    </net>
-    <net code="97" name="/microzed/PX2_LVDS_20_P">
-      <node ref="PX2" pin="81"/>
-    </net>
-    <net code="98" name="/microzed/JTAG_TMS">
-      <node ref="PX1" pin="2"/>
-    </net>
-    <net code="99" name="/microzed/JTAG_TDI">
-      <node ref="PX1" pin="4"/>
-    </net>
-    <net code="100" name="/microzed/JTAG_TCK">
+    <net code="90" name="/microzed/JTAG_TCK">
       <node ref="PX1" pin="1"/>
     </net>
-    <net code="101" name="/microzed/JTAG_TDO">
+    <net code="91" name="/microzed/JTAG_TDO">
       <node ref="PX1" pin="3"/>
     </net>
-    <net code="102" name="/microzed/FPGA_VBATT">
+    <net code="92" name="/microzed/JTAG_TDI">
+      <node ref="PX1" pin="4"/>
+    </net>
+    <net code="93" name="/microzed/JTAG_TMS">
+      <node ref="PX1" pin="2"/>
+    </net>
+    <net code="94" name="/microzed/FPGA_DONE">
+      <node ref="PX1" pin="8"/>
+    </net>
+    <net code="95" name="/microzed/FPGA_VBATT">
       <node ref="PX1" pin="7"/>
     </net>
-    <net code="103" name="/microzed/PX1_LVDS_0_N">
-      <node ref="PX1" pin="13"/>
-    </net>
-    <net code="104" name="/microzed/PX1_SE_0">
+    <net code="96" name="/microzed/PX1_SE_0">
       <node ref="PX1" pin="9"/>
     </net>
-    <net code="105" name="/microzed/PX1_LVDS_6_P">
+    <net code="97" name="/microzed/PX1_LVDS_6_P">
       <node ref="PX1" pin="29"/>
     </net>
-    <net code="106" name="/microzed/PX1_LVDS_6_N">
+    <net code="98" name="/microzed/PX1_LVDS_6_N">
       <node ref="PX1" pin="31"/>
     </net>
-    <net code="107" name="/microzed/PX1_LVDS_8_P">
+    <net code="99" name="/microzed/PX1_LVDS_8_P">
       <node ref="PX1" pin="35"/>
     </net>
-    <net code="108" name="/microzed/PX1_LVDS_10_N">
+    <net code="100" name="/microzed/PX1_LVDS_10_N">
       <node ref="PX1" pin="43"/>
     </net>
-    <net code="109" name="/microzed/PX1_LVDS_0_P">
+    <net code="101" name="/microzed/PX1_LVDS_0_P">
       <node ref="PX1" pin="11"/>
+    </net>
+    <net code="102" name="/microzed/PX1_LVDS_13_N">
+      <node ref="PX1" pin="50"/>
+    </net>
+    <net code="103" name="/microzed/PX1_LVDS_11_N">
+      <node ref="PX1" pin="44"/>
+    </net>
+    <net code="104" name="/microzed/PX1_LVDS_9_P">
+      <node ref="PX1" pin="36"/>
+    </net>
+    <net code="105" name="/microzed/PX1_LVDS_7_P">
+      <node ref="PX1" pin="30"/>
+      <node ref="U401" pin="3"/>
+    </net>
+    <net code="106" name="/microzed/PX1_SE_1">
+      <node ref="PX1" pin="10"/>
+    </net>
+    <net code="107" name="/microzed/PX2_LVDS_19_P">
+      <node ref="PX2" pin="74"/>
+    </net>
+    <net code="108" name="/microzed/PX2_LVDS_19_N">
+      <node ref="PX2" pin="76"/>
+    </net>
+    <net code="109" name="/microzed/PX2_LVDS_17_N">
+      <node ref="PX2" pin="70"/>
     </net>
     <net code="110" name="/microzed/PX2_LVDS_12_P">
       <node ref="PX2" pin="53"/>
     </net>
-    <net code="111" name="/microzed/PX2_LVDS_12_N">
-      <node ref="PX2" pin="55"/>
+    <net code="111" name="/microzed/PX1_LVDS_12_P">
+      <node ref="PX1" pin="47"/>
     </net>
-    <net code="112" name="/microzed/PX2_LVDS_10_P">
-      <node ref="PX2" pin="47"/>
+    <net code="112" name="/microzed/PX1_LVDS_12_N">
+      <node ref="PX1" pin="49"/>
     </net>
-    <net code="113" name="/microzed/PX2_LVDS_10_N">
-      <node ref="PX2" pin="49"/>
+    <net code="113" name="/microzed/PX2_LVDS_21_P">
+      <node ref="PX2" pin="82"/>
     </net>
-    <net code="114" name="/microzed/PX2_LVDS_8_P">
-      <node ref="PX2" pin="41"/>
+    <net code="114" name="/microzed/PX2_LVDS_23_P">
+      <node ref="PX2" pin="88"/>
     </net>
-    <net code="115" name="/microzed/PX2_LVDS_8_N">
-      <node ref="PX2" pin="43"/>
+    <net code="115" name="/microzed/PX2_LVDS_23_N">
+      <node ref="PX2" pin="90"/>
     </net>
-    <net code="116" name="/microzed/PX2_LVDS_18_P">
-      <node ref="PX2" pin="73"/>
+    <net code="116" name="/microzed/PX1_LVDS_0_N">
+      <node ref="PX1" pin="13"/>
     </net>
-    <net code="117" name="/microzed/PX2_LVDS_18_N">
-      <node ref="PX2" pin="75"/>
+    <net code="117" name="/microzed/PX2_LVDS_21_N">
+      <node ref="PX2" pin="84"/>
     </net>
-    <net code="118" name="/microzed/PX2_LVDS_19_P">
-      <node ref="PX2" pin="74"/>
+    <net code="118" name="/microzed/PX2_LVDS_22_N">
+      <node ref="PX2" pin="89"/>
     </net>
     <net code="119" name="/microzed/PX2_LVDS_20_N">
       <node ref="PX2" pin="83"/>
     </net>
-    <net code="120" name="/microzed/PX2_LVDS_19_N">
-      <node ref="PX2" pin="76"/>
-    </net>
-    <net code="121" name="/microzed/PX2_LVDS_17_N">
-      <node ref="PX2" pin="70"/>
-    </net>
-    <net code="122" name="/microzed/PX2_LVDS_14_P">
-      <node ref="PX2" pin="61"/>
-    </net>
-    <net code="123" name="/microzed/PX2_LVDS_14_N">
-      <node ref="PX2" pin="63"/>
-    </net>
-    <net code="124" name="/microzed/DXN_0_N">
-      <node ref="PX1" pin="100"/>
-    </net>
-    <net code="125" name="/microzed/PX1_LVDS_21_P">
-      <node ref="PX1" pin="74"/>
-    </net>
-    <net code="126" name="/microzed/DXP_0_P">
-      <node ref="PX1" pin="98"/>
-    </net>
-    <net code="127" name="/microzed/PX1_LVDS_21_N">
-      <node ref="PX1" pin="76"/>
-    </net>
-    <net code="128" name="/microzed/PX1_LVDS_20_N">
-      <node ref="PX1" pin="75"/>
-    </net>
-    <net code="129" name="/microzed/PX1_LVDS_20_P">
-      <node ref="PX1" pin="73"/>
-    </net>
-    <net code="130" name="/microzed/PX1_LVDS_19_P">
-      <node ref="PX1" pin="68"/>
-    </net>
-    <net code="131" name="/microzed/PX1_LVDS_19_N">
-      <node ref="PX1" pin="70"/>
-    </net>
-    <net code="132" name="/microzed/PX1_LVDS_17_P">
-      <node ref="PX1" pin="62"/>
-    </net>
-    <net code="133" name="/microzed/BLANK">
-      <node ref="U401" pin="7"/>
-      <node ref="PX1" pin="18"/>
-    </net>
-    <net code="134" name="/microzed/PX1_LVDS_10_P">
+    <net code="120" name="/microzed/PX1_LVDS_10_P">
       <node ref="PX1" pin="41"/>
     </net>
-    <net code="135" name="/microzed/PX1_LVDS_9_N">
+    <net code="121" name="/microzed/PX1_LVDS_9_N">
       <node ref="PX1" pin="38"/>
     </net>
-    <net code="136" name="/microzed/PX1_LVDS_5_P">
+    <net code="122" name="/microzed/PX1_LVDS_5_P">
       <node ref="U401" pin="5"/>
       <node ref="PX1" pin="24"/>
     </net>
-    <net code="137" name="/microzed/PX1_LVDS_5_N">
+    <net code="123" name="/microzed/PX1_LVDS_5_N">
       <node ref="PX1" pin="26"/>
       <node ref="U401" pin="4"/>
     </net>
-    <net code="138" name="/microzed/PX1_LVDS_7_P">
-      <node ref="U401" pin="3"/>
-      <node ref="PX1" pin="30"/>
-    </net>
-    <net code="139" name="/microzed/SIN">
-      <node ref="U401" pin="9"/>
+    <net code="124" name="/microzed/SIN">
       <node ref="PX1" pin="12"/>
+      <node ref="U401" pin="9"/>
     </net>
-    <net code="140" name="/microzed/LAT">
-      <node ref="U401" pin="8"/>
+    <net code="125" name="/microzed/LAT">
       <node ref="PX1" pin="14"/>
+      <node ref="U401" pin="8"/>
     </net>
-    <net code="141" name="/microzed/SCLK">
-      <node ref="U401" pin="6"/>
+    <net code="126" name="/microzed/BLANK">
+      <node ref="PX1" pin="18"/>
+      <node ref="U401" pin="7"/>
+    </net>
+    <net code="127" name="/microzed/SCLK">
       <node ref="PX1" pin="20"/>
+      <node ref="U401" pin="6"/>
     </net>
-    <net code="142" name="/microzed/PWM">
+    <net code="128" name="/microzed/PWM">
       <node ref="PX1" pin="32"/>
       <node ref="U401" pin="2"/>
     </net>
-    <net code="143" name="/microzed/PX1_LVDS_2_N">
+    <net code="129" name="/microzed/PX1_LVDS_2_N">
       <node ref="PX1" pin="19"/>
     </net>
-    <net code="144" name="/microzed/PX1_LVDS_2_P">
+    <net code="130" name="/microzed/PX1_LVDS_2_P">
       <node ref="PX1" pin="17"/>
     </net>
-    <net code="145" name="/microzed/PX1_LVDS_4_N">
+    <net code="131" name="/microzed/PX1_LVDS_4_N">
       <node ref="PX1" pin="25"/>
     </net>
-    <net code="146" name="/microzed/PX1_LVDS_8_N">
-      <node ref="PX1" pin="37"/>
+    <net code="132" name="/microzed/PX1_LVDS_19_N">
+      <node ref="PX1" pin="70"/>
     </net>
-    <net code="147" name="/microzed/VP_0_P">
-      <node ref="PX1" pin="97"/>
+    <net code="133" name="/microzed/PX1_LVDS_17_P">
+      <node ref="PX1" pin="62"/>
     </net>
-    <net code="148" name="/microzed/VN_0_N">
-      <node ref="PX1" pin="99"/>
-    </net>
-    <net code="149" name="/microzed/PX1_LVDS_13_N">
-      <node ref="PX1" pin="50"/>
-    </net>
-    <net code="150" name="/microzed/PX1_LVDS_11_N">
-      <node ref="PX1" pin="44"/>
-    </net>
-    <net code="151" name="/microzed/PX1_LVDS_9_P">
-      <node ref="PX1" pin="36"/>
-    </net>
-    <net code="152" name="/microzed/PX1_SE_1">
-      <node ref="PX1" pin="10"/>
-    </net>
-    <net code="153" name="/microzed/FPGA_DONE">
-      <node ref="PX1" pin="8"/>
-    </net>
-    <net code="154" name="/microzed/PX1_LVDS_17_N">
+    <net code="134" name="/microzed/PX1_LVDS_17_N">
       <node ref="PX1" pin="64"/>
     </net>
-    <net code="155" name="/microzed/PX1_LVDS_18_P">
+    <net code="135" name="/microzed/PX1_LVDS_18_P">
       <node ref="PX1" pin="67"/>
     </net>
-    <net code="156" name="/microzed/PX1_LVDS_18_N">
+    <net code="136" name="/microzed/PX1_LVDS_18_N">
       <node ref="PX1" pin="69"/>
     </net>
-    <net code="157" name="/microzed/PX1_LVDS_16_P">
+    <net code="137" name="/microzed/PX1_LVDS_16_P">
       <node ref="PX1" pin="61"/>
     </net>
-    <net code="158" name="/microzed/PX1_LVDS_16_N">
+    <net code="138" name="/microzed/PX1_LVDS_16_N">
       <node ref="PX1" pin="63"/>
     </net>
-    <net code="159" name="/microzed/PX1_LVDS_14_P">
+    <net code="139" name="/microzed/PX1_LVDS_14_P">
       <node ref="PX1" pin="53"/>
     </net>
-    <net code="160" name="/microzed/PX1_LVDS_14_N">
+    <net code="140" name="/microzed/PX1_LVDS_14_N">
       <node ref="PX1" pin="55"/>
     </net>
-    <net code="161" name="/microzed/PX1_LVDS_22_P">
-      <node ref="PX1" pin="81"/>
+    <net code="141" name="/microzed/PX1_LVDS_8_N">
+      <node ref="PX1" pin="37"/>
     </net>
-    <net code="162" name="/microzed/PX1_LVDS_22_N">
+    <net code="142" name="/microzed/VP_0_P">
+      <node ref="PX1" pin="97"/>
+    </net>
+    <net code="143" name="/microzed/VN_0_N">
+      <node ref="PX1" pin="99"/>
+    </net>
+    <net code="144" name="/microzed/DXP_0_P">
+      <node ref="PX1" pin="98"/>
+    </net>
+    <net code="145" name="/microzed/DXN_0_N">
+      <node ref="PX1" pin="100"/>
+    </net>
+    <net code="146" name="/microzed/PX1_LVDS_22_N">
       <node ref="PX1" pin="83"/>
     </net>
-    <net code="163" name="Net-(PX1-Pad88)">
+    <net code="147" name="/microzed/PX1_LVDS_22_P">
+      <node ref="PX1" pin="81"/>
+    </net>
+    <net code="148" name="/microzed/PX1_LVDS_20_N">
+      <node ref="PX1" pin="75"/>
+    </net>
+    <net code="149" name="/microzed/PX1_LVDS_20_P">
+      <node ref="PX1" pin="73"/>
+    </net>
+    <net code="150" name="/microzed/PX1_LVDS_19_P">
+      <node ref="PX1" pin="68"/>
+    </net>
+    <net code="151" name="Net-(PX1-Pad88)">
       <node ref="PX1" pin="88"/>
     </net>
-    <net code="164" name="Net-(PX1-Pad90)">
-      <node ref="PX1" pin="90"/>
-    </net>
-    <net code="165" name="Net-(PX1-Pad92)">
-      <node ref="PX1" pin="92"/>
-    </net>
-    <net code="166" name="Net-(PX1-Pad94)">
-      <node ref="PX1" pin="94"/>
-    </net>
-    <net code="167" name="Net-(PX1-Pad87)">
-      <node ref="PX1" pin="87"/>
-    </net>
-    <net code="168" name="/microzed/PX2_LVDS_15_P">
+    <net code="152" name="/microzed/PX2_LVDS_15_P">
       <node ref="PX2" pin="62"/>
     </net>
-    <net code="169" name="Net-(PX1-Pad89)">
-      <node ref="PX1" pin="89"/>
+    <net code="153" name="Net-(PX1-Pad90)">
+      <node ref="PX1" pin="90"/>
     </net>
-    <net code="170" name="Net-(PX1-Pad91)">
-      <node ref="PX1" pin="91"/>
+    <net code="154" name="/microzed/GPIO2">
+      <node ref="PX2" pin="31"/>
+      <node ref="P401" pin="5"/>
     </net>
-    <net code="171" name="Net-(PX1-Pad93)">
-      <node ref="PX1" pin="93"/>
-    </net>
-    <net code="172" name="Net-(PX2-Pad100)">
-      <node ref="PX2" pin="100"/>
-    </net>
-    <net code="173" name="Net-(PX2-Pad96)">
-      <node ref="PX2" pin="96"/>
-    </net>
-    <net code="174" name="Net-(PX2-Pad94)">
-      <node ref="PX2" pin="94"/>
-    </net>
-    <net code="175" name="Net-(PX2-Pad99)">
+    <net code="155" name="Net-(PX2-Pad99)">
       <node ref="PX2" pin="99"/>
     </net>
-    <net code="176" name="Net-(PX2-Pad97)">
+    <net code="156" name="Net-(PX1-Pad92)">
+      <node ref="PX1" pin="92"/>
+    </net>
+    <net code="157" name="Net-(PX1-Pad94)">
+      <node ref="PX1" pin="94"/>
+    </net>
+    <net code="158" name="Net-(PX1-Pad87)">
+      <node ref="PX1" pin="87"/>
+    </net>
+    <net code="159" name="Net-(PX1-Pad89)">
+      <node ref="PX1" pin="89"/>
+    </net>
+    <net code="160" name="Net-(PX1-Pad91)">
+      <node ref="PX1" pin="91"/>
+    </net>
+    <net code="161" name="Net-(PX1-Pad93)">
+      <node ref="PX1" pin="93"/>
+    </net>
+    <net code="162" name="Net-(PX2-Pad100)">
+      <node ref="PX2" pin="100"/>
+    </net>
+    <net code="163" name="Net-(PX2-Pad96)">
+      <node ref="PX2" pin="96"/>
+    </net>
+    <net code="164" name="Net-(PX2-Pad94)">
+      <node ref="PX2" pin="94"/>
+    </net>
+    <net code="165" name="/microzed/GPIO5">
+      <node ref="P401" pin="8"/>
+      <node ref="PX2" pin="23"/>
+    </net>
+    <net code="166" name="Net-(PX2-Pad97)">
       <node ref="PX2" pin="97"/>
     </net>
-    <net code="177" name="Net-(PX2-Pad95)">
+    <net code="167" name="Net-(PX2-Pad95)">
       <node ref="PX2" pin="95"/>
     </net>
-    <net code="178" name="Net-(PX2-Pad93)">
+    <net code="168" name="Net-(PX2-Pad93)">
       <node ref="PX2" pin="93"/>
     </net>
-    <net code="179" name="/microzed/PX2_LVDS_17_P">
+    <net code="169" name="/microzed/PX2_LVDS_17_P">
       <node ref="PX2" pin="68"/>
     </net>
-    <net code="180" name="/microzed/PX2_LVDS_15_N">
+    <net code="170" name="/microzed/GPIO3">
+      <node ref="P401" pin="6"/>
+      <node ref="PX2" pin="29"/>
+    </net>
+    <net code="171" name="/microzed/GPIO6">
+      <node ref="PX2" pin="19"/>
+      <node ref="P401" pin="9"/>
+    </net>
+    <net code="172" name="/microzed/GPIO1">
+      <node ref="P401" pin="4"/>
+      <node ref="PX2" pin="35"/>
+    </net>
+    <net code="173" name="/microzed/GPIO4">
+      <node ref="PX2" pin="25"/>
+      <node ref="P401" pin="7"/>
+    </net>
+    <net code="174" name="/microzed/PX2_LVDS_15_N">
       <node ref="PX2" pin="64"/>
     </net>
-    <net code="181" name="/microzed/PX2_LVDS_13_P">
-      <node ref="PX2" pin="54"/>
+    <net code="175" name="/microzed/GPIO0">
+      <node ref="PX2" pin="37"/>
+      <node ref="P401" pin="3"/>
     </net>
-    <net code="182" name="/microzed/PX2_LVDS_13_N">
-      <node ref="PX2" pin="56"/>
+    <net code="176" name="/microzed/GPIO7">
+      <node ref="P401" pin="10"/>
+      <node ref="PX2" pin="17"/>
     </net>
-    <net code="183" name="/microzed/TACH">
-      <node ref="D401" pin="1"/>
-      <node ref="R401" pin="2"/>
-      <node ref="PX1" pin="23"/>
-    </net>
-    <net code="184" name="/microzed/BUF_PWM">
-      <node ref="U401" pin="18"/>
-      <node ref="R406" pin="2"/>
-    </net>
-    <net code="185" name="Net-(U401-Pad15)">
+    <net code="177" name="Net-(U401-Pad15)">
       <node ref="U401" pin="15"/>
     </net>
-    <net code="186" name="Net-(U401-Pad16)">
+    <net code="178" name="Net-(U401-Pad16)">
       <node ref="U401" pin="16"/>
     </net>
-    <net code="187" name="Net-(U401-Pad17)">
+    <net code="179" name="Net-(U401-Pad17)">
       <node ref="U401" pin="17"/>
     </net>
-    <net code="188" name="/microzed/BUF_SIN">
-      <node ref="R405" pin="2"/>
-      <node ref="U401" pin="11"/>
-    </net>
-    <net code="189" name="/microzed/BUF_LAT">
-      <node ref="U401" pin="12"/>
-      <node ref="R404" pin="2"/>
-    </net>
-    <net code="190" name="/microzed/~INT~">
-      <node ref="PX2" pin="9"/>
-    </net>
-    <net code="191" name="/microzed/PMOD_D0">
-      <node ref="PX2" pin="1"/>
-    </net>
-    <net code="192" name="/microzed/PMOD_D2">
-      <node ref="PX2" pin="3"/>
-    </net>
-    <net code="193" name="/microzed/PMOD_D4">
-      <node ref="PX2" pin="5"/>
-    </net>
-    <net code="194" name="/microzed/PMOD_D6">
-      <node ref="PX2" pin="7"/>
-    </net>
-    <net code="195" name="/microzed/PMOD_D1">
-      <node ref="PX2" pin="2"/>
-    </net>
-    <net code="196" name="/microzed/PX2_LVDS_2_N">
-      <node ref="PX2" pin="25"/>
-    </net>
-    <net code="197" name="/microzed/PX2_SE_0">
-      <node ref="PX2" pin="13"/>
-    </net>
-    <net code="198" name="/microzed/PX2_LVDS_5_P">
-      <node ref="PX2" pin="30"/>
-    </net>
-    <net code="199" name="/microzed/PX2_LVDS_7_P">
-      <node ref="PX2" pin="36"/>
-    </net>
-    <net code="200" name="/microzed/PX2_LVDS_7_N">
-      <node ref="PX2" pin="38"/>
-    </net>
-    <net code="201" name="/microzed/PX2_LVDS_9_P">
-      <node ref="PX2" pin="42"/>
-    </net>
-    <net code="202" name="/microzed/PX2_LVDS_9_N">
+    <net code="180" name="/microzed/PX2_LVDS_9_N">
       <node ref="PX2" pin="44"/>
     </net>
-    <net code="203" name="/microzed/PX2_LVDS_5_N">
-      <node ref="PX2" pin="32"/>
-    </net>
-    <net code="204" name="/microzed/PX2_LVDS_11_P">
+    <net code="181" name="/microzed/PX2_LVDS_11_P">
       <node ref="PX2" pin="48"/>
     </net>
-    <net code="205" name="/microzed/PX2_LVDS_11_N">
+    <net code="182" name="/microzed/PX2_LVDS_11_N">
       <node ref="PX2" pin="50"/>
     </net>
-    <net code="206" name="/microzed/PMOD_D3">
-      <node ref="PX2" pin="4"/>
+    <net code="183" name="/microzed/BUF_PWM">
+      <node ref="R406" pin="2"/>
+      <node ref="U401" pin="18"/>
     </net>
-    <net code="207" name="/microzed/PMOD_D5">
-      <node ref="PX2" pin="6"/>
+    <net code="184" name="/microzed/TACH">
+      <node ref="PX1" pin="23"/>
+      <node ref="D401" pin="1"/>
+      <node ref="R401" pin="2"/>
     </net>
-    <net code="208" name="/microzed/PMOD_D7">
-      <node ref="PX2" pin="8"/>
+    <net code="185" name="/microzed/PX2_LVDS_13_N">
+      <node ref="PX2" pin="56"/>
     </net>
-    <net code="209" name="/microzed/PX2_SE_1">
+    <net code="186" name="/microzed/PX2_LVDS_13_P">
+      <node ref="PX2" pin="54"/>
+    </net>
+    <net code="187" name="/microzed/PX2_SE_0">
+      <node ref="PX2" pin="13"/>
+    </net>
+    <net code="188" name="/microzed/~INT~">
+      <node ref="PX2" pin="9"/>
+    </net>
+    <net code="189" name="/microzed/PMOD_D0">
+      <node ref="PX2" pin="1"/>
+    </net>
+    <net code="190" name="/microzed/PX2_LVDS_12_N">
+      <node ref="PX2" pin="55"/>
+    </net>
+    <net code="191" name="/microzed/PX2_LVDS_10_P">
+      <node ref="PX2" pin="47"/>
+    </net>
+    <net code="192" name="/microzed/PX2_LVDS_10_N">
+      <node ref="PX2" pin="49"/>
+    </net>
+    <net code="193" name="/microzed/PX2_LVDS_8_P">
+      <node ref="PX2" pin="41"/>
+    </net>
+    <net code="194" name="/microzed/PX2_LVDS_8_N">
+      <node ref="PX2" pin="43"/>
+    </net>
+    <net code="195" name="/microzed/PX2_SE_1">
       <node ref="PX2" pin="14"/>
     </net>
-    <net code="210" name="/microzed/PX2_LVDS_1_N">
+    <net code="196" name="/microzed/PX2_LVDS_1_N">
       <node ref="PX2" pin="20"/>
     </net>
-    <net code="211" name="/microzed/PX2_LVDS_1_P">
+    <net code="197" name="/microzed/PX2_LVDS_1_P">
       <node ref="PX2" pin="18"/>
     </net>
-    <net code="212" name="/microzed/PX2_LVDS_3_P">
+    <net code="198" name="/microzed/PX2_LVDS_3_P">
       <node ref="PX2" pin="24"/>
     </net>
-    <net code="213" name="/microzed/PX2_LVDS_3_N">
+    <net code="199" name="/microzed/PX2_LVDS_3_N">
       <node ref="PX2" pin="26"/>
     </net>
-    <net code="214" name="/microzed/BUF_BLANK">
-      <node ref="U401" pin="13"/>
-      <node ref="R403" pin="2"/>
+    <net code="200" name="/microzed/PMOD_D7">
+      <node ref="PX2" pin="8"/>
     </net>
-    <net code="215" name="/microzed/BUF_SCLK">
+    <net code="201" name="/microzed/PX2_LVDS_5_N">
+      <node ref="PX2" pin="32"/>
+    </net>
+    <net code="202" name="/microzed/PX2_LVDS_5_P">
+      <node ref="PX2" pin="30"/>
+    </net>
+    <net code="203" name="/microzed/PX2_LVDS_7_P">
+      <node ref="PX2" pin="36"/>
+    </net>
+    <net code="204" name="/microzed/PX2_LVDS_7_N">
+      <node ref="PX2" pin="38"/>
+    </net>
+    <net code="205" name="/microzed/PX2_LVDS_9_P">
+      <node ref="PX2" pin="42"/>
+    </net>
+    <net code="206" name="/microzed/PMOD_D2">
+      <node ref="PX2" pin="3"/>
+    </net>
+    <net code="207" name="/microzed/PMOD_D4">
+      <node ref="PX2" pin="5"/>
+    </net>
+    <net code="208" name="/microzed/PMOD_D6">
+      <node ref="PX2" pin="7"/>
+    </net>
+    <net code="209" name="/microzed/PMOD_D1">
+      <node ref="PX2" pin="2"/>
+    </net>
+    <net code="210" name="/microzed/PMOD_D3">
+      <node ref="PX2" pin="4"/>
+    </net>
+    <net code="211" name="/microzed/PMOD_D5">
+      <node ref="PX2" pin="6"/>
+    </net>
+    <net code="212" name="/microzed/BUF_SCLK">
       <node ref="U401" pin="14"/>
       <node ref="R402" pin="2"/>
     </net>
+    <net code="213" name="/microzed/BUF_SIN">
+      <node ref="U401" pin="11"/>
+      <node ref="R405" pin="2"/>
+    </net>
+    <net code="214" name="/microzed/BUF_LAT">
+      <node ref="U401" pin="12"/>
+      <node ref="R404" pin="2"/>
+    </net>
+    <net code="215" name="/microzed/BUF_BLANK">
+      <node ref="R403" pin="2"/>
+      <node ref="U401" pin="13"/>
+    </net>
     <net code="216" name="/rtctemp/T1_A1">
-      <node ref="U601" pin="4"/>
       <node ref="R602" pin="1"/>
+      <node ref="U601" pin="4"/>
     </net>
     <net code="217" name="/rtctemp/T2_A0">
-      <node ref="U603" pin="3"/>
       <node ref="R607" pin="2"/>
+      <node ref="U603" pin="3"/>
     </net>
     <net code="218" name="/rtctemp/T2_A1">
       <node ref="R608" pin="1"/>
