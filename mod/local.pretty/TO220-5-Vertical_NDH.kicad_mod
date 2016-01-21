@@ -1,4 +1,4 @@
-(module TO220-5-Vertical_NDH (layer F.Cu) (tedit 5674C37F)
+(module TO220-5-Vertical_NDH (layer F.Cu) (tedit 569B1E2B)
   (descr "Pentawatt, Neutral, Staggered, Verical, TO220-5, T05D,")
   (tags "Pentawatt, Neutral, Staggered, Verical, TO220-5, T05D,")
   (fp_text reference REF** (at 0 -1.016) (layer F.SilkS)
@@ -23,7 +23,7 @@
   (fp_line (start -5.08 0) (end 5.08 0) (layer F.SilkS) (width 0.15))
   (pad 3 thru_hole circle (at 0 8.2804) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -3.4036 8.2804) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask))
-  (pad 5 thru_hole circle (at 3.4036 8.2804) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask F.SilkS))
+  (pad 5 thru_hole circle (at 3.4036 8.2804) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 1.7018 4.2799) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -1.7018 4.2799) (size 2.032 2.032) (drill 1.143) (layers *.Cu *.Mask))
   (model /home/guest/cae/kicad/mod/local.pretty/packages3d/to220-5-Verticle_NDH.wrl

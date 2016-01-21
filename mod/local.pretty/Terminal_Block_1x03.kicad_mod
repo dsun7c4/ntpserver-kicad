@@ -1,4 +1,4 @@
-(module Terminal_Block_1x03 (layer F.Cu) (tedit 55857DFE)
+(module Terminal_Block_1x03 (layer F.Cu) (tedit 569B1EF8)
   (descr "Phoenix Terminal Block")
   (tags "terminal block")
   (fp_text reference REF** (at 0 -5.334) (layer F.SilkS)
@@ -16,9 +16,9 @@
   (fp_line (start 7.62 4.05) (end 7.62 -4.05) (layer F.SilkS) (width 0.15))
   (fp_line (start 7.62 -4.05) (end -7.62 -4.05) (layer F.SilkS) (width 0.15))
   (fp_line (start -7.62 -4.05) (end -7.62 4.05) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole rect (at -5.08 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 0 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 5.08 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole rect (at -5.08 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 5.08 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
   (model /home/guest/cae/kicad/mod/local.pretty/packages3d/1729131.wrl
     (at (xyz -0.322441 -0.136888 0))
     (scale (xyz 0.393701 0.393701 0.393701))
