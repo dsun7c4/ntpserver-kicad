@@ -1,0 +1,12 @@
+# Temporary files from emacs
+*~
+
+# For PCBs designed using KiCAD: http://www.kicad-pcb.org/
+# Temporary files
+*bak
+*.bck
+*.000
+
+# Generated files for OSH Park 
+*.zip
+oshpark
