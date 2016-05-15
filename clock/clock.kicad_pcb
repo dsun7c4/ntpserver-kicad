@@ -7656,7 +7656,7 @@
   (gr_text v1.0.0 (at 229.362 166.37) (layer F.SilkS) (tstamp 5650C4D2)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text dcsun88@gmail.com (at 241.3 166.37) (layer F.SilkS)
+  (gr_text dcsun88osh@gmail.com (at 241.3 166.37) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (gr_circle (center 363.347 242.443) (end 367.157 242.443) (layer Cmts.User) (width 0.381))

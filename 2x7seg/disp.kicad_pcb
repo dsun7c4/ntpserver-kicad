@@ -3,7 +3,7 @@
   (general
     (links 63)
     (no_connects 0)
-    (area 126.949999 83.769999 162.610001 114.350001)
+    (area 125.774667 83.276 163.785334 114.694)
     (thickness 1.6)
     (drawings 24)
     (tracks 331)
@@ -771,7 +771,7 @@
   (gr_text "2 Digit 7-Seg Display" (at 137.795 86.36) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text dcsun88@gmail.com (at 137.922 111.76) (layer F.SilkS)
+  (gr_text dcsun88osh@gmail.com (at 139.446 111.76) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (gr_text SOUT (at 156.972 97.79) (layer F.SilkS)
