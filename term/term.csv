@@ -1,0 +1,14 @@
+Reference, Value, Footprint, Datasheet, Tolerance, Power, Manufacturer, PartNum
+P101,CONN_01X08,local:Pin_Header_1x08_square,
+P103,CONN_01X08,local:Pin_Header_1x08_square,
+R102,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
+R101,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
+P102,XG4C-1631,local:XG4C-1631,,,,Omron Electronics,XG4C-1631
+R103,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
+R105,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
+R107,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
+R104,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
+R106,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
+R108,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
+SW101,SW_PUSH,local:7914J_HandSoldering,,,,Bourns,7914J-1-050
+R109,1K,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW08051K00FKEA
