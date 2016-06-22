@@ -34,4 +34,9 @@
   (pad 7 thru_hole circle (at -5.08 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at -7.62 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at -10.16 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
+  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/pppc091lfbn.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.393700787402 0.393700787402 0.393700787402))
+    (rotate (xyz 0 0 0))
+  )
 )
