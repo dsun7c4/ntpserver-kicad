@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/clock/clock.sch)
-    (date "Wed Jun  1 20:20:12 2016")
+    (date "Sun Jun 26 14:59:37 2016")
     (tool "Eeschema (2015-12-09 BZR 6195)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2135,10 +2135,10 @@
   (libraries
     (library (logical device)
       (uri /home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib))
     (library (logical local)
-      (uri /home/guest/cae/kicad/lib/local.lib)))
+      (uri /home/guest/cae/kicad/lib/local.lib))
+    (library (logical conn)
+      (uri /home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name VIN)
       (node (ref U201) (pin 7))
