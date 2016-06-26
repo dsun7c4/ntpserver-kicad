@@ -303,7 +303,7 @@ Wire Wire Line
 	7750 5300 7750 4600
 Connection ~ 7900 5300
 Wire Wire Line
-	7900 2700 7900 4700
+	7900 2250 7900 4700
 Wire Wire Line
 	8000 2800 8000 4700
 Wire Wire Line
@@ -561,4 +561,34 @@ Wire Wire Line
 Wire Wire Line
 	6450 4000 8000 4000
 Connection ~ 8000 4000
+Text Label 9600 2700 0    60   ~ 0
+VAA_IN
+Text Label 9600 2800 0    60   ~ 0
+VCC_IN
+$Comp
+L TEST_1P W101
+U 1 1 57649C24
+P 4350 2250
+F 0 "W101" H 4350 2520 50  0000 C CNN
+F 1 "TEST_1P" H 4350 2450 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 4550 2250 50  0001 C CNN
+F 3 "" H 4550 2250 50  0000 C CNN
+	1    4350 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2250 4350 2700
+Connection ~ 4350 2700
+$Comp
+L TEST_1P W102
+U 1 1 57649E09
+P 7900 2250
+F 0 "W102" H 7900 2520 50  0000 C CNN
+F 1 "TEST_1P" H 7900 2450 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 8100 2250 50  0001 C CNN
+F 3 "" H 8100 2250 50  0000 C CNN
+	1    7900 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7900 2700
 $EndSCHEMATC

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/term/term.sch</source>
-    <date>Sun Jun  5 23:31:51 2016</date>
+    <date>Sat Jun 25 23:18:29 2016</date>
     <tool>Eeschema (2015-12-09 BZR 6195)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -172,6 +172,20 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57546DC0</tstamp>
     </comp>
+    <comp ref="W101">
+      <value>TEST_1P</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1mmDrill</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57649C24</tstamp>
+    </comp>
+    <comp ref="W102">
+      <value>TEST_1P</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1mmDrill</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57649E09</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="conn" part="CONN_01X08">
@@ -258,98 +272,110 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="conn">
       <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="GND">
-      <node ref="P102" pin="10"/>
-      <node ref="P102" pin="11"/>
-      <node ref="P102" pin="12"/>
       <node ref="P102" pin="14"/>
       <node ref="P102" pin="16"/>
-      <node ref="R107" pin="2"/>
-      <node ref="SW101" pin="1"/>
-      <node ref="P101" pin="3"/>
-      <node ref="P101" pin="8"/>
       <node ref="P103" pin="1"/>
+      <node ref="P101" pin="8"/>
+      <node ref="P102" pin="12"/>
       <node ref="P103" pin="6"/>
-      <node ref="R101" pin="2"/>
+      <node ref="P102" pin="11"/>
+      <node ref="SW101" pin="1"/>
       <node ref="P102" pin="2"/>
       <node ref="P102" pin="4"/>
       <node ref="P102" pin="6"/>
       <node ref="P102" pin="8"/>
-      <node ref="R105" pin="2"/>
+      <node ref="P102" pin="10"/>
+      <node ref="R101" pin="2"/>
       <node ref="R103" pin="2"/>
+      <node ref="R107" pin="2"/>
+      <node ref="P101" pin="3"/>
+      <node ref="R105" pin="2"/>
     </net>
     <net code="2" name="Net-(P101-Pad6)">
-      <node ref="R104" pin="2"/>
       <node ref="P101" pin="6"/>
       <node ref="R103" pin="1"/>
+      <node ref="R104" pin="2"/>
     </net>
-    <net code="3" name="Net-(P102-Pad15)">
-      <node ref="P102" pin="15"/>
-      <node ref="P103" pin="8"/>
-    </net>
-    <net code="4" name="Net-(P101-Pad7)">
-      <node ref="R101" pin="1"/>
-      <node ref="P101" pin="7"/>
-      <node ref="R102" pin="2"/>
-    </net>
-    <net code="6" name="/~RESET~">
-      <node ref="SW101" pin="2"/>
-      <node ref="R109" pin="2"/>
-      <node ref="P102" pin="1"/>
-    </net>
-    <net code="7" name="Net-(P101-Pad5)">
-      <node ref="R106" pin="2"/>
-      <node ref="R105" pin="1"/>
-      <node ref="P101" pin="5"/>
-    </net>
-    <net code="8" name="VCC">
-      <node ref="R102" pin="1"/>
+    <net code="3" name="VCC">
       <node ref="P101" pin="2"/>
       <node ref="R104" pin="1"/>
-      <node ref="R106" pin="1"/>
+      <node ref="R102" pin="1"/>
       <node ref="R108" pin="1"/>
+      <node ref="R106" pin="1"/>
     </net>
-    <net code="9" name="VAA">
+    <net code="4" name="/VAA_IN">
+      <node ref="P103" pin="8"/>
+      <node ref="W102" pin="1"/>
+      <node ref="P102" pin="15"/>
+    </net>
+    <net code="5" name="Net-(P101-Pad7)">
+      <node ref="P101" pin="7"/>
+      <node ref="R102" pin="2"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="6" name="/~RESET~">
+      <node ref="P102" pin="1"/>
+      <node ref="SW101" pin="2"/>
+      <node ref="R109" pin="2"/>
+    </net>
+    <net code="7" name="VAA">
+      <node ref="W101" pin="1"/>
       <node ref="P101" pin="1"/>
     </net>
-    <net code="10" name="Net-(P102-Pad13)">
+    <net code="8" name="Net-(P101-Pad5)">
+      <node ref="R105" pin="1"/>
+      <node ref="R106" pin="2"/>
+      <node ref="P101" pin="5"/>
+    </net>
+    <net code="9" name="/VCC_IN">
       <node ref="P102" pin="13"/>
-      <node ref="P103" pin="7"/>
       <node ref="R109" pin="1"/>
+      <node ref="P103" pin="7"/>
     </net>
-    <net code="11" name="/BLANK">
-      <node ref="P103" pin="3"/>
-      <node ref="P102" pin="5"/>
+    <net code="10" name="/SIN">
+      <node ref="R108" pin="2"/>
+      <node ref="P101" pin="4"/>
+      <node ref="R107" pin="1"/>
     </net>
-    <net code="12" name="/SOUT">
-      <node ref="P103" pin="5"/>
+    <net code="11" name="/SOUT">
       <node ref="P102" pin="9"/>
+      <node ref="P103" pin="5"/>
     </net>
-    <net code="13" name="/SCLK">
+    <net code="12" name="/SCLK">
       <node ref="P103" pin="2"/>
       <node ref="P102" pin="3"/>
     </net>
-    <net code="14" name="/LAT">
+    <net code="13" name="/LAT">
       <node ref="P103" pin="4"/>
       <node ref="P102" pin="7"/>
     </net>
-    <net code="15" name="/SIN">
-      <node ref="R107" pin="1"/>
-      <node ref="P101" pin="4"/>
-      <node ref="R108" pin="2"/>
+    <net code="14" name="/BLANK">
+      <node ref="P103" pin="3"/>
+      <node ref="P102" pin="5"/>
     </net>
   </nets>
 </export>

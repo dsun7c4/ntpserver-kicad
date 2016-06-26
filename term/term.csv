@@ -12,3 +12,5 @@ R106,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210R
 R108,210R,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW0805210RFKEA
 SW101,SW_PUSH,local:7914J_HandSoldering,,,,Bourns,7914J-1-050
 R109,1K,Resistors_SMD:R_0805_HandSoldering,,1%,0.125W,Vishay Dale,CRCW08051K00FKEA
+W101,TEST_1P,Wire_Pads:SolderWirePad_single_1mmDrill,
+W102,TEST_1P,Wire_Pads:SolderWirePad_single_1mmDrill,
