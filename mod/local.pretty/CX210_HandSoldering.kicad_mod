@@ -18,7 +18,7 @@
   (pad 6 smd rect (at -3.81 -12.0015) (size 3.048 4.191) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 3.81 -12.0015) (size 3.048 4.191) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 8.89 -12.0015) (size 3.048 4.191) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 8.89 12.0015) (size 3.048 4.445) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 8.89 12.0015) (size 3.048 4.191) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 12.0015) (size 3.048 4.191) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -8.89 12.0015) (size 3.048 4.191) (layers F.Cu F.Paste F.Mask))
   (model /home/guest/cae/kicad/mod/local.pretty/packages3d/cx210.wrl
