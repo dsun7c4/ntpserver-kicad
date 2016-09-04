@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/2x7seg/disp.sch)
-    (date "Wed Aug 31 18:05:40 2016")
+    (date "Fri Sep  2 23:09:07 2016")
     (tool "Eeschema (2015-12-09 BZR 6195)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,7 +29,7 @@
       (tstamp 559759A0))
     (comp (ref C1)
       (value 10uF)
-      (footprint Capacitors_SMD:C_1206_HandSoldering)
+      (footprint local:C_1206_HandSoldering)
       (fields
         (field (name Voltage) 25V)
         (field (name Tolerance) 10%)
@@ -41,7 +41,7 @@
       (tstamp 559759DC))
     (comp (ref C2)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0805_HandSoldering)
+      (footprint local:C_0805_HandSoldering)
       (fields
         (field (name Voltage) 50V)
         (field (name Tolerance) 10%)
@@ -53,7 +53,7 @@
       (tstamp 55975A79))
     (comp (ref C3)
       (value 10uF)
-      (footprint Capacitors_SMD:C_1206_HandSoldering)
+      (footprint local:C_1206_HandSoldering)
       (fields
         (field (name Voltage) 25V)
         (field (name Tolerance) 10%)
@@ -65,7 +65,7 @@
       (tstamp 55975AC9))
     (comp (ref R1)
       (value 5.11K)
-      (footprint Resistors_SMD:R_0805_HandSoldering)
+      (footprint local:R_0805_HandSoldering)
       (fields
         (field (name Tolerance) 1%)
         (field (name Power) 0.125W)
@@ -85,7 +85,7 @@
       (tstamp 562D2ACF))
     (comp (ref C4)
       (value 0.1uF)
-      (footprint Capacitors_SMD:C_0805_HandSoldering)
+      (footprint local:C_0805_HandSoldering)
       (fields
         (field (name Voltage) 50V)
         (field (name Tolerance) 10%)
