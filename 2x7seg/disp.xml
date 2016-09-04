@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/2x7seg/disp.sch</source>
-    <date>Sat Nov 28 09:53:56 2015</date>
-    <tool>Eeschema (2015-09-12 BZR 6188)-product</tool>
+    <date>Sun Sep  4 18:52:42 2016</date>
+    <tool>Eeschema (2015-12-09 BZR 6195)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -35,7 +35,7 @@
     </comp>
     <comp ref="C1">
       <value>10uF</value>
-      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <footprint>local:C_1206_HandSoldering</footprint>
       <fields>
         <field name="Voltage">25V</field>
         <field name="Tolerance">10%</field>
@@ -49,7 +49,7 @@
     </comp>
     <comp ref="C2">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -63,7 +63,7 @@
     </comp>
     <comp ref="C3">
       <value>10uF</value>
-      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <footprint>local:C_1206_HandSoldering</footprint>
       <fields>
         <field name="Voltage">25V</field>
         <field name="Tolerance">10%</field>
@@ -77,7 +77,7 @@
     </comp>
     <comp ref="R1">
       <value>5.11K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -101,7 +101,7 @@
     </comp>
     <comp ref="C4">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -112,32 +112,6 @@
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>562F02F5</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="Tolerance">1%</field>
-        <field name="Power">0.125W</field>
-        <field name="Manufacturer">Vishay Dale</field>
-        <field name="PartNum">CRCW0805210RFKEA</field>
-      </fields>
-      <libsource lib="local" part="R_local"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>562F083B</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
-      <fields>
-        <field name="Tolerance">1%</field>
-        <field name="Power">0.125W</field>
-        <field name="Manufacturer">Vishay Dale</field>
-        <field name="PartNum">CRCW0805210RFKEA</field>
-      </fields>
-      <libsource lib="local" part="R_local"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>562F0AB4</tstamp>
     </comp>
     <comp ref="DS1">
       <value>LDD-A814RI</value>
@@ -171,6 +145,7 @@
       </pins>
     </libpart>
     <libpart lib="conn" part="CONN_01X08">
+      <description>Connector 01x08</description>
       <footprints>
         <fp>Pin_Header_Straight_1X08</fp>
         <fp>Pin_Header_Angled_1X08</fp>
@@ -281,72 +256,55 @@
   </libparts>
   <libraries>
     <library logical="device">
-      <uri>/home/cae/src/kicad/install.6188/share/kicad/library/device.lib</uri>
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
-      <uri>/home/cae/src/kicad/install.6188/share/kicad/library/conn.lib</uri>
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="VAA">
-      <node ref="P1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="DS1" pin="13"/>
-      <node ref="P2" pin="8"/>
-      <node ref="DS1" pin="14"/>
-    </net>
-    <net code="2" name="/D1c">
+    <net code="1" name="/D1c">
       <node ref="U1" pin="18"/>
       <node ref="DS1" pin="3"/>
     </net>
-    <net code="3" name="/D2DP">
+    <net code="2" name="/D2DP">
       <node ref="U1" pin="5"/>
       <node ref="DS1" pin="9"/>
     </net>
-    <net code="4" name="VCC">
-      <node ref="R2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="P1" pin="2"/>
-      <node ref="P2" pin="7"/>
-      <node ref="U1" pin="24"/>
+    <net code="3" name="/D2f">
+      <node ref="U1" pin="7"/>
+      <node ref="DS1" pin="12"/>
     </net>
-    <net code="5" name="GND">
-      <node ref="C2" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="P1" pin="8"/>
-      <node ref="P1" pin="3"/>
-      <node ref="P2" pin="1"/>
-      <node ref="P2" pin="6"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="R3" pin="2"/>
+    <net code="4" name="/SOUT">
+      <node ref="U1" pin="22"/>
+      <node ref="P2" pin="5"/>
     </net>
-    <net code="6" name="/D1f">
-      <node ref="U1" pin="15"/>
+    <net code="5" name="/D1f">
       <node ref="DS1" pin="18"/>
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="7" name="/D1d">
-      <node ref="DS1" pin="2"/>
+    <net code="6" name="/D1d">
       <node ref="U1" pin="17"/>
+      <node ref="DS1" pin="2"/>
     </net>
-    <net code="8" name="/D1b">
-      <node ref="U1" pin="19"/>
+    <net code="7" name="/D1b">
       <node ref="DS1" pin="15"/>
+      <node ref="U1" pin="19"/>
     </net>
-    <net code="9" name="/D2e">
+    <net code="8" name="/D2e">
       <node ref="U1" pin="8"/>
       <node ref="DS1" pin="5"/>
     </net>
+    <net code="9" name="/D2a">
+      <node ref="U1" pin="12"/>
+      <node ref="DS1" pin="11"/>
+    </net>
     <net code="10" name="/D1e">
-      <node ref="DS1" pin="1"/>
       <node ref="U1" pin="16"/>
+      <node ref="DS1" pin="1"/>
     </net>
     <net code="11" name="/D1DP">
       <node ref="U1" pin="13"/>
@@ -356,62 +314,75 @@
       <node ref="U1" pin="14"/>
       <node ref="DS1" pin="17"/>
     </net>
-    <net code="13" name="/D2g">
+    <net code="13" name="VCC">
+      <node ref="U1" pin="24"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P2" pin="7"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="14" name="/D2g">
       <node ref="DS1" pin="7"/>
       <node ref="U1" pin="6"/>
     </net>
-    <net code="14" name="/IREF">
+    <net code="15" name="/IREF">
       <node ref="U1" pin="23"/>
       <node ref="R1" pin="1"/>
     </net>
-    <net code="15" name="/SIN">
+    <net code="16" name="GND">
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="8"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P2" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="17" name="/SIN">
       <node ref="P1" pin="4"/>
       <node ref="U1" pin="2"/>
     </net>
-    <net code="16" name="/SCLK">
-      <node ref="P1" pin="7"/>
-      <node ref="R2" pin="2"/>
-      <node ref="R3" pin="1"/>
+    <net code="18" name="/SCLK">
       <node ref="U1" pin="3"/>
       <node ref="P2" pin="2"/>
+      <node ref="P1" pin="7"/>
     </net>
-    <net code="17" name="/D2f">
-      <node ref="DS1" pin="12"/>
-      <node ref="U1" pin="7"/>
+    <net code="19" name="/LAT">
+      <node ref="U1" pin="4"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P1" pin="5"/>
     </net>
-    <net code="18" name="/D2d">
+    <net code="20" name="/D2d">
       <node ref="U1" pin="9"/>
       <node ref="DS1" pin="6"/>
     </net>
-    <net code="19" name="/D2c">
-      <node ref="DS1" pin="8"/>
+    <net code="21" name="/D2c">
       <node ref="U1" pin="10"/>
+      <node ref="DS1" pin="8"/>
     </net>
-    <net code="20" name="/D1a">
+    <net code="22" name="/D1a">
       <node ref="DS1" pin="16"/>
       <node ref="U1" pin="20"/>
     </net>
-    <net code="21" name="/D2b">
+    <net code="23" name="/D2b">
       <node ref="DS1" pin="10"/>
       <node ref="U1" pin="11"/>
     </net>
-    <net code="22" name="/D2a">
-      <node ref="DS1" pin="11"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="23" name="/BLANK">
+    <net code="24" name="/BLANK">
       <node ref="U1" pin="21"/>
-      <node ref="P1" pin="6"/>
       <node ref="P2" pin="3"/>
+      <node ref="P1" pin="6"/>
     </net>
-    <net code="24" name="/LAT">
-      <node ref="P2" pin="4"/>
-      <node ref="P1" pin="5"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="25" name="/SOUT">
-      <node ref="P2" pin="5"/>
-      <node ref="U1" pin="22"/>
+    <net code="25" name="VAA">
+      <node ref="C4" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="DS1" pin="13"/>
+      <node ref="DS1" pin="14"/>
+      <node ref="P2" pin="8"/>
+      <node ref="C3" pin="1"/>
     </net>
   </nets>
 </export>

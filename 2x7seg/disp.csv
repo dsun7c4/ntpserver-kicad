@@ -1,12 +1,10 @@
 Reference, Value, Footprint, Datasheet, Voltage, Tolerance, Dielectric, Manufacturer, PartNum, Power
 P1,CONN_01X08,local:Pin_Header_1x08_edge,
 P2,CONN_01X08,local:Pin_Header_1x08_edge,
-C1,10uF,Capacitors_SMD:C_1206_HandSoldering,,25V,10%,X5R,TDK,C3216X5R1E106K160AB,
-C2,0.1uF,Capacitors_SMD:C_0805_HandSoldering,,50V,10%,X7R,Kemet,C0805C104K5RACTU,
-C3,10uF,Capacitors_SMD:C_1206_HandSoldering,,25V,10%,X5R,TDK,C3216X5R1E106K160AB,
-R1,5.11K,Resistors_SMD:R_0805_HandSoldering,,,1%,,Vishay Dale,CRCW08055K11FKEA,0.125W
+C1,10uF,local:C_1206_HandSoldering,,25V,10%,X5R,TDK,C3216X5R1E106K160AB,
+C2,0.1uF,local:C_0805_HandSoldering,,50V,10%,X7R,Kemet,C0805C104K5RACTU,
+C3,10uF,local:C_1206_HandSoldering,,25V,10%,X5R,TDK,C3216X5R1E106K160AB,
+R1,5.11K,local:R_0805_HandSoldering,,,1%,,Vishay Dale,CRCW08055K11FKEA,0.125W
 U1,TLC59282,local:SOIC-24_6.0x8.65mm_Pitch25mil,,,,,Texas Instruments,TLC59282DBQ,
-C4,0.1uF,Capacitors_SMD:C_0805_HandSoldering,,50V,10%,X7R,Kemet,C0805C104K5RACTU,
-R2,210R,Resistors_SMD:R_0805_HandSoldering,,,1%,,Vishay Dale,CRCW0805210RFKEA,0.125W
-R3,210R,Resistors_SMD:R_0805_HandSoldering,,,1%,,Vishay Dale,CRCW0805210RFKEA,0.125W
+C4,0.1uF,local:C_0805_HandSoldering,,50V,10%,X7R,Kemet,C0805C104K5RACTU,
 DS1,LDD-A814RI,local:LDD-A814RI,,,,,Lumex,LDD-A814RI,
