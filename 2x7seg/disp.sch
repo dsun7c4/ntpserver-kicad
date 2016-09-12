@@ -35,9 +35,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "2 Digit 7-Segment Display"
+Date "2016-09-10"
+Rev "v1.2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
