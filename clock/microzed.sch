@@ -391,9 +391,9 @@ Text HLabel 9150 5050 2    60   Input ~ 0
 +1.8V_PG
 Text HLabel 3400 1750 2    60   Input ~ 0
 VCCO_PG
-Text HLabel 3400 4350 2    60   Input ~ 0
+Text HLabel 3400 4250 2    60   Input ~ 0
 GPS_RX
-Text HLabel 3400 4550 2    60   Input ~ 0
+Text HLabel 3400 4350 2    60   Input ~ 0
 GPS_TX
 Text HLabel 4550 4950 0    60   Input ~ 0
 OCXO_SCL
@@ -413,7 +413,7 @@ Text HLabel 4550 3250 0    60   Input ~ 0
 10MHZ
 Text HLabel 3400 4650 2    60   Input ~ 0
 1PPS
-Text HLabel 3400 4250 2    60   Input ~ 0
+Text HLabel 3400 4550 2    60   Input ~ 0
 3DFIX
 $Comp
 L VIN #PWR060
