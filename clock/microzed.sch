@@ -999,7 +999,6 @@ Wire Wire Line
 	2650 3850 3400 3850
 Text Label 3300 3850 2    40   ~ 0
 PX2_LVDS_12_P
-NoConn ~ 4550 4550
 Text Label 1400 3850 0    40   ~ 0
 PX2_LVDS_13_P
 Text Label 1400 3950 0    40   ~ 0
@@ -1189,7 +1188,7 @@ Wire Wire Line
 	5300 2950 4550 2950
 Text Label 4650 2950 0    40   ~ 0
 PX1_LVDS_9_P
-NoConn ~ 4550 2950
+NoConn ~ 4550 4250
 Wire Wire Line
 	5300 3350 4550 3350
 Text Label 4650 3350 0    40   ~ 0
@@ -1259,7 +1258,6 @@ Wire Wire Line
 	5300 4250 4550 4250
 Text Label 4650 4250 0    40   ~ 0
 PX1_LVDS_17_P
-NoConn ~ 4550 4250
 Wire Wire Line
 	5300 4650 4550 4650
 Text Label 4650 4650 0    40   ~ 0
@@ -1446,7 +1444,7 @@ GPIO7
 Text HLabel 3400 3850 2    60   Input ~ 0
 RTC_32KHZ
 Text HLabel 3400 3950 2    60   Input ~ 0
-~RTC_INT~
+~INT~0
 NoConn ~ 6650 2050
 NoConn ~ 6650 2150
 NoConn ~ 6650 2450
@@ -1647,4 +1645,8 @@ F 7 "CRCW08050000Z0EA" V 9800 2050 50  0001 C CNN "PartNum"
 	1    9650 2050
 	0    1    1    0   
 $EndComp
+Text HLabel 4550 2950 0    60   Input ~ 0
+~INT~1
+Text HLabel 4550 4550 0    60   Input ~ 0
+~INT~2
 $EndSCHEMATC
