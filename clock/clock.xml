@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/clock/clock.sch</source>
-    <date>Sun Jun 26 15:00:27 2016</date>
+    <date>Sat Feb 11 17:07:04 2017</date>
     <tool>Eeschema (2015-12-09 BZR 6195)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Clock</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>1.1.0</rev>
+        <date>2016-08-13</date>
         <source>clock.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -19,10 +19,10 @@
     </sheet>
     <sheet number="2" name="/ocxo/" tstamps="/56132794/">
       <title_block>
-        <title/>
+        <title>Disciplined VCOCXO</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>1.1.0</rev>
+        <date>2016-08-13</date>
         <source>ocxo.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -32,10 +32,10 @@
     </sheet>
     <sheet number="3" name="/gps/" tstamps="/56133D72/">
       <title_block>
-        <title/>
+        <title>GPS Receiver</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>1.1.0</rev>
+        <date>2016-08-13</date>
         <source>gps.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -47,8 +47,8 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date/>
+        <rev>1.1.0</rev>
+        <date>2016-08-13</date>
         <source>microzed.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -60,8 +60,8 @@
       <title_block>
         <title>12v Synchronous Buck Converter</title>
         <company/>
-        <rev>1.0.0</rev>
-        <date>Thu Jun 18 2015</date>
+        <rev>1.1.0</rev>
+        <date>2016-08-13</date>
         <source>power.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -71,10 +71,10 @@
     </sheet>
     <sheet number="6" name="/rtctemp/" tstamps="/5636A673/">
       <title_block>
-        <title/>
+        <title>Real Time Clock / Temperature Sensors</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>1.1.0</rev>
+        <date>2016-08-13</date>
         <source>rtctemp.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -84,17 +84,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="D101">
-      <value>CUS10S30</value>
-      <footprint>local:SOD-323_USC</footprint>
-      <fields>
-        <field name="Manufacturer">Toshiba</field>
-        <field name="PartNum">CUS10S30</field>
-      </fields>
-      <libsource lib="device" part="D_Schottky"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56266B0B</tstamp>
-    </comp>
     <comp ref="P102">
       <value>CONN_FAN_PWM</value>
       <footprint>local:CONN_47053</footprint>
@@ -155,7 +144,7 @@
     </comp>
     <comp ref="C202">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -169,7 +158,7 @@
     </comp>
     <comp ref="C204">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -183,7 +172,7 @@
     </comp>
     <comp ref="C208">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -197,7 +186,7 @@
     </comp>
     <comp ref="C214">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -211,7 +200,7 @@
     </comp>
     <comp ref="C216">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -239,7 +228,7 @@
     </comp>
     <comp ref="C213">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -253,7 +242,7 @@
     </comp>
     <comp ref="C205">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -267,7 +256,7 @@
     </comp>
     <comp ref="C201">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -281,7 +270,7 @@
     </comp>
     <comp ref="C203">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -295,13 +284,14 @@
     </comp>
     <comp ref="C207">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
         <field name="Dielectric">X7R</field>
         <field name="Manufacturer">Kemet</field>
         <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="DNP">DNP</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/ocxo/" tstamps="/56132794/"/>
@@ -309,13 +299,14 @@
     </comp>
     <comp ref="C206">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
         <field name="Dielectric">X7R</field>
         <field name="Manufacturer">Kemet</field>
         <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="DNP">DNP</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/ocxo/" tstamps="/56132794/"/>
@@ -323,7 +314,7 @@
     </comp>
     <comp ref="R205">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -336,7 +327,7 @@
     </comp>
     <comp ref="R208">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -349,7 +340,7 @@
     </comp>
     <comp ref="R209">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -362,7 +353,7 @@
     </comp>
     <comp ref="R210">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -375,7 +366,7 @@
     </comp>
     <comp ref="R203">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -388,7 +379,7 @@
     </comp>
     <comp ref="R204">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -483,7 +474,7 @@
     </comp>
     <comp ref="C211">
       <value>10pF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
@@ -511,7 +502,7 @@
     </comp>
     <comp ref="C219">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -525,7 +516,7 @@
     </comp>
     <comp ref="U207">
       <value>NC7SZ125</value>
-      <footprint>local:SOT-23-5_1.6x2.9mm_Pitch0.95mm</footprint>
+      <footprint>local:SOT-23-5_1.6x2.9mm_Pitch0.95mm_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Fairchild Semiconductor</field>
         <field name="PartNum">NC7SZ125M5X</field>
@@ -536,7 +527,7 @@
     </comp>
     <comp ref="R214">
       <value>36.5R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -549,7 +540,7 @@
     </comp>
     <comp ref="R201">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -562,7 +553,7 @@
     </comp>
     <comp ref="R202">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -575,7 +566,7 @@
     </comp>
     <comp ref="C210">
       <value>470pF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
@@ -589,7 +580,7 @@
     </comp>
     <comp ref="R207">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -602,7 +593,7 @@
     </comp>
     <comp ref="R211">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -614,13 +605,13 @@
       <tstamp>56400539</tstamp>
     </comp>
     <comp ref="R206">
-      <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
         <field name="Manufacturer">Vishay Dale</field>
-        <field name="PartNum">CRCW0805100KFKEA</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
       </fields>
       <libsource lib="local" part="R_local"/>
       <sheetpath names="/ocxo/" tstamps="/56132794/"/>
@@ -664,7 +655,7 @@
     </comp>
     <comp ref="R213">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -677,7 +668,7 @@
     </comp>
     <comp ref="R215">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -701,6 +692,84 @@
       <libsource lib="device" part="C"/>
       <sheetpath names="/ocxo/" tstamps="/56132794/"/>
       <tstamp>574F93B0</tstamp>
+    </comp>
+    <comp ref="R216">
+      <value>10.0K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080510K0FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/ocxo/" tstamps="/56132794/"/>
+      <tstamp>57AAD106</tstamp>
+    </comp>
+    <comp ref="R217">
+      <value>10.0K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080510K0FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/ocxo/" tstamps="/56132794/"/>
+      <tstamp>57AAD2DE</tstamp>
+    </comp>
+    <comp ref="R218">
+      <value>36.5R</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080536R5FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/ocxo/" tstamps="/56132794/"/>
+      <tstamp>57AAE7C1</tstamp>
+    </comp>
+    <comp ref="C217">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/ocxo/" tstamps="/56132794/"/>
+      <tstamp>57C041D1</tstamp>
+    </comp>
+    <comp ref="R219">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/ocxo/" tstamps="/56132794/"/>
+      <tstamp>58980796</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>GREEN</value>
+      <footprint>local:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="PartNum">LIST-C171GKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/ocxo/" tstamps="/56132794/"/>
+      <tstamp>5898079F</tstamp>
     </comp>
     <comp ref="FB301">
       <value>60@100MHz</value>
@@ -742,7 +811,7 @@
     </comp>
     <comp ref="C303">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -770,7 +839,7 @@
     </comp>
     <comp ref="U302">
       <value>MIC5225</value>
-      <footprint>local:SOT-23-5_1.6x2.9mm_Pitch0.95mm</footprint>
+      <footprint>local:SOT-23-5_1.6x2.9mm_Pitch0.95mm_HandSoldering</footprint>
       <fields>
         <field name="Voltage">3.3V</field>
         <field name="Current">0.15A</field>
@@ -787,6 +856,7 @@
       <fields>
         <field name="Manufacturer">Adafruit</field>
         <field name="PartNum">Adafruit746</field>
+        <field name="DNP">DNP</field>
       </fields>
       <libsource lib="local" part="Adafruit746"/>
       <sheetpath names="/gps/" tstamps="/56133D72/"/>
@@ -805,7 +875,7 @@
     </comp>
     <comp ref="R301">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -815,6 +885,94 @@
       <libsource lib="local" part="R_local"/>
       <sheetpath names="/gps/" tstamps="/56133D72/"/>
       <tstamp>5632AC0C</tstamp>
+    </comp>
+    <comp ref="Q301">
+      <value>BSS138</value>
+      <footprint>local:SOT-23-3_NXP_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="PartNum">BSS138LT1G</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/gps/" tstamps="/56133D72/"/>
+      <tstamp>57AB6857</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080510K0FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/gps/" tstamps="/56133D72/"/>
+      <tstamp>57AB6FA9</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>10.0K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080510K0FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/gps/" tstamps="/56133D72/"/>
+      <tstamp>57AB756F</tstamp>
+    </comp>
+    <comp ref="Q302">
+      <value>BSS138</value>
+      <footprint>local:SOT-23-3_NXP_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="PartNum">BSS138LT1G</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/gps/" tstamps="/56133D72/"/>
+      <tstamp>57B4A861</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>10.0K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080510K0FKEA</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/gps/" tstamps="/56133D72/"/>
+      <tstamp>57B4AD05</tstamp>
+    </comp>
+    <comp ref="R305">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/gps/" tstamps="/56133D72/"/>
+      <tstamp>5897F099</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>GREEN</value>
+      <footprint>local:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="PartNum">LIST-C171GKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/gps/" tstamps="/56133D72/"/>
+      <tstamp>5897F149</tstamp>
     </comp>
     <comp ref="PX2">
       <value>61083_02X50</value>
@@ -851,7 +1009,7 @@
     </comp>
     <comp ref="R402">
       <value>0R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -864,7 +1022,7 @@
     </comp>
     <comp ref="R406">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -877,7 +1035,7 @@
     </comp>
     <comp ref="D401">
       <value>MM3Z3V3T1G</value>
-      <footprint>local:SOD-323_477-02-H</footprint>
+      <footprint>local:SOD-323_477-02-H_HandSoldering</footprint>
       <fields>
         <field name="Voltage">3.3V</field>
         <field name="Power">300mW</field>
@@ -890,7 +1048,7 @@
     </comp>
     <comp ref="R407">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -903,7 +1061,7 @@
     </comp>
     <comp ref="R401">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -916,7 +1074,7 @@
     </comp>
     <comp ref="R403">
       <value>0R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -929,7 +1087,7 @@
     </comp>
     <comp ref="R404">
       <value>0R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -942,7 +1100,7 @@
     </comp>
     <comp ref="R405">
       <value>0R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -966,7 +1124,7 @@
     </comp>
     <comp ref="C401">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -985,6 +1143,97 @@
       <sheetpath names="/microzed/" tstamps="/5623D297/"/>
       <tstamp>569829DE</tstamp>
     </comp>
+    <comp ref="Q401">
+      <value>BSS138</value>
+      <footprint>local:SOT-23-3_NXP_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="PartNum">BSS138LT1G</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/microzed/" tstamps="/5623D297/"/>
+      <tstamp>57B7BAA2</tstamp>
+    </comp>
+    <comp ref="Q402">
+      <value>BSS138</value>
+      <footprint>local:SOT-23-3_NXP_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="PartNum">BSS138LT1G</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/microzed/" tstamps="/5623D297/"/>
+      <tstamp>57B7BAAB</tstamp>
+    </comp>
+    <comp ref="R408">
+      <value>10.0K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080510K0FKEA</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/microzed/" tstamps="/5623D297/"/>
+      <tstamp>57B7BAB6</tstamp>
+    </comp>
+    <comp ref="R410">
+      <value>10.0K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080510K0FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/microzed/" tstamps="/5623D297/"/>
+      <tstamp>57B7BB5C</tstamp>
+    </comp>
+    <comp ref="R409">
+      <value>0R</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08050000Z0EA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/microzed/" tstamps="/5623D297/"/>
+      <tstamp>57BFD7F3</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>47pF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">5%</field>
+        <field name="Dielectric">C0G</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C470J5GACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/microzed/" tstamps="/5623D297/"/>
+      <tstamp>5858D6C2</tstamp>
+    </comp>
+    <comp ref="R411">
+      <value>0R</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08050000Z0EA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/microzed/" tstamps="/5623D297/"/>
+      <tstamp>5864E898</tstamp>
+    </comp>
     <comp ref="C504">
       <value>10uF</value>
       <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
@@ -1001,7 +1250,7 @@
     </comp>
     <comp ref="C507">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1029,7 +1278,7 @@
     </comp>
     <comp ref="R501">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1042,7 +1291,7 @@
     </comp>
     <comp ref="R504">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1055,7 +1304,7 @@
     </comp>
     <comp ref="R513">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1068,7 +1317,7 @@
     </comp>
     <comp ref="C510">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1110,7 +1359,7 @@
     </comp>
     <comp ref="C513">
       <value>0.47uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1163,7 +1412,7 @@
     </comp>
     <comp ref="C508">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1177,7 +1426,7 @@
     </comp>
     <comp ref="R505">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1190,7 +1439,7 @@
     </comp>
     <comp ref="R502">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1203,7 +1452,7 @@
     </comp>
     <comp ref="C511">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1217,7 +1466,7 @@
     </comp>
     <comp ref="C514">
       <value>0.47uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1270,12 +1519,13 @@
     </comp>
     <comp ref="R514">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="PartNum">CRCW0805100KFKEA</field>
+        <field name="DNP">DNP</field>
       </fields>
       <libsource lib="local" part="R_local"/>
       <sheetpath names="/power/" tstamps="/55FF5A67/"/>
@@ -1283,12 +1533,13 @@
     </comp>
     <comp ref="R515">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="PartNum">CRCW0805100KFKEA</field>
+        <field name="DNP">DNP</field>
       </fields>
       <libsource lib="local" part="R_local"/>
       <sheetpath names="/power/" tstamps="/55FF5A67/"/>
@@ -1324,7 +1575,7 @@
     </comp>
     <comp ref="C515">
       <value>0.47uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1338,7 +1589,7 @@
     </comp>
     <comp ref="C512">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1352,7 +1603,7 @@
     </comp>
     <comp ref="R506">
       <value>10.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1365,7 +1616,7 @@
     </comp>
     <comp ref="C509">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1407,7 +1658,7 @@
     </comp>
     <comp ref="R503">
       <value>100K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1431,7 +1682,7 @@
     </comp>
     <comp ref="R508">
       <value>4.99K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1444,7 +1695,7 @@
     </comp>
     <comp ref="R507">
       <value>36.5K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1457,7 +1708,7 @@
     </comp>
     <comp ref="R510">
       <value>4.99K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1470,7 +1721,7 @@
     </comp>
     <comp ref="R512">
       <value>4.99K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1483,7 +1734,7 @@
     </comp>
     <comp ref="R509">
       <value>22.6K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1496,7 +1747,7 @@
     </comp>
     <comp ref="R511">
       <value>20.0K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1509,7 +1760,7 @@
     </comp>
     <comp ref="C516">
       <value>47pF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
@@ -1523,7 +1774,7 @@
     </comp>
     <comp ref="C517">
       <value>47pF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
@@ -1537,7 +1788,7 @@
     </comp>
     <comp ref="C518">
       <value>47pF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">5%</field>
@@ -1599,6 +1850,89 @@
       <sheetpath names="/power/" tstamps="/55FF5A67/"/>
       <tstamp>56454A2E</tstamp>
     </comp>
+    <comp ref="Q501">
+      <value>BSS138</value>
+      <footprint>local:SOT-23-3_NXP_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="PartNum">BSS138LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/power/" tstamps="/55FF5A67/"/>
+      <tstamp>57A96588</tstamp>
+    </comp>
+    <comp ref="Q502">
+      <value>BSS138</value>
+      <footprint>local:SOT-23-3_NXP_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="PartNum">BSS138LT1G</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/power/" tstamps="/55FF5A67/"/>
+      <tstamp>57A97046</tstamp>
+    </comp>
+    <comp ref="R516">
+      <value>10.0K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW080510K0FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/power/" tstamps="/55FF5A67/"/>
+      <tstamp>57A9749D</tstamp>
+    </comp>
+    <comp ref="R517">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/power/" tstamps="/55FF5A67/"/>
+      <tstamp>589817C2</tstamp>
+    </comp>
+    <comp ref="D501">
+      <value>GREEN</value>
+      <footprint>local:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="PartNum">LIST-C171GKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/power/" tstamps="/55FF5A67/"/>
+      <tstamp>589817CB</tstamp>
+    </comp>
+    <comp ref="R518">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/power/" tstamps="/55FF5A67/"/>
+      <tstamp>58982414</tstamp>
+    </comp>
+    <comp ref="D502">
+      <value>GREEN</value>
+      <footprint>local:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="PartNum">LIST-C171GKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/power/" tstamps="/55FF5A67/"/>
+      <tstamp>5898241C</tstamp>
+    </comp>
     <comp ref="U602">
       <value>DS3231</value>
       <footprint>local:SOIC-16_Maxim_W16_H2</footprint>
@@ -1623,7 +1957,7 @@
     </comp>
     <comp ref="R603">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1636,7 +1970,7 @@
     </comp>
     <comp ref="R604">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1672,7 +2006,7 @@
     </comp>
     <comp ref="R605">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1685,7 +2019,7 @@
     </comp>
     <comp ref="R606">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1698,7 +2032,7 @@
     </comp>
     <comp ref="R601">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1711,7 +2045,7 @@
     </comp>
     <comp ref="R602">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1724,7 +2058,7 @@
     </comp>
     <comp ref="R608">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1737,7 +2071,7 @@
     </comp>
     <comp ref="R607">
       <value>1.00K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -1750,7 +2084,7 @@
     </comp>
     <comp ref="C603">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1764,7 +2098,7 @@
     </comp>
     <comp ref="C601">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1778,7 +2112,7 @@
     </comp>
     <comp ref="C602">
       <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <footprint>local:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Voltage">50V</field>
         <field name="Tolerance">10%</field>
@@ -1789,6 +2123,58 @@
       <libsource lib="device" part="C"/>
       <sheetpath names="/rtctemp/" tstamps="/5636A673/"/>
       <tstamp>5636D4AC</tstamp>
+    </comp>
+    <comp ref="R609">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/rtctemp/" tstamps="/5636A673/"/>
+      <tstamp>57AC1154</tstamp>
+    </comp>
+    <comp ref="R610">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/rtctemp/" tstamps="/5636A673/"/>
+      <tstamp>57AC1181</tstamp>
+    </comp>
+    <comp ref="R612">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/rtctemp/" tstamps="/5636A673/"/>
+      <tstamp>589A8EE4</tstamp>
+    </comp>
+    <comp ref="R611">
+      <value>1.00K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/rtctemp/" tstamps="/5636A673/"/>
+      <tstamp>589A91FB</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1992,6 +2378,23 @@
       <pins>
         <pin num="1" name="In" type="passive"/>
         <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="Battery">
@@ -2203,24 +2606,6 @@
         <pin num="16" name="SCL" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="D_Schottky">
-      <description>Diode schottky</description>
-      <footprints>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>Diode_*</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>*_Diode_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="FILTER">
       <description>Filtre EMI</description>
       <fields>
@@ -2255,6 +2640,25 @@
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="local" part="LMV722">
@@ -2419,7 +2823,7 @@
         <pin num="4" name="SDA1" type="BiDi"/>
         <pin num="5" name="SDA2" type="BiDi"/>
         <pin num="6" name="SCL2" type="output"/>
-        <pin num="7" name="VREF2" type="power_in"/>
+        <pin num="7" name="VREF2" type="input"/>
         <pin num="8" name="EN" type="input"/>
       </pins>
     </libpart>
@@ -2532,1099 +2936,1186 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="local">
-      <uri>/home/guest/cae/kicad/lib/local.lib</uri>
+    <library logical="transistors">
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/transistors.lib</uri>
     </library>
     <library logical="conn">
       <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib</uri>
     </library>
+    <library logical="local">
+      <uri>/home/guest/cae/kicad/lib/local.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="VIN">
-      <node ref="U201" pin="7"/>
-      <node ref="PX2" pin="12"/>
-      <node ref="PX2" pin="60"/>
-      <node ref="C204" pin="1"/>
-      <node ref="C301" pin="1"/>
-      <node ref="U204" pin="10"/>
-      <node ref="R205" pin="1"/>
-      <node ref="U302" pin="1"/>
-      <node ref="C208" pin="1"/>
-      <node ref="PX1" pin="59"/>
-      <node ref="C522" pin="1"/>
-      <node ref="C519" pin="1"/>
-      <node ref="R211" pin="1"/>
-      <node ref="R513" pin="1"/>
-      <node ref="R507" pin="1"/>
-      <node ref="PX1" pin="58"/>
-      <node ref="PX1" pin="57"/>
-      <node ref="R207" pin="1"/>
-      <node ref="C516" pin="1"/>
-      <node ref="U301" pin="2"/>
-      <node ref="R212" pin="2"/>
-      <node ref="PX2" pin="59"/>
-      <node ref="PX2" pin="57"/>
-      <node ref="L501" pin="2"/>
-      <node ref="PX1" pin="60"/>
-      <node ref="PX2" pin="58"/>
+    <net code="1" name="/DISP2">
+      <node ref="P103" pin="7"/>
+      <node ref="R404" pin="1"/>
     </net>
-    <net code="2" name="/microzed/~DAC_CS~">
-      <node ref="PX2" pin="73"/>
-      <node ref="U202" pin="4"/>
+    <net code="2" name="/microzed/OCXO_SCL">
+      <node ref="PX1" pin="76"/>
+      <node ref="U201" pin="3"/>
+      <node ref="R202" pin="2"/>
     </net>
-    <net code="3" name="/ocxo/ENA">
-      <node ref="R215" pin="2"/>
-      <node ref="R206" pin="1"/>
+    <net code="3" name="/ocxo/DAC_SDI">
+      <node ref="U202" pin="6"/>
+      <node ref="PX2" pin="81"/>
+    </net>
+    <net code="4" name="/ocxo/ENA">
+      <node ref="R215" pin="1"/>
       <node ref="PX1" pin="48"/>
+      <node ref="R206" pin="2"/>
     </net>
-    <net code="4" name="/DISP0">
-      <node ref="P103" pin="3"/>
-      <node ref="R402" pin="1"/>
+    <net code="5" name="/microzed/+5V_PG">
+      <node ref="PX1" pin="5"/>
+      <node ref="U501" pin="4"/>
+      <node ref="R513" pin="2"/>
+      <node ref="Q501" pin="1"/>
     </net>
-    <net code="5" name="/power/+12V">
-      <node ref="C505" pin="1"/>
-      <node ref="C508" pin="1"/>
-      <node ref="U503" pin="8"/>
-      <node ref="U501" pin="8"/>
-      <node ref="C501" pin="1"/>
-      <node ref="C502" pin="1"/>
-      <node ref="P101" pin="1"/>
-      <node ref="C504" pin="1"/>
-      <node ref="C503" pin="1"/>
-      <node ref="U502" pin="8"/>
-      <node ref="JP502" pin="1"/>
-      <node ref="JP501" pin="1"/>
-      <node ref="C506" pin="1"/>
-      <node ref="P102" pin="2"/>
-      <node ref="C507" pin="1"/>
-      <node ref="R501" pin="1"/>
-      <node ref="C509" pin="1"/>
+    <net code="6" name="/microzed/RTC_SDA">
+      <node ref="R603" pin="2"/>
+      <node ref="U602" pin="15"/>
+      <node ref="PX1" pin="84"/>
     </net>
-    <net code="6" name="/rtctemp/BATTERY">
+    <net code="7" name="/microzed/FAN_TACH">
+      <node ref="R407" pin="2"/>
+      <node ref="R401" pin="1"/>
+      <node ref="P102" pin="3"/>
+    </net>
+    <net code="8" name="/microzed/RTC_SCL">
+      <node ref="R604" pin="2"/>
+      <node ref="PX1" pin="82"/>
+      <node ref="U602" pin="16"/>
+    </net>
+    <net code="9" name="/microzed/GPS_TX">
+      <node ref="U301" pin="4"/>
+      <node ref="PX2" pin="63"/>
+      <node ref="U303" pin="10"/>
+    </net>
+    <net code="10" name="/microzed/TEMP_SDA">
+      <node ref="PX1" pin="54"/>
+      <node ref="U603" pin="2"/>
+      <node ref="R606" pin="2"/>
+      <node ref="U601" pin="2"/>
+    </net>
+    <net code="11" name="/rtctemp/BATTERY">
+      <node ref="U303" pin="4"/>
       <node ref="BT601" pin="1"/>
       <node ref="U301" pin="7"/>
       <node ref="U602" pin="14"/>
-      <node ref="U303" pin="4"/>
     </net>
-    <net code="7" name="VCC">
-      <node ref="C523" pin="1"/>
-      <node ref="U207" pin="5"/>
-      <node ref="C219" pin="1"/>
-      <node ref="C517" pin="1"/>
-      <node ref="R201" pin="1"/>
-      <node ref="PX2" pin="79"/>
-      <node ref="C520" pin="1"/>
-      <node ref="R514" pin="1"/>
-      <node ref="R202" pin="1"/>
-      <node ref="PX2" pin="78"/>
-      <node ref="R509" pin="1"/>
-      <node ref="C202" pin="1"/>
-      <node ref="L502" pin="2"/>
-      <node ref="C603" pin="1"/>
-      <node ref="C601" pin="1"/>
-      <node ref="U601" pin="8"/>
-      <node ref="R301" pin="1"/>
-      <node ref="PX2" pin="98"/>
-      <node ref="C602" pin="1"/>
-      <node ref="P401" pin="1"/>
-      <node ref="P103" pin="13"/>
-      <node ref="U603" pin="8"/>
-      <node ref="R606" pin="1"/>
-      <node ref="R605" pin="1"/>
-      <node ref="R206" pin="2"/>
-      <node ref="R604" pin="1"/>
-      <node ref="U602" pin="2"/>
-      <node ref="R603" pin="1"/>
-      <node ref="R407" pin="1"/>
-      <node ref="PX1" pin="78"/>
-      <node ref="PX1" pin="80"/>
-      <node ref="C401" pin="1"/>
-      <node ref="U201" pin="2"/>
-      <node ref="R607" pin="1"/>
-      <node ref="PX1" pin="79"/>
-      <node ref="PX2" pin="80"/>
-      <node ref="U401" pin="20"/>
+    <net code="12" name="/microzed/~DAC_CS~">
+      <node ref="PX2" pin="73"/>
+      <node ref="U202" pin="4"/>
     </net>
-    <net code="8" name="/DISP1">
+    <net code="13" name="/microzed/OCXO_SDA">
+      <node ref="U201" pin="4"/>
+      <node ref="R201" pin="2"/>
+      <node ref="PX1" pin="74"/>
+    </net>
+    <net code="14" name="VIN">
+      <node ref="C522" pin="1"/>
+      <node ref="U301" pin="2"/>
+      <node ref="C208" pin="1"/>
+      <node ref="PX1" pin="59"/>
+      <node ref="R513" pin="1"/>
+      <node ref="U204" pin="10"/>
+      <node ref="U302" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="L501" pin="2"/>
+      <node ref="PX1" pin="58"/>
+      <node ref="PX1" pin="57"/>
+      <node ref="C519" pin="1"/>
+      <node ref="R517" pin="1"/>
+      <node ref="PX2" pin="12"/>
+      <node ref="R205" pin="1"/>
+      <node ref="R207" pin="1"/>
+      <node ref="R408" pin="2"/>
+      <node ref="R410" pin="2"/>
+      <node ref="R211" pin="1"/>
+      <node ref="C516" pin="1"/>
+      <node ref="R507" pin="1"/>
+      <node ref="PX2" pin="57"/>
+      <node ref="PX2" pin="58"/>
+      <node ref="R212" pin="2"/>
+      <node ref="PX2" pin="59"/>
+      <node ref="PX2" pin="60"/>
+      <node ref="PX1" pin="60"/>
+      <node ref="R304" pin="2"/>
+    </net>
+    <net code="15" name="/microzed/FAN_PWM">
+      <node ref="R406" pin="1"/>
+      <node ref="P102" pin="4"/>
+    </net>
+    <net code="16" name="/power/+12V">
+      <node ref="R501" pin="1"/>
+      <node ref="C501" pin="1"/>
+      <node ref="C507" pin="1"/>
+      <node ref="C504" pin="1"/>
+      <node ref="R516" pin="2"/>
+      <node ref="JP502" pin="1"/>
+      <node ref="U503" pin="8"/>
+      <node ref="U501" pin="8"/>
+      <node ref="C502" pin="1"/>
+      <node ref="C505" pin="1"/>
+      <node ref="C508" pin="1"/>
+      <node ref="P102" pin="2"/>
+      <node ref="P101" pin="1"/>
+      <node ref="JP501" pin="1"/>
+      <node ref="U502" pin="8"/>
+      <node ref="C509" pin="1"/>
+      <node ref="C506" pin="1"/>
+      <node ref="C503" pin="1"/>
+    </net>
+    <net code="17" name="/microzed/~CARRIER_SRST~">
+      <node ref="C402" pin="1"/>
+      <node ref="P103" pin="1"/>
+      <node ref="PX1" pin="6"/>
+    </net>
+    <net code="18" name="/microzed/GPS_RX">
+      <node ref="PX2" pin="61"/>
+      <node ref="U301" pin="5"/>
+      <node ref="U303" pin="9"/>
+    </net>
+    <net code="19" name="/gps/ENA">
+      <node ref="R302" pin="1"/>
+      <node ref="PX2" pin="87"/>
+      <node ref="R301" pin="2"/>
+    </net>
+    <net code="20" name="/gps/3DFIX">
+      <node ref="PX2" pin="67"/>
+      <node ref="U303" pin="5"/>
+      <node ref="U301" pin="6"/>
+    </net>
+    <net code="21" name="/rtctemp/32KHZ">
+      <node ref="R609" pin="1"/>
+      <node ref="PX2" pin="53"/>
+      <node ref="U602" pin="1"/>
+    </net>
+    <net code="22" name="/power/+3.0V">
+      <node ref="P103" pin="16"/>
+      <node ref="P103" pin="15"/>
+      <node ref="R511" pin="1"/>
+      <node ref="C521" pin="1"/>
+      <node ref="C524" pin="1"/>
+      <node ref="L503" pin="2"/>
+      <node ref="R515" pin="1"/>
+      <node ref="C518" pin="1"/>
+    </net>
+    <net code="23" name="/microzed/TEMP_SCL">
+      <node ref="U601" pin="1"/>
+      <node ref="R605" pin="2"/>
+      <node ref="U603" pin="1"/>
+      <node ref="PX1" pin="56"/>
+    </net>
+    <net code="24" name="/DISP1">
       <node ref="R403" pin="1"/>
       <node ref="P103" pin="5"/>
     </net>
-    <net code="9" name="/microzed/~CARRIER_SRST~">
-      <node ref="PX1" pin="6"/>
-      <node ref="P103" pin="1"/>
+    <net code="25" name="/DISP3">
+      <node ref="P103" pin="9"/>
+      <node ref="R405" pin="1"/>
     </net>
-    <net code="10" name="/power/+3.0V">
-      <node ref="P103" pin="15"/>
-      <node ref="R511" pin="1"/>
-      <node ref="L503" pin="2"/>
-      <node ref="C518" pin="1"/>
-      <node ref="R515" pin="1"/>
-      <node ref="C524" pin="1"/>
-      <node ref="C521" pin="1"/>
-    </net>
-    <net code="11" name="GND">
-      <node ref="P301" pin="2"/>
-      <node ref="C302" pin="2"/>
-      <node ref="U301" pin="3"/>
+    <net code="26" name="GND">
+      <node ref="C209" pin="2"/>
+      <node ref="Q302" pin="2"/>
+      <node ref="R302" pin="2"/>
       <node ref="U302" pin="2"/>
-      <node ref="U303" pin="3"/>
-      <node ref="U303" pin="8"/>
+      <node ref="R206" pin="1"/>
+      <node ref="Y202" pin="7"/>
+      <node ref="U303" pin="19"/>
+      <node ref="U303" pin="12"/>
       <node ref="C301" pin="2"/>
       <node ref="C303" pin="2"/>
-      <node ref="U303" pin="12"/>
-      <node ref="U303" pin="19"/>
-      <node ref="U207" pin="3"/>
-      <node ref="C219" pin="2"/>
-      <node ref="HS201" pin="1"/>
-      <node ref="C211" pin="2"/>
-      <node ref="Y202" pin="7"/>
-      <node ref="C215" pin="2"/>
-      <node ref="HS201" pin="2"/>
-      <node ref="PX1" pin="65"/>
-      <node ref="PX1" pin="27"/>
+      <node ref="U303" pin="3"/>
+      <node ref="U303" pin="8"/>
+      <node ref="C217" pin="2"/>
+      <node ref="R213" pin="2"/>
+      <node ref="P301" pin="2"/>
+      <node ref="Q301" pin="2"/>
+      <node ref="D301" pin="1"/>
+      <node ref="U301" pin="3"/>
+      <node ref="C302" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="U401" pin="1"/>
+      <node ref="U401" pin="10"/>
+      <node ref="PX1" pin="39"/>
+      <node ref="U401" pin="19"/>
+      <node ref="PX1" pin="85"/>
       <node ref="PX1" pin="96"/>
       <node ref="PX1" pin="86"/>
       <node ref="PX1" pin="66"/>
       <node ref="PX1" pin="46"/>
       <node ref="PX1" pin="16"/>
       <node ref="PX1" pin="95"/>
-      <node ref="PX1" pin="85"/>
+      <node ref="PX1" pin="65"/>
+      <node ref="R602" pin="2"/>
+      <node ref="R608" pin="2"/>
+      <node ref="C602" pin="2"/>
+      <node ref="BT601" pin="2"/>
+      <node ref="U602" pin="13"/>
+      <node ref="U601" pin="7"/>
+      <node ref="R601" pin="2"/>
+      <node ref="U603" pin="7"/>
       <node ref="PX1" pin="45"/>
-      <node ref="PX1" pin="39"/>
       <node ref="PX1" pin="15"/>
       <node ref="PX1" pin="28"/>
       <node ref="PX1" pin="77"/>
-      <node ref="PX1" pin="72"/>
-      <node ref="PX1" pin="52"/>
+      <node ref="PX1" pin="27"/>
+      <node ref="D401" pin="2"/>
+      <node ref="C603" pin="2"/>
+      <node ref="C601" pin="2"/>
+      <node ref="PX1" pin="33"/>
+      <node ref="PX2" pin="91"/>
+      <node ref="PX2" pin="15"/>
+      <node ref="PX2" pin="71"/>
+      <node ref="PX2" pin="51"/>
+      <node ref="PX2" pin="21"/>
+      <node ref="PX2" pin="66"/>
+      <node ref="PX2" pin="40"/>
+      <node ref="PX1" pin="21"/>
       <node ref="PX1" pin="22"/>
       <node ref="PX1" pin="71"/>
       <node ref="PX1" pin="51"/>
-      <node ref="PX1" pin="21"/>
+      <node ref="PX1" pin="40"/>
       <node ref="PX1" pin="34"/>
-      <node ref="PX1" pin="33"/>
-      <node ref="C401" pin="2"/>
-      <node ref="U601" pin="7"/>
-      <node ref="C603" pin="2"/>
-      <node ref="C601" pin="2"/>
-      <node ref="U602" pin="13"/>
-      <node ref="U603" pin="7"/>
-      <node ref="BT601" pin="2"/>
-      <node ref="D401" pin="2"/>
-      <node ref="U401" pin="1"/>
-      <node ref="U401" pin="10"/>
-      <node ref="U401" pin="19"/>
-      <node ref="R602" pin="2"/>
-      <node ref="R608" pin="2"/>
-      <node ref="R601" pin="2"/>
-      <node ref="C602" pin="2"/>
-      <node ref="PX2" pin="33"/>
-      <node ref="PX2" pin="46"/>
+      <node ref="PX2" pin="65"/>
+      <node ref="PX1" pin="72"/>
+      <node ref="PX1" pin="52"/>
+      <node ref="PX2" pin="77"/>
+      <node ref="PX2" pin="28"/>
       <node ref="PX2" pin="27"/>
       <node ref="PX2" pin="86"/>
-      <node ref="PX2" pin="66"/>
-      <node ref="PX2" pin="16"/>
-      <node ref="PX2" pin="85"/>
-      <node ref="PX2" pin="65"/>
-      <node ref="PX2" pin="45"/>
-      <node ref="PX2" pin="91"/>
+      <node ref="PX2" pin="39"/>
+      <node ref="Q402" pin="2"/>
+      <node ref="Q401" pin="2"/>
+      <node ref="C402" pin="2"/>
       <node ref="P401" pin="2"/>
-      <node ref="PX2" pin="40"/>
+      <node ref="PX2" pin="33"/>
+      <node ref="PX2" pin="34"/>
       <node ref="PX2" pin="92"/>
       <node ref="PX2" pin="72"/>
       <node ref="PX2" pin="52"/>
       <node ref="PX2" pin="22"/>
-      <node ref="PX2" pin="71"/>
-      <node ref="PX2" pin="51"/>
-      <node ref="PX2" pin="21"/>
-      <node ref="PX2" pin="39"/>
-      <node ref="PX2" pin="28"/>
-      <node ref="PX2" pin="77"/>
-      <node ref="PX1" pin="40"/>
-      <node ref="PX2" pin="34"/>
-      <node ref="PX2" pin="15"/>
-      <node ref="C501" pin="2"/>
-      <node ref="C507" pin="2"/>
+      <node ref="PX2" pin="45"/>
+      <node ref="PX2" pin="46"/>
+      <node ref="PX2" pin="16"/>
+      <node ref="PX2" pin="85"/>
+      <node ref="C212" pin="2"/>
+      <node ref="C213" pin="2"/>
+      <node ref="C218" pin="2"/>
+      <node ref="C216" pin="2"/>
+      <node ref="C214" pin="2"/>
+      <node ref="C208" pin="2"/>
+      <node ref="U204" pin="5"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="R204" pin="2"/>
+      <node ref="C219" pin="2"/>
+      <node ref="C215" pin="2"/>
+      <node ref="C211" pin="2"/>
+      <node ref="D201" pin="1"/>
+      <node ref="C207" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="U201" pin="1"/>
+      <node ref="U205" pin="3"/>
+      <node ref="P103" pin="10"/>
+      <node ref="P102" pin="1"/>
+      <node ref="P103" pin="0"/>
+      <node ref="P103" pin="2"/>
+      <node ref="P103" pin="4"/>
+      <node ref="P103" pin="6"/>
+      <node ref="P103" pin="8"/>
+      <node ref="P103" pin="12"/>
+      <node ref="P103" pin="14"/>
       <node ref="C514" pin="2"/>
-      <node ref="R213" pin="2"/>
-      <node ref="U501" pin="5"/>
+      <node ref="U502" pin="5"/>
       <node ref="C508" pin="2"/>
       <node ref="C505" pin="2"/>
       <node ref="C502" pin="2"/>
-      <node ref="C209" pin="2"/>
-      <node ref="C202" pin="2"/>
-      <node ref="U501" pin="9"/>
-      <node ref="C212" pin="2"/>
-      <node ref="C214" pin="2"/>
-      <node ref="C208" pin="2"/>
-      <node ref="C204" pin="2"/>
       <node ref="P101" pin="2"/>
-      <node ref="P103" pin="0"/>
-      <node ref="C504" pin="2"/>
+      <node ref="U501" pin="9"/>
+      <node ref="R508" pin="2"/>
+      <node ref="Q502" pin="2"/>
+      <node ref="Q501" pin="2"/>
+      <node ref="D502" pin="1"/>
+      <node ref="D501" pin="1"/>
+      <node ref="R512" pin="2"/>
+      <node ref="R510" pin="2"/>
+      <node ref="U503" pin="9"/>
+      <node ref="U503" pin="5"/>
+      <node ref="C522" pin="2"/>
+      <node ref="C503" pin="2"/>
+      <node ref="C521" pin="2"/>
+      <node ref="C506" pin="2"/>
+      <node ref="C509" pin="2"/>
+      <node ref="C515" pin="2"/>
+      <node ref="C524" pin="2"/>
+      <node ref="C523" pin="2"/>
+      <node ref="C520" pin="2"/>
+      <node ref="U502" pin="9"/>
       <node ref="C513" pin="2"/>
       <node ref="C519" pin="2"/>
-      <node ref="C522" pin="2"/>
-      <node ref="P103" pin="16"/>
-      <node ref="P103" pin="14"/>
-      <node ref="P103" pin="12"/>
-      <node ref="P103" pin="10"/>
-      <node ref="P103" pin="8"/>
-      <node ref="P103" pin="6"/>
-      <node ref="P103" pin="4"/>
-      <node ref="P103" pin="2"/>
-      <node ref="U502" pin="9"/>
-      <node ref="C203" pin="2"/>
-      <node ref="U204" pin="9"/>
-      <node ref="C201" pin="2"/>
-      <node ref="C205" pin="2"/>
-      <node ref="C523" pin="2"/>
-      <node ref="C213" pin="2"/>
-      <node ref="C520" pin="2"/>
-      <node ref="C218" pin="2"/>
-      <node ref="U204" pin="8"/>
-      <node ref="P102" pin="1"/>
-      <node ref="C216" pin="2"/>
-      <node ref="U201" pin="1"/>
-      <node ref="U503" pin="5"/>
-      <node ref="R510" pin="2"/>
-      <node ref="U205" pin="3"/>
-      <node ref="U202" pin="2"/>
-      <node ref="P103" pin="11"/>
-      <node ref="C515" pin="2"/>
-      <node ref="C521" pin="2"/>
-      <node ref="U203" pin="4"/>
-      <node ref="R512" pin="2"/>
+      <node ref="U501" pin="5"/>
+      <node ref="C501" pin="2"/>
+      <node ref="C507" pin="2"/>
+      <node ref="C504" pin="2"/>
       <node ref="U202" pin="7"/>
-      <node ref="C524" pin="2"/>
-      <node ref="C509" pin="2"/>
-      <node ref="U204" pin="5"/>
-      <node ref="C207" pin="2"/>
-      <node ref="R508" pin="2"/>
-      <node ref="U503" pin="9"/>
-      <node ref="C506" pin="2"/>
-      <node ref="R204" pin="2"/>
-      <node ref="C503" pin="2"/>
-      <node ref="U502" pin="5"/>
+      <node ref="U207" pin="3"/>
+      <node ref="U202" pin="2"/>
+      <node ref="U204" pin="9"/>
+      <node ref="U204" pin="8"/>
+      <node ref="HS201" pin="2"/>
+      <node ref="HS201" pin="1"/>
+      <node ref="U203" pin="4"/>
     </net>
-    <net code="12" name="/gps/1PPS">
-      <node ref="PX2" pin="69"/>
-      <node ref="U301" pin="1"/>
+    <net code="27" name="/power/+5V_ENA">
+      <node ref="R504" pin="2"/>
+      <node ref="R501" pin="2"/>
+      <node ref="P101" pin="3"/>
+    </net>
+    <net code="28" name="/gps/1PPS">
       <node ref="U303" pin="13"/>
+      <node ref="U301" pin="1"/>
+      <node ref="PX2" pin="69"/>
     </net>
-    <net code="13" name="/power/+3.0V_PG">
+    <net code="29" name="/microzed/DAC_SCLK">
+      <node ref="PX2" pin="75"/>
+      <node ref="U202" pin="5"/>
+    </net>
+    <net code="30" name="/power/+3.0V_PG">
+      <node ref="R514" pin="2"/>
+      <node ref="R515" pin="2"/>
       <node ref="PX2" pin="11"/>
       <node ref="U502" pin="4"/>
       <node ref="U503" pin="4"/>
-      <node ref="R515" pin="2"/>
-      <node ref="R514" pin="2"/>
     </net>
-    <net code="14" name="/DISP2">
-      <node ref="P103" pin="7"/>
-      <node ref="R404" pin="1"/>
-    </net>
-    <net code="15" name="/microzed/FAN_TACH">
-      <node ref="P102" pin="3"/>
-      <node ref="R407" pin="2"/>
-      <node ref="R401" pin="1"/>
-    </net>
-    <net code="16" name="/microzed/OCXO_SDA">
-      <node ref="PX1" pin="74"/>
-      <node ref="U201" pin="4"/>
-      <node ref="R201" pin="2"/>
-    </net>
-    <net code="17" name="/microzed/RTC_SCL">
-      <node ref="U602" pin="16"/>
-      <node ref="R604" pin="2"/>
-      <node ref="PX1" pin="82"/>
-    </net>
-    <net code="18" name="/microzed/RTC_SDA">
-      <node ref="R603" pin="2"/>
-      <node ref="U602" pin="15"/>
-      <node ref="PX1" pin="84"/>
-    </net>
-    <net code="19" name="/microzed/+5V_PG">
-      <node ref="R513" pin="2"/>
-      <node ref="D101" pin="1"/>
-      <node ref="U501" pin="4"/>
-      <node ref="PX1" pin="5"/>
-    </net>
-    <net code="20" name="/microzed/TEMP_SCL">
-      <node ref="U603" pin="1"/>
-      <node ref="U601" pin="1"/>
-      <node ref="PX1" pin="56"/>
-      <node ref="R605" pin="2"/>
-    </net>
-    <net code="21" name="/microzed/+1.8V_PG">
-      <node ref="PX2" pin="10"/>
-      <node ref="R502" pin="2"/>
-      <node ref="R505" pin="2"/>
-      <node ref="R506" pin="2"/>
-      <node ref="R503" pin="2"/>
-      <node ref="D101" pin="2"/>
-    </net>
-    <net code="22" name="/microzed/GPS_TX">
-      <node ref="PX2" pin="63"/>
-      <node ref="U301" pin="5"/>
-      <node ref="U303" pin="9"/>
-    </net>
-    <net code="23" name="/microzed/10MHZ">
-      <node ref="R214" pin="1"/>
+    <net code="31" name="/microzed/10MHZ">
       <node ref="PX1" pin="42"/>
+      <node ref="R214" pin="1"/>
     </net>
-    <net code="24" name="/DISP3">
-      <node ref="P103" pin="9"/>
-      <node ref="R405" pin="1"/>
+    <net code="32" name="/microzed/+1.8V_PG">
+      <node ref="Q402" pin="3"/>
+      <node ref="R409" pin="2"/>
+      <node ref="R502" pin="2"/>
+      <node ref="R410" pin="1"/>
+      <node ref="R503" pin="2"/>
+      <node ref="Q502" pin="3"/>
+      <node ref="R506" pin="2"/>
+      <node ref="R505" pin="2"/>
     </net>
-    <net code="25" name="/microzed/DAC_SCLK">
-      <node ref="U202" pin="5"/>
-      <node ref="PX2" pin="75"/>
+    <net code="33" name="VCC">
+      <node ref="C520" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="L502" pin="2"/>
+      <node ref="PX2" pin="98"/>
+      <node ref="R509" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="PX2" pin="80"/>
+      <node ref="PX1" pin="80"/>
+      <node ref="PX2" pin="78"/>
+      <node ref="PX2" pin="79"/>
+      <node ref="R518" pin="1"/>
+      <node ref="C517" pin="1"/>
+      <node ref="R609" pin="2"/>
+      <node ref="R610" pin="2"/>
+      <node ref="R603" pin="1"/>
+      <node ref="R604" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="R612" pin="1"/>
+      <node ref="U602" pin="2"/>
+      <node ref="C219" pin="1"/>
+      <node ref="U603" pin="8"/>
+      <node ref="U207" pin="5"/>
+      <node ref="U601" pin="8"/>
+      <node ref="R606" pin="1"/>
+      <node ref="R611" pin="1"/>
+      <node ref="R605" pin="1"/>
+      <node ref="P103" pin="13"/>
+      <node ref="R202" pin="1"/>
+      <node ref="U201" pin="2"/>
+      <node ref="P401" pin="1"/>
+      <node ref="PX1" pin="78"/>
+      <node ref="R514" pin="1"/>
+      <node ref="C523" pin="1"/>
+      <node ref="PX1" pin="79"/>
+      <node ref="U401" pin="20"/>
+      <node ref="R607" pin="1"/>
+      <node ref="C602" pin="1"/>
+      <node ref="C601" pin="1"/>
+      <node ref="R407" pin="1"/>
+      <node ref="C603" pin="1"/>
     </net>
-    <net code="26" name="/microzed/GPS_RX">
-      <node ref="U303" pin="10"/>
-      <node ref="U301" pin="4"/>
-      <node ref="PX2" pin="67"/>
+    <net code="34" name="/power/SW3.0">
+      <node ref="C512" pin="2"/>
+      <node ref="L503" pin="1"/>
+      <node ref="U503" pin="6"/>
     </net>
-    <net code="27" name="/ocxo/DAC_SDI">
-      <node ref="PX2" pin="81"/>
-      <node ref="U202" pin="6"/>
+    <net code="35" name="/power/Vbst3.0">
+      <node ref="U503" pin="7"/>
+      <node ref="C512" pin="1"/>
     </net>
-    <net code="28" name="/microzed/OCXO_SCL">
-      <node ref="U201" pin="3"/>
-      <node ref="R202" pin="2"/>
-      <node ref="PX1" pin="76"/>
-    </net>
-    <net code="30" name="/microzed/TEMP_SDA">
-      <node ref="R606" pin="2"/>
-      <node ref="PX1" pin="54"/>
-      <node ref="U603" pin="2"/>
-      <node ref="U601" pin="2"/>
-    </net>
-    <net code="31" name="/microzed/FAN_PWM">
-      <node ref="R406" pin="1"/>
-      <node ref="P102" pin="4"/>
-    </net>
-    <net code="33" name="/power/+5V_ENA">
-      <node ref="P101" pin="3"/>
-      <node ref="R504" pin="2"/>
-      <node ref="R501" pin="2"/>
-    </net>
-    <net code="34" name="/gps/3DFIX">
-      <node ref="U303" pin="5"/>
-      <node ref="U301" pin="6"/>
-      <node ref="PX2" pin="61"/>
-    </net>
-    <net code="35" name="/gps/ENA">
-      <node ref="R301" pin="2"/>
-      <node ref="U302" pin="3"/>
-      <node ref="PX2" pin="87"/>
-    </net>
-    <net code="36" name="/power/Vreg5">
-      <node ref="U501" pin="3"/>
-      <node ref="C513" pin="1"/>
-    </net>
-    <net code="37" name="/power/Vbst5">
-      <node ref="C510" pin="1"/>
-      <node ref="U501" pin="7"/>
-    </net>
-    <net code="38" name="/power/Vbst3.3">
-      <node ref="C511" pin="1"/>
-      <node ref="U502" pin="7"/>
-    </net>
-    <net code="39" name="Net-(JP502-Pad2)">
+    <net code="36" name="Net-(JP502-Pad2)">
       <node ref="R503" pin="1"/>
       <node ref="JP502" pin="2"/>
     </net>
-    <net code="40" name="Net-(JP501-Pad2)">
-      <node ref="R502" pin="1"/>
+    <net code="37" name="/power/Vbst3.3">
+      <node ref="U502" pin="7"/>
+      <node ref="C511" pin="1"/>
+    </net>
+    <net code="38" name="/power/Vbst5">
+      <node ref="U501" pin="7"/>
+      <node ref="C510" pin="1"/>
+    </net>
+    <net code="39" name="/power/~PG5_G~">
+      <node ref="Q501" pin="3"/>
+      <node ref="R516" pin="1"/>
+      <node ref="Q502" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D502-Pad2)">
+      <node ref="D502" pin="2"/>
+      <node ref="R518" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D501-Pad2)">
+      <node ref="D501" pin="2"/>
+      <node ref="R517" pin="2"/>
+    </net>
+    <net code="42" name="Net-(JP501-Pad2)">
       <node ref="JP501" pin="2"/>
+      <node ref="R502" pin="1"/>
     </net>
-    <net code="41" name="/power/Vbst3.0">
-      <node ref="C512" pin="1"/>
-      <node ref="U503" pin="7"/>
-    </net>
-    <net code="42" name="/power/Vreg3.0">
-      <node ref="C515" pin="1"/>
-      <node ref="U503" pin="3"/>
-    </net>
-    <net code="43" name="/power/Vfb3.0">
-      <node ref="U503" pin="2"/>
-      <node ref="R512" pin="1"/>
-      <node ref="C518" pin="2"/>
-      <node ref="R511" pin="2"/>
-    </net>
-    <net code="44" name="/power/ENA_R3.0">
-      <node ref="R506" pin="1"/>
-      <node ref="U503" pin="1"/>
-    </net>
-    <net code="45" name="/power/ENA_R5">
+    <net code="43" name="/power/ENA_R5">
       <node ref="U501" pin="1"/>
       <node ref="R504" pin="1"/>
+    </net>
+    <net code="44" name="/power/Vreg5">
+      <node ref="C513" pin="1"/>
+      <node ref="U501" pin="3"/>
+    </net>
+    <net code="45" name="/power/Vfb5">
+      <node ref="R507" pin="2"/>
+      <node ref="R508" pin="1"/>
+      <node ref="U501" pin="2"/>
+      <node ref="C516" pin="2"/>
     </net>
     <net code="46" name="/power/SW5">
       <node ref="C510" pin="2"/>
       <node ref="L501" pin="1"/>
       <node ref="U501" pin="6"/>
     </net>
-    <net code="47" name="/power/Vfb5">
-      <node ref="R507" pin="2"/>
-      <node ref="R508" pin="1"/>
-      <node ref="C516" pin="2"/>
-      <node ref="U501" pin="2"/>
+    <net code="47" name="/power/Vfb3.0">
+      <node ref="R512" pin="1"/>
+      <node ref="R511" pin="2"/>
+      <node ref="U503" pin="2"/>
+      <node ref="C518" pin="2"/>
     </net>
-    <net code="48" name="/power/SW3.0">
-      <node ref="C512" pin="2"/>
-      <node ref="U503" pin="6"/>
-      <node ref="L503" pin="1"/>
+    <net code="48" name="/power/Vreg3.0">
+      <node ref="U503" pin="3"/>
+      <node ref="C515" pin="1"/>
     </net>
-    <net code="49" name="/power/ENA_R3.3">
-      <node ref="R505" pin="1"/>
+    <net code="49" name="/power/ENA_R3.0">
+      <node ref="U503" pin="1"/>
+      <node ref="R506" pin="1"/>
+    </net>
+    <net code="50" name="/power/ENA_R3.3">
       <node ref="U502" pin="1"/>
+      <node ref="R505" pin="1"/>
     </net>
-    <net code="50" name="/power/SW3.3">
-      <node ref="C511" pin="2"/>
+    <net code="51" name="/power/SW3.3">
       <node ref="U502" pin="6"/>
+      <node ref="C511" pin="2"/>
       <node ref="L502" pin="1"/>
     </net>
-    <net code="51" name="/power/Vfb3.3">
-      <node ref="R509" pin="2"/>
-      <node ref="C517" pin="2"/>
+    <net code="52" name="/power/Vfb3.3">
       <node ref="R510" pin="1"/>
       <node ref="U502" pin="2"/>
+      <node ref="C517" pin="2"/>
+      <node ref="R509" pin="2"/>
     </net>
-    <net code="52" name="/power/Vreg3.3">
-      <node ref="C514" pin="1"/>
+    <net code="53" name="/power/Vreg3.3">
       <node ref="U502" pin="3"/>
+      <node ref="C514" pin="1"/>
     </net>
-    <net code="53" name="/ocxo/BUF_ENA">
-      <node ref="U207" pin="1"/>
+    <net code="54" name="Net-(D201-Pad2)">
+      <node ref="D201" pin="2"/>
+      <node ref="R219" pin="2"/>
+    </net>
+    <net code="55" name="Net-(R208-Pad2)">
+      <node ref="R208" pin="2"/>
+      <node ref="R209" pin="1"/>
+    </net>
+    <net code="56" name="Net-(U205-Pad5)">
+      <node ref="U205" pin="5"/>
+    </net>
+    <net code="57" name="/ocxo/FILT_VXO">
+      <node ref="R219" pin="1"/>
+      <node ref="C215" pin="1"/>
+      <node ref="FB201" pin="2"/>
+      <node ref="Y202" pin="3"/>
+      <node ref="C213" pin="1"/>
+    </net>
+    <net code="58" name="VXO">
+      <node ref="U202" pin="3"/>
+      <node ref="R203" pin="1"/>
+      <node ref="U203" pin="8"/>
+      <node ref="FB201" pin="1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="U205" pin="4"/>
+      <node ref="C216" pin="1"/>
+      <node ref="C218" pin="1"/>
+      <node ref="U202" pin="8"/>
+      <node ref="C201" pin="1"/>
+    </net>
+    <net code="59" name="/ocxo/BUF_ENA">
       <node ref="R213" pin="1"/>
+      <node ref="U207" pin="1"/>
     </net>
-    <net code="54" name="Net-(R215-Pad1)">
-      <node ref="R215" pin="1"/>
-      <node ref="U205" pin="1"/>
-    </net>
-    <net code="55" name="/ocxo/LV_ENA">
+    <net code="60" name="/ocxo/LV_ENA">
+      <node ref="C204" pin="1"/>
+      <node ref="U201" pin="7"/>
       <node ref="R205" pin="2"/>
       <node ref="U201" pin="8"/>
     </net>
-    <net code="56" name="VXO">
-      <node ref="U203" pin="8"/>
-      <node ref="FB201" pin="1"/>
-      <node ref="C216" pin="1"/>
-      <node ref="R203" pin="1"/>
-      <node ref="U202" pin="8"/>
-      <node ref="U202" pin="3"/>
-      <node ref="C201" pin="1"/>
-      <node ref="C205" pin="1"/>
-      <node ref="C218" pin="1"/>
-      <node ref="U205" pin="4"/>
+    <net code="61" name="/ocxo/~SD~">
+      <node ref="U205" pin="1"/>
+      <node ref="R215" pin="2"/>
     </net>
-    <net code="57" name="Net-(U205-Pad5)">
-      <node ref="U205" pin="5"/>
+    <net code="62" name="/ocxo/VC_R">
+      <node ref="R218" pin="1"/>
+      <node ref="Y202" pin="1"/>
+      <node ref="C217" pin="1"/>
     </net>
-    <net code="58" name="Net-(R209-Pad2)">
+    <net code="63" name="/ocxo/VC_FB">
+      <node ref="U203" pin="6"/>
+      <node ref="R217" pin="1"/>
+      <node ref="R216" pin="2"/>
+    </net>
+    <net code="64" name="/ocxo/DAC_OUT_DIV">
+      <node ref="C206" pin="1"/>
+      <node ref="U203" pin="5"/>
       <node ref="R209" pin="2"/>
       <node ref="R210" pin="1"/>
     </net>
-    <net code="59" name="/ocxo/SDA5">
+    <net code="65" name="/ocxo/SCL5">
+      <node ref="R207" pin="2"/>
+      <node ref="U204" pin="7"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="66" name="/ocxo/TSENSE_C">
+      <node ref="Q201" pin="2"/>
+      <node ref="C210" pin="2"/>
+      <node ref="U204" pin="4"/>
+    </net>
+    <net code="67" name="/ocxo/DAC_OUT">
+      <node ref="U202" pin="1"/>
+      <node ref="R208" pin="1"/>
+    </net>
+    <net code="68" name="/ocxo/VC">
+      <node ref="U203" pin="7"/>
+      <node ref="R218" pin="2"/>
+      <node ref="R217" pin="2"/>
+    </net>
+    <net code="69" name="/ocxo/SDA5">
       <node ref="U201" pin="5"/>
       <node ref="U204" pin="6"/>
       <node ref="R211" pin="2"/>
     </net>
-    <net code="60" name="/ocxo/VIN_REG">
-      <node ref="C209" pin="1"/>
-      <node ref="U205" pin="2"/>
-      <node ref="C214" pin="1"/>
-      <node ref="C212" pin="1"/>
-      <node ref="R212" pin="1"/>
-    </net>
-    <net code="61" name="/ocxo/BUF_10M">
-      <node ref="U207" pin="4"/>
-      <node ref="R214" pin="2"/>
-    </net>
-    <net code="62" name="/ocxo/TSENSE_C">
-      <node ref="U204" pin="4"/>
-      <node ref="C210" pin="2"/>
-      <node ref="Q201" pin="2"/>
-    </net>
-    <net code="63" name="/ocxo/TSENSE_A">
-      <node ref="Q201" pin="3"/>
-      <node ref="U204" pin="3"/>
-      <node ref="Q201" pin="1"/>
-      <node ref="C210" pin="1"/>
-    </net>
-    <net code="64" name="/ocxo/CSENSE-">
-      <node ref="R212" pin="3"/>
-      <node ref="U204" pin="2"/>
-    </net>
-    <net code="65" name="/ocxo/CSENSE+">
+    <net code="70" name="/ocxo/CSENSE+">
       <node ref="U204" pin="1"/>
       <node ref="R212" pin="4"/>
     </net>
-    <net code="66" name="/ocxo/SCL5">
-      <node ref="U201" pin="6"/>
-      <node ref="R207" pin="2"/>
-      <node ref="U204" pin="7"/>
+    <net code="71" name="/ocxo/CSENSE-">
+      <node ref="U204" pin="2"/>
+      <node ref="R212" pin="3"/>
     </net>
-    <net code="67" name="/ocxo/FILT_VXO">
-      <node ref="C215" pin="1"/>
-      <node ref="FB201" pin="2"/>
-      <node ref="C213" pin="1"/>
-      <node ref="Y202" pin="3"/>
+    <net code="72" name="/ocxo/TSENSE_A">
+      <node ref="Q201" pin="3"/>
+      <node ref="Q201" pin="1"/>
+      <node ref="U204" pin="3"/>
+      <node ref="C210" pin="1"/>
     </net>
-    <net code="68" name="/ocxo/VC">
-      <node ref="Y202" pin="1"/>
-      <node ref="U203" pin="6"/>
-      <node ref="U203" pin="7"/>
+    <net code="73" name="/ocxo/OCXO_10M">
+      <node ref="C211" pin="1"/>
+      <node ref="Y202" pin="4"/>
+      <node ref="U207" pin="2"/>
     </net>
-    <net code="69" name="/ocxo/DAC_OUT">
-      <node ref="R208" pin="1"/>
-      <node ref="U202" pin="1"/>
+    <net code="74" name="/ocxo/BUF_10M">
+      <node ref="U207" pin="4"/>
+      <node ref="R214" pin="2"/>
     </net>
-    <net code="70" name="/ocxo/DAC_OUT_DIV">
-      <node ref="R208" pin="2"/>
-      <node ref="R209" pin="1"/>
-      <node ref="U203" pin="5"/>
-      <node ref="C206" pin="1"/>
+    <net code="75" name="/ocxo/VIN_REG">
+      <node ref="C212" pin="1"/>
+      <node ref="R212" pin="1"/>
+      <node ref="U205" pin="2"/>
+      <node ref="C209" pin="1"/>
+      <node ref="C214" pin="1"/>
     </net>
-    <net code="71" name="/ocxo/BUF_VGND_1.65V">
-      <node ref="R210" pin="2"/>
-      <node ref="C207" pin="1"/>
-      <node ref="C206" pin="2"/>
-      <node ref="U203" pin="1"/>
-      <node ref="U203" pin="2"/>
-    </net>
-    <net code="72" name="/ocxo/VGND_1.65V">
-      <node ref="U203" pin="3"/>
-      <node ref="C203" pin="1"/>
-      <node ref="R203" pin="2"/>
-      <node ref="R204" pin="1"/>
-    </net>
-    <net code="73" name="Net-(Y202-Pad6)">
-      <node ref="Y202" pin="6"/>
-    </net>
-    <net code="74" name="Net-(Y202-Pad5)">
-      <node ref="Y202" pin="5"/>
-    </net>
-    <net code="75" name="Net-(Y202-Pad2)">
+    <net code="76" name="Net-(Y202-Pad2)">
       <node ref="Y202" pin="2"/>
     </net>
-    <net code="76" name="/ocxo/OCXO_10M">
-      <node ref="C211" pin="1"/>
-      <node ref="U207" pin="2"/>
-      <node ref="Y202" pin="4"/>
+    <net code="77" name="Net-(Y202-Pad5)">
+      <node ref="Y202" pin="5"/>
     </net>
-    <net code="77" name="Net-(U301-Pad9)">
-      <node ref="U301" pin="9"/>
+    <net code="78" name="Net-(Y202-Pad6)">
+      <node ref="Y202" pin="6"/>
     </net>
-    <net code="78" name="Net-(U302-Pad4)">
-      <node ref="U302" pin="4"/>
+    <net code="79" name="/ocxo/VGND_1.65V">
+      <node ref="R204" pin="1"/>
+      <node ref="R203" pin="2"/>
+      <node ref="C203" pin="1"/>
+      <node ref="U203" pin="3"/>
     </net>
-    <net code="79" name="/gps/GPS_ANT">
-      <node ref="P301" pin="1"/>
-      <node ref="U303" pin="11"/>
+    <net code="80" name="/ocxo/BUF_VGND_1.65V">
+      <node ref="R210" pin="2"/>
+      <node ref="R216" pin="1"/>
+      <node ref="C207" pin="1"/>
+      <node ref="U203" pin="1"/>
+      <node ref="U203" pin="2"/>
+      <node ref="C206" pin="2"/>
     </net>
-    <net code="80" name="/gps/GPS_3.3V">
-      <node ref="FB301" pin="1"/>
-      <node ref="U302" pin="5"/>
-    </net>
-    <net code="81" name="Net-(U303-Pad14)">
-      <node ref="U303" pin="14"/>
-    </net>
-    <net code="82" name="/gps/~RESET~">
-      <node ref="U303" pin="2"/>
-      <node ref="U301" pin="8"/>
-    </net>
-    <net code="83" name="Net-(U303-Pad18)">
-      <node ref="U303" pin="18"/>
-    </net>
-    <net code="84" name="Net-(U303-Pad17)">
-      <node ref="U303" pin="17"/>
-    </net>
-    <net code="85" name="Net-(U303-Pad16)">
-      <node ref="U303" pin="16"/>
-    </net>
-    <net code="86" name="Net-(U303-Pad15)">
+    <net code="81" name="Net-(U303-Pad15)">
       <node ref="U303" pin="15"/>
     </net>
-    <net code="87" name="Net-(U303-Pad20)">
+    <net code="82" name="Net-(U303-Pad18)">
+      <node ref="U303" pin="18"/>
+    </net>
+    <net code="83" name="Net-(U303-Pad17)">
+      <node ref="U303" pin="17"/>
+    </net>
+    <net code="84" name="Net-(U303-Pad16)">
+      <node ref="U303" pin="16"/>
+    </net>
+    <net code="85" name="Net-(U302-Pad4)">
+      <node ref="U302" pin="4"/>
+    </net>
+    <net code="86" name="Net-(U301-Pad9)">
+      <node ref="U301" pin="9"/>
+    </net>
+    <net code="87" name="Net-(U303-Pad14)">
+      <node ref="U303" pin="14"/>
+    </net>
+    <net code="88" name="/gps/GPS_ANT">
+      <node ref="U303" pin="11"/>
+      <node ref="P301" pin="1"/>
+    </net>
+    <net code="89" name="Net-(U303-Pad20)">
       <node ref="U303" pin="20"/>
     </net>
-    <net code="88" name="Net-(U303-Pad7)">
+    <net code="90" name="Net-(U303-Pad7)">
       <node ref="U303" pin="7"/>
     </net>
-    <net code="89" name="Net-(U303-Pad6)">
+    <net code="91" name="Net-(U303-Pad6)">
       <node ref="U303" pin="6"/>
     </net>
-    <net code="90" name="/gps/FILT_GPS_3.3V">
-      <node ref="FB301" pin="2"/>
-      <node ref="U303" pin="1"/>
-      <node ref="C303" pin="1"/>
+    <net code="92" name="/gps/ADA_ENA">
+      <node ref="Q301" pin="3"/>
+      <node ref="U301" pin="8"/>
+    </net>
+    <net code="93" name="/gps/ENABLE">
+      <node ref="Q302" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="U302" pin="3"/>
+    </net>
+    <net code="94" name="/gps/~RESET~">
+      <node ref="R303" pin="2"/>
+      <node ref="U303" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D301-Pad2)">
+      <node ref="D301" pin="2"/>
+      <node ref="R305" pin="2"/>
+    </net>
+    <net code="96" name="/gps/GPS_3.3V">
+      <node ref="U302" pin="5"/>
+      <node ref="FB301" pin="1"/>
+    </net>
+    <net code="97" name="/gps/~ENA5~">
+      <node ref="Q301" pin="1"/>
+      <node ref="R304" pin="1"/>
+      <node ref="Q302" pin="3"/>
+    </net>
+    <net code="98" name="/gps/FILT_GPS_3.3V">
       <node ref="C302" pin="1"/>
+      <node ref="C303" pin="1"/>
+      <node ref="FB301" pin="2"/>
+      <node ref="R303" pin="1"/>
+      <node ref="R305" pin="1"/>
+      <node ref="U303" pin="1"/>
     </net>
-    <net code="91" name="/microzed/JTAG_TCK">
-      <node ref="PX1" pin="1"/>
+    <net code="99" name="/microzed/PX1_LVDS_18_N">
+      <node ref="PX1" pin="69"/>
     </net>
-    <net code="92" name="/microzed/JTAG_TDO">
-      <node ref="PX1" pin="3"/>
+    <net code="100" name="/microzed/PX1_LVDS_16_P">
+      <node ref="PX1" pin="61"/>
     </net>
-    <net code="93" name="/microzed/JTAG_TDI">
-      <node ref="PX1" pin="4"/>
+    <net code="101" name="/microzed/PX1_LVDS_18_P">
+      <node ref="PX1" pin="67"/>
     </net>
-    <net code="94" name="/microzed/JTAG_TMS">
+    <net code="102" name="/microzed/PX1_LVDS_17_N">
+      <node ref="PX1" pin="64"/>
+    </net>
+    <net code="103" name="/microzed/PX1_LVDS_17_P">
+      <node ref="PX1" pin="62"/>
+    </net>
+    <net code="104" name="/microzed/PX1_LVDS_16_N">
+      <node ref="PX1" pin="63"/>
+    </net>
+    <net code="105" name="/microzed/PX1_LVDS_14_P">
+      <node ref="PX1" pin="53"/>
+    </net>
+    <net code="106" name="/microzed/PX1_LVDS_14_N">
+      <node ref="PX1" pin="55"/>
+    </net>
+    <net code="107" name="/microzed/VP_0_P">
+      <node ref="PX1" pin="97"/>
+    </net>
+    <net code="108" name="/microzed/VN_0_N">
+      <node ref="PX1" pin="99"/>
+    </net>
+    <net code="109" name="/microzed/DXP_0_P">
+      <node ref="PX1" pin="98"/>
+    </net>
+    <net code="110" name="/microzed/DXN_0_N">
+      <node ref="PX1" pin="100"/>
+    </net>
+    <net code="111" name="/microzed/PX1_LVDS_19_N">
+      <node ref="PX1" pin="70"/>
+    </net>
+    <net code="112" name="/microzed/JTAG_TMS">
       <node ref="PX1" pin="2"/>
     </net>
-    <net code="95" name="/microzed/FPGA_DONE">
-      <node ref="PX1" pin="8"/>
+    <net code="113" name="/microzed/JTAG_TDI">
+      <node ref="PX1" pin="4"/>
     </net>
-    <net code="96" name="/microzed/FPGA_VBATT">
+    <net code="114" name="/microzed/JTAG_TCK">
+      <node ref="PX1" pin="1"/>
+    </net>
+    <net code="115" name="/microzed/JTAG_TDO">
+      <node ref="PX1" pin="3"/>
+    </net>
+    <net code="116" name="/microzed/FPGA_VBATT">
       <node ref="PX1" pin="7"/>
     </net>
-    <net code="97" name="/microzed/PX1_SE_0">
+    <net code="117" name="/microzed/FPGA_DONE">
+      <node ref="PX1" pin="8"/>
+    </net>
+    <net code="118" name="/microzed/PX1_SE_0">
       <node ref="PX1" pin="9"/>
     </net>
-    <net code="98" name="/microzed/PX1_LVDS_6_P">
-      <node ref="PX1" pin="29"/>
-    </net>
-    <net code="99" name="/microzed/PX1_LVDS_6_N">
-      <node ref="PX1" pin="31"/>
-    </net>
-    <net code="100" name="/microzed/PX1_LVDS_8_P">
-      <node ref="PX1" pin="35"/>
-    </net>
-    <net code="101" name="/microzed/PX1_LVDS_10_N">
+    <net code="119" name="/microzed/PX1_LVDS_10_N">
       <node ref="PX1" pin="43"/>
     </net>
-    <net code="102" name="/microzed/PX1_LVDS_0_P">
+    <net code="120" name="/microzed/PX1_LVDS_0_P">
       <node ref="PX1" pin="11"/>
     </net>
-    <net code="103" name="/microzed/PX1_LVDS_13_N">
-      <node ref="PX1" pin="50"/>
+    <net code="121" name="Net-(PX1-Pad92)">
+      <node ref="PX1" pin="92"/>
     </net>
-    <net code="104" name="/microzed/PX1_LVDS_11_N">
-      <node ref="PX1" pin="44"/>
-    </net>
-    <net code="105" name="/microzed/PX1_LVDS_9_P">
-      <node ref="PX1" pin="36"/>
-    </net>
-    <net code="106" name="/microzed/PX1_LVDS_7_P">
+    <net code="122" name="/microzed/PX1_LVDS_7_P">
       <node ref="U401" pin="3"/>
       <node ref="PX1" pin="30"/>
     </net>
-    <net code="107" name="/microzed/PX1_SE_1">
+    <net code="123" name="/microzed/PX1_LVDS_13_N">
+      <node ref="PX1" pin="50"/>
+    </net>
+    <net code="124" name="/microzed/PX1_LVDS_11_N">
+      <node ref="PX1" pin="44"/>
+    </net>
+    <net code="125" name="/microzed/PX1_SE_1">
       <node ref="PX1" pin="10"/>
     </net>
-    <net code="108" name="/microzed/PX2_LVDS_19_P">
-      <node ref="PX2" pin="74"/>
+    <net code="126" name="/microzed/~PG5_1V8~">
+      <node ref="R408" pin="1"/>
+      <node ref="Q402" pin="1"/>
+      <node ref="Q401" pin="3"/>
     </net>
-    <net code="109" name="/microzed/PX2_LVDS_19_N">
-      <node ref="PX2" pin="76"/>
+    <net code="127" name="/microzed/BUF_STATUS">
+      <node ref="R411" pin="2"/>
+      <node ref="U401" pin="11"/>
     </net>
-    <net code="110" name="/microzed/PX2_LVDS_17_N">
-      <node ref="PX2" pin="70"/>
+    <net code="128" name="/microzed/PG_1V8">
+      <node ref="Q401" pin="1"/>
+      <node ref="R409" pin="1"/>
+      <node ref="PX2" pin="10"/>
     </net>
-    <net code="111" name="/microzed/PX2_LVDS_12_P">
-      <node ref="PX2" pin="53"/>
-    </net>
-    <net code="112" name="/microzed/PX1_LVDS_12_P">
-      <node ref="PX1" pin="47"/>
-    </net>
-    <net code="113" name="/microzed/PX1_LVDS_12_N">
-      <node ref="PX1" pin="49"/>
-    </net>
-    <net code="114" name="/microzed/PX2_LVDS_21_P">
-      <node ref="PX2" pin="82"/>
-    </net>
-    <net code="115" name="/microzed/PX2_LVDS_23_P">
-      <node ref="PX2" pin="88"/>
-    </net>
-    <net code="116" name="/microzed/PX2_LVDS_23_N">
-      <node ref="PX2" pin="90"/>
-    </net>
-    <net code="117" name="/microzed/PX1_LVDS_0_N">
-      <node ref="PX1" pin="13"/>
-    </net>
-    <net code="118" name="/microzed/PX2_LVDS_21_N">
-      <node ref="PX2" pin="84"/>
-    </net>
-    <net code="119" name="/microzed/PX2_LVDS_22_N">
-      <node ref="PX2" pin="89"/>
-    </net>
-    <net code="120" name="/microzed/PX2_LVDS_20_N">
-      <node ref="PX2" pin="83"/>
-    </net>
-    <net code="121" name="/microzed/PX1_LVDS_10_P">
+    <net code="129" name="/microzed/PX1_LVDS_10_P">
       <node ref="PX1" pin="41"/>
     </net>
-    <net code="122" name="/microzed/PX1_LVDS_9_N">
+    <net code="130" name="/microzed/PX1_LVDS_9_N">
       <node ref="PX1" pin="38"/>
     </net>
-    <net code="123" name="/microzed/PX1_LVDS_5_P">
+    <net code="131" name="/microzed/SIN">
+      <node ref="U401" pin="8"/>
+      <node ref="PX1" pin="14"/>
+    </net>
+    <net code="132" name="/microzed/LAT">
+      <node ref="PX1" pin="18"/>
+      <node ref="U401" pin="7"/>
+    </net>
+    <net code="133" name="/microzed/BLANK">
+      <node ref="PX1" pin="20"/>
+      <node ref="U401" pin="6"/>
+    </net>
+    <net code="134" name="/microzed/SCLK">
       <node ref="PX1" pin="24"/>
       <node ref="U401" pin="5"/>
     </net>
-    <net code="124" name="/microzed/PX1_LVDS_5_N">
-      <node ref="PX1" pin="26"/>
-      <node ref="U401" pin="4"/>
-    </net>
-    <net code="125" name="/microzed/SIN">
-      <node ref="PX1" pin="12"/>
-      <node ref="U401" pin="9"/>
-    </net>
-    <net code="126" name="/microzed/LAT">
-      <node ref="PX1" pin="14"/>
-      <node ref="U401" pin="8"/>
-    </net>
-    <net code="127" name="/microzed/BLANK">
-      <node ref="U401" pin="7"/>
-      <node ref="PX1" pin="18"/>
-    </net>
-    <net code="128" name="/microzed/SCLK">
-      <node ref="U401" pin="6"/>
-      <node ref="PX1" pin="20"/>
-    </net>
-    <net code="129" name="/microzed/PWM">
+    <net code="135" name="/microzed/PWM">
       <node ref="PX1" pin="32"/>
       <node ref="U401" pin="2"/>
     </net>
-    <net code="130" name="/microzed/PX1_LVDS_2_N">
-      <node ref="PX1" pin="19"/>
-    </net>
-    <net code="131" name="/microzed/PX1_LVDS_2_P">
-      <node ref="PX1" pin="17"/>
-    </net>
-    <net code="132" name="/microzed/PX1_LVDS_4_N">
-      <node ref="PX1" pin="25"/>
-    </net>
-    <net code="133" name="/microzed/PX1_LVDS_19_N">
-      <node ref="PX1" pin="70"/>
-    </net>
-    <net code="134" name="/microzed/PX1_LVDS_17_P">
-      <node ref="PX1" pin="62"/>
-    </net>
-    <net code="135" name="/microzed/PX1_LVDS_17_N">
-      <node ref="PX1" pin="64"/>
-    </net>
-    <net code="136" name="/microzed/PX1_LVDS_18_P">
-      <node ref="PX1" pin="67"/>
-    </net>
-    <net code="137" name="/microzed/PX1_LVDS_18_N">
-      <node ref="PX1" pin="69"/>
-    </net>
-    <net code="138" name="/microzed/PX1_LVDS_16_P">
-      <node ref="PX1" pin="61"/>
-    </net>
-    <net code="139" name="/microzed/PX1_LVDS_16_N">
-      <node ref="PX1" pin="63"/>
-    </net>
-    <net code="140" name="/microzed/PX1_LVDS_14_P">
-      <node ref="PX1" pin="53"/>
-    </net>
-    <net code="141" name="/microzed/PX1_LVDS_14_N">
-      <node ref="PX1" pin="55"/>
-    </net>
-    <net code="142" name="/microzed/PX1_LVDS_8_N">
-      <node ref="PX1" pin="37"/>
-    </net>
-    <net code="143" name="/microzed/VP_0_P">
-      <node ref="PX1" pin="97"/>
-    </net>
-    <net code="144" name="/microzed/VN_0_N">
-      <node ref="PX1" pin="99"/>
-    </net>
-    <net code="145" name="/microzed/DXP_0_P">
-      <node ref="PX1" pin="98"/>
-    </net>
-    <net code="146" name="/microzed/DXN_0_N">
-      <node ref="PX1" pin="100"/>
-    </net>
-    <net code="147" name="/microzed/PX1_LVDS_22_N">
-      <node ref="PX1" pin="83"/>
-    </net>
-    <net code="148" name="/microzed/PX1_LVDS_22_P">
-      <node ref="PX1" pin="81"/>
-    </net>
-    <net code="149" name="/microzed/PX1_LVDS_20_N">
-      <node ref="PX1" pin="75"/>
-    </net>
-    <net code="150" name="/microzed/PX1_LVDS_20_P">
-      <node ref="PX1" pin="73"/>
-    </net>
-    <net code="151" name="/microzed/PX1_LVDS_19_P">
-      <node ref="PX1" pin="68"/>
-    </net>
-    <net code="152" name="Net-(PX1-Pad88)">
-      <node ref="PX1" pin="88"/>
-    </net>
-    <net code="153" name="/microzed/PX2_LVDS_15_P">
-      <node ref="PX2" pin="62"/>
-    </net>
-    <net code="154" name="Net-(PX1-Pad90)">
-      <node ref="PX1" pin="90"/>
-    </net>
-    <net code="155" name="/microzed/GPIO2">
-      <node ref="PX2" pin="31"/>
-      <node ref="P401" pin="5"/>
-    </net>
-    <net code="156" name="Net-(PX2-Pad99)">
-      <node ref="PX2" pin="99"/>
-    </net>
-    <net code="157" name="Net-(PX1-Pad92)">
-      <node ref="PX1" pin="92"/>
-    </net>
-    <net code="158" name="Net-(PX1-Pad94)">
-      <node ref="PX1" pin="94"/>
-    </net>
-    <net code="159" name="Net-(PX1-Pad87)">
-      <node ref="PX1" pin="87"/>
-    </net>
-    <net code="160" name="Net-(PX1-Pad89)">
-      <node ref="PX1" pin="89"/>
-    </net>
-    <net code="161" name="Net-(PX1-Pad91)">
-      <node ref="PX1" pin="91"/>
-    </net>
-    <net code="162" name="Net-(PX1-Pad93)">
-      <node ref="PX1" pin="93"/>
-    </net>
-    <net code="163" name="Net-(PX2-Pad100)">
-      <node ref="PX2" pin="100"/>
-    </net>
-    <net code="164" name="Net-(PX2-Pad96)">
-      <node ref="PX2" pin="96"/>
-    </net>
-    <net code="165" name="Net-(PX2-Pad94)">
-      <node ref="PX2" pin="94"/>
-    </net>
-    <net code="166" name="/microzed/GPIO5">
-      <node ref="PX2" pin="23"/>
-      <node ref="P401" pin="8"/>
-    </net>
-    <net code="167" name="Net-(PX2-Pad97)">
-      <node ref="PX2" pin="97"/>
-    </net>
-    <net code="168" name="Net-(PX2-Pad95)">
-      <node ref="PX2" pin="95"/>
-    </net>
-    <net code="169" name="Net-(PX2-Pad93)">
-      <node ref="PX2" pin="93"/>
-    </net>
-    <net code="170" name="/microzed/PX2_LVDS_17_P">
-      <node ref="PX2" pin="68"/>
-    </net>
-    <net code="171" name="/microzed/GPIO3">
-      <node ref="P401" pin="6"/>
-      <node ref="PX2" pin="29"/>
-    </net>
-    <net code="172" name="/microzed/GPIO6">
-      <node ref="P401" pin="9"/>
-      <node ref="PX2" pin="19"/>
-    </net>
-    <net code="173" name="/microzed/GPIO1">
-      <node ref="PX2" pin="35"/>
-      <node ref="P401" pin="4"/>
-    </net>
-    <net code="174" name="/microzed/GPIO4">
+    <net code="136" name="/microzed/GPIO4">
       <node ref="PX2" pin="25"/>
       <node ref="P401" pin="7"/>
     </net>
-    <net code="175" name="/microzed/PX2_LVDS_15_N">
-      <node ref="PX2" pin="64"/>
+    <net code="137" name="Net-(PX2-Pad93)">
+      <node ref="PX2" pin="93"/>
     </net>
-    <net code="176" name="/microzed/GPIO0">
+    <net code="138" name="/microzed/GPIO5">
+      <node ref="PX2" pin="23"/>
+      <node ref="P401" pin="8"/>
+    </net>
+    <net code="139" name="Net-(PX2-Pad95)">
+      <node ref="PX2" pin="95"/>
+    </net>
+    <net code="140" name="/microzed/GPIO1">
+      <node ref="P401" pin="4"/>
+      <node ref="PX2" pin="35"/>
+    </net>
+    <net code="141" name="Net-(PX2-Pad94)">
+      <node ref="PX2" pin="94"/>
+    </net>
+    <net code="142" name="Net-(PX1-Pad87)">
+      <node ref="PX1" pin="87"/>
+    </net>
+    <net code="143" name="Net-(PX1-Pad88)">
+      <node ref="PX1" pin="88"/>
+    </net>
+    <net code="144" name="Net-(PX1-Pad90)">
+      <node ref="PX1" pin="90"/>
+    </net>
+    <net code="145" name="Net-(PX1-Pad94)">
+      <node ref="PX1" pin="94"/>
+    </net>
+    <net code="146" name="Net-(PX1-Pad89)">
+      <node ref="PX1" pin="89"/>
+    </net>
+    <net code="147" name="Net-(PX1-Pad91)">
+      <node ref="PX1" pin="91"/>
+    </net>
+    <net code="148" name="Net-(PX1-Pad93)">
+      <node ref="PX1" pin="93"/>
+    </net>
+    <net code="149" name="Net-(PX2-Pad100)">
+      <node ref="PX2" pin="100"/>
+    </net>
+    <net code="150" name="Net-(PX2-Pad96)">
+      <node ref="PX2" pin="96"/>
+    </net>
+    <net code="151" name="Net-(PX2-Pad99)">
+      <node ref="PX2" pin="99"/>
+    </net>
+    <net code="152" name="Net-(PX2-Pad97)">
+      <node ref="PX2" pin="97"/>
+    </net>
+    <net code="153" name="/microzed/GPIO2">
+      <node ref="P401" pin="5"/>
+      <node ref="PX2" pin="31"/>
+    </net>
+    <net code="154" name="/microzed/PX1_LVDS_22_P">
+      <node ref="PX1" pin="81"/>
+    </net>
+    <net code="155" name="/microzed/PX1_LVDS_6_N">
+      <node ref="PX1" pin="31"/>
+    </net>
+    <net code="156" name="/microzed/PX1_LVDS_22_N">
+      <node ref="PX1" pin="83"/>
+    </net>
+    <net code="157" name="/microzed/PX1_LVDS_20_P">
+      <node ref="PX1" pin="73"/>
+    </net>
+    <net code="158" name="/microzed/PX1_LVDS_0_N">
+      <node ref="PX1" pin="13"/>
+    </net>
+    <net code="159" name="/microzed/GPIO0">
       <node ref="P401" pin="3"/>
       <node ref="PX2" pin="37"/>
     </net>
-    <net code="177" name="/microzed/GPIO7">
-      <node ref="P401" pin="10"/>
+    <net code="160" name="/microzed/GPIO7">
       <node ref="PX2" pin="17"/>
+      <node ref="P401" pin="10"/>
     </net>
-    <net code="178" name="Net-(U401-Pad15)">
-      <node ref="U401" pin="15"/>
+    <net code="161" name="/microzed/GPIO3">
+      <node ref="PX2" pin="29"/>
+      <node ref="P401" pin="6"/>
     </net>
-    <net code="179" name="Net-(U401-Pad16)">
+    <net code="162" name="/microzed/GPIO6">
+      <node ref="PX2" pin="19"/>
+      <node ref="P401" pin="9"/>
+    </net>
+    <net code="163" name="/microzed/PMOD_D6">
+      <node ref="PX2" pin="7"/>
+    </net>
+    <net code="164" name="/microzed/PMOD_D1">
+      <node ref="PX2" pin="2"/>
+    </net>
+    <net code="165" name="/microzed/PMOD_D3">
+      <node ref="PX2" pin="4"/>
+    </net>
+    <net code="166" name="/microzed/PMOD_D5">
+      <node ref="PX2" pin="6"/>
+    </net>
+    <net code="167" name="/microzed/PMOD_D7">
+      <node ref="PX2" pin="8"/>
+    </net>
+    <net code="168" name="/microzed/PX2_SE_1">
+      <node ref="PX2" pin="14"/>
+    </net>
+    <net code="169" name="/microzed/PX2_SE_0">
+      <node ref="PX2" pin="13"/>
+    </net>
+    <net code="170" name="/microzed/~INT~">
+      <node ref="PX2" pin="9"/>
+    </net>
+    <net code="171" name="/microzed/PMOD_D0">
+      <node ref="PX2" pin="1"/>
+    </net>
+    <net code="172" name="/microzed/PMOD_D2">
+      <node ref="PX2" pin="3"/>
+    </net>
+    <net code="173" name="/microzed/PMOD_D4">
+      <node ref="PX2" pin="5"/>
+    </net>
+    <net code="174" name="Net-(U401-Pad16)">
       <node ref="U401" pin="16"/>
     </net>
-    <net code="180" name="Net-(U401-Pad17)">
+    <net code="175" name="Net-(U401-Pad17)">
       <node ref="U401" pin="17"/>
     </net>
-    <net code="181" name="/microzed/PX2_LVDS_9_N">
+    <net code="176" name="/microzed/PX2_LVDS_3_P">
+      <node ref="PX2" pin="24"/>
+    </net>
+    <net code="177" name="/microzed/PX2_LVDS_3_N">
+      <node ref="PX2" pin="26"/>
+    </net>
+    <net code="178" name="/microzed/PX2_LVDS_5_N">
+      <node ref="PX2" pin="32"/>
+    </net>
+    <net code="179" name="/microzed/PX2_LVDS_5_P">
+      <node ref="PX2" pin="30"/>
+    </net>
+    <net code="180" name="/microzed/PX2_LVDS_7_N">
+      <node ref="PX2" pin="38"/>
+    </net>
+    <net code="181" name="/microzed/PX2_LVDS_7_P">
+      <node ref="PX2" pin="36"/>
+    </net>
+    <net code="182" name="/microzed/PX2_LVDS_9_P">
+      <node ref="PX2" pin="42"/>
+    </net>
+    <net code="183" name="/microzed/PX2_LVDS_9_N">
       <node ref="PX2" pin="44"/>
     </net>
-    <net code="182" name="/microzed/PX2_LVDS_11_P">
+    <net code="184" name="/microzed/PX2_LVDS_11_P">
       <node ref="PX2" pin="48"/>
     </net>
-    <net code="183" name="/microzed/PX2_LVDS_11_N">
+    <net code="185" name="/microzed/PX2_LVDS_11_N">
       <node ref="PX2" pin="50"/>
     </net>
-    <net code="184" name="/microzed/BUF_PWM">
+    <net code="186" name="/microzed/PX2_LVDS_22_N">
+      <node ref="PX2" pin="89"/>
+    </net>
+    <net code="187" name="/microzed/PX2_LVDS_20_N">
+      <node ref="PX2" pin="83"/>
+    </net>
+    <net code="188" name="/microzed/PX2_LVDS_1_P">
+      <node ref="PX2" pin="18"/>
+    </net>
+    <net code="189" name="/microzed/PX2_LVDS_1_N">
+      <node ref="PX2" pin="20"/>
+    </net>
+    <net code="190" name="/microzed/PX2_LVDS_19_P">
+      <node ref="PX2" pin="74"/>
+    </net>
+    <net code="191" name="/microzed/PX1_LVDS_12_P">
+      <node ref="PX1" pin="47"/>
+    </net>
+    <net code="192" name="/microzed/PX1_LVDS_12_N">
+      <node ref="PX1" pin="49"/>
+    </net>
+    <net code="193" name="/microzed/PX2_LVDS_21_P">
+      <node ref="PX2" pin="82"/>
+    </net>
+    <net code="194" name="/microzed/PX2_LVDS_23_P">
+      <node ref="PX2" pin="88"/>
+    </net>
+    <net code="195" name="/microzed/PX2_LVDS_23_N">
+      <node ref="PX2" pin="90"/>
+    </net>
+    <net code="196" name="/microzed/PX2_LVDS_21_N">
+      <node ref="PX2" pin="84"/>
+    </net>
+    <net code="197" name="/microzed/PX2_LVDS_10_P">
+      <node ref="PX2" pin="47"/>
+    </net>
+    <net code="198" name="/microzed/PX2_LVDS_10_N">
+      <node ref="PX2" pin="49"/>
+    </net>
+    <net code="199" name="/microzed/PX2_LVDS_8_P">
+      <node ref="PX2" pin="41"/>
+    </net>
+    <net code="200" name="/microzed/PX2_LVDS_8_N">
+      <node ref="PX2" pin="43"/>
+    </net>
+    <net code="201" name="/microzed/PX2_LVDS_19_N">
+      <node ref="PX2" pin="76"/>
+    </net>
+    <net code="202" name="/microzed/PX2_LVDS_17_N">
+      <node ref="PX2" pin="70"/>
+    </net>
+    <net code="203" name="/microzed/PX2_LVDS_17_P">
+      <node ref="PX2" pin="68"/>
+    </net>
+    <net code="204" name="/microzed/PX2_LVDS_15_N">
+      <node ref="PX2" pin="64"/>
+    </net>
+    <net code="205" name="/microzed/PX2_LVDS_15_P">
+      <node ref="PX2" pin="62"/>
+    </net>
+    <net code="206" name="/microzed/PX2_LVDS_13_N">
+      <node ref="PX2" pin="56"/>
+    </net>
+    <net code="207" name="/microzed/PX2_LVDS_13_P">
+      <node ref="PX2" pin="54"/>
+    </net>
+    <net code="208" name="/microzed/STATUS">
+      <node ref="U401" pin="9"/>
+      <node ref="PX1" pin="12"/>
+    </net>
+    <net code="209" name="/microzed/PX1_LVDS_5_N">
+      <node ref="PX1" pin="26"/>
+      <node ref="U401" pin="4"/>
+    </net>
+    <net code="210" name="/microzed/BUF_PWM">
       <node ref="U401" pin="18"/>
       <node ref="R406" pin="2"/>
     </net>
-    <net code="185" name="/microzed/TACH">
+    <net code="211" name="/microzed/PX1_LVDS_2_P">
+      <node ref="PX1" pin="17"/>
+    </net>
+    <net code="212" name="/microzed/PX1_LVDS_20_N">
+      <node ref="PX1" pin="75"/>
+    </net>
+    <net code="213" name="/microzed/PX1_LVDS_8_P">
+      <node ref="PX1" pin="35"/>
+    </net>
+    <net code="214" name="/microzed/PX1_LVDS_4_N">
+      <node ref="PX1" pin="25"/>
+    </net>
+    <net code="215" name="/microzed/PX1_LVDS_6_P">
+      <node ref="PX1" pin="29"/>
+    </net>
+    <net code="216" name="/microzed/PX1_LVDS_2_N">
+      <node ref="PX1" pin="19"/>
+    </net>
+    <net code="217" name="/microzed/PX1_LVDS_8_N">
+      <node ref="PX1" pin="37"/>
+    </net>
+    <net code="218" name="/microzed/TACH">
       <node ref="PX1" pin="23"/>
-      <node ref="R401" pin="2"/>
       <node ref="D401" pin="1"/>
+      <node ref="R401" pin="2"/>
     </net>
-    <net code="186" name="/microzed/PX2_LVDS_13_N">
-      <node ref="PX2" pin="56"/>
-    </net>
-    <net code="187" name="/microzed/PX2_LVDS_13_P">
-      <node ref="PX2" pin="54"/>
-    </net>
-    <net code="188" name="/microzed/PX2_SE_0">
-      <node ref="PX2" pin="13"/>
-    </net>
-    <net code="189" name="/microzed/~INT~">
-      <node ref="PX2" pin="9"/>
-    </net>
-    <net code="190" name="/microzed/PMOD_D0">
-      <node ref="PX2" pin="1"/>
-    </net>
-    <net code="191" name="/microzed/PX2_LVDS_12_N">
-      <node ref="PX2" pin="55"/>
-    </net>
-    <net code="192" name="/microzed/PX2_LVDS_10_P">
-      <node ref="PX2" pin="47"/>
-    </net>
-    <net code="193" name="/microzed/PX2_LVDS_10_N">
-      <node ref="PX2" pin="49"/>
-    </net>
-    <net code="194" name="/microzed/PX2_LVDS_8_P">
-      <node ref="PX2" pin="41"/>
-    </net>
-    <net code="195" name="/microzed/PX2_LVDS_8_N">
-      <node ref="PX2" pin="43"/>
-    </net>
-    <net code="196" name="/microzed/PX2_SE_1">
-      <node ref="PX2" pin="14"/>
-    </net>
-    <net code="197" name="/microzed/PX2_LVDS_1_N">
-      <node ref="PX2" pin="20"/>
-    </net>
-    <net code="198" name="/microzed/PX2_LVDS_1_P">
-      <node ref="PX2" pin="18"/>
-    </net>
-    <net code="199" name="/microzed/PX2_LVDS_3_P">
-      <node ref="PX2" pin="24"/>
-    </net>
-    <net code="200" name="/microzed/PX2_LVDS_3_N">
-      <node ref="PX2" pin="26"/>
-    </net>
-    <net code="201" name="/microzed/PMOD_D7">
-      <node ref="PX2" pin="8"/>
-    </net>
-    <net code="202" name="/microzed/PX2_LVDS_5_N">
-      <node ref="PX2" pin="32"/>
-    </net>
-    <net code="203" name="/microzed/PX2_LVDS_5_P">
-      <node ref="PX2" pin="30"/>
-    </net>
-    <net code="204" name="/microzed/PX2_LVDS_7_P">
-      <node ref="PX2" pin="36"/>
-    </net>
-    <net code="205" name="/microzed/PX2_LVDS_7_N">
-      <node ref="PX2" pin="38"/>
-    </net>
-    <net code="206" name="/microzed/PX2_LVDS_9_P">
-      <node ref="PX2" pin="42"/>
-    </net>
-    <net code="207" name="/microzed/PMOD_D2">
-      <node ref="PX2" pin="3"/>
-    </net>
-    <net code="208" name="/microzed/PMOD_D4">
-      <node ref="PX2" pin="5"/>
-    </net>
-    <net code="209" name="/microzed/PMOD_D6">
-      <node ref="PX2" pin="7"/>
-    </net>
-    <net code="210" name="/microzed/PMOD_D1">
-      <node ref="PX2" pin="2"/>
-    </net>
-    <net code="211" name="/microzed/PMOD_D3">
-      <node ref="PX2" pin="4"/>
-    </net>
-    <net code="212" name="/microzed/PMOD_D5">
-      <node ref="PX2" pin="6"/>
-    </net>
-    <net code="213" name="/microzed/BUF_SCLK">
-      <node ref="U401" pin="14"/>
-      <node ref="R402" pin="2"/>
-    </net>
-    <net code="214" name="/microzed/BUF_SIN">
-      <node ref="U401" pin="11"/>
+    <net code="219" name="/microzed/BUF_SIN">
       <node ref="R405" pin="2"/>
-    </net>
-    <net code="215" name="/microzed/BUF_LAT">
-      <node ref="R404" pin="2"/>
       <node ref="U401" pin="12"/>
     </net>
-    <net code="216" name="/microzed/BUF_BLANK">
-      <node ref="R403" pin="2"/>
+    <net code="220" name="/microzed/BUF_LAT">
+      <node ref="R404" pin="2"/>
       <node ref="U401" pin="13"/>
     </net>
-    <net code="217" name="/rtctemp/T1_A1">
-      <node ref="R602" pin="1"/>
+    <net code="221" name="/microzed/BUF_BLANK">
+      <node ref="R403" pin="2"/>
+      <node ref="U401" pin="14"/>
+    </net>
+    <net code="222" name="/microzed/BUF_SCLK">
+      <node ref="R402" pin="2"/>
+      <node ref="U401" pin="15"/>
+    </net>
+    <net code="223" name="/rtctemp/T1_A1">
       <node ref="U601" pin="4"/>
+      <node ref="R602" pin="1"/>
     </net>
-    <net code="218" name="/rtctemp/T2_A0">
-      <node ref="R607" pin="2"/>
-      <node ref="U603" pin="3"/>
-    </net>
-    <net code="219" name="/rtctemp/T2_A1">
+    <net code="224" name="/rtctemp/T2_A1">
       <node ref="U603" pin="4"/>
       <node ref="R608" pin="1"/>
     </net>
-    <net code="220" name="Net-(U602-Pad3)">
-      <node ref="U602" pin="3"/>
+    <net code="225" name="/rtctemp/T2_A0">
+      <node ref="U603" pin="3"/>
+      <node ref="R607" pin="2"/>
     </net>
-    <net code="221" name="Net-(U601-Pad5)">
-      <node ref="U601" pin="5"/>
-    </net>
-    <net code="222" name="Net-(U601-Pad6)">
+    <net code="226" name="Net-(U601-Pad6)">
       <node ref="U601" pin="6"/>
     </net>
-    <net code="223" name="Net-(U603-Pad6)">
+    <net code="227" name="Net-(U603-Pad6)">
       <node ref="U603" pin="6"/>
     </net>
-    <net code="224" name="Net-(U603-Pad5)">
-      <node ref="U603" pin="5"/>
-    </net>
-    <net code="225" name="Net-(U602-Pad4)">
+    <net code="228" name="Net-(U602-Pad4)">
       <node ref="U602" pin="4"/>
     </net>
-    <net code="226" name="Net-(U602-Pad1)">
-      <node ref="U602" pin="1"/>
-    </net>
-    <net code="227" name="/rtctemp/T1_A0">
+    <net code="229" name="/rtctemp/T1_A0">
       <node ref="R601" pin="1"/>
       <node ref="U601" pin="3"/>
     </net>
-    <net code="228" name="Net-(U602-Pad12)">
-      <node ref="U602" pin="12"/>
-    </net>
-    <net code="229" name="Net-(U602-Pad5)">
+    <net code="230" name="Net-(U602-Pad5)">
       <node ref="U602" pin="5"/>
     </net>
-    <net code="230" name="Net-(U602-Pad6)">
+    <net code="231" name="Net-(U602-Pad6)">
       <node ref="U602" pin="6"/>
     </net>
-    <net code="231" name="Net-(U602-Pad7)">
+    <net code="232" name="Net-(U602-Pad7)">
       <node ref="U602" pin="7"/>
     </net>
-    <net code="232" name="Net-(U602-Pad8)">
+    <net code="233" name="Net-(U602-Pad8)">
       <node ref="U602" pin="8"/>
     </net>
-    <net code="233" name="Net-(U602-Pad9)">
+    <net code="234" name="Net-(U602-Pad9)">
       <node ref="U602" pin="9"/>
     </net>
-    <net code="234" name="Net-(U602-Pad10)">
+    <net code="235" name="Net-(U602-Pad10)">
       <node ref="U602" pin="10"/>
     </net>
-    <net code="235" name="Net-(U602-Pad11)">
+    <net code="236" name="Net-(U602-Pad11)">
       <node ref="U602" pin="11"/>
+    </net>
+    <net code="237" name="Net-(U602-Pad12)">
+      <node ref="U602" pin="12"/>
+    </net>
+    <net code="239" name="/DISP0">
+      <node ref="R402" pin="1"/>
+      <node ref="P103" pin="3"/>
+    </net>
+    <net code="240" name="/DISP4">
+      <node ref="R411" pin="1"/>
+      <node ref="P103" pin="11"/>
+    </net>
+    <net code="241" name="/microzed/~INT~1">
+      <node ref="PX1" pin="36"/>
+      <node ref="U601" pin="5"/>
+      <node ref="R611" pin="2"/>
+    </net>
+    <net code="242" name="/microzed/~INT~0">
+      <node ref="PX2" pin="55"/>
+      <node ref="U602" pin="3"/>
+      <node ref="R610" pin="1"/>
+    </net>
+    <net code="243" name="/microzed/~INT~2">
+      <node ref="U603" pin="5"/>
+      <node ref="R612" pin="2"/>
+      <node ref="PX1" pin="68"/>
     </net>
   </nets>
 </export>
