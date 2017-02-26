@@ -145,6 +145,10 @@ D 4.5V to 18 V Input, 4-A Synchronous Step-Down Converter with Advanced Eco-mode
 K 4A Synchronous buck converter
 $ENDCMP
 #
+$CMP VAA
+K POWER, PWR
+$ENDCMP
+#
 $CMP VCC
 K POWER, PWR
 $ENDCMP
