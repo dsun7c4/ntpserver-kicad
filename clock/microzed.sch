@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title ""
+Title "MicroZed Board Connector"
 Date "2016-08-13"
 Rev "1.1.0"
 Comp ""
