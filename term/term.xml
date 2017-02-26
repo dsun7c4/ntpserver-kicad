@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/term/term.sch</source>
-    <date>Sat Jun 25 23:18:29 2016</date>
+    <date>Sat Feb 25 22:01:50 2017</date>
     <tool>Eeschema (2015-12-09 BZR 6195)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>Connector/Terminator</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>v1.1.0</rev>
+        <date>2017-01-30</date>
         <source>term.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -35,7 +35,7 @@
     </comp>
     <comp ref="R102">
       <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -48,7 +48,7 @@
     </comp>
     <comp ref="R101">
       <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -72,7 +72,7 @@
     </comp>
     <comp ref="R103">
       <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -85,7 +85,7 @@
     </comp>
     <comp ref="R105">
       <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -98,7 +98,7 @@
     </comp>
     <comp ref="R107">
       <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -111,7 +111,7 @@
     </comp>
     <comp ref="R104">
       <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -124,7 +124,7 @@
     </comp>
     <comp ref="R106">
       <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -137,7 +137,7 @@
     </comp>
     <comp ref="R108">
       <value>210R</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -161,7 +161,7 @@
     </comp>
     <comp ref="R109">
       <value>1K</value>
-      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <footprint>local:R_0805_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
         <field name="Power">0.125W</field>
@@ -185,6 +185,104 @@
       <libsource lib="conn" part="TEST_1P"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>57649E09</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>210R</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW0805210RFKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588F915D</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>210R</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW0805210RFKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588F91DB</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>RED</value>
+      <footprint>local:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="PartNum">LIST-C171CKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588FEDC4</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>536</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW0805536RFKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588FF38E</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>GREEN</value>
+      <footprint>local:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="PartNum">LIST-C171GKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58900877</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>1K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58900888</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>GREEN</value>
+      <footprint>local:LED_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="PartNum">LIST-C171GKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58900B79</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>1K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08051K00FKEA</field>
+      </fields>
+      <libsource lib="local" part="R_local"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58900B8A</tstamp>
     </comp>
   </components>
   <libparts>
@@ -242,6 +340,25 @@
         <pin num="16" name="P16" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="local" part="R_local">
       <description>Resistor</description>
       <footprints>
@@ -284,86 +401,85 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib</uri>
+    <library logical="device">
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
     </library>
     <library logical="local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
+    <library logical="conn">
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="P102" pin="14"/>
-      <node ref="P102" pin="16"/>
-      <node ref="P103" pin="1"/>
-      <node ref="P101" pin="8"/>
-      <node ref="P102" pin="12"/>
-      <node ref="P103" pin="6"/>
-      <node ref="P102" pin="11"/>
-      <node ref="SW101" pin="1"/>
-      <node ref="P102" pin="2"/>
-      <node ref="P102" pin="4"/>
-      <node ref="P102" pin="6"/>
-      <node ref="P102" pin="8"/>
-      <node ref="P102" pin="10"/>
-      <node ref="R101" pin="2"/>
-      <node ref="R103" pin="2"/>
-      <node ref="R107" pin="2"/>
-      <node ref="P101" pin="3"/>
-      <node ref="R105" pin="2"/>
-    </net>
-    <net code="2" name="Net-(P101-Pad6)">
-      <node ref="P101" pin="6"/>
-      <node ref="R103" pin="1"/>
-      <node ref="R104" pin="2"/>
-    </net>
-    <net code="3" name="VCC">
-      <node ref="P101" pin="2"/>
+    <net code="1" name="VCC">
       <node ref="R104" pin="1"/>
       <node ref="R102" pin="1"/>
-      <node ref="R108" pin="1"/>
       <node ref="R106" pin="1"/>
+      <node ref="P101" pin="2"/>
+      <node ref="R108" pin="1"/>
     </net>
-    <net code="4" name="/VAA_IN">
-      <node ref="P103" pin="8"/>
-      <node ref="W102" pin="1"/>
-      <node ref="P102" pin="15"/>
-    </net>
-    <net code="5" name="Net-(P101-Pad7)">
-      <node ref="P101" pin="7"/>
-      <node ref="R102" pin="2"/>
-      <node ref="R101" pin="1"/>
-    </net>
-    <net code="6" name="/~RESET~">
-      <node ref="P102" pin="1"/>
-      <node ref="SW101" pin="2"/>
-      <node ref="R109" pin="2"/>
-    </net>
-    <net code="7" name="VAA">
-      <node ref="W101" pin="1"/>
-      <node ref="P101" pin="1"/>
-    </net>
-    <net code="8" name="Net-(P101-Pad5)">
+    <net code="2" name="/LAT_TERM">
+      <node ref="P101" pin="5"/>
       <node ref="R105" pin="1"/>
       <node ref="R106" pin="2"/>
-      <node ref="P101" pin="5"/>
     </net>
-    <net code="9" name="/VCC_IN">
-      <node ref="P102" pin="13"/>
-      <node ref="R109" pin="1"/>
-      <node ref="P103" pin="7"/>
+    <net code="3" name="GND">
+      <node ref="P101" pin="8"/>
+      <node ref="P103" pin="1"/>
+      <node ref="P101" pin="3"/>
+      <node ref="R101" pin="2"/>
+      <node ref="P102" pin="14"/>
+      <node ref="P102" pin="12"/>
+      <node ref="P102" pin="10"/>
+      <node ref="P102" pin="8"/>
+      <node ref="P102" pin="6"/>
+      <node ref="P102" pin="4"/>
+      <node ref="SW101" pin="1"/>
+      <node ref="R107" pin="2"/>
+      <node ref="R105" pin="2"/>
+      <node ref="R103" pin="2"/>
+      <node ref="D102" pin="1"/>
+      <node ref="P103" pin="6"/>
+      <node ref="D103" pin="1"/>
+      <node ref="R111" pin="2"/>
+      <node ref="D101" pin="1"/>
     </net>
-    <net code="10" name="/SIN">
-      <node ref="R108" pin="2"/>
-      <node ref="P101" pin="4"/>
-      <node ref="R107" pin="1"/>
+    <net code="4" name="Net-(D102-Pad2)">
+      <node ref="R113" pin="2"/>
+      <node ref="D102" pin="2"/>
+    </net>
+    <net code="5" name="/SCLK_TERM">
+      <node ref="R101" pin="1"/>
+      <node ref="R102" pin="2"/>
+      <node ref="P101" pin="7"/>
+    </net>
+    <net code="6" name="Net-(D103-Pad2)">
+      <node ref="R114" pin="2"/>
+      <node ref="D103" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2"/>
+      <node ref="R112" pin="2"/>
+    </net>
+    <net code="8" name="/STATUS">
+      <node ref="P102" pin="11"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="9" name="/BLANK_TERM">
+      <node ref="P101" pin="6"/>
+      <node ref="R104" pin="2"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="10" name="VAA">
+      <node ref="P101" pin="1"/>
+      <node ref="W101" pin="1"/>
     </net>
     <net code="11" name="/SOUT">
-      <node ref="P102" pin="9"/>
       <node ref="P103" pin="5"/>
+      <node ref="R110" pin="2"/>
+      <node ref="P102" pin="9"/>
+      <node ref="R111" pin="1"/>
     </net>
     <net code="12" name="/SCLK">
       <node ref="P103" pin="2"/>
@@ -374,8 +490,35 @@
       <node ref="P102" pin="7"/>
     </net>
     <net code="14" name="/BLANK">
-      <node ref="P103" pin="3"/>
       <node ref="P102" pin="5"/>
+      <node ref="P103" pin="3"/>
+    </net>
+    <net code="15" name="/SIN">
+      <node ref="R107" pin="1"/>
+      <node ref="R108" pin="2"/>
+      <node ref="P101" pin="4"/>
+    </net>
+    <net code="16" name="Net-(P102-Pad2)">
+      <node ref="P102" pin="2"/>
+    </net>
+    <net code="17" name="/~RESET~">
+      <node ref="R109" pin="2"/>
+      <node ref="SW101" pin="2"/>
+      <node ref="P102" pin="1"/>
+    </net>
+    <net code="18" name="/VAA_IN">
+      <node ref="P103" pin="8"/>
+      <node ref="P102" pin="15"/>
+      <node ref="R113" pin="1"/>
+      <node ref="P102" pin="16"/>
+      <node ref="W102" pin="1"/>
+    </net>
+    <net code="19" name="/VCC_IN">
+      <node ref="P103" pin="7"/>
+      <node ref="P102" pin="13"/>
+      <node ref="R110" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="R114" pin="1"/>
     </net>
   </nets>
 </export>

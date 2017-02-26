@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/term/term.sch)
-    (date "Mon Jan 30 21:59:04 2017")
+    (date "Sat Feb 25 21:10:30 2017")
     (tool "Eeschema (2015-12-09 BZR 6195)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -188,13 +188,13 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 588FEDC4))
     (comp (ref R112)
-      (value 1K)
+      (value 536)
       (footprint local:R_0805_HandSoldering)
       (fields
         (field (name Tolerance) 1%)
         (field (name Power) 0.125W)
         (field (name Manufacturer) "Vishay Dale")
-        (field (name PartNum) CRCW08051K00FKEA))
+        (field (name PartNum) CRCW0805536RFKEA))
       (libsource (lib local) (part R_local))
       (sheetpath (names /) (tstamps /))
       (tstamp 588FF38E))
@@ -331,12 +331,12 @@
       (pins
         (pin (num 1) (name 1) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib))
     (library (logical local)
       (uri /home/guest/cae/kicad/lib/local.lib))
-    (library (logical conn)
-      (uri /home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib)))
+    (library (logical device)
+      (uri /home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name VCC)
       (node (ref R104) (pin 1))
