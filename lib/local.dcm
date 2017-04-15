@@ -135,6 +135,11 @@ D 16-Channel, Constant-Current LED Driver
 K LED driver constant-current 16-channel
 $ENDCMP
 #
+$CMP TLC59282_REV
+D 16-Channel, Constant-Current LED Driver
+K LED driver constant-current 16-channel
+$ENDCMP
+#
 $CMP TO220_heatsink
 D T0-220 Vertical Heatsink
 K T0-220 Heatsink
