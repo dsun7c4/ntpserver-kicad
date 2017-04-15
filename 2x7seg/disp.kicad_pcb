@@ -3,7 +3,7 @@
   (general
     (links 59)
     (no_connects 0)
-    (area 125.774667 83.769999 163.785334 114.694)
+    (area 126.949999 83.769999 162.610001 114.350001)
     (thickness 1.6)
     (drawings 35)
     (tracks 286)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1.016)
+    (last_trace_width 0.254)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
@@ -176,12 +176,12 @@
   (module local:SOIC-24_6.0x8.65mm_Pitch25mil (layer F.Cu) (tedit 55A8693B) (tstamp 55980313)
     (at 144.78 99.06)
     (tags "SOIC 25mil")
-    (path /562D2ACF)
+    (path /58F163E9)
     (attr smd)
     (fp_text reference U1 (at -4.572 -3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TLC59282 (at 0 5.6) (layer F.Fab)
+    (fp_text value TLC59282_REV (at 0 5.6) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.6 -4.875) (end -3.6 4.875) (layer F.CrtYd) (width 0.05))
