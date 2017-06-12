@@ -1,1 +1,1 @@
-# kicad
+# kicad submodule of [ntpserver](https://github.com/dcsun88/ntpserver)
