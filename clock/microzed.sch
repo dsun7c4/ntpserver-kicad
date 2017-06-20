@@ -989,7 +989,7 @@ Wire Wire Line
 	2650 3550 3400 3550
 Text Label 3300 3550 2    40   ~ 0
 PX2_LVDS_10_P
-NoConn ~ 3400 3550
+NoConn ~ 3400 3850
 Wire Wire Line
 	2650 3950 3400 3950
 Text Label 3300 3950 2    40   ~ 0
@@ -1441,7 +1441,7 @@ Text Label 3300 2150 2    40   ~ 0
 GPIO6
 Text Label 3300 2050 2    40   ~ 0
 GPIO7
-Text HLabel 3400 3850 2    60   Input ~ 0
+Text HLabel 3400 3550 2    60   Input ~ 0
 RTC_32KHZ
 Text HLabel 3400 3950 2    60   Input ~ 0
 ~INT~0
