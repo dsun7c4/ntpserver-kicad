@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/term/term.sch</source>
-    <date>Sat Feb 25 22:01:50 2017</date>
+    <date>Wed Jun 21 21:49:30 2017</date>
     <tool>Eeschema (2015-12-09 BZR 6195)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -104,6 +104,7 @@
         <field name="Power">0.125W</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="PartNum">CRCW0805210RFKEA</field>
+        <field name="DNP">DNP</field>
       </fields>
       <libsource lib="local" part="R_local"/>
       <sheetpath names="/" tstamps="/"/>
@@ -143,6 +144,7 @@
         <field name="Power">0.125W</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="PartNum">CRCW0805210RFKEA</field>
+        <field name="DNP">DNP</field>
       </fields>
       <libsource lib="local" part="R_local"/>
       <sheetpath names="/" tstamps="/"/>
@@ -401,14 +403,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
+    <library logical="conn">
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib</uri>
+    <library logical="device">
+      <uri>/home/cae/src/kicad/install-4.0.1/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>

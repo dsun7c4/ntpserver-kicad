@@ -293,6 +293,7 @@ F 4 "1%" V 3350 3800 50  0000 C CNN "Tolerance"
 F 5 "0.125W" V 3275 3800 50  0000 C CNN "Power"
 F 6 "Vishay Dale" V 3500 3800 50  0001 C CNN "Manufacturer"
 F 7 "CRCW0805210RFKEA" V 3650 3800 50  0001 C CNN "PartNum"
+F 8 "DNP" V 3575 4000 50  0000 C CNN "DNP"
 	1    3500 3800
 	1    0    0    -1  
 $EndComp
@@ -371,6 +372,7 @@ F 4 "1%" V 3450 2300 50  0000 C CNN "Tolerance"
 F 5 "0.125W" V 3375 2300 50  0000 C CNN "Power"
 F 6 "Vishay Dale" V 3600 2300 50  0001 C CNN "Manufacturer"
 F 7 "CRCW0805210RFKEA" V 3750 2300 50  0001 C CNN "PartNum"
+F 8 "DNP" V 3675 2500 50  0000 C CNN "DNP"
 	1    3600 2300
 	1    0    0    -1  
 $EndComp
