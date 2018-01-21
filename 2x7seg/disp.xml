@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/2x7seg/disp.sch</source>
-    <date>Sun Sep  4 18:52:42 2016</date>
+    <date>Tue Dec 26 18:34:39 2017</date>
     <tool>Eeschema (2015-12-09 BZR 6195)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>2 Digit 7-Segment Display</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>v1.2.0</rev>
+        <date>2016-09-10</date>
         <source>disp.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -88,17 +88,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>562D2422</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>TLC59282</value>
-      <footprint>local:SOIC-24_6.0x8.65mm_Pitch25mil</footprint>
-      <fields>
-        <field name="Manufacturer">Texas Instruments</field>
-        <field name="PartNum">TLC59282DBQ</field>
-      </fields>
-      <libsource lib="local" part="TLC59282"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>562D2ACF</tstamp>
-    </comp>
     <comp ref="C4">
       <value>0.1uF</value>
       <footprint>local:C_0805_HandSoldering</footprint>
@@ -123,6 +112,17 @@
       <libsource lib="local" part="LDD-A814RI"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>562F101C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLC59282_REV</value>
+      <footprint>local:SOIC-24_6.0x8.65mm_Pitch25mil</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="local" part="TLC59282_REV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F163E9</tstamp>
     </comp>
   </components>
   <libparts>
@@ -218,11 +218,11 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="TLC59282">
+    <libpart lib="local" part="TLC59282_REV">
       <description>16-Channel, Constant-Current LED Driver</description>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">TLC59282</field>
+        <field name="Value">TLC59282_REV</field>
         <field name="Manufacturer">Texas Instruments</field>
         <field name="PartNum">TLC59282DBQ</field>
       </fields>
@@ -266,123 +266,123 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/D1c">
-      <node ref="U1" pin="18"/>
-      <node ref="DS1" pin="3"/>
+    <net code="1" name="/D2g">
+      <node ref="U1" pin="6"/>
+      <node ref="DS1" pin="7"/>
     </net>
-    <net code="2" name="/D2DP">
+    <net code="2" name="VAA">
+      <node ref="P1" pin="1"/>
+      <node ref="DS1" pin="14"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="DS1" pin="13"/>
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="3" name="/D2DP">
       <node ref="U1" pin="5"/>
       <node ref="DS1" pin="9"/>
     </net>
-    <net code="3" name="/D2f">
+    <net code="4" name="/BLANK">
+      <node ref="P2" pin="3"/>
+      <node ref="P1" pin="6"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="5" name="VCC">
+      <node ref="P2" pin="7"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="6" name="/SIN">
+      <node ref="U1" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="7" name="/SCLK">
+      <node ref="U1" pin="3"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="8" name="/LAT">
+      <node ref="U1" pin="4"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="9" name="/D2f">
       <node ref="U1" pin="7"/>
       <node ref="DS1" pin="12"/>
     </net>
-    <net code="4" name="/SOUT">
-      <node ref="U1" pin="22"/>
-      <node ref="P2" pin="5"/>
+    <net code="10" name="/D2d">
+      <node ref="U1" pin="9"/>
+      <node ref="DS1" pin="6"/>
     </net>
-    <net code="5" name="/D1f">
-      <node ref="DS1" pin="18"/>
-      <node ref="U1" pin="15"/>
+    <net code="11" name="/D2c">
+      <node ref="U1" pin="10"/>
+      <node ref="DS1" pin="8"/>
     </net>
-    <net code="6" name="/D1d">
-      <node ref="U1" pin="17"/>
-      <node ref="DS1" pin="2"/>
+    <net code="12" name="/D2b">
+      <node ref="DS1" pin="10"/>
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="7" name="/D1b">
-      <node ref="DS1" pin="15"/>
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="8" name="/D2e">
-      <node ref="U1" pin="8"/>
-      <node ref="DS1" pin="5"/>
-    </net>
-    <net code="9" name="/D2a">
-      <node ref="U1" pin="12"/>
-      <node ref="DS1" pin="11"/>
-    </net>
-    <net code="10" name="/D1e">
-      <node ref="U1" pin="16"/>
-      <node ref="DS1" pin="1"/>
-    </net>
-    <net code="11" name="/D1DP">
-      <node ref="U1" pin="13"/>
-      <node ref="DS1" pin="4"/>
-    </net>
-    <net code="12" name="/D1g">
-      <node ref="U1" pin="14"/>
-      <node ref="DS1" pin="17"/>
-    </net>
-    <net code="13" name="VCC">
-      <node ref="U1" pin="24"/>
-      <node ref="P1" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="P2" pin="7"/>
-      <node ref="C1" pin="1"/>
-    </net>
-    <net code="14" name="/D2g">
-      <node ref="DS1" pin="7"/>
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="15" name="/IREF">
-      <node ref="U1" pin="23"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="16" name="GND">
+    <net code="13" name="GND">
       <node ref="P1" pin="3"/>
-      <node ref="P1" pin="8"/>
       <node ref="P2" pin="1"/>
+      <node ref="P1" pin="8"/>
       <node ref="P2" pin="6"/>
       <node ref="C1" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
       <node ref="R1" pin="2"/>
+      <node ref="C4" pin="2"/>
       <node ref="U1" pin="1"/>
     </net>
-    <net code="17" name="/SIN">
-      <node ref="P1" pin="4"/>
-      <node ref="U1" pin="2"/>
+    <net code="14" name="/SOUT">
+      <node ref="P2" pin="5"/>
+      <node ref="U1" pin="22"/>
     </net>
-    <net code="18" name="/SCLK">
-      <node ref="U1" pin="3"/>
-      <node ref="P2" pin="2"/>
-      <node ref="P1" pin="7"/>
+    <net code="15" name="/D1DP">
+      <node ref="U1" pin="13"/>
+      <node ref="DS1" pin="4"/>
     </net>
-    <net code="19" name="/LAT">
-      <node ref="U1" pin="4"/>
-      <node ref="P2" pin="4"/>
-      <node ref="P1" pin="5"/>
+    <net code="16" name="/IREF">
+      <node ref="U1" pin="23"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="20" name="/D2d">
-      <node ref="U1" pin="9"/>
-      <node ref="DS1" pin="6"/>
+    <net code="17" name="/D2e">
+      <node ref="U1" pin="8"/>
+      <node ref="DS1" pin="5"/>
     </net>
-    <net code="21" name="/D2c">
-      <node ref="U1" pin="10"/>
-      <node ref="DS1" pin="8"/>
+    <net code="18" name="/D1e">
+      <node ref="DS1" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="19" name="/D1d">
+      <node ref="U1" pin="17"/>
+      <node ref="DS1" pin="2"/>
+    </net>
+    <net code="20" name="/D1c">
+      <node ref="U1" pin="18"/>
+      <node ref="DS1" pin="3"/>
+    </net>
+    <net code="21" name="/D1b">
+      <node ref="U1" pin="19"/>
+      <node ref="DS1" pin="15"/>
     </net>
     <net code="22" name="/D1a">
-      <node ref="DS1" pin="16"/>
       <node ref="U1" pin="20"/>
+      <node ref="DS1" pin="16"/>
     </net>
-    <net code="23" name="/D2b">
-      <node ref="DS1" pin="10"/>
-      <node ref="U1" pin="11"/>
+    <net code="23" name="/D1g">
+      <node ref="DS1" pin="17"/>
+      <node ref="U1" pin="14"/>
     </net>
-    <net code="24" name="/BLANK">
-      <node ref="U1" pin="21"/>
-      <node ref="P2" pin="3"/>
-      <node ref="P1" pin="6"/>
+    <net code="24" name="/D1f">
+      <node ref="DS1" pin="18"/>
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="25" name="VAA">
-      <node ref="C4" pin="1"/>
-      <node ref="P1" pin="1"/>
-      <node ref="DS1" pin="13"/>
-      <node ref="DS1" pin="14"/>
-      <node ref="P2" pin="8"/>
-      <node ref="C3" pin="1"/>
+    <net code="25" name="/D2a">
+      <node ref="DS1" pin="11"/>
+      <node ref="U1" pin="12"/>
     </net>
   </nets>
 </export>

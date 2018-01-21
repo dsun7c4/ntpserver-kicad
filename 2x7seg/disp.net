@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/2x7seg/disp.sch)
-    (date "Fri Apr 14 19:25:20 2017")
+    (date "Tue Dec 26 18:34:35 2017")
     (tool "Eeschema (2015-12-09 BZR 6195)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

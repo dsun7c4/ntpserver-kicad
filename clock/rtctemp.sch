@@ -70,8 +70,6 @@ F 5 "ADT7410TRZ" H 4500 5550 50  0001 C CNN "PartNum"
 	1    4200 5050
 	1    0    0    -1  
 $EndComp
-Text HLabel 1350 1600 0    60   Input ~ 0
-+3.3V_PG
 Text HLabel 3650 2350 0    60   Input ~ 0
 RTC_SCL
 Text HLabel 3650 2450 0    60   Input ~ 0
