@@ -1,0 +1,283 @@
+EESchema Schematic File Version 2
+LIBS:local
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:rj45brkout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "rj45 panel mount breakout"
+Date "2018-04-19"
+Rev "v1.0.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RJ45_LEDS J101
+U 1 1 5AD92762
+P 6400 3800
+F 0 "J101" H 6400 3500 50  0000 C CNN
+F 1 "RJ45_LEDS" H 7000 3700 50  0000 C CNN
+F 2 "local:rj45-8-pm" V 6210 3670 50  0001 C CNN
+F 3 "" V 6210 3670 50  0000 C CNN
+F 4 "Amphenol" H 6400 3800 60  0001 C CNN "Manufacturer"
+F 5 "MRJ5381M1" H 7025 3625 50  0000 C CNN "PartNum"
+	1    6400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P107
+U 1 1 5AD927DD
+P 4950 3500
+F 0 "P107" H 4950 3600 50  0000 C CNN
+F 1 "CONN_01X01" V 5050 3500 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 4950 3500 50  0001 C CNN
+F 3 "" H 4950 3500 50  0000 C CNN
+	1    4950 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P108
+U 1 1 5AD928A6
+P 4950 3700
+F 0 "P108" H 4950 3800 50  0000 C CNN
+F 1 "CONN_01X01" V 5050 3700 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 4950 3700 50  0001 C CNN
+F 3 "" H 4950 3700 50  0000 C CNN
+	1    4950 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P106
+U 1 1 5AD928DB
+P 4950 3250
+F 0 "P106" H 4950 3350 50  0000 C CNN
+F 1 "CONN_01X01" V 5050 3250 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 4950 3250 50  0001 C CNN
+F 3 "" H 4950 3250 50  0000 C CNN
+	1    4950 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P105
+U 1 1 5AD9293F
+P 4950 3050
+F 0 "P105" H 4950 3150 50  0000 C CNN
+F 1 "CONN_01X01" V 5050 3050 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 4950 3050 50  0001 C CNN
+F 3 "" H 4950 3050 50  0000 C CNN
+	1    4950 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P109
+U 1 1 5AD92962
+P 5125 4300
+F 0 "P109" H 5125 4400 50  0000 C CNN
+F 1 "CONN_01X01" V 5225 4300 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 5125 4300 50  0001 C CNN
+F 3 "" H 5125 4300 50  0000 C CNN
+	1    5125 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P110
+U 1 1 5AD929A4
+P 5125 4500
+F 0 "P110" H 5125 4600 50  0000 C CNN
+F 1 "CONN_01X01" V 5225 4500 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 5125 4500 50  0001 C CNN
+F 3 "" H 5125 4500 50  0000 C CNN
+	1    5125 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P111
+U 1 1 5AD929DB
+P 6150 4700
+F 0 "P111" H 6150 4800 50  0000 C CNN
+F 1 "CONN_01X01" V 6250 4700 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 6150 4700 50  0001 C CNN
+F 3 "" H 6150 4700 50  0000 C CNN
+	1    6150 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P112
+U 1 1 5AD92A13
+P 6150 4900
+F 0 "P112" H 6150 5000 50  0000 C CNN
+F 1 "CONN_01X01" V 6250 4900 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 6150 4900 50  0001 C CNN
+F 3 "" H 6150 4900 50  0000 C CNN
+	1    6150 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P104
+U 1 1 5AD92A4C
+P 4950 2800
+F 0 "P104" H 4950 2900 50  0000 C CNN
+F 1 "CONN_01X01" V 5050 2800 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 4950 2800 50  0001 C CNN
+F 3 "" H 4950 2800 50  0000 C CNN
+	1    4950 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P103
+U 1 1 5AD92A90
+P 4950 2600
+F 0 "P103" H 4950 2700 50  0000 C CNN
+F 1 "CONN_01X01" V 5050 2600 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 4950 2600 50  0001 C CNN
+F 3 "" H 4950 2600 50  0000 C CNN
+	1    4950 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P102
+U 1 1 5AD92ACD
+P 4950 2350
+F 0 "P102" H 4950 2450 50  0000 C CNN
+F 1 "CONN_01X01" V 5050 2350 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 4950 2350 50  0001 C CNN
+F 3 "" H 4950 2350 50  0000 C CNN
+	1    4950 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P101
+U 1 1 5AD92B31
+P 4950 2150
+F 0 "P101" H 4950 2250 50  0000 C CNN
+F 1 "CONN_01X01" V 5050 2150 50  0001 C CNN
+F 2 "local:wire_50x30mil" H 4950 2150 50  0001 C CNN
+F 3 "" H 4950 2150 50  0000 C CNN
+	1    4950 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5AD92B85
+P 5675 4800
+F 0 "#PWR01" H 5675 4550 50  0001 C CNN
+F 1 "GND" H 5675 4650 50  0000 C CNN
+F 2 "" H 5675 4800 50  0000 C CNN
+F 3 "" H 5675 4800 50  0000 C CNN
+	1    5675 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4700 6600 4700
+Wire Wire Line
+	6600 4700 6600 4200
+Wire Wire Line
+	6700 4200 6700 4900
+Wire Wire Line
+	6700 4900 6350 4900
+Wire Wire Line
+	5900 3900 5675 3900
+Wire Wire Line
+	5675 3900 5675 4800
+Wire Wire Line
+	6100 4200 6100 4300
+Wire Wire Line
+	6100 4300 5325 4300
+Wire Wire Line
+	5325 4500 6200 4500
+Wire Wire Line
+	6200 4500 6200 4200
+Wire Wire Line
+	5150 3700 5900 3700
+Wire Wire Line
+	5900 3600 5225 3600
+Wire Wire Line
+	5225 3600 5225 3500
+Wire Wire Line
+	5225 3500 5150 3500
+Wire Wire Line
+	5150 3250 6200 3250
+Wire Wire Line
+	6200 3250 6200 3400
+Wire Wire Line
+	5150 3050 6600 3050
+Wire Wire Line
+	6600 3050 6600 3400
+Wire Wire Line
+	5150 2800 6300 2800
+Wire Wire Line
+	6300 2800 6300 3400
+Wire Wire Line
+	5150 2600 6500 2600
+Wire Wire Line
+	6500 2600 6500 3400
+Wire Wire Line
+	5150 2350 7000 2350
+Wire Wire Line
+	7000 2350 7000 3600
+Wire Wire Line
+	7000 3600 6900 3600
+Wire Wire Line
+	5150 2150 7100 2150
+Wire Wire Line
+	7100 2150 7100 3700
+Wire Wire Line
+	7100 3700 6900 3700
+Text Label 5400 3700 0    50   ~ 0
+DA+
+Text Label 5400 3600 0    50   ~ 0
+DA-
+Text Label 5400 3050 0    50   ~ 0
+DB-
+Text Label 5400 3250 0    50   ~ 0
+DB+
+Text Label 5400 2800 0    50   ~ 0
+DC+
+Text Label 5400 2600 0    50   ~ 0
+DC-
+Text Label 5400 2350 0    50   ~ 0
+DD+
+Text Label 5400 2150 0    50   ~ 0
+DD-
+Text Label 5400 4300 0    50   ~ 0
+LEDL+
+Text Label 5400 4500 0    50   ~ 0
+LEDL-
+Text Label 6400 4900 0    50   ~ 0
+LEDR-
+Text Label 6350 4700 0    50   ~ 0
+LEDR+
+$EndSCHEMATC
