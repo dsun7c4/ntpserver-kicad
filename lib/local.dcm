@@ -120,6 +120,11 @@ D Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator
 K I2C translator
 $ENDCMP
 #
+$CMP PTC
+D PTC
+K PTC Resistor R
+$ENDCMP
+#
 $CMP R_CSM2512
 D Resistor Current Sense
 K Resistor R
