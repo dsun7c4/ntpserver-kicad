@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/guest/cae/kicad/usbabrkout/usbabrkout.sch</source>
+    <date>Sun Apr 29 12:04:42 2018</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USB-A panel mount breakout</title>
+        <company/>
+        <rev>v1.0.0</rev>
+        <date>2018-04-23</date>
+        <source>usbabrkout.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P102">
+      <value>CONN_01X01</value>
+      <footprint>local:wire_60x40mil</footprint>
+      <libsource lib="usbabrkout-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD927DD</tstamp>
+    </comp>
+    <comp ref="P103">
+      <value>CONN_01X01</value>
+      <footprint>local:wire_60x40mil</footprint>
+      <libsource lib="usbabrkout-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD928A6</tstamp>
+    </comp>
+    <comp ref="P105">
+      <value>USB_A</value>
+      <footprint>local:usb-a-pm</footprint>
+      <fields>
+        <field name="Manufacturer">Amphenol</field>
+        <field name="PartNum">MUSBA111M1</field>
+      </fields>
+      <libsource lib="usbabrkout-rescue" part="USB_A-RESCUE-usbabrkout"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADE9713</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>CONN_01X01</value>
+      <footprint>local:wire_60x40mil</footprint>
+      <libsource lib="usbabrkout-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADEA025</tstamp>
+    </comp>
+    <comp ref="P104">
+      <value>CONN_01X01</value>
+      <footprint>local:wire_60x40mil</footprint>
+      <libsource lib="usbabrkout-cache" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADEA065</tstamp>
+    </comp>
+    <comp ref="PTC101">
+      <value>750mA</value>
+      <footprint>local:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Voltage">6V</field>
+        <field name="Manufacturer">Little Fuse</field>
+        <field name="PartNum">nanoSMDC075F</field>
+      </fields>
+      <libsource lib="local" part="PTC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE27E64</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="usbabrkout-cache" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="local" part="PTC">
+      <description>PTC</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PTC</field>
+        <field name="Value">PTC</field>
+        <field name="Voltage">6V</field>
+        <field name="Manufacturer">Co</field>
+        <field name="PartNum">#</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="usbabrkout-rescue" part="USB_A-RESCUE-usbabrkout">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_A-RESCUE-usbabrkout</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="local">
+      <uri>/home/guest/cae/kicad/lib/local.lib</uri>
+    </library>
+    <library logical="usbabrkout-rescue">
+      <uri>/home/guest/cae/kicad/usbabrkout/usbabrkout-rescue.lib</uri>
+    </library>
+    <library logical="usbabrkout-cache">
+      <uri>/home/guest/cae/kicad/usbabrkout/usbabrkout-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="P105" pin="1"/>
+      <node ref="PTC101" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="P105" pin="5"/>
+      <node ref="P105" pin="4"/>
+      <node ref="P104" pin="1"/>
+    </net>
+    <net code="3" name="/+5v">
+      <node ref="P101" pin="1"/>
+      <node ref="PTC101" pin="2"/>
+    </net>
+    <net code="4" name="/D-">
+      <node ref="P102" pin="1"/>
+      <node ref="P105" pin="2"/>
+    </net>
+    <net code="5" name="/D+">
+      <node ref="P105" pin="3"/>
+      <node ref="P103" pin="1"/>
+    </net>
+  </nets>
+</export>
