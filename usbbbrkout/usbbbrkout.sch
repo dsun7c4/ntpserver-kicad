@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:usbbbrkout-rescue
 LIBS:local
 LIBS:power
 LIBS:device
@@ -157,7 +156,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4400 5000 4500
 $Comp
-L USB_B-RESCUE-usbbbrkout P105
+L USB_B P105
 U 1 1 5ADFC07A
 P 6000 3400
 F 0 "P105" H 6200 3200 50  0000 C CNN

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:usbabrkout-rescue
 LIBS:local
 LIBS:power
 LIBS:device
@@ -91,7 +90,7 @@ D+
 Text Label 5175 4000 0    50   ~ 0
 D-
 $Comp
-L USB_A-RESCUE-usbabrkout P105
+L USB_A P105
 U 1 1 5ADE9713
 P 6000 3400
 F 0 "P105" H 6200 3200 50  0000 C CNN

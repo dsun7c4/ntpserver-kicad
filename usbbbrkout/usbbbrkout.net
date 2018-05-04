@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch)
-    (date "Thu Apr 26 20:53:57 2018")
-    (tool "Eeschema (2015-12-09 BZR 6195)-product")
+    (date "Mon Apr 30 20:17:20 2018")
+    (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "USB-B panel mount breakout")
@@ -18,25 +18,25 @@
     (comp (ref P102)
       (value CONN_01X01)
       (footprint local:wire_60x40mil)
-      (libsource (lib conn) (part CONN_01X01))
+      (libsource (lib usbbbrkout-cache) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD927DD))
     (comp (ref P103)
       (value CONN_01X01)
       (footprint local:wire_60x40mil)
-      (libsource (lib conn) (part CONN_01X01))
+      (libsource (lib usbbbrkout-cache) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD928A6))
     (comp (ref P101)
       (value CONN_01X01)
       (footprint local:wire_60x40mil)
-      (libsource (lib conn) (part CONN_01X01))
+      (libsource (lib usbbbrkout-cache) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 5ADEA025))
     (comp (ref P104)
       (value CONN_01X01)
       (footprint local:wire_60x40mil)
-      (libsource (lib conn) (part CONN_01X01))
+      (libsource (lib usbbbrkout-cache) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 5ADEA065))
     (comp (ref P105)
@@ -45,7 +45,7 @@
       (fields
         (field (name Manufacturer) Amphenol)
         (field (name PartNum) MUSBD111M1))
-      (libsource (lib conn) (part USB_B))
+      (libsource (lib local) (part USB_B))
       (sheetpath (names /) (tstamps /))
       (tstamp 5ADFC07A))
     (comp (ref R101)
@@ -60,8 +60,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AE28356)))
   (libparts
-    (libpart (lib conn) (part CONN_01X01)
-      (description "Connector 01x01")
+    (libpart (lib usbbbrkout-cache) (part CONN_01X01)
       (footprints
         (fp Pin_Header_Straight_1X01)
         (fp Pin_Header_Angled_1X01)
@@ -87,8 +86,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib conn) (part USB_B)
-      (description "B connector")
+    (libpart (lib local) (part USB_B)
       (footprints
         (fp USB*))
       (fields
@@ -103,8 +101,8 @@
   (libraries
     (library (logical local)
       (uri /home/guest/cae/kicad/lib/local.lib))
-    (library (logical conn)
-      (uri /home/cae/src/kicad/install-4.0.1/share/kicad/library/conn.lib)))
+    (library (logical usbbbrkout-cache)
+      (uri /home/guest/cae/kicad/usbbbrkout/usbbbrkout-cache.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref P104) (pin 1))
