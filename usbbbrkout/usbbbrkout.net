@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch)
-    (date "Mon Apr 30 20:17:20 2018")
+    (date "Thu May  3 20:39:41 2018")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -53,7 +53,7 @@
       (footprint local:C_1206_HandSoldering)
       (fields
         (field (name Tolerance) 1%)
-        (field (name Power) 0.125W)
+        (field (name Power) 0.25W)
         (field (name Manufacturer) "Vishay Dale")
         (field (name PartNum) CRCW12060000Z0EA))
       (libsource (lib local) (part R_local))

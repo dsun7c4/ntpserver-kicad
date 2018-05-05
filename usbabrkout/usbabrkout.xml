@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/usbabrkout/usbabrkout.sch</source>
-    <date>Sun Apr 29 12:04:42 2018</date>
+    <date>Thu May  3 21:01:41 2018</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -40,7 +40,7 @@
         <field name="Manufacturer">Amphenol</field>
         <field name="PartNum">MUSBA111M1</field>
       </fields>
-      <libsource lib="usbabrkout-rescue" part="USB_A-RESCUE-usbabrkout"/>
+      <libsource lib="local" part="USB_A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADE9713</tstamp>
     </comp>
@@ -60,7 +60,7 @@
     </comp>
     <comp ref="PTC101">
       <value>750mA</value>
-      <footprint>local:C_1206_HandSoldering</footprint>
+      <footprint>local:R_1206_HandSoldering</footprint>
       <fields>
         <field name="Voltage">6V</field>
         <field name="Manufacturer">Little Fuse</field>
@@ -105,13 +105,13 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="usbabrkout-rescue" part="USB_A-RESCUE-usbabrkout">
+    <libpart lib="local" part="USB_A">
       <footprints>
         <fp>USB*</fp>
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">USB_A-RESCUE-usbabrkout</field>
+        <field name="Value">USB_A</field>
       </fields>
       <pins>
         <pin num="1" name="VCC" type="power_in"/>
@@ -123,14 +123,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="local">
-      <uri>/home/guest/cae/kicad/lib/local.lib</uri>
-    </library>
-    <library logical="usbabrkout-rescue">
-      <uri>/home/guest/cae/kicad/usbabrkout/usbabrkout-rescue.lib</uri>
-    </library>
     <library logical="usbabrkout-cache">
       <uri>/home/guest/cae/kicad/usbabrkout/usbabrkout-cache.lib</uri>
+    </library>
+    <library logical="local">
+      <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
   </libraries>
   <nets>

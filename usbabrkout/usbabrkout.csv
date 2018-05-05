@@ -4,4 +4,4 @@ Reference, Value, Footprint, Datasheet, Manufacturer, PartNum, Voltage
 "P105","USB_A","local:usb-a-pm","","Amphenol","MUSBA111M1",""
 "P101","CONN_01X01","local:wire_60x40mil",""
 "P104","CONN_01X01","local:wire_60x40mil",""
-"PTC101","750mA","local:C_1206_HandSoldering","","Little Fuse","nanoSMDC075F","6V"
+"PTC101","750mA","local:R_1206_HandSoldering","","Little Fuse","nanoSMDC075F","6V"

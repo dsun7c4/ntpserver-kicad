@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch</source>
-    <date>Sun Apr 29 11:30:38 2018</date>
+    <date>Thu May  3 20:39:44 2018</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -54,7 +54,7 @@
         <field name="Manufacturer">Amphenol</field>
         <field name="PartNum">MUSBD111M1</field>
       </fields>
-      <libsource lib="usbbbrkout-rescue" part="USB_B-RESCUE-usbbbrkout"/>
+      <libsource lib="local" part="USB_B"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADFC07A</tstamp>
     </comp>
@@ -63,7 +63,7 @@
       <footprint>local:C_1206_HandSoldering</footprint>
       <fields>
         <field name="Tolerance">1%</field>
-        <field name="Power">0.125W</field>
+        <field name="Power">0.25W</field>
         <field name="Manufacturer">Vishay Dale</field>
         <field name="PartNum">CRCW12060000Z0EA</field>
       </fields>
@@ -107,13 +107,13 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="usbbbrkout-rescue" part="USB_B-RESCUE-usbbbrkout">
+    <libpart lib="local" part="USB_B">
       <footprints>
         <fp>USB*</fp>
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">USB_B-RESCUE-usbbbrkout</field>
+        <field name="Value">USB_B</field>
       </fields>
       <pins>
         <pin num="1" name="VCC" type="power_out"/>
@@ -125,9 +125,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="usbbbrkout-rescue">
-      <uri>/home/guest/cae/kicad/usbbbrkout/usbbbrkout-rescue.lib</uri>
-    </library>
     <library logical="local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
