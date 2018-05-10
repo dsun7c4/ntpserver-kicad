@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-12-09 BZR 6195)-product")
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 59)
@@ -243,9 +243,9 @@
       (net 8 /IREF) (clearance 0.235))
     (pad 24 smd rect (at 2.7 -3.4925) (size 1.6 0.4) (layers F.Cu F.Paste F.Mask)
       (net 1 VCC) (clearance 0.235))
-    (model Housings_SOIC.3dshapes/SOIC-24W_7.5x15.4mm_Pitch1.27mm.wrl
+    (model Housings_SSOP.3dshapes/SSOP-24_3.9x8.7mm_Pitch0.635mm.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
