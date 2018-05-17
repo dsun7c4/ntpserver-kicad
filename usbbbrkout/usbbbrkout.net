@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch)
-    (date "Thu May  3 20:39:41 2018")
+    (date "Wed May  9 22:48:28 2018")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -50,7 +50,7 @@
       (tstamp 5ADFC07A))
     (comp (ref R101)
       (value 0R)
-      (footprint local:C_1206_HandSoldering)
+      (footprint local:R_1206_HandSoldering)
       (fields
         (field (name Tolerance) 1%)
         (field (name Power) 0.25W)
