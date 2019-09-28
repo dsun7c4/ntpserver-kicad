@@ -70,11 +70,6 @@ D Inductor
 K Inductor L
 $ENDCMP
 #
-$CMP LDD-A814RI
-D 0.80" 7 Segment Dual Digit Display
-K 7-seg dual display
-$ENDCMP
-#
 $CMP LMV722
 D 10MHz, Low Noise, Low Voltage, and Low Power Operational Amplifier
 K opamp
@@ -118,6 +113,11 @@ $ENDCMP
 $CMP PCA9306
 D Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator
 K I2C translator
+$ENDCMP
+#
+$CMP PSA08-11SRWA
+D 0.80" 16 Segment Dual Digit Display
+K 16-seg display
 $ENDCMP
 #
 $CMP PTC
