@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:clock-rescue
 LIBS:local
 LIBS:power
 LIBS:device

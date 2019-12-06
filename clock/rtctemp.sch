@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:clock-rescue
 LIBS:local
 LIBS:power
 LIBS:device
@@ -48,6 +49,8 @@ $Comp
 L DS3231 U602
 U 1 1 5636A7B6
 P 5750 2700
+AR Path="/5636A7B6" Ref="U602"  Part="1" 
+AR Path="/5636A673/5636A7B6" Ref="U602"  Part="1" 
 F 0 "U602" H 5950 3250 60  0000 C CNN
 F 1 "DS3231" H 5750 2700 60  0000 C CNN
 F 2 "local:SOIC-16_Maxim_W16_H2" H 5750 2750 60  0001 C CNN
@@ -75,16 +78,16 @@ RTC_SCL
 Text HLabel 3650 2450 0    60   Input ~ 0
 RTC_SDA
 Wire Wire Line
-	5750 3400 5750 3300
+	5750 3300 5750 3500
 $Comp
 L GND #PWR082
 U 1 1 5636B6C4
-P 5750 3400
-F 0 "#PWR082" H 5750 3150 50  0001 C CNN
-F 1 "GND" H 5750 3250 50  0000 C CNN
-F 2 "" H 5750 3400 60  0000 C CNN
-F 3 "" H 5750 3400 60  0000 C CNN
-	1    5750 3400
+P 5750 3500
+F 0 "#PWR082" H 5750 3250 50  0001 C CNN
+F 1 "GND" H 5750 3350 50  0000 C CNN
+F 2 "" H 5750 3500 60  0000 C CNN
+F 3 "" H 5750 3500 60  0000 C CNN
+	1    5750 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -668,7 +671,7 @@ F 3 "" H 7050 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7050 1200
-Text Notes 5950 3350 0    60   ~ 0
+Text Notes 5950 3500 0    60   ~ 0
 i2c_addr = 0x68
 Text Notes 4400 5600 0    60   ~ 0
 i2c_addr = 0x48
@@ -744,4 +747,36 @@ Wire Wire Line
 Text HLabel 10300 4850 2    60   Input ~ 0
 ~INT~2
 Connection ~ 9850 4850
+Wire Wire Line
+	5150 2750 5050 2750
+Wire Wire Line
+	5050 2750 5050 3450
+Wire Wire Line
+	5050 3450 5750 3450
+Wire Wire Line
+	5150 2850 5050 2850
+Connection ~ 5050 2850
+Wire Wire Line
+	5150 2950 5050 2950
+Connection ~ 5050 2950
+Wire Wire Line
+	5150 3050 5050 3050
+Connection ~ 5050 3050
+Wire Wire Line
+	6450 3350 5750 3350
+Wire Wire Line
+	6450 2750 6450 3350
+Wire Wire Line
+	6450 2750 6350 2750
+Connection ~ 5750 3350
+Wire Wire Line
+	6350 2850 6450 2850
+Connection ~ 6450 2850
+Wire Wire Line
+	6450 2950 6350 2950
+Connection ~ 6450 2950
+Wire Wire Line
+	6350 3050 6450 3050
+Connection ~ 6450 3050
+Connection ~ 5750 3450
 $EndSCHEMATC
