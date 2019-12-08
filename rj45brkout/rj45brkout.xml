@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/rj45brkout/rj45brkout.sch</source>
-    <date>Thu May  3 20:25:03 2018</date>
-    <tool>Eeschema 4.0.7</tool>
+    <date>Sat Dec  7 20:36:27 2019</date>
+    <tool>Eeschema (5.1.5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>rj45 panel mount breakout</title>
@@ -26,112 +26,97 @@
         <field name="Manufacturer">Amphenol</field>
         <field name="PartNum">MRJ5381M1</field>
       </fields>
-      <libsource lib="local" part="RJ45_LEDS"/>
+      <libsource lib="Local" part="RJ45_LEDS" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD92762</tstamp>
     </comp>
     <comp ref="P107">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD927DD</tstamp>
     </comp>
     <comp ref="P108">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD928A6</tstamp>
     </comp>
     <comp ref="P106">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD928DB</tstamp>
     </comp>
     <comp ref="P105">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD9293F</tstamp>
     </comp>
     <comp ref="P109">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD92962</tstamp>
     </comp>
     <comp ref="P110">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD929A4</tstamp>
     </comp>
     <comp ref="P111">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD929DB</tstamp>
     </comp>
     <comp ref="P112">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD92A13</tstamp>
     </comp>
     <comp ref="P104">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD92A4C</tstamp>
     </comp>
     <comp ref="P103">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD92A90</tstamp>
     </comp>
     <comp ref="P102">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD92ACD</tstamp>
     </comp>
     <comp ref="P101">
       <value>CONN_01X01</value>
       <footprint>local:wire_50x30mil</footprint>
-      <libsource lib="rj45brkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD92B31</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="rj45brkout-cache" part="CONN_01X01">
-      <footprints>
-        <fp>Pin_Header_Straight_1X01</fp>
-        <fp>Pin_Header_Angled_1X01</fp>
-        <fp>Socket_Strip_Straight_1X01</fp>
-        <fp>Socket_Strip_Angled_1X01</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X01</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="RJ45_LEDS">
+    <libpart lib="Local" part="RJ45_LEDS">
       <footprints>
         <fp>RJ45*</fp>
       </footprints>
@@ -155,19 +140,35 @@
         <pin num="15" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="local">
+    <library logical="Local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
     </library>
-    <library logical="rj45brkout-cache">
-      <uri>/home/guest/cae/kicad/rj45brkout/rj45brkout-cache.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="/DB+">
-      <node ref="J101" pin="3"/>
       <node ref="P106" pin="1"/>
+      <node ref="J101" pin="3"/>
     </net>
     <net code="2" name="/LEDL-">
       <node ref="J101" pin="11"/>
@@ -182,28 +183,28 @@
       <node ref="P102" pin="1"/>
     </net>
     <net code="5" name="/DC-">
-      <node ref="P103" pin="1"/>
       <node ref="J101" pin="5"/>
+      <node ref="P103" pin="1"/>
     </net>
     <net code="6" name="/DC+">
-      <node ref="J101" pin="4"/>
       <node ref="P104" pin="1"/>
+      <node ref="J101" pin="4"/>
     </net>
     <net code="7" name="/DB-">
-      <node ref="P105" pin="1"/>
       <node ref="J101" pin="6"/>
+      <node ref="P105" pin="1"/>
     </net>
     <net code="8" name="/DA-">
       <node ref="J101" pin="2"/>
       <node ref="P107" pin="1"/>
     </net>
     <net code="9" name="/DA+">
-      <node ref="J101" pin="1"/>
       <node ref="P108" pin="1"/>
+      <node ref="J101" pin="1"/>
     </net>
     <net code="10" name="/DD-">
-      <node ref="J101" pin="8"/>
       <node ref="P101" pin="1"/>
+      <node ref="J101" pin="8"/>
     </net>
     <net code="11" name="/LEDR-">
       <node ref="P112" pin="1"/>
