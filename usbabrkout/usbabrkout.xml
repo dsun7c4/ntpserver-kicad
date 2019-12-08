@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/usbabrkout/usbabrkout.sch</source>
-    <date>Thu May  3 21:01:41 2018</date>
-    <tool>Eeschema 4.0.7</tool>
+    <date>Sun Dec  8 12:10:53 2019</date>
+    <tool>Eeschema (5.1.5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>USB-A panel mount breakout</title>
@@ -22,14 +22,14 @@
     <comp ref="P102">
       <value>CONN_01X01</value>
       <footprint>local:wire_60x40mil</footprint>
-      <libsource lib="usbabrkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD927DD</tstamp>
     </comp>
     <comp ref="P103">
       <value>CONN_01X01</value>
       <footprint>local:wire_60x40mil</footprint>
-      <libsource lib="usbabrkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD928A6</tstamp>
     </comp>
@@ -40,21 +40,21 @@
         <field name="Manufacturer">Amphenol</field>
         <field name="PartNum">MUSBA111M1</field>
       </fields>
-      <libsource lib="local" part="USB_A"/>
+      <libsource lib="Local" part="USB_A" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADE9713</tstamp>
     </comp>
     <comp ref="P101">
       <value>CONN_01X01</value>
       <footprint>local:wire_60x40mil</footprint>
-      <libsource lib="usbabrkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADEA025</tstamp>
     </comp>
     <comp ref="P104">
       <value>CONN_01X01</value>
       <footprint>local:wire_60x40mil</footprint>
-      <libsource lib="usbabrkout-cache" part="CONN_01X01"/>
+      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADEA065</tstamp>
     </comp>
@@ -62,32 +62,17 @@
       <value>750mA</value>
       <footprint>local:R_1206_HandSoldering</footprint>
       <fields>
-        <field name="Voltage">6V</field>
         <field name="Manufacturer">Little Fuse</field>
         <field name="PartNum">nanoSMDC075F</field>
+        <field name="Voltage">6V</field>
       </fields>
-      <libsource lib="local" part="PTC"/>
+      <libsource lib="Local" part="PTC" description="PTC"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AE27E64</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="usbabrkout-cache" part="CONN_01X01">
-      <footprints>
-        <fp>Pin_Header_Straight_1X01</fp>
-        <fp>Pin_Header_Angled_1X01</fp>
-        <fp>Socket_Strip_Straight_1X01</fp>
-        <fp>Socket_Strip_Angled_1X01</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X01</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="local" part="PTC">
+    <libpart lib="Local" part="PTC">
       <description>PTC</description>
       <footprints>
         <fp>R_*</fp>
@@ -105,7 +90,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="local" part="USB_A">
+    <libpart lib="Local" part="USB_A">
       <footprints>
         <fp>USB*</fp>
       </footprints>
@@ -121,13 +106,29 @@
         <pin num="5" name="shield" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="usbabrkout-cache">
-      <uri>/home/guest/cae/kicad/usbabrkout/usbabrkout-cache.lib</uri>
-    </library>
-    <library logical="local">
+    <library logical="Local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
