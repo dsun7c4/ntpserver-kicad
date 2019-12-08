@@ -1,7 +1,7 @@
-Reference, Value, Footprint, Datasheet, Manufacturer, PartNum, Tolerance, Power
+Reference, Value, Footprint, Datasheet, Manufacturer, PartNum, Power, Tolerance
 "P102","CONN_01X01","local:wire_60x40mil",""
 "P103","CONN_01X01","local:wire_60x40mil",""
 "P101","CONN_01X01","local:wire_60x40mil",""
 "P104","CONN_01X01","local:wire_60x40mil",""
 "P105","USB_B","local:usb-b-pm","","Amphenol","MUSBD111M1","",""
-"R101","0R","local:C_1206_HandSoldering","","Vishay Dale","CRCW12060000Z0EA","1%","0.25W"
+"R101","0R","local:R_1206_HandSoldering","","Vishay Dale","CRCW12060000Z0EA","0.25W","1%"

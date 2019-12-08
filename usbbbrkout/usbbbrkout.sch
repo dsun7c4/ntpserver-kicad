@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:local
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:usbbbrkout-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X01 P102
+L conn:CONN_01X01 P102
 U 1 1 5AD927DD
 P 4700 4000
 F 0 "P102" H 4700 4100 50  0000 C CNN
@@ -56,7 +25,7 @@ F 3 "" H 4700 4000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X01 P103
+L conn:CONN_01X01 P103
 U 1 1 5AD928A6
 P 4700 4200
 F 0 "P103" H 4700 4300 50  0000 C CNN
@@ -67,7 +36,7 @@ F 3 "" H 4700 4200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5AD92B85
 P 6400 4000
 F 0 "#PWR01" H 6400 3750 50  0001 C CNN
@@ -80,7 +49,7 @@ $EndComp
 Wire Wire Line
 	6300 3300 6400 3300
 Wire Wire Line
-	6400 3300 6400 4000
+	6400 3300 6400 3800
 Wire Wire Line
 	4900 4200 6000 4200
 Wire Wire Line
@@ -103,11 +72,11 @@ Wire Wire Line
 Wire Wire Line
 	4625 3800 4800 3800
 Wire Wire Line
-	5100 3800 5800 3800
+	5100 3800 5300 3800
 Wire Wire Line
 	5300 3800 5300 3500
 $Comp
-L VCC #PWR02
+L Local:VCC #PWR02
 U 1 1 5ADE9D9C
 P 5300 3500
 F 0 "#PWR02" H 5300 3350 50  0001 C CNN
@@ -118,7 +87,7 @@ F 3 "" H 5300 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X01 P101
+L conn:CONN_01X01 P101
 U 1 1 5ADEA025
 P 4425 3800
 F 0 "P101" H 4425 3900 50  0000 C CNN
@@ -129,7 +98,7 @@ F 3 "" H 4425 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X01 P104
+L conn:CONN_01X01 P104
 U 1 1 5ADEA065
 P 4700 4400
 F 0 "P104" H 4700 4500 50  0000 C CNN
@@ -141,7 +110,7 @@ F 3 "" H 4700 4400 50  0000 C CNN
 $EndComp
 Connection ~ 5300 3800
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5ADEA436
 P 5000 4500
 F 0 "#PWR03" H 5000 4250 50  0001 C CNN
@@ -156,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4400 5000 4500
 $Comp
-L USB_B P105
+L Local:USB_B P105
 U 1 1 5ADFC07A
 P 6000 3400
 F 0 "P105" H 6200 3200 50  0000 C CNN
@@ -169,7 +138,7 @@ F 5 "MUSBD111M1" H 6000 3675 50  0000 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R101
+L Local:R_local R101
 U 1 1 5AE28356
 P 4950 3800
 F 0 "R101" V 5030 3800 50  0000 C CNN
@@ -185,4 +154,8 @@ F 7 "CRCW12060000Z0EA" V 5175 3800 50  0001 C CNN "PartNum"
 $EndComp
 Text Label 4650 3800 0    50   ~ 0
 +5v
+Wire Wire Line
+	6400 3800 6400 4000
+Wire Wire Line
+	5300 3800 5800 3800
 $EndSCHEMATC
