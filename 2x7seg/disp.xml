@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/2x7seg/disp.sch</source>
-    <date>Sun Dec  8 12:57:36 2019</date>
+    <date>Sun Dec  8 14:32:41 2019</date>
     <tool>Eeschema (5.1.5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,14 +22,14 @@
     <comp ref="P1">
       <value>CONN_01X08</value>
       <footprint>local:Pin_Header_1x08_edge</footprint>
-      <libsource lib="conn" part="CONN_01X08" description="Connector, single row, 01x08"/>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5597595F</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X08</value>
       <footprint>local:Pin_Header_1x08_edge</footprint>
-      <libsource lib="conn" part="CONN_01X08" description="Connector, single row, 01x08"/>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>559759A0</tstamp>
     </comp>
@@ -43,7 +43,7 @@
         <field name="Tolerance">10%</field>
         <field name="Voltage">25V</field>
       </fields>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>559759DC</tstamp>
     </comp>
@@ -57,7 +57,7 @@
         <field name="Tolerance">10%</field>
         <field name="Voltage">50V</field>
       </fields>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55975A79</tstamp>
     </comp>
@@ -71,7 +71,7 @@
         <field name="Tolerance">10%</field>
         <field name="Voltage">25V</field>
       </fields>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55975AC9</tstamp>
     </comp>
@@ -98,7 +98,7 @@
         <field name="Tolerance">10%</field>
         <field name="Voltage">50V</field>
       </fields>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>562F02F5</tstamp>
     </comp>
@@ -126,6 +126,42 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Local" part="LDD-A814RI">
       <footprints>
         <fp>LDD-A814RI*</fp>
@@ -211,57 +247,16 @@
         <pin num="24" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X08">
-      <description>Connector, single row, 01x08</description>
-      <footprints>
-        <fp>Pin_Header_Straight_1X08</fp>
-        <fp>Pin_Header_Angled_1X08</fp>
-        <fp>Socket_Strip_Straight_1X08</fp>
-        <fp>Socket_Strip_Angled_1X08</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X08</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector_Generic">
+      <uri>/home/cae/kicad/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/cae/kicad/share/kicad/library/Device.lib</uri>
+    </library>
     <library logical="Local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
