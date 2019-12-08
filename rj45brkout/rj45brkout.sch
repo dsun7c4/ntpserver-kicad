@@ -27,7 +27,7 @@ F 5 "MRJ5381M1" H 7025 3625 50  0000 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 P107
+L Connector_Generic:Conn_01x01 P107
 U 1 1 5AD927DD
 P 4950 3500
 F 0 "P107" H 4950 3600 50  0000 C CNN
@@ -38,7 +38,7 @@ F 3 "" H 4950 3500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P108
+L Connector_Generic:Conn_01x01 P108
 U 1 1 5AD928A6
 P 4950 3700
 F 0 "P108" H 4950 3800 50  0000 C CNN
@@ -49,7 +49,7 @@ F 3 "" H 4950 3700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P106
+L Connector_Generic:Conn_01x01 P106
 U 1 1 5AD928DB
 P 4950 3250
 F 0 "P106" H 4950 3350 50  0000 C CNN
@@ -60,7 +60,7 @@ F 3 "" H 4950 3250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P105
+L Connector_Generic:Conn_01x01 P105
 U 1 1 5AD9293F
 P 4950 3050
 F 0 "P105" H 4950 3150 50  0000 C CNN
@@ -71,7 +71,7 @@ F 3 "" H 4950 3050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P109
+L Connector_Generic:Conn_01x01 P109
 U 1 1 5AD92962
 P 5125 4300
 F 0 "P109" H 5125 4400 50  0000 C CNN
@@ -82,7 +82,7 @@ F 3 "" H 5125 4300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P110
+L Connector_Generic:Conn_01x01 P110
 U 1 1 5AD929A4
 P 5125 4500
 F 0 "P110" H 5125 4600 50  0000 C CNN
@@ -93,7 +93,7 @@ F 3 "" H 5125 4500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P111
+L Connector_Generic:Conn_01x01 P111
 U 1 1 5AD929DB
 P 6150 4700
 F 0 "P111" H 6150 4800 50  0000 C CNN
@@ -104,7 +104,7 @@ F 3 "" H 6150 4700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P112
+L Connector_Generic:Conn_01x01 P112
 U 1 1 5AD92A13
 P 6150 4900
 F 0 "P112" H 6150 5000 50  0000 C CNN
@@ -115,7 +115,7 @@ F 3 "" H 6150 4900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P104
+L Connector_Generic:Conn_01x01 P104
 U 1 1 5AD92A4C
 P 4950 2800
 F 0 "P104" H 4950 2900 50  0000 C CNN
@@ -126,7 +126,7 @@ F 3 "" H 4950 2800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P103
+L Connector_Generic:Conn_01x01 P103
 U 1 1 5AD92A90
 P 4950 2600
 F 0 "P103" H 4950 2700 50  0000 C CNN
@@ -137,7 +137,7 @@ F 3 "" H 4950 2600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P102
+L Connector_Generic:Conn_01x01 P102
 U 1 1 5AD92ACD
 P 4950 2350
 F 0 "P102" H 4950 2450 50  0000 C CNN
@@ -148,7 +148,7 @@ F 3 "" H 4950 2350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P101
+L Connector_Generic:Conn_01x01 P101
 U 1 1 5AD92B31
 P 4950 2150
 F 0 "P101" H 4950 2250 50  0000 C CNN

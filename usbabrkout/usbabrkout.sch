@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conn:CONN_01X01 P102
+L Connector_Generic:Conn_01x01 P102
 U 1 1 5AD927DD
 P 4700 4000
 F 0 "P102" H 4700 4100 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 4700 4000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P103
+L Connector_Generic:Conn_01x01 P103
 U 1 1 5AD928A6
 P 4700 4200
 F 0 "P103" H 4700 4300 50  0000 C CNN
@@ -98,7 +98,7 @@ F 3 "" H 5500 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 P101
+L Connector_Generic:Conn_01x01 P101
 U 1 1 5ADEA025
 P 4425 3800
 F 0 "P101" H 4425 3900 50  0000 C CNN
@@ -109,7 +109,7 @@ F 3 "" H 4425 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X01 P104
+L Connector_Generic:Conn_01x01 P104
 U 1 1 5ADEA065
 P 4700 4400
 F 0 "P104" H 4700 4500 50  0000 C CNN

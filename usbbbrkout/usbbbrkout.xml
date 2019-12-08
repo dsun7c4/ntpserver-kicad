@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch</source>
-    <date>Sun Dec  8 12:38:38 2019</date>
+    <date>Sun Dec  8 15:25:21 2019</date>
     <tool>Eeschema (5.1.5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,28 +22,28 @@
     <comp ref="P102">
       <value>CONN_01X01</value>
       <footprint>local:wire_60x40mil</footprint>
-      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD927DD</tstamp>
     </comp>
     <comp ref="P103">
       <value>CONN_01X01</value>
       <footprint>local:wire_60x40mil</footprint>
-      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AD928A6</tstamp>
     </comp>
     <comp ref="P101">
       <value>CONN_01X01</value>
       <footprint>local:wire_60x40mil</footprint>
-      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADEA025</tstamp>
     </comp>
     <comp ref="P104">
       <value>CONN_01X01</value>
       <footprint>local:wire_60x40mil</footprint>
-      <libsource lib="conn" part="CONN_01X01" description="Connector, single row, 01x01"/>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ADEA065</tstamp>
     </comp>
@@ -73,6 +73,20 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Local" part="R_local">
       <description>Resistor</description>
       <footprints>
@@ -108,29 +122,13 @@
         <pin num="5" name="shield" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X01">
-      <description>Connector, single row, 01x01</description>
-      <footprints>
-        <fp>Pin_Header_Straight_1X01</fp>
-        <fp>Pin_Header_Angled_1X01</fp>
-        <fp>Socket_Strip_Straight_1X01</fp>
-        <fp>Socket_Strip_Angled_1X01</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X01</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector_Generic">
+      <uri>/home/cae/kicad/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
     <library logical="Local">
       <uri>/home/guest/cae/kicad/lib/local.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>

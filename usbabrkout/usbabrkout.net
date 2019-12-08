@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/guest/cae/kicad/usbabrkout/usbabrkout.sch)
-    (date "Sun Dec  8 12:10:47 2019")
+    (date "Sun Dec  8 15:23:43 2019")
     (tool "Eeschema (5.1.5)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,13 +18,13 @@
     (comp (ref P102)
       (value CONN_01X01)
       (footprint local:wire_60x40mil)
-      (libsource (lib conn) (part CONN_01X01) (description "Connector, single row, 01x01"))
+      (libsource (lib Connector_Generic) (part Conn_01x01) (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD927DD))
     (comp (ref P103)
       (value CONN_01X01)
       (footprint local:wire_60x40mil)
-      (libsource (lib conn) (part CONN_01X01) (description "Connector, single row, 01x01"))
+      (libsource (lib Connector_Generic) (part Conn_01x01) (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD928A6))
     (comp (ref P105)
@@ -39,13 +39,13 @@
     (comp (ref P101)
       (value CONN_01X01)
       (footprint local:wire_60x40mil)
-      (libsource (lib conn) (part CONN_01X01) (description "Connector, single row, 01x01"))
+      (libsource (lib Connector_Generic) (part Conn_01x01) (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5ADEA025))
     (comp (ref P104)
       (value CONN_01X01)
       (footprint local:wire_60x40mil)
-      (libsource (lib conn) (part CONN_01X01) (description "Connector, single row, 01x01"))
+      (libsource (lib Connector_Generic) (part Conn_01x01) (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5ADEA065))
     (comp (ref PTC101)
@@ -59,6 +59,16 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AE27E64)))
   (libparts
+    (libpart (lib Connector_Generic) (part Conn_01x01)
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (docs ~)
+      (footprints
+        (fp Connector*:*_1x??_*))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) Conn_01x01))
+      (pins
+        (pin (num 1) (name Pin_1) (type passive))))
     (libpart (lib Local) (part PTC)
       (description PTC)
       (footprints
@@ -84,24 +94,12 @@
         (pin (num 2) (name D-) (type passive))
         (pin (num 3) (name D+) (type passive))
         (pin (num 4) (name GND) (type power_in))
-        (pin (num 5) (name shield) (type passive))))
-    (libpart (lib conn) (part CONN_01X01)
-      (description "Connector, single row, 01x01")
-      (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X01))
-      (pins
-        (pin (num 1) (name P1) (type passive)))))
+        (pin (num 5) (name shield) (type passive)))))
   (libraries
+    (library (logical Connector_Generic)
+      (uri /home/cae/kicad/share/kicad/library/Connector_Generic.lib))
     (library (logical Local)
-      (uri /home/guest/cae/kicad/lib/local.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /home/guest/cae/kicad/lib/local.lib)))
   (nets
     (net (code 1) (name VCC)
       (node (ref P105) (pin 1))
