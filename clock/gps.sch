@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:clock-rescue
-LIBS:local
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:clock-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,22 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FILTER FB301
-U 1 1 561A31C6
-P 6450 1900
-F 0 "FB301" H 6450 2050 50  0000 C CNN
-F 1 "60@100MHz" H 6450 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6450 1900 60  0001 C CNN
-F 3 "" H 6450 1900 60  0000 C CNN
-F 4 "3A" H 6450 1650 50  0000 C CNN "Current"
-F 5 "25%" H 6450 1725 50  0000 C CNN "Tolerance"
-F 6 "Pulse Electronics" H 6450 1900 60  0001 C CNN "Manufacturer"
-F 7 "PE-0805PFB600ST" H 6450 1900 60  0001 C CNN "PartNum"
-	1    6450 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BNC P301
+L Connector:Conn_Coaxial P301
 U 1 1 561A3335
 P 4950 3050
 F 0 "P301" H 4960 3170 50  0000 C CNN
@@ -74,7 +27,7 @@ F 5 "073412-0110" H 4950 3050 50  0001 C CNN "PartNum"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L power:GND #PWR042
 U 1 1 56235A8F
 P 7200 5350
 F 0 "#PWR042" H 7200 5100 50  0001 C CNN
@@ -85,7 +38,7 @@ F 3 "" H 7200 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L power:GND #PWR043
 U 1 1 56235D57
 P 8000 2650
 F 0 "#PWR043" H 8000 2400 50  0001 C CNN
@@ -102,7 +55,7 @@ TX
 Text HLabel 2500 4350 0    60   Input ~ 0
 RX
 $Comp
-L GND #PWR044
+L power:GND #PWR044
 U 1 1 56236310
 P 4950 3350
 F 0 "#PWR044" H 4950 3100 50  0001 C CNN
@@ -113,7 +66,7 @@ F 3 "" H 4950 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L power:GND #PWR045
 U 1 1 56236487
 P 3750 4750
 F 0 "#PWR045" H 3750 4500 50  0001 C CNN
@@ -130,7 +83,7 @@ Text HLabel 9300 3950 2    60   Input ~ 0
 Text HLabel 2500 3850 0    60   Input ~ 0
 VBACKUP
 $Comp
-L C C302
+L Device:C C302
 U 1 1 5631FA60
 P 7100 2150
 F 0 "C302" H 7125 2250 50  0000 L CNN
@@ -146,7 +99,7 @@ F 8 "C3216X5R1E106K160AB" H 7100 2150 60  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C303
+L Device:C C303
 U 1 1 5631FA6C
 P 8000 2150
 F 0 "C303" H 8025 2250 50  0000 L CNN
@@ -162,7 +115,7 @@ F 8 "C0805C104K5RACTU" H 8000 2150 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C301
+L Device:C C301
 U 1 1 5631FD2B
 P 4050 2350
 F 0 "C301" H 4075 2450 50  0000 L CNN
@@ -178,7 +131,7 @@ F 8 "C3216X5R1E106K160AB" H 4050 2350 60  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MIC5225 U302
+L Local:MIC5225 U302
 U 1 1 563293EE
 P 5250 2000
 F 0 "U302" H 5000 2250 60  0000 C CNN
@@ -193,7 +146,7 @@ F 7 "MIC5225-3.3YM5-TR" H 5250 2350 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit746 U301
+L Local:Adafruit746 U301
 U 1 1 563295A6
 P 3750 4050
 F 0 "U301" H 3900 4500 60  0000 C CNN
@@ -207,7 +160,7 @@ F 6 "DNP" H 3900 3500 60  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PA6H U303
+L Local:PA6H U303
 U 1 1 56329634
 P 7000 4150
 F 0 "U303" H 7200 4900 60  0000 C CNN
@@ -220,7 +173,7 @@ F 5 "PA6H" H 7000 4075 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R301
+L Local:R_local R301
 U 1 1 5632AC0C
 P 1600 2100
 F 0 "R301" V 1680 2100 50  0000 C CNN
@@ -243,7 +196,7 @@ GPS_3.3V
 Text Label 6900 1900 0    60   ~ 0
 FILT_GPS_3.3V
 $Comp
-L PWR_FLAG #FLG046
+L power:PWR_FLAG #FLG046
 U 1 1 5643829E
 P 7750 1800
 F 0 "#FLG046" H 7750 1895 50  0001 C CNN
@@ -257,7 +210,7 @@ NoConn ~ 6300 4550
 Text Label 5750 3950 0    60   ~ 0
 ~RESET~
 $Comp
-L BSS138 Q301
+L Local:BSS138 Q301
 U 1 1 57AB6857
 P 2550 2800
 F 0 "Q301" H 2750 2875 50  0000 L CNN
@@ -271,7 +224,7 @@ F 6 "DNP" H 2850 2700 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L power:GND #PWR047
 U 1 1 57AB6F8A
 P 2250 3550
 F 0 "#PWR047" H 2250 3300 50  0001 C CNN
@@ -282,7 +235,7 @@ F 3 "" H 2250 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R302
+L Local:R_local R302
 U 1 1 57AB6FA9
 P 1350 2400
 F 0 "R302" V 1430 2400 50  0000 C CNN
@@ -297,7 +250,7 @@ F 7 "CRCW08051K00FKEA" V 1500 2400 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R303
+L Local:R_local R303
 U 1 1 57AB756F
 P 5650 3200
 F 0 "R303" V 5730 3200 50  0000 C CNN
@@ -314,7 +267,7 @@ $EndComp
 Text Label 3300 2100 0    60   ~ 0
 ENABLE
 $Comp
-L BSS138 Q302
+L Local:BSS138 Q302
 U 1 1 57B4A861
 P 2150 3150
 F 0 "Q302" H 2350 3225 50  0000 L CNN
@@ -328,7 +281,7 @@ F 6 "DNP" H 2450 3050 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R304
+L Local:R_local R304
 U 1 1 57B4AD05
 P 2250 2500
 F 0 "R304" V 2330 2500 50  0000 C CNN
@@ -348,7 +301,7 @@ ADA_ENA
 Text Label 2250 2800 1    40   ~ 0
 ~ENA5~
 $Comp
-L R_local R305
+L Local:R_local R305
 U 1 1 5897F099
 P 8700 2150
 F 0 "R305" V 8780 2150 50  0000 C CNN
@@ -363,7 +316,7 @@ F 7 "CRCW08051K00FKEA" V 8850 2150 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D301
+L Local:LED D301
 U 1 1 5897F149
 P 8700 2600
 F 0 "D301" H 8700 2700 50  0000 C CNN
@@ -376,7 +329,7 @@ F 5 "LIST-C171GKT" H 8700 2600 50  0001 C CNN "PartNum"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR048
+L power:GND #PWR048
 U 1 1 5897F426
 P 8700 2900
 F 0 "#PWR048" H 8700 2650 50  0001 C CNN
@@ -387,7 +340,7 @@ F 3 "" H 8700 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VIN #PWR049
+L Local:VIN #PWR049
 U 1 1 589872B7
 P 2250 1500
 F 0 "#PWR049" H 2250 1350 50  0001 C CNN
@@ -398,7 +351,7 @@ F 3 "" H 2250 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR050
+L power:GND #PWR050
 U 1 1 58994FF0
 P 1350 2650
 F 0 "#PWR050" H 1350 2400 50  0001 C CNN
@@ -409,9 +362,9 @@ F 3 "" H 1350 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 5150 7200 5350
+	7200 5150 7200 5250
 Wire Wire Line
-	6800 5250 7200 5250
+	6800 5250 6900 5250
 Wire Wire Line
 	6800 5250 6800 5150
 Wire Wire Line
@@ -422,30 +375,30 @@ Wire Wire Line
 Connection ~ 7100 5250
 Connection ~ 7200 5250
 Wire Wire Line
-	5750 1900 6100 1900
+	5750 1900 6300 1900
 Wire Wire Line
-	6800 1900 8700 1900
+	6600 1900 7100 1900
 Wire Wire Line
 	7100 2000 7100 1900
 Connection ~ 7100 1900
 Wire Wire Line
-	2250 1500 2250 2350
+	2250 1500 2250 1600
 Wire Wire Line
-	2250 1600 4050 1600
+	2250 1600 3750 1600
 Wire Wire Line
 	4050 1900 4750 1900
 Wire Wire Line
-	4050 1600 4050 2200
+	4050 1600 4050 1900
 Wire Wire Line
 	4050 2500 4050 2550
 Wire Wire Line
-	4050 2550 8000 2550
+	4050 2550 5250 2550
 Wire Wire Line
 	5250 2550 5250 2400
 Connection ~ 5250 2550
 Connection ~ 7100 2550
 Wire Wire Line
-	5100 3050 5200 3050
+	5150 3050 5200 3050
 Wire Wire Line
 	5200 3050 5200 3650
 Wire Wire Line
@@ -453,17 +406,17 @@ Wire Wire Line
 Wire Wire Line
 	4950 3350 4950 3250
 Wire Wire Line
-	2500 4250 3250 4250
+	2500 4250 2800 4250
 Wire Wire Line
-	2500 4350 3250 4350
+	2500 4350 2650 4350
 Wire Wire Line
-	2500 3850 3250 3850
+	2500 3850 2950 3850
 Wire Wire Line
 	3750 4650 3750 4750
 Wire Wire Line
-	7700 3750 9300 3750
+	7700 3750 8000 3750
 Wire Wire Line
-	7700 3950 9300 3950
+	7700 3950 8150 3950
 Wire Wire Line
 	6300 4050 5550 4050
 Wire Wire Line
@@ -515,14 +468,14 @@ Connection ~ 3750 1600
 Wire Wire Line
 	7000 3250 7000 2750
 Wire Wire Line
-	5650 2750 7550 2750
+	5650 2750 7000 2750
 Wire Wire Line
 	7550 2750 7550 1900
 Wire Wire Line
 	8000 1900 8000 2000
 Connection ~ 7550 1900
 Wire Wire Line
-	8000 2300 8000 2650
+	8000 2300 8000 2550
 Connection ~ 8000 2550
 Wire Wire Line
 	7100 2300 7100 2550
@@ -542,20 +495,20 @@ Wire Wire Line
 	5650 3050 5650 2750
 Connection ~ 7000 2750
 Wire Wire Line
-	1750 2100 4750 2100
+	1750 2100 1850 2100
 Wire Wire Line
 	1850 2100 1850 3200
 Wire Wire Line
 	1850 3200 1950 3200
 Wire Wire Line
-	2250 3350 2250 3550
+	2250 3350 2250 3450
 Wire Wire Line
 	2250 3450 2650 3450
 Connection ~ 2250 3450
 Wire Wire Line
 	2650 3450 2650 3000
 Wire Wire Line
-	2250 2650 2250 2950
+	2250 2650 2250 2850
 Wire Wire Line
 	2250 2850 2350 2850
 Connection ~ 2250 2850
@@ -577,6 +530,67 @@ Wire Wire Line
 Wire Wire Line
 	1350 2250 1350 2100
 Wire Wire Line
-	1200 2100 1450 2100
+	1200 2100 1350 2100
 Connection ~ 1350 2100
+Wire Wire Line
+	6900 5250 7100 5250
+Wire Wire Line
+	7100 5250 7200 5250
+Wire Wire Line
+	7200 5250 7200 5350
+Wire Wire Line
+	7100 1900 7550 1900
+Wire Wire Line
+	5250 2550 7100 2550
+Wire Wire Line
+	7100 2550 8000 2550
+Wire Wire Line
+	2950 3850 3250 3850
+Wire Wire Line
+	2800 4250 3250 4250
+Wire Wire Line
+	2650 4350 3250 4350
+Wire Wire Line
+	8000 3750 9300 3750
+Wire Wire Line
+	8150 3950 9300 3950
+Wire Wire Line
+	3750 1600 4050 1600
+Wire Wire Line
+	7550 1900 7750 1900
+Wire Wire Line
+	8000 2550 8000 2650
+Wire Wire Line
+	7750 1900 8000 1900
+Wire Wire Line
+	4050 1900 4050 2200
+Wire Wire Line
+	7000 2750 7550 2750
+Wire Wire Line
+	2250 3450 2250 3550
+Wire Wire Line
+	2250 2850 2250 2950
+Wire Wire Line
+	2250 1600 2250 2350
+Wire Wire Line
+	1850 2100 4750 2100
+Wire Wire Line
+	8000 1900 8700 1900
+Wire Wire Line
+	1350 2100 1450 2100
+$Comp
+L Device:Ferrite_Bead FB301
+U 1 1 561A31C6
+P 6450 1900
+F 0 "FB301" V 6600 1900 50  0000 C CNN
+F 1 "60@100MHz" V 6300 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6450 1900 60  0001 C CNN
+F 3 "" H 6450 1900 60  0000 C CNN
+F 4 "3A" V 6230 1900 50  0000 C CNN "Current"
+F 5 "25%" V 6160 1900 50  0000 C CNN "Tolerance"
+F 6 "Pulse Electronics" H 6450 1900 60  0001 C CNN "Manufacturer"
+F 7 "PE-0805PFB600ST" H 6450 1900 60  0001 C CNN "PartNum"
+	1    6450 1900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

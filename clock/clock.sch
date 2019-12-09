@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:clock-rescue
-LIBS:local
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:clock-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -119,7 +87,7 @@ F11 "+12V" I L 2400 900 60
 F12 "+5V_PG2" I R 3550 1200 60 
 $EndSheet
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5632D32A
 P 10500 2400
 F 0 "#PWR01" H 10500 2150 50  0001 C CNN
@@ -161,7 +129,7 @@ DISP3
 Text Label 9000 1100 0    40   ~ 0
 DISP[0..4]
 $Comp
-L CONN_FAN_PWM P102
+L Local:CONN_FAN_PWM P102
 U 1 1 563D6A73
 P 4550 7150
 F 0 "P102" H 4550 7450 60  0000 C CNN
@@ -174,7 +142,7 @@ F 5 "47053-1000" H 4550 7550 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 563D71E9
 P 4200 7600
 F 0 "#PWR02" H 4200 7350 50  0001 C CNN
@@ -185,7 +153,7 @@ F 3 "" H 4200 7600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 P101
+L Connector_Generic:Conn_01x03 P101
 U 1 1 563D5B9B
 P 850 7300
 F 0 "P101" H 850 7500 50  0000 C CNN
@@ -198,7 +166,7 @@ F 5 "1729131" H 850 7300 50  0001 C CNN "PartNum"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 563D694B
 P 1600 7600
 F 0 "#PWR03" H 1600 7350 50  0001 C CNN
@@ -209,7 +177,7 @@ F 3 "" H 1600 7600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L power:PWR_FLAG #FLG04
 U 1 1 563DBCC7
 P 1600 7050
 F 0 "#FLG04" H 1600 7145 50  0001 C CNN
@@ -220,7 +188,7 @@ F 3 "" H 1600 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG05
+L power:PWR_FLAG #FLG05
 U 1 1 563DC9E1
 P 3500 7050
 F 0 "#FLG05" H 3500 7145 50  0001 C CNN
@@ -237,7 +205,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 1100 4100 2400
 Wire Wire Line
-	1950 1400 1950 2700
+	1950 1400 1950 1700
 Wire Wire Line
 	1950 1400 2400 1400
 Wire Wire Line
@@ -296,7 +264,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 1500 3750 1500
 Wire Wire Line
-	3750 1500 3750 3300
+	3750 1500 3750 1800
 Wire Wire Line
 	3750 3300 3500 3300
 Wire Wire Line
@@ -307,7 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 2700 3650 3200
 Wire Wire Line
-	1950 2700 4000 2700
+	1950 2700 3650 2700
 Wire Wire Line
 	4100 2400 1700 2400
 Wire Wire Line
@@ -338,13 +306,13 @@ Wire Wire Line
 Wire Wire Line
 	9100 1700 9100 2250
 Wire Wire Line
-	9100 2250 9800 2250
+	9100 2250 9700 2250
 Wire Wire Line
 	9800 2150 9200 2150
 Wire Wire Line
 	9200 2150 9200 1400
 Wire Wire Line
-	9200 1400 3550 1400
+	9200 1400 4300 1400
 Wire Wire Line
 	3500 5100 6650 5100
 Wire Wire Line
@@ -389,8 +357,6 @@ Wire Bus Line
 	4600 3500 4600 1100
 Wire Bus Line
 	4600 1100 9400 1100
-Wire Bus Line
-	9400 1100 9400 1950
 Wire Wire Line
 	9500 1650 9800 1650
 Wire Wire Line
@@ -424,18 +390,18 @@ Wire Wire Line
 Wire Wire Line
 	2400 900  1300 900 
 Wire Wire Line
-	1300 900  1300 7400
+	1300 900  1300 7200
 Connection ~ 1300 7200
 Wire Wire Line
 	1050 7300 1600 7300
 Wire Wire Line
-	1600 7050 1600 7600
+	1600 7050 1600 7300
 Wire Wire Line
 	3500 7050 3500 7200
 Connection ~ 3500 7200
 Connection ~ 1600 7300
 Wire Wire Line
-	1300 7200 4350 7200
+	1300 7200 3500 7200
 Wire Wire Line
 	1300 7400 1050 7400
 Wire Wire Line
@@ -449,13 +415,13 @@ Wire Wire Line
 Text Label 600  5000 0    50   ~ 0
 ~CARRIER_SRST~
 Wire Wire Line
-	10500 1550 10500 2400
+	10500 1550 10500 1650
 Wire Wire Line
 	9700 1300 10300 1300
 Text Label 9750 1300 0    50   ~ 0
 ~CARRIER_SRST~
 $Comp
-L CONN_02X08_MTG P103
+L Local:CONN_02X08_MTG P103
 U 1 1 566653AD
 P 10050 1900
 F 0 "P103" H 10050 2350 50  0000 C CNN
@@ -468,7 +434,7 @@ F 5 "XG4A-1631" H 10050 1900 60  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 56670FE1
 P 10050 2550
 F 0 "#PWR06" H 10050 2300 50  0001 C CNN
@@ -520,7 +486,7 @@ Wire Wire Line
 	9700 2500 9700 2250
 Connection ~ 9700 2250
 $Comp
-L VIN #PWR07
+L Local:VIN #PWR07
 U 1 1 5898273F
 P 3800 900
 F 0 "#PWR07" H 3800 750 50  0001 C CNN
@@ -531,7 +497,7 @@ F 3 "" H 3800 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCCO #PWR08
+L Local:VCCO #PWR08
 U 1 1 58982745
 P 4050 900
 F 0 "#PWR08" H 4050 750 50  0001 C CNN
@@ -542,7 +508,7 @@ F 3 "" H 4050 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR09
+L Local:VCC #PWR09
 U 1 1 5898274B
 P 4300 900
 F 0 "#PWR09" H 4300 750 50  0001 C CNN
@@ -559,7 +525,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 1000 4300 1000
 Wire Wire Line
-	4300 900  4300 1400
+	4300 900  4300 1000
 Connection ~ 4300 1400
 Connection ~ 4300 1000
 Wire Bus Line
@@ -572,4 +538,36 @@ Wire Bus Line
 	1800 6100 1800 4200
 Wire Bus Line
 	1800 4200 2400 4200
+Wire Wire Line
+	1950 1700 1950 2700
+Wire Wire Line
+	3750 1800 3750 3300
+Wire Wire Line
+	10500 2150 10500 2400
+Wire Wire Line
+	10500 2050 10500 2150
+Wire Wire Line
+	10500 1950 10500 2050
+Wire Wire Line
+	10500 1850 10500 1950
+Wire Wire Line
+	10500 1750 10500 1850
+Wire Wire Line
+	1300 7200 1300 7400
+Wire Wire Line
+	3500 7200 4350 7200
+Wire Wire Line
+	1600 7300 1600 7600
+Wire Wire Line
+	10500 1650 10500 1750
+Wire Wire Line
+	3650 2700 4000 2700
+Wire Wire Line
+	9700 2250 9800 2250
+Wire Wire Line
+	4300 1400 3550 1400
+Wire Wire Line
+	4300 1000 4300 1400
+Wire Bus Line
+	9400 1100 9400 1950
 $EndSCHEMATC

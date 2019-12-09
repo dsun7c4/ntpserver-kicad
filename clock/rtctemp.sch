@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:clock-rescue
-LIBS:local
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:clock-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DS3231 U602
+L Local:DS3231 U602
 U 1 1 5636A7B6
 P 5750 2700
 AR Path="/5636A7B6" Ref="U602"  Part="1" 
@@ -61,7 +29,7 @@ F 5 "DS3231S#" H 5750 2625 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADT7410 U601
+L Local:ADT7410 U601
 U 1 1 5636A81E
 P 4200 5050
 F 0 "U601" H 4400 5450 60  0000 C CNN
@@ -80,7 +48,7 @@ RTC_SDA
 Wire Wire Line
 	5750 3300 5750 3500
 $Comp
-L GND #PWR082
+L power:GND #PWR082
 U 1 1 5636B6C4
 P 5750 3500
 F 0 "#PWR082" H 5750 3250 50  0001 C CNN
@@ -91,7 +59,7 @@ F 3 "" H 5750 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR083
+L Local:VCC #PWR083
 U 1 1 5636B7D2
 P 5750 2000
 F 0 "#PWR083" H 5750 1850 50  0001 C CNN
@@ -104,7 +72,7 @@ $EndComp
 Wire Wire Line
 	5750 2000 5750 2100
 $Comp
-L R_local R603
+L Local:R_local R603
 U 1 1 5636BA4F
 P 4050 2050
 F 0 "R603" V 4130 2050 50  0000 C CNN
@@ -119,7 +87,7 @@ F 7 "CRCW08051K00FKEA" V 4200 2050 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R604
+L Local:R_local R604
 U 1 1 5636BAB4
 P 4500 2050
 F 0 "R604" V 4580 2050 50  0000 C CNN
@@ -149,7 +117,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 1800 4500 1900
 $Comp
-L VCC #PWR084
+L Local:VCC #PWR084
 U 1 1 5636BBAE
 P 4300 1700
 F 0 "#PWR084" H 4300 1550 50  0001 C CNN
@@ -160,7 +128,7 @@ F 3 "" H 4300 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery BT601
+L Local:Battery BT601
 U 1 1 5636BBED
 P 6950 2800
 F 0 "BT601" H 7050 2850 50  0000 L CNN
@@ -178,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 2550 6950 2650
 $Comp
-L GND #PWR085
+L power:GND #PWR085
 U 1 1 5636BC94
 P 6950 3050
 F 0 "#PWR085" H 6950 2800 50  0001 C CNN
@@ -198,7 +166,7 @@ Wire Wire Line
 	4050 1800 4500 1800
 Connection ~ 4500 2350
 $Comp
-L ADT7410 U603
+L Local:ADT7410 U603
 U 1 1 5636C07C
 P 9050 5050
 F 0 "U603" H 9250 5450 60  0000 C CNN
@@ -211,7 +179,7 @@ F 5 "ADT7410TRZ" H 9350 5550 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR086
+L Local:VCC #PWR086
 U 1 1 5636C0D5
 P 4200 4450
 F 0 "#PWR086" H 4200 4300 50  0001 C CNN
@@ -228,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 5650 9050 5550
 $Comp
-L GND #PWR087
+L power:GND #PWR087
 U 1 1 5636C104
 P 9050 5650
 F 0 "#PWR087" H 9050 5400 50  0001 C CNN
@@ -241,7 +209,7 @@ $EndComp
 Wire Wire Line
 	4200 5650 4200 5550
 $Comp
-L GND #PWR088
+L power:GND #PWR088
 U 1 1 5636C11B
 P 4200 5650
 F 0 "#PWR088" H 4200 5400 50  0001 C CNN
@@ -252,7 +220,7 @@ F 3 "" H 4200 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R605
+L Local:R_local R605
 U 1 1 5636C195
 P 7500 4550
 F 0 "R605" V 7580 4550 50  0000 C CNN
@@ -267,7 +235,7 @@ F 7 "CRCW08051K00FKEA" V 7650 4550 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R606
+L Local:R_local R606
 U 1 1 5636C19F
 P 7950 4550
 F 0 "R606" V 8030 4550 50  0000 C CNN
@@ -292,7 +260,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 4300 7950 4400
 $Comp
-L VCC #PWR089
+L Local:VCC #PWR089
 U 1 1 5636C1AA
 P 7750 4200
 F 0 "#PWR089" H 7750 4050 50  0001 C CNN
@@ -328,7 +296,7 @@ Wire Wire Line
 	2950 4950 3700 4950
 Connection ~ 7500 4950
 $Comp
-L R_local R601
+L Local:R_local R601
 U 1 1 5636C415
 P 3100 5600
 F 0 "R601" V 3180 5600 50  0000 C CNN
@@ -343,7 +311,7 @@ F 7 "CRCW08051K00FKEA" V 3250 5600 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R602
+L Local:R_local R602
 U 1 1 5636C41F
 P 3550 5600
 F 0 "R602" V 3630 5600 50  0000 C CNN
@@ -373,7 +341,7 @@ Wire Wire Line
 	3100 5850 3100 5750
 Connection ~ 3550 5850
 $Comp
-L GND #PWR090
+L power:GND #PWR090
 U 1 1 5636C550
 P 3550 5950
 F 0 "#PWR090" H 3550 5700 50  0001 C CNN
@@ -384,7 +352,7 @@ F 3 "" H 3550 5950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R608
+L Local:R_local R608
 U 1 1 5636C5C2
 P 8400 5550
 F 0 "R608" V 8480 5550 50  0000 C CNN
@@ -403,7 +371,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 5250 8400 5400
 $Comp
-L GND #PWR091
+L power:GND #PWR091
 U 1 1 5636C5CD
 P 8400 5800
 F 0 "#PWR091" H 8400 5550 50  0001 C CNN
@@ -414,7 +382,7 @@ F 3 "" H 8400 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_local R607
+L Local:R_local R607
 U 1 1 5636C65B
 P 8400 4550
 F 0 "R607" V 8480 4550 50  0000 C CNN
@@ -442,7 +410,7 @@ TEMP_SDA
 Connection ~ 3400 4850
 Connection ~ 3500 4950
 $Comp
-L GND #PWR092
+L power:GND #PWR092
 U 1 1 5636CF30
 P 8550 2750
 F 0 "#PWR092" H 8550 2500 50  0001 C CNN
@@ -457,7 +425,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 2350 8550 2250
 $Comp
-L C C603
+L Device:C C603
 U 1 1 5636CF43
 P 8550 2500
 F 0 "C603" H 8575 2600 50  0000 L CNN
@@ -473,7 +441,7 @@ F 8 "C0805C104K5RACTU" H 8550 2500 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR093
+L Local:VCC #PWR093
 U 1 1 5636D2DE
 P 8550 2250
 F 0 "#PWR093" H 8550 2100 50  0001 C CNN
@@ -484,7 +452,7 @@ F 3 "" H 8550 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR094
+L power:GND #PWR094
 U 1 1 5636D43C
 P 5600 5900
 F 0 "#PWR094" H 5600 5650 50  0001 C CNN
@@ -499,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 5500 5600 5400
 $Comp
-L C C601
+L Device:C C601
 U 1 1 5636D449
 P 5600 5650
 F 0 "C601" H 5625 5750 50  0000 L CNN
@@ -515,7 +483,7 @@ F 8 "C0805C104K5RACTU" H 5600 5650 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR095
+L Local:VCC #PWR095
 U 1 1 5636D44F
 P 5600 5400
 F 0 "#PWR095" H 5600 5250 50  0001 C CNN
@@ -526,7 +494,7 @@ F 3 "" H 5600 5400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR096
+L power:GND #PWR096
 U 1 1 5636D49F
 P 7750 6000
 F 0 "#PWR096" H 7750 5750 50  0001 C CNN
@@ -541,7 +509,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 5600 7750 5500
 $Comp
-L C C602
+L Device:C C602
 U 1 1 5636D4AC
 P 7750 5750
 F 0 "C602" H 7775 5850 50  0000 L CNN
@@ -557,7 +525,7 @@ F 8 "C0805C104K5RACTU" H 7750 5750 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR097
+L Local:VCC #PWR097
 U 1 1 5636D4B2
 P 7750 5500
 F 0 "#PWR097" H 7750 5350 50  0001 C CNN
@@ -571,7 +539,7 @@ NoConn ~ 4700 5250
 NoConn ~ 9550 5250
 NoConn ~ 5150 2550
 $Comp
-L VCC #PWR098
+L Local:VCC #PWR098
 U 1 1 563E1DA8
 P 9050 4450
 F 0 "#PWR098" H 9050 4300 50  0001 C CNN
@@ -592,7 +560,7 @@ T2_A1
 Wire Wire Line
 	8400 5800 8400 5700
 $Comp
-L PWR_FLAG #FLG099
+L power:PWR_FLAG #FLG099
 U 1 1 564556C2
 P 7300 2450
 F 0 "#FLG099" H 7300 2545 50  0001 C CNN
@@ -606,7 +574,7 @@ Wire Wire Line
 	7300 2450 7300 2550
 Connection ~ 7300 2550
 $Comp
-L R_local R609
+L Local:R_local R609
 U 1 1 57AC1154
 P 6500 1450
 F 0 "R609" V 6580 1450 50  0000 C CNN
@@ -621,7 +589,7 @@ F 7 "CRCW08051K00FKEA" V 6650 1450 50  0001 C CNN "PartNum"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_local R610
+L Local:R_local R610
 U 1 1 57AC1181
 P 7050 1450
 F 0 "R610" V 7130 1450 50  0000 C CNN
@@ -660,7 +628,7 @@ Wire Wire Line
 Connection ~ 7050 1800
 Connection ~ 6500 1700
 $Comp
-L VCC #PWR0100
+L Local:VCC #PWR0100
 U 1 1 57AC17FC
 P 7050 1100
 F 0 "#PWR0100" H 7050 950 50  0001 C CNN
@@ -678,7 +646,7 @@ i2c_addr = 0x48
 Text Notes 9250 5600 0    60   ~ 0
 i2c_addr = 0x49
 $Comp
-L R_local R612
+L Local:R_local R612
 U 1 1 589A8EE4
 P 9850 4550
 F 0 "R612" V 9930 4550 50  0000 C CNN
@@ -693,7 +661,7 @@ F 7 "CRCW08051K00FKEA" V 10000 4550 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR0101
+L Local:VCC #PWR0101
 U 1 1 589A8FE2
 P 9850 4300
 F 0 "#PWR0101" H 9850 4150 50  0001 C CNN
@@ -708,7 +676,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 4700 9850 4850
 $Comp
-L R_local R611
+L Local:R_local R611
 U 1 1 589A91FB
 P 5000 4550
 F 0 "R611" V 5080 4550 50  0000 C CNN
@@ -723,7 +691,7 @@ F 7 "CRCW08051K00FKEA" V 5150 4550 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR0102
+L Local:VCC #PWR0102
 U 1 1 589A9201
 P 5000 4300
 F 0 "#PWR0102" H 5000 4150 50  0001 C CNN
