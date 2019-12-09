@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "Real Time Clock / Temperature Sensors"
-Date "2016-08-13"
-Rev "1.1.0"
+Date "2019-12-09"
+Rev "1.1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -46,7 +46,7 @@ RTC_SCL
 Text HLabel 3650 2450 0    60   Input ~ 0
 RTC_SDA
 Wire Wire Line
-	5750 3300 5750 3500
+	5750 3300 5750 3350
 $Comp
 L power:GND #PWR082
 U 1 1 5636B6C4
@@ -102,11 +102,11 @@ F 7 "CRCW08051K00FKEA" V 4650 2050 50  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 2350 5150 2350
+	3650 2350 4500 2350
 Wire Wire Line
 	4500 2350 4500 2200
 Wire Wire Line
-	3650 2450 5150 2450
+	3650 2450 4050 2450
 Wire Wire Line
 	4050 2450 4050 2200
 Connection ~ 4050 2450
@@ -142,7 +142,7 @@ F 6 "BK-5058" H 6950 2800 60  0001 C CNN "PartNum"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 2550 7500 2550
+	6350 2550 6950 2550
 Wire Wire Line
 	6950 2550 6950 2650
 $Comp
@@ -163,7 +163,7 @@ BATTERY
 Connection ~ 6950 2550
 Connection ~ 4300 1800
 Wire Wire Line
-	4050 1800 4500 1800
+	4050 1800 4300 1800
 Connection ~ 4500 2350
 $Comp
 L Local:ADT7410 U603
@@ -271,10 +271,10 @@ F 3 "" H 7750 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 4300 8400 4300
+	7500 4300 7750 4300
 Connection ~ 7750 4300
 Wire Wire Line
-	7200 4850 8550 4850
+	7200 4850 7950 4850
 Wire Wire Line
 	7200 4850 7200 3900
 Wire Wire Line
@@ -282,10 +282,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 3900 3400 4850
 Wire Wire Line
-	2950 4850 3700 4850
+	2950 4850 3400 4850
 Connection ~ 7950 4850
 Wire Wire Line
-	7100 4950 8550 4950
+	7100 4950 7500 4950
 Wire Wire Line
 	7100 4950 7100 4000
 Wire Wire Line
@@ -293,7 +293,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 4000 3500 4950
 Wire Wire Line
-	2950 4950 3700 4950
+	2950 4950 3500 4950
 Connection ~ 7500 4950
 $Comp
 L Local:R_local R601
@@ -334,7 +334,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 5150 3100 5450
 Wire Wire Line
-	3550 5750 3550 5950
+	3550 5750 3550 5850
 Wire Wire Line
 	3550 5850 3100 5850
 Wire Wire Line
@@ -610,13 +610,13 @@ Text HLabel 7500 1800 2    60   Input ~ 0
 Wire Wire Line
 	7050 2450 6350 2450
 Wire Wire Line
-	7050 1600 7050 2450
+	7050 1600 7050 1800
 Wire Wire Line
 	7050 1800 7500 1800
 Wire Wire Line
 	6500 2350 6350 2350
 Wire Wire Line
-	6500 1600 6500 2350
+	6500 1600 6500 1700
 Wire Wire Line
 	6500 1700 7500 1700
 Wire Wire Line
@@ -624,7 +624,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 1200 7050 1200
 Wire Wire Line
-	7050 1100 7050 1300
+	7050 1100 7050 1200
 Connection ~ 7050 1800
 Connection ~ 6500 1700
 $Comp
@@ -706,19 +706,19 @@ Wire Wire Line
 Wire Wire Line
 	5000 4700 5000 4850
 Wire Wire Line
-	4700 4850 5450 4850
+	4700 4850 5000 4850
 Text HLabel 5450 4850 2    60   Input ~ 0
 ~INT~1
 Connection ~ 5000 4850
 Wire Wire Line
-	9550 4850 10300 4850
+	9550 4850 9850 4850
 Text HLabel 10300 4850 2    60   Input ~ 0
 ~INT~2
 Connection ~ 9850 4850
 Wire Wire Line
 	5150 2750 5050 2750
 Wire Wire Line
-	5050 2750 5050 3450
+	5050 2750 5050 2850
 Wire Wire Line
 	5050 3450 5750 3450
 Wire Wire Line
@@ -733,7 +733,7 @@ Connection ~ 5050 3050
 Wire Wire Line
 	6450 3350 5750 3350
 Wire Wire Line
-	6450 2750 6450 3350
+	6450 2750 6450 2850
 Wire Wire Line
 	6450 2750 6350 2750
 Connection ~ 5750 3350
@@ -747,4 +747,54 @@ Wire Wire Line
 	6350 3050 6450 3050
 Connection ~ 6450 3050
 Connection ~ 5750 3450
+Wire Wire Line
+	4050 2450 5150 2450
+Wire Wire Line
+	6950 2550 7300 2550
+Wire Wire Line
+	4300 1800 4500 1800
+Wire Wire Line
+	4500 2350 5150 2350
+Wire Wire Line
+	7750 4300 7950 4300
+Wire Wire Line
+	7950 4850 8550 4850
+Wire Wire Line
+	7500 4950 8550 4950
+Wire Wire Line
+	3550 5850 3550 5950
+Wire Wire Line
+	7950 4300 8400 4300
+Wire Wire Line
+	3400 4850 3700 4850
+Wire Wire Line
+	3500 4950 3700 4950
+Wire Wire Line
+	7300 2550 7500 2550
+Wire Wire Line
+	7050 1800 7050 2450
+Wire Wire Line
+	6500 1700 6500 2350
+Wire Wire Line
+	7050 1200 7050 1300
+Wire Wire Line
+	5000 4850 5450 4850
+Wire Wire Line
+	9850 4850 10300 4850
+Wire Wire Line
+	5050 2850 5050 2950
+Wire Wire Line
+	5050 2950 5050 3050
+Wire Wire Line
+	5050 3050 5050 3450
+Wire Wire Line
+	5750 3350 5750 3450
+Wire Wire Line
+	6450 2850 6450 2950
+Wire Wire Line
+	6450 2950 6450 3050
+Wire Wire Line
+	6450 3050 6450 3350
+Wire Wire Line
+	5750 3450 5750 3500
 $EndSCHEMATC

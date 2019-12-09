@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 6
 Title "12v Synchronous Buck Converter"
-Date "2016-08-13"
-Rev "1.1.0"
+Date "2019-12-09"
+Rev "1.1.2"
 Comp ""
 Comment1 ""
 Comment2 ""

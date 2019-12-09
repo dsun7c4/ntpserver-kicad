@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "Clock"
-Date "2016-08-13"
-Rev "1.1.0"
+Date "2019-12-09"
+Rev "1.1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
