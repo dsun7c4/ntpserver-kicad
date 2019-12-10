@@ -78,7 +78,7 @@
   (pad "" np_thru_hole circle (at -20.828 20.828) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -20.828 -20.828) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 20.828 -20.828) (size 3.175 3.175) (drill 3.175) (layers *.Cu *.Mask))
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/cx210-cover.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/cx210-cover.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393700787402 0.393700787402 0.393700787402))
     (rotate (xyz 0 0 0))

@@ -1,4 +1,4 @@
-(module MRA400xT3G (layer F.Cu) (tedit 561EF7A5)
+(module MRA400xT3G (layer F.Cu) (tedit 5DEFEC03)
   (descr "SMA 403D-02 Issue G PACKAGE.")
   (tags "SMA 403D")
   (attr smd)
@@ -24,9 +24,9 @@
   (fp_line (start -0.1 0) (end -0.1 -0.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -0.1 0) (end -0.1 0.5) (layer F.SilkS) (width 0.15))
   (fp_line (start -0.127 0) (end 0.9 0) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -2 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
-  (model Diodes_SMD.3dshapes/D_SMA.wrl
+  (pad 2 smd rect (at -2 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 2 0) (size 2 2) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMA.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.95 0.95 0.95))
     (rotate (xyz 0 0 180))

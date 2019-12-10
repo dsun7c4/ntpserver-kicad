@@ -22,12 +22,12 @@
   (fp_line (start -0.6 -0.875) (end 0.6 -0.875) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -1.2 0) (size 1.2 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.2 0) (size 1.2 1.3) (layers F.Cu F.Paste F.Mask))
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/ltst-c171ckt.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/ltst-c171ckt.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))
   )
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/ltst-c171gkt.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/ltst-c171gkt.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))

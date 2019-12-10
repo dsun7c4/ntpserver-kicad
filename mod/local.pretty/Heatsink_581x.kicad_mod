@@ -25,7 +25,7 @@
   (fp_line (start 8.128 0) (end 8.128 -15.875) (layer F.SilkS) (width 0.15))
   (pad 2 thru_hole circle (at 5.1435 -3.4544) (size 5.08 5.08) (drill 2.667) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -5.1435 -3.4544) (size 5.08 5.08) (drill 2.667) (layers *.Cu *.Mask))
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/581002-heatsink.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/581002-heatsink.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))

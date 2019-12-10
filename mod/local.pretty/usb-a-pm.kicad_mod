@@ -53,7 +53,7 @@
   (pad 2 thru_hole circle (at -1 -10) (size 1.651 1.651) (drill 0.92) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 1 -10) (size 1.651 1.651) (drill 0.92) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 3.5 -10) (size 1.651 1.651) (drill 0.92) (layers *.Cu *.Mask))
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/musba111m1.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/musba111m1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393700787402 0.393700787402 0.393700787402))
     (rotate (xyz 0 0 0))

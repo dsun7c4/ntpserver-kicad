@@ -41,7 +41,7 @@
   (pad 14 thru_hole circle (at 6.35 -1.27) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at 8.89 1.27) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
   (pad 16 thru_hole circle (at 8.89 -1.27) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/xg4c-1631.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/xg4c-1631.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393700787402 0.393700787402 0.393700787402))
     (rotate (xyz 0 0 0))

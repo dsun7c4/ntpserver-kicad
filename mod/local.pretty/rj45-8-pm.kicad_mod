@@ -46,7 +46,7 @@
   (pad 11 thru_hole circle (at -3.99 -10.5) (size 1.651 1.651) (drill 0.9) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 3.99 -10.5) (size 1.651 1.651) (drill 0.9) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 6.53 -10.5) (size 1.651 1.651) (drill 0.9) (layers *.Cu *.Mask))
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/mrj5381m1.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/mrj5381m1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393700787402 0.393700787402 0.393700787402))
     (rotate (xyz 0 0 0))

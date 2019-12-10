@@ -21,7 +21,7 @@
   (pad 3 smd rect (at 8.89 11.4935) (size 3.048 3.175) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 11.4935) (size 3.048 3.175) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -8.89 11.4935) (size 3.048 3.175) (layers F.Cu F.Paste F.Mask))
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/cx210.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/cx210.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))

@@ -19,7 +19,7 @@
   (pad 1 thru_hole rect (at -5.08 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5.08 0) (size 3 3) (drill 1.3) (layers *.Cu *.Mask))
-  (model /home/guest/cae/kicad/mod/local.pretty/packages3d/1729131.wrl
+  (model ${KILOCALMOD}/local.pretty/packages3d/1729131.wrl
     (at (xyz -0.322441 -0.136888 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz -90 0 90))
