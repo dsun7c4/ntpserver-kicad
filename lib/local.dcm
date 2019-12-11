@@ -55,6 +55,11 @@ D 16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converter
 K Single DAC 1ch 16bit
 $ENDCMP
 #
+$CMP DC-DC
+D Unregulated, isolated DC to DC converter
+K DCDC
+$ENDCMP
+#
 $CMP DS3231
 D I2C-Integrated RTC/TCXO/Crystal
 K RTC I2C TCXO Crystal
@@ -123,6 +128,11 @@ $ENDCMP
 $CMP PTC
 D PTC
 K PTC Resistor R
+$ENDCMP
+#
+$CMP RO-1209S
+D RECOM 12V to 9V DC-DC converter
+K DCDC 9Vout
 $ENDCMP
 #
 $CMP R_CSM2512
