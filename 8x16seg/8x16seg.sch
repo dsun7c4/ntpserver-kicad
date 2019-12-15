@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:16seg-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "2 Digit 7-Segment Display"
-Date "2016-09-10"
-Rev "v1.2.0"
+Title "8 Digit 16-Segment Display"
+Date "2019-12-12"
+Rev "v1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -3022,4 +3021,12 @@ Wire Wire Line
 	8050 13900 8050 14050
 Wire Wire Line
 	8050 13450 8050 13600
+NoConn ~ 1200 7350
+NoConn ~ 3750 7350
+NoConn ~ 6300 7350
+NoConn ~ 8850 7350
+NoConn ~ 11400 7350
+NoConn ~ 13950 7350
+NoConn ~ 16500 7350
+NoConn ~ 19050 7350
 $EndSCHEMATC

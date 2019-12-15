@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/guest/cae/kicad/8x16seg/8x16seg.sch</source>
+    <date>Fri Dec 13 14:08:15 2019</date>
+    <tool>Eeschema (5.1.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>8 Digit 16-Segment Display</title>
+        <company/>
+        <rev>v1.0.0</rev>
+        <date>2019-12-12</date>
+        <source>8x16seg.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_01X08</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5597595F</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X08</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>559759A0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>local:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X5R</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="PartNum">C3216X5R1E106K160AB</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>559759DC</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55975A79</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>local:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X5R</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="PartNum">C3216X5R1E106K160AB</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55975AC9</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562F02F5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9396C6</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB46D7C</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB4112D</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB3B063</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB35C5A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB2F57A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB298DA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB1E968</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB140A9</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLC59282_REV</value>
+      <footprint>local:SSOP-24_3.9x8.65mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <libsource lib="Local" part="TLC59282_REV" description="16-Channel, Constant-Current LED Driver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D90A272</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDF5227</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE0323B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE12374</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE20FAD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE311DD</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE40E6B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE50AD0</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>5.11K</value>
+      <footprint>local:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="PartNum">CRCW08055K11FKEA</field>
+        <field name="Power">0.125W</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Local" part="R_local" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE60955</tstamp>
+    </comp>
+    <comp ref="DS3">
+      <value>PSA08-11SRWA</value>
+      <footprint>local:PSA08-11SRWA</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <libsource lib="Local" part="PSA08-11SRWA" description="0.80&quot; 16 Segment Dual Digit Display"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF34D91</tstamp>
+    </comp>
+    <comp ref="DS4">
+      <value>PSA08-11SRWA</value>
+      <footprint>local:PSA08-11SRWA</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <libsource lib="Local" part="PSA08-11SRWA" description="0.80&quot; 16 Segment Dual Digit Display"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF476B0</tstamp>
+    </comp>
+    <comp ref="DS7">
+      <value>PSA08-11SRWA</value>
+      <footprint>local:PSA08-11SRWA</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <libsource lib="Local" part="PSA08-11SRWA" description="0.80&quot; 16 Segment Dual Digit Display"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF58990</tstamp>
+    </comp>
+    <comp ref="DS5">
+      <value>PSA08-11SRWA</value>
+      <footprint>local:PSA08-11SRWA</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <libsource lib="Local" part="PSA08-11SRWA" description="0.80&quot; 16 Segment Dual Digit Display"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF6D372</tstamp>
+    </comp>
+    <comp ref="DS6">
+      <value>PSA08-11SRWA</value>
+      <footprint>local:PSA08-11SRWA</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <libsource lib="Local" part="PSA08-11SRWA" description="0.80&quot; 16 Segment Dual Digit Display"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF7EF17</tstamp>
+    </comp>
+    <comp ref="DS8">
+      <value>PSA08-11SRWA</value>
+      <footprint>local:PSA08-11SRWA</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <libsource lib="Local" part="PSA08-11SRWA" description="0.80&quot; 16 Segment Dual Digit Display"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF90D93</tstamp>
+    </comp>
+    <comp ref="DS2">
+      <value>PSA08-11SRWA</value>
+      <footprint>local:PSA08-11SRWA</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <libsource lib="Local" part="PSA08-11SRWA" description="0.80&quot; 16 Segment Dual Digit Display"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF23D27</tstamp>
+    </comp>
+    <comp ref="DS1">
+      <value>PSA08-11SRWA</value>
+      <footprint>local:PSA08-11SRWA</footprint>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <libsource lib="Local" part="PSA08-11SRWA" description="0.80&quot; 16 Segment Dual Digit Display"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8E15A5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E25BBA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E9F1EE</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63F19F96</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63F965F8</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>640145FE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64093E20</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641156BC</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642B5B4E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6433A8AA</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>643C0FD6</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6444895C</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>644D1642</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6455BA1C</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>local:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNum">C0805C104K5RACTU</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>645E7068</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>local:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X5R</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="PartNum">C3216X5R1E106K160AB</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65D4C690</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>local:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Dielectric">X5R</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="PartNum">C3216X5R1E106K160AB</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F8A99D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="PSA08-11SRWA">
+      <description>0.80" 16 Segment Dual Digit Display</description>
+      <footprints>
+        <fp>PSA08-11SRWA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">PSA08-11SRWA</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="PartNum">PSA08-11SRWA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="a" type="input"/>
+        <pin num="2" name="m" type="input"/>
+        <pin num="3" name="k" type="input"/>
+        <pin num="4" name="h" type="input"/>
+        <pin num="5" name="u" type="input"/>
+        <pin num="6" name="s" type="input"/>
+        <pin num="7" name="t" type="input"/>
+        <pin num="8" name="g" type="input"/>
+        <pin num="9" name="f" type="input"/>
+        <pin num="10" name="e" type="input"/>
+        <pin num="11" name="ComA" type="input"/>
+        <pin num="12" name="DP" type="input"/>
+        <pin num="13" name="d" type="input"/>
+        <pin num="14" name="r" type="input"/>
+        <pin num="15" name="p" type="input"/>
+        <pin num="16" name="c" type="input"/>
+        <pin num="17" name="n" type="input"/>
+        <pin num="18" name="b" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="R_local">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_local</field>
+        <field name="Tolerance">1%</field>
+        <field name="Power">0.125W</field>
+        <field name="Manufacturer">Co</field>
+        <field name="PartNum">CRCW0805vvvvFKEA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Local" part="TLC59282_REV">
+      <description>16-Channel, Constant-Current LED Driver</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC59282_REV</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="PartNum">TLC59282DBQ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SIN" type="input"/>
+        <pin num="3" name="SCLK" type="input"/>
+        <pin num="4" name="LAT" type="input"/>
+        <pin num="5" name="OUT0" type="output"/>
+        <pin num="6" name="OUT1" type="output"/>
+        <pin num="7" name="OUT2" type="output"/>
+        <pin num="8" name="OUT3" type="output"/>
+        <pin num="9" name="OUT4" type="output"/>
+        <pin num="10" name="OUT5" type="output"/>
+        <pin num="11" name="OUT6" type="output"/>
+        <pin num="12" name="OUT7" type="output"/>
+        <pin num="13" name="OUT8" type="output"/>
+        <pin num="14" name="OUT9" type="output"/>
+        <pin num="15" name="OUT10" type="output"/>
+        <pin num="16" name="OUT11" type="output"/>
+        <pin num="17" name="OUT12" type="output"/>
+        <pin num="18" name="OUT13" type="output"/>
+        <pin num="19" name="OUT14" type="output"/>
+        <pin num="20" name="OUT15" type="output"/>
+        <pin num="21" name="BLANK" type="input"/>
+        <pin num="22" name="SOUT" type="output"/>
+        <pin num="23" name="IREF" type="passive"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/home/cae/kicad/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/cae/kicad/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Local">
+      <uri>/home/guest/cae/kicad/lib/local.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/D8u">
+      <node ref="U9" pin="5"/>
+      <node ref="DS8" pin="5"/>
+    </net>
+    <net code="2" name="/D5m">
+      <node ref="U6" pin="5"/>
+      <node ref="DS5" pin="2"/>
+    </net>
+    <net code="3" name="/D6p">
+      <node ref="DS6" pin="15"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="4" name="/D3b">
+      <node ref="U4" pin="9"/>
+      <node ref="DS3" pin="18"/>
+    </net>
+    <net code="5" name="/D3p">
+      <node ref="DS3" pin="15"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="6" name="/D3n">
+      <node ref="U3" pin="16"/>
+      <node ref="DS3" pin="17"/>
+    </net>
+    <net code="7" name="/D3m">
+      <node ref="DS3" pin="2"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="8" name="/D3k">
+      <node ref="U3" pin="18"/>
+      <node ref="DS3" pin="3"/>
+    </net>
+    <net code="9" name="/D3h">
+      <node ref="U3" pin="19"/>
+      <node ref="DS3" pin="4"/>
+    </net>
+    <net code="10" name="/D3g">
+      <node ref="U3" pin="20"/>
+      <node ref="DS3" pin="8"/>
+    </net>
+    <net code="11" name="/D3f">
+      <node ref="U4" pin="5"/>
+      <node ref="DS3" pin="9"/>
+    </net>
+    <net code="12" name="/D3e">
+      <node ref="DS3" pin="10"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="13" name="/D3d">
+      <node ref="U4" pin="7"/>
+      <node ref="DS3" pin="13"/>
+    </net>
+    <net code="14" name="/D3c">
+      <node ref="U4" pin="8"/>
+      <node ref="DS3" pin="16"/>
+    </net>
+    <net code="15" name="/D3r">
+      <node ref="DS3" pin="14"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="16" name="/D3a">
+      <node ref="DS3" pin="1"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="17" name="/D2dp">
+      <node ref="U2" pin="8"/>
+      <node ref="DS2" pin="12"/>
+    </net>
+    <net code="18" name="/D2u">
+      <node ref="U2" pin="9"/>
+      <node ref="DS2" pin="5"/>
+    </net>
+    <net code="19" name="/D2t">
+      <node ref="U2" pin="10"/>
+      <node ref="DS2" pin="7"/>
+    </net>
+    <net code="20" name="/D2s">
+      <node ref="DS2" pin="6"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="21" name="/D2r">
+      <node ref="DS2" pin="14"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="22" name="/D2p">
+      <node ref="DS2" pin="15"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="23" name="/D2n">
+      <node ref="DS2" pin="17"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="24" name="/D2m">
+      <node ref="DS2" pin="2"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="25" name="/D2k">
+      <node ref="U2" pin="16"/>
+      <node ref="DS2" pin="3"/>
+    </net>
+    <net code="26" name="/D4k">
+      <node ref="U4" pin="20"/>
+      <node ref="DS4" pin="3"/>
+    </net>
+    <net code="27" name="/D4h">
+      <node ref="DS4" pin="4"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="28" name="/D4g">
+      <node ref="DS4" pin="8"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="29" name="/D4f">
+      <node ref="U5" pin="7"/>
+      <node ref="DS4" pin="9"/>
+    </net>
+    <net code="30" name="/D4e">
+      <node ref="U5" pin="8"/>
+      <node ref="DS4" pin="10"/>
+    </net>
+    <net code="31" name="/D4d">
+      <node ref="DS4" pin="13"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="32" name="/D4c">
+      <node ref="DS4" pin="16"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="33" name="/D4b">
+      <node ref="DS4" pin="18"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="34" name="/D4a">
+      <node ref="DS4" pin="1"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="35" name="/D2h">
+      <node ref="U2" pin="17"/>
+      <node ref="DS2" pin="4"/>
+    </net>
+    <net code="36" name="/SOUTIN45">
+      <node ref="U4" pin="22"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="37" name="/D3dp">
+      <node ref="DS3" pin="12"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="38" name="/D3u">
+      <node ref="U3" pin="11"/>
+      <node ref="DS3" pin="5"/>
+    </net>
+    <net code="39" name="/D3t">
+      <node ref="U3" pin="12"/>
+      <node ref="DS3" pin="7"/>
+    </net>
+    <net code="40" name="/D3s">
+      <node ref="DS3" pin="6"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="41" name="/D6b">
+      <node ref="U7" pin="15"/>
+      <node ref="DS6" pin="18"/>
+    </net>
+    <net code="42" name="/D6a">
+      <node ref="U7" pin="16"/>
+      <node ref="DS6" pin="1"/>
+    </net>
+    <net code="43" name="/D1u">
+      <node ref="U1" pin="7"/>
+      <node ref="DS1" pin="5"/>
+    </net>
+    <net code="44" name="/D6c">
+      <node ref="DS6" pin="16"/>
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="45" name="/D1g">
+      <node ref="DS1" pin="8"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="46" name="/D1e">
+      <node ref="DS1" pin="10"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="47" name="/D1d">
+      <node ref="U1" pin="19"/>
+      <node ref="DS1" pin="13"/>
+    </net>
+    <net code="48" name="/D1c">
+      <node ref="DS1" pin="16"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="49" name="/D6s">
+      <node ref="DS6" pin="6"/>
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="50" name="/D2g">
+      <node ref="DS2" pin="8"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="51" name="/D2f">
+      <node ref="DS2" pin="9"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="52" name="/D6dp">
+      <node ref="U6" pin="16"/>
+      <node ref="DS6" pin="12"/>
+    </net>
+    <net code="53" name="/D6u">
+      <node ref="DS6" pin="5"/>
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="54" name="/D6t">
+      <node ref="DS6" pin="7"/>
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="55" name="/D4m">
+      <node ref="DS4" pin="2"/>
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="56" name="/D6r">
+      <node ref="DS6" pin="14"/>
+      <node ref="U6" pin="20"/>
+    </net>
+    <net code="57" name="/D6n">
+      <node ref="U7" pin="6"/>
+      <node ref="DS6" pin="17"/>
+    </net>
+    <net code="58" name="/D6m">
+      <node ref="U7" pin="7"/>
+      <node ref="DS6" pin="2"/>
+    </net>
+    <net code="59" name="/D6k">
+      <node ref="DS6" pin="3"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="60" name="/D6h">
+      <node ref="U7" pin="9"/>
+      <node ref="DS6" pin="4"/>
+    </net>
+    <net code="61" name="/D6g">
+      <node ref="U7" pin="10"/>
+      <node ref="DS6" pin="8"/>
+    </net>
+    <net code="62" name="/D6f">
+      <node ref="DS6" pin="9"/>
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="63" name="/D6e">
+      <node ref="DS6" pin="10"/>
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="64" name="/D6d">
+      <node ref="DS6" pin="13"/>
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="65" name="/D8s">
+      <node ref="DS8" pin="6"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="66" name="/D8dp">
+      <node ref="DS8" pin="12"/>
+      <node ref="U8" pin="20"/>
+    </net>
+    <net code="67" name="/D8t">
+      <node ref="U9" pin="6"/>
+      <node ref="DS8" pin="7"/>
+    </net>
+    <net code="68" name="/D8r">
+      <node ref="DS8" pin="14"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="69" name="/D8p">
+      <node ref="DS8" pin="15"/>
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="70" name="Net-(U8-Pad19)">
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="71" name="Net-(U7-Pad17)">
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="72" name="Net-(U6-Pad15)">
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="73" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="74" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="75" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="77" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="78" name="/D5d">
+      <node ref="DS5" pin="13"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="79" name="/D5s">
+      <node ref="DS5" pin="6"/>
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="80" name="/D5r">
+      <node ref="DS5" pin="14"/>
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="81" name="/D5p">
+      <node ref="U5" pin="19"/>
+      <node ref="DS5" pin="15"/>
+    </net>
+    <net code="82" name="/D5n">
+      <node ref="DS5" pin="17"/>
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="83" name="/D5k">
+      <node ref="DS5" pin="3"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="84" name="/D5h">
+      <node ref="DS5" pin="4"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="85" name="/D5g">
+      <node ref="U6" pin="8"/>
+      <node ref="DS5" pin="8"/>
+    </net>
+    <net code="86" name="/D5f">
+      <node ref="U6" pin="9"/>
+      <node ref="DS5" pin="9"/>
+    </net>
+    <net code="87" name="/D5e">
+      <node ref="DS5" pin="10"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="88" name="/D5t">
+      <node ref="DS5" pin="7"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="89" name="/D5c">
+      <node ref="DS5" pin="16"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="90" name="/D5b">
+      <node ref="DS5" pin="18"/>
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="91" name="/D5a">
+      <node ref="U6" pin="14"/>
+      <node ref="DS5" pin="1"/>
+    </net>
+    <net code="92" name="/D4dp">
+      <node ref="DS4" pin="12"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="93" name="/D4u">
+      <node ref="DS4" pin="5"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="94" name="/D4t">
+      <node ref="DS4" pin="7"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="95" name="/D4s">
+      <node ref="U4" pin="15"/>
+      <node ref="DS4" pin="6"/>
+    </net>
+    <net code="96" name="/D4r">
+      <node ref="DS4" pin="14"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="97" name="/D4p">
+      <node ref="DS4" pin="15"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="98" name="/D4n">
+      <node ref="DS4" pin="17"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="99" name="/D7k">
+      <node ref="DS7" pin="3"/>
+      <node ref="U8" pin="10"/>
+    </net>
+    <net code="100" name="/D7dp">
+      <node ref="DS7" pin="12"/>
+      <node ref="U7" pin="18"/>
+    </net>
+    <net code="101" name="/D7u">
+      <node ref="DS7" pin="5"/>
+      <node ref="U7" pin="19"/>
+    </net>
+    <net code="102" name="/D7t">
+      <node ref="DS7" pin="7"/>
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="103" name="/D7s">
+      <node ref="DS7" pin="6"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="104" name="/D7r">
+      <node ref="DS7" pin="14"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="105" name="/D7p">
+      <node ref="U8" pin="7"/>
+      <node ref="DS7" pin="15"/>
+    </net>
+    <net code="106" name="/D7n">
+      <node ref="DS7" pin="17"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="107" name="/D7m">
+      <node ref="DS7" pin="2"/>
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="108" name="/D7h">
+      <node ref="U8" pin="11"/>
+      <node ref="DS7" pin="4"/>
+    </net>
+    <net code="109" name="/D7g">
+      <node ref="U8" pin="12"/>
+      <node ref="DS7" pin="8"/>
+    </net>
+    <net code="110" name="/D7f">
+      <node ref="U8" pin="13"/>
+      <node ref="DS7" pin="9"/>
+    </net>
+    <net code="111" name="/D7e">
+      <node ref="U8" pin="14"/>
+      <node ref="DS7" pin="10"/>
+    </net>
+    <net code="112" name="/D7d">
+      <node ref="U8" pin="15"/>
+      <node ref="DS7" pin="13"/>
+    </net>
+    <net code="113" name="/D7c">
+      <node ref="DS7" pin="16"/>
+      <node ref="U8" pin="16"/>
+    </net>
+    <net code="114" name="/D7b">
+      <node ref="U8" pin="17"/>
+      <node ref="DS7" pin="18"/>
+    </net>
+    <net code="115" name="/D7a">
+      <node ref="DS7" pin="1"/>
+      <node ref="U8" pin="18"/>
+    </net>
+    <net code="116" name="/D5dp">
+      <node ref="DS5" pin="12"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="117" name="/D5u">
+      <node ref="DS5" pin="5"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="118" name="/D1f">
+      <node ref="U1" pin="17"/>
+      <node ref="DS1" pin="9"/>
+    </net>
+    <net code="119" name="/D1h">
+      <node ref="U1" pin="15"/>
+      <node ref="DS1" pin="4"/>
+    </net>
+    <net code="120" name="/D1b">
+      <node ref="DS1" pin="18"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="121" name="/D1dp">
+      <node ref="DS1" pin="12"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="122" name="/D1a">
+      <node ref="DS1" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="123" name="/D1m">
+      <node ref="DS1" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="124" name="/D1t">
+      <node ref="DS1" pin="7"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="125" name="/D1s">
+      <node ref="U1" pin="9"/>
+      <node ref="DS1" pin="6"/>
+    </net>
+    <net code="126" name="/D1r">
+      <node ref="U1" pin="10"/>
+      <node ref="DS1" pin="14"/>
+    </net>
+    <net code="127" name="/D1p">
+      <node ref="U1" pin="11"/>
+      <node ref="DS1" pin="15"/>
+    </net>
+    <net code="128" name="/D1n">
+      <node ref="U1" pin="12"/>
+      <node ref="DS1" pin="17"/>
+    </net>
+    <net code="129" name="/D1k">
+      <node ref="U1" pin="14"/>
+      <node ref="DS1" pin="3"/>
+    </net>
+    <net code="130" name="/D2b">
+      <node ref="U3" pin="7"/>
+      <node ref="DS2" pin="18"/>
+    </net>
+    <net code="131" name="/D2c">
+      <node ref="DS2" pin="16"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="132" name="/D2d">
+      <node ref="DS2" pin="13"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="133" name="/D2e">
+      <node ref="DS2" pin="10"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="134" name="/D2a">
+      <node ref="DS2" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="135" name="/D8n">
+      <node ref="DS8" pin="17"/>
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="136" name="GND">
+      <node ref="C11" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P1" pin="8"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P2" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U8" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U9" pin="1"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="137" name="VCC">
+      <node ref="C6" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="U7" pin="24"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U8" pin="24"/>
+      <node ref="U9" pin="24"/>
+      <node ref="U4" pin="24"/>
+      <node ref="U1" pin="24"/>
+      <node ref="C8" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U6" pin="24"/>
+      <node ref="P2" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U5" pin="24"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="138" name="/IREF5">
+      <node ref="U5" pin="23"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="139" name="/BLANK">
+      <node ref="U9" pin="21"/>
+      <node ref="U2" pin="21"/>
+      <node ref="U8" pin="21"/>
+      <node ref="U1" pin="21"/>
+      <node ref="P1" pin="6"/>
+      <node ref="U3" pin="21"/>
+      <node ref="P2" pin="3"/>
+      <node ref="U5" pin="21"/>
+      <node ref="U4" pin="21"/>
+      <node ref="U7" pin="21"/>
+      <node ref="U6" pin="21"/>
+    </net>
+    <net code="140" name="/IREF4">
+      <node ref="U4" pin="23"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="141" name="/SOUTIN34">
+      <node ref="U3" pin="22"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="142" name="/SOUTIN56">
+      <node ref="U5" pin="22"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="143" name="/SOUTIN23">
+      <node ref="U2" pin="22"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="144" name="/SOUTIN12">
+      <node ref="U1" pin="22"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="145" name="/IREF3">
+      <node ref="U3" pin="23"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="146" name="/IREF2">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="147" name="VAA">
+      <node ref="DS1" pin="11"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="DS8" pin="11"/>
+      <node ref="DS5" pin="11"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="P2" pin="8"/>
+      <node ref="DS3" pin="11"/>
+      <node ref="DS4" pin="11"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="DS7" pin="11"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="DS6" pin="11"/>
+      <node ref="DS2" pin="11"/>
+    </net>
+    <net code="148" name="/SOUT">
+      <node ref="U9" pin="22"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="149" name="/LAT">
+      <node ref="U3" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P2" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="150" name="/SCLK">
+      <node ref="U7" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U6" pin="3"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="151" name="/SIN">
+      <node ref="P1" pin="4"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="152" name="/IREF8">
+      <node ref="R8" pin="1"/>
+      <node ref="U8" pin="23"/>
+    </net>
+    <net code="153" name="/SOUTIN78">
+      <node ref="U7" pin="22"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="154" name="/SOUTIN67">
+      <node ref="U6" pin="22"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="155" name="/D8g">
+      <node ref="U9" pin="14"/>
+      <node ref="DS8" pin="8"/>
+    </net>
+    <net code="156" name="/D8h">
+      <node ref="U9" pin="13"/>
+      <node ref="DS8" pin="4"/>
+    </net>
+    <net code="157" name="/D8m">
+      <node ref="U9" pin="11"/>
+      <node ref="DS8" pin="2"/>
+    </net>
+    <net code="158" name="/D8f">
+      <node ref="DS8" pin="9"/>
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="159" name="/IREF1">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="160" name="/IREF9">
+      <node ref="U9" pin="23"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="161" name="/D8a">
+      <node ref="U9" pin="20"/>
+      <node ref="DS8" pin="1"/>
+    </net>
+    <net code="162" name="/SOUTIN89">
+      <node ref="U9" pin="2"/>
+      <node ref="U8" pin="22"/>
+    </net>
+    <net code="163" name="/D8b">
+      <node ref="DS8" pin="18"/>
+      <node ref="U9" pin="19"/>
+    </net>
+    <net code="164" name="/D8c">
+      <node ref="DS8" pin="16"/>
+      <node ref="U9" pin="18"/>
+    </net>
+    <net code="165" name="/D8d">
+      <node ref="U9" pin="17"/>
+      <node ref="DS8" pin="13"/>
+    </net>
+    <net code="166" name="/D8e">
+      <node ref="U9" pin="16"/>
+      <node ref="DS8" pin="10"/>
+    </net>
+    <net code="167" name="/D8k">
+      <node ref="DS8" pin="3"/>
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="168" name="/IREF6">
+      <node ref="U6" pin="23"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="169" name="/IREF7">
+      <node ref="U7" pin="23"/>
+      <node ref="R7" pin="1"/>
+    </net>
+  </nets>
+</export>
