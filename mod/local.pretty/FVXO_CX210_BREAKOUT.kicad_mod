@@ -1,4 +1,6 @@
-(module FVXO_CX210_BREAKOUT (layer F.Cu) (tedit 5668DC53)
+(module FVXO_CX210_BREAKOUT (layer F.Cu) (tedit 5E07EDDE)
+  (descr "Breakout board, converts FVXO to CX210")
+  (tags "FXXO CX210 breakout")
   (fp_text reference REF** (at 0 -4.953) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

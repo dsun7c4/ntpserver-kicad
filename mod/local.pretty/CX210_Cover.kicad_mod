@@ -1,4 +1,6 @@
-(module CX210_Cover (layer F.Cu) (tedit 5648AFD6)
+(module CX210_Cover (layer F.Cu) (tedit 5E07ED3D)
+  (descr "Cover for CX220 OCXO")
+  (tags "Cover OCXO")
   (fp_text reference REF** (at 0 -4.953) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

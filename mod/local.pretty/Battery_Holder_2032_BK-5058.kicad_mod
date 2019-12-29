@@ -1,4 +1,6 @@
-(module Battery_Holder_2032_BK-5058 (layer F.Cu) (tedit 56429F5F)
+(module Battery_Holder_2032_BK-5058 (layer F.Cu) (tedit 5E07EC2C)
+  (descr "Battery holder 2032 vertical")
+  (tags "2032 ")
   (fp_text reference REF** (at 0 -5.588) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

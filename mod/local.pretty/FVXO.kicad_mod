@@ -1,4 +1,6 @@
-(module FVXO (layer F.Cu) (tedit 5622953E)
+(module FVXO (layer F.Cu) (tedit 5E07ED96)
+  (descr VCXO)
+  (tags VCXO)
   (fp_text reference REF** (at -3.5 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

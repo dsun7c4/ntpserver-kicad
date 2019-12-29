@@ -1,4 +1,6 @@
-(module PSA08-11SRWA (layer F.Cu) (tedit 5DBB110E)
+(module PSA08-11SRWA (layer F.Cu) (tedit 5E07F126)
+  (descr "0.80\" 16 Segment Single Digit Display")
+  (tags "16-seg display")
   (fp_text reference REF** (at 0 -15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

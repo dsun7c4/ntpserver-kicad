@@ -1,4 +1,6 @@
-(module TOTX1350F (layer F.Cu) (tedit 5D8F8DD2)
+(module TOTX1350F (layer F.Cu) (tedit 5E07F150)
+  (descr "SPDIF TX module")
+  (tags "SPDIF TX")
   (fp_text reference REF** (at 0 3.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

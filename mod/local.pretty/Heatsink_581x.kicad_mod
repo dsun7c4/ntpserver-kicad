@@ -1,4 +1,6 @@
-(module Heatsink_581x (layer F.Cu) (tedit 56744884)
+(module Heatsink_581x (layer F.Cu) (tedit 5E07EE04)
+  (descr "TO-220 Heatsink")
+  (tags "TO-220 heatsink")
   (fp_text reference REF** (at 0 0.8636) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

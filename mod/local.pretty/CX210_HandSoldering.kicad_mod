@@ -1,4 +1,6 @@
-(module CX210_HandSoldering (layer F.Cu) (tedit 56228F49)
+(module CX210_HandSoldering (layer F.Cu) (tedit 5E07ED13)
+  (descr OCXO)
+  (tags OCXO)
   (fp_text reference REF** (at 0 -4.953) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

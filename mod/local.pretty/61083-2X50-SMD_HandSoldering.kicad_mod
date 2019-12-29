@@ -1,4 +1,6 @@
-(module 61083-2X50-SMD_HandSoldering (layer F.Cu) (tedit 561EF0D1)
+(module 61083-2X50-SMD_HandSoldering (layer F.Cu) (tedit 5E07EA85)
+  (descr "Bergstak connector 2x50, 0.8mm Pitch")
+  (tags "\"bergstak 2x50")
   (attr smd)
   (fp_text reference REF** (at 0 -5.2 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

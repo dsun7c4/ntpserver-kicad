@@ -1,4 +1,6 @@
-(module CSM2512_0R007_0R2 (layer F.Cu) (tedit 56318CCB)
+(module CSM2512_0R007_0R2 (layer F.Cu) (tedit 5E07ECC4)
+  (descr "Current sense resistor")
+  (tags "resistor sense")
   (fp_text reference REF** (at 0 -2.794) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

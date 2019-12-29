@@ -1,4 +1,6 @@
-(module Microzed_RevF (layer F.Cu) (tedit 5643F05A)
+(module Microzed_RevF (layer F.Cu) (tedit 5E07F0B2)
+  (descr "Microzed mounting holes")
+  (tags microzed)
   (fp_text reference REF** (at 0 1.27) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

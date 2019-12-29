@@ -1,4 +1,6 @@
-(module CX210 (layer F.Cu) (tedit 56228F06)
+(module CX210 (layer F.Cu) (tedit 5E07ECFD)
+  (descr OCXO)
+  (tags OCXO)
   (fp_text reference REF** (at 0 -4.953) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,4 +1,6 @@
-(module 475500001_HandSoldering (layer F.Cu) (tedit 5B91502D)
+(module 475500001_HandSoldering (layer F.Cu) (tedit 5E07EB03)
+  (descr "SIM Connector 6-pin")
+  (tags SIM)
   (fp_text reference REF** (at 0 4.953) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
