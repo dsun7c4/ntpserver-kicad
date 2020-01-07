@@ -130,6 +130,12 @@ D 0.80" 16 Segment Single Digit Display
 K 16-seg display
 $ENDCMP
 #
+$CMP PSSI2021SAY
+D Constant current source
+K current source PNP
+F ~
+$ENDCMP
+#
 $CMP PTC
 D PTC
 K PTC Resistor R
