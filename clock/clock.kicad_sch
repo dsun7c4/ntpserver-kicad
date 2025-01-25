@@ -4388,7 +4388,7 @@
 				(justify left top)
 			)
 		)
-		(pin "TX" output
+		(pin "GPS_TX" output
 			(at 168.91 72.39 180)
 			(effects
 				(font
@@ -4398,7 +4398,7 @@
 			)
 			(uuid "439cac11-dd1c-4c7f-ae9c-116424bb043f")
 		)
-		(pin "RX" input
+		(pin "GPS_RX" input
 			(at 168.91 74.93 180)
 			(effects
 				(font
@@ -4438,7 +4438,7 @@
 			)
 			(uuid "cf2d3897-652b-4f29-9aa2-91b43d81ed52")
 		)
-		(pin "ENA" input
+		(pin "GPS_ENA" input
 			(at 168.91 69.85 180)
 			(effects
 				(font
@@ -4496,7 +4496,7 @@
 			)
 			(uuid "b249d72b-c98b-4afe-b743-052d44868145")
 		)
-		(pin "+1.8V_PG" output
+		(pin "+1.8V_PG" bidirectional
 			(at 88.9 81.28 0)
 			(effects
 				(font
@@ -4506,7 +4506,7 @@
 			)
 			(uuid "5d061de4-43df-4b25-86d5-c88991b4d03a")
 		)
-		(pin "VCCO_PG" output
+		(pin "VCCO_PG" bidirectional
 			(at 88.9 83.82 0)
 			(effects
 				(font

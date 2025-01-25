@@ -3601,7 +3601,7 @@
 		)
 		(uuid "5844fe1a-0e0a-47a5-afd0-3bbb5d5a3183")
 	)
-	(hierarchical_label "ENA"
+	(hierarchical_label "GPS_ENA"
 		(shape input)
 		(at 30.48 53.34 180)
 		(fields_autoplaced yes)
@@ -3625,7 +3625,7 @@
 		)
 		(uuid "a698771e-fa6b-4003-94ae-43fdf9e6c414")
 	)
-	(hierarchical_label "RX"
+	(hierarchical_label "GPS_RX"
 		(shape input)
 		(at 63.5 110.49 180)
 		(fields_autoplaced yes)
@@ -3637,7 +3637,7 @@
 		)
 		(uuid "ed2ab73e-f953-4b2c-b1b5-b8b549dd5476")
 	)
-	(hierarchical_label "TX"
+	(hierarchical_label "GPS_TX"
 		(shape input)
 		(at 63.5 107.95 180)
 		(fields_autoplaced yes)

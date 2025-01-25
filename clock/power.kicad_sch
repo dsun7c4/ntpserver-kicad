@@ -4538,7 +4538,7 @@
 		)
 		(uuid "ff4f2e60-7071-4f48-9c9b-741ba8fb8d3e")
 	)
-	(label "PG5"
+	(label "+5V_PG"
 		(at 166.37 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4604,7 +4604,7 @@
 		)
 		(uuid "4bfdd8e2-b053-4577-83f3-1568916923bf")
 	)
-	(label "PG3.3"
+	(label "+3.3V_PG"
 		(at 166.37 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4626,7 +4626,7 @@
 		)
 		(uuid "556c5a5e-0474-41a1-9563-250ab6d097b1")
 	)
-	(label "PG3.0"
+	(label "+3.0V_PG"
 		(at 166.37 162.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4703,7 +4703,7 @@
 		)
 		(uuid "958eac6c-a631-43a1-906c-90f3722b6cdc")
 	)
-	(label "Vout3.0"
+	(label "+3.0V"
 		(at 165.1 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4736,7 +4736,7 @@
 		)
 		(uuid "aed96b5d-4c89-41ee-b054-993cf057903a")
 	)
-	(label "Vout3.3"
+	(label "+3.3V"
 		(at 165.1 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4758,7 +4758,7 @@
 		)
 		(uuid "c8ee5770-9a7a-4e08-b12e-dac182b9214c")
 	)
-	(label "Vout5"
+	(label "+5V"
 		(at 165.1 33.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4769,7 +4769,7 @@
 		)
 		(uuid "dd72206c-94c2-4f02-89eb-72120f5a74d7")
 	)
-	(label "ENA3.3"
+	(label "+3.3V_ENA"
 		(at 44.45 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4780,7 +4780,7 @@
 		)
 		(uuid "e0297e7a-8a4f-4183-9dbb-7c3d478204b5")
 	)
-	(label "ENA5"
+	(label "+5V_ENA"
 		(at 44.45 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4791,7 +4791,7 @@
 		)
 		(uuid "e9ddf2b2-00be-4c5f-8ae8-d7539fa1fe84")
 	)
-	(label "ENA3.0"
+	(label "+3.0V_ENA"
 		(at 44.45 143.51 0)
 		(fields_autoplaced yes)
 		(effects

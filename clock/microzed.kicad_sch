@@ -8303,6 +8303,27 @@
 		)
 		(uuid "0069899b-e83e-4454-9cd3-d7b3f6a4eef1")
 	)
+	(text "PX1_LVDS_15_P"
+		(exclude_from_sim no)
+		(at 118.11 97.282 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "0359ad72-a582-4285-a3db-462d0fc3086f")
+	)
+	(text "PX2_LVDS_14_P"
+		(exclude_from_sim no)
+		(at 77.724 107.442 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "0e894a7b-dfcd-4186-a730-c8553103af00")
+	)
 	(text "PX1_LVDS_11_P"
 		(exclude_from_sim no)
 		(at 118.11 82.042 0)
@@ -8313,6 +8334,79 @@
 			(justify left)
 		)
 		(uuid "163c7565-0ceb-44c1-8c05-b5f7b4ce30ff")
+	)
+	(text "PX1_LVDS_21_P"
+		(exclude_from_sim no)
+		(at 118.11 122.682 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "3993b1d6-0ce0-4a7d-bea2-4f03483520cd")
+	)
+	(text "PX2_LVDS_20_P"
+		(exclude_from_sim no)
+		(at 77.724 132.842 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "3bf2e809-f25d-4199-821b-7cb184905a5f")
+	)
+	(text "PX2_LVDS_18_N"
+		(exclude_from_sim no)
+		(at 77.724 125.222 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "5a6b7490-c9d8-4984-944f-199309441fc3")
+	)
+	(text "PX1_LVDS_13_P"
+		(exclude_from_sim no)
+		(at 118.11 89.662 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "5ca852ba-f1d2-45f0-8c43-ca305157ddd8")
+	)
+	(text "PX1_LVDS_23_P"
+		(exclude_from_sim no)
+		(at 118.11 132.842 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "628e5845-c1c3-49a2-b94a-cab630c1cb9a")
+	)
+	(text "PX2_LVDS_10_P"
+		(exclude_from_sim no)
+		(at 77.724 89.662 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "6a0661f6-b33a-4a10-8268-8d274b6db9d4")
+	)
+	(text "PX2_LVDS_16_N"
+		(exclude_from_sim no)
+		(at 77.724 117.602 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "6ae612e1-f1be-4c5b-9c29-f011efdd8404")
 	)
 	(text "PX1_LVDS_19_P"
 		(exclude_from_sim no)
@@ -8325,6 +8419,36 @@
 		)
 		(uuid "7d93d3e1-94b8-470c-8328-8f2c4f00c1f1")
 	)
+	(text "PX2_LVDS_14_N"
+		(exclude_from_sim no)
+		(at 77.724 109.982 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "9ad08386-3afc-4621-9a5c-ab1c02992b2c")
+	)
+	(text "PX2_LVDS_22_P"
+		(exclude_from_sim no)
+		(at 77.724 140.462 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "a6b0cda7-7917-43ce-b72e-bcba319a612f")
+	)
+	(text "PX2_LVDS_18_P"
+		(exclude_from_sim no)
+		(at 77.724 122.682 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "c1dd773b-8d56-49e4-a573-395c39d3e262")
+	)
 	(text "PX1_LVDS_9_P"
 		(exclude_from_sim no)
 		(at 118.11 74.422 0)
@@ -8335,6 +8459,49 @@
 			(justify left)
 		)
 		(uuid "d3bef6e8-c78a-4952-87f0-0381779b39df")
+	)
+	(text "PX1_LVDS_23_N"
+		(exclude_from_sim no)
+		(at 118.11 135.382 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "d541d6a8-7b53-4753-b63a-7f3f65515976")
+	)
+	(text "PX1_LVDS_21_N"
+		(exclude_from_sim no)
+		(at 118.11 125.222 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "deada7a1-3e31-415d-8e27-a17a5cdd3c3b")
+	)
+	(text "PX2_LVDS_16_P"
+		(exclude_from_sim no)
+		(at 77.724 115.062 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "e79a6400-3fa7-4aca-9d32-34e1437636fb")
+	)
+	(text "PX1_LVDS_15_N"
+		(exclude_from_sim no)
+		(at 118.11 99.822 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "f1636c24-5a45-4128-8acc-a0a88f38e2ba")
 	)
 	(label "PX1_LVDS_17_P"
 		(at 118.11 107.95 0)
@@ -8413,17 +8580,6 @@
 		)
 		(uuid "0eda55b2-3d3d-41d7-bc36-5d8ccdb6870a")
 	)
-	(label "PX2_LVDS_16_P"
-		(at 83.82 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "0eef2d25-f32c-4039-bb6d-a3069b4165d4")
-	)
 	(label "GPIO3"
 		(at 259.08 143.51 0)
 		(fields_autoplaced yes)
@@ -8434,17 +8590,6 @@
 			(justify left bottom)
 		)
 		(uuid "101c581e-6574-4c97-a839-0f270141f4ff")
-	)
-	(label "PX1_LVDS_21_N"
-		(at 118.11 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "10eaa7b0-dc88-4165-81e3-4c75982efcc5")
 	)
 	(label "BLANK"
 		(at 180.34 44.45 0)
@@ -8501,17 +8646,6 @@
 		)
 		(uuid "181f6827-741c-4e3d-ad8b-b5cb7b67b53b")
 	)
-	(label "PX1_LVDS_23_N"
-		(at 118.11 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "1cc6f027-e0ef-4b5c-ab30-834ee5c47b72")
-	)
 	(label "PX2_LVDS_5_P"
 		(at 35.56 67.31 0)
 		(fields_autoplaced yes)
@@ -8544,17 +8678,6 @@
 			(justify right bottom)
 		)
 		(uuid "22ddfa7b-22a7-46af-b513-f3c2b803c8dc")
-	)
-	(label "PX2_LVDS_18_N"
-		(at 83.82 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "234aa3c7-5aa3-4359-ada6-5cde7319f279")
 	)
 	(label "PX2_LVDS_23_N"
 		(at 35.56 143.51 0)
@@ -8621,17 +8744,6 @@
 			(justify left bottom)
 		)
 		(uuid "31828012-2649-49b8-802a-7db463eb274e")
-	)
-	(label "PX2_LVDS_16_N"
-		(at 83.82 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "318e0cfd-baeb-4ee2-95c4-10bf881877a2")
 	)
 	(label "PX2_LVDS_1_P"
 		(at 35.56 52.07 0)
@@ -8809,17 +8921,6 @@
 		)
 		(uuid "4c1ddad2-04bc-4565-9d27-bf03c6a4b8b0")
 	)
-	(label "PX2_LVDS_18_P"
-		(at 83.82 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "4c2ec355-d172-4fd8-bc09-8d065b3df6b1")
-	)
 	(label "PWM"
 		(at 180.34 34.29 0)
 		(fields_autoplaced yes)
@@ -8863,17 +8964,6 @@
 			(justify right bottom)
 		)
 		(uuid "5681b05e-ff1c-4a46-9af4-fbd6acb0184d")
-	)
-	(label "PX2_LVDS_20_P"
-		(at 83.82 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "5835e601-671e-4c1c-aaed-116648b6a46e")
 	)
 	(label "PX1_LVDS_18_N"
 		(at 166.37 118.11 180)
@@ -8985,17 +9075,6 @@
 		)
 		(uuid "669af71a-0d60-432c-8487-53397a0c7367")
 	)
-	(label "PX2_LVDS_22_P"
-		(at 83.82 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "67e6302b-68b6-4aeb-9ecf-88b3e77454e0")
-	)
 	(label "PX1_LVDS_12_N"
 		(at 166.37 92.71 180)
 		(fields_autoplaced yes)
@@ -9062,17 +9141,6 @@
 		)
 		(uuid "71f3eb60-acec-40c4-9e4a-8884f5a54cfd")
 	)
-	(label "PX2_LVDS_10_P"
-		(at 83.82 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "72b6d31f-41b1-4623-a46e-76b40227648a")
-	)
 	(label "GPIO1"
 		(at 259.08 138.43 0)
 		(fields_autoplaced yes)
@@ -9116,17 +9184,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f323cda-2312-46c2-a5e6-1a4e6d3c4128")
-	)
-	(label "PX2_LVDS_14_P"
-		(at 83.82 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "813209b6-5e40-45f2-ac4f-dc997ec82aac")
 	)
 	(label "PX1_LVDS_2_N"
 		(at 166.37 54.61 180)
@@ -9193,17 +9250,6 @@
 			(justify right bottom)
 		)
 		(uuid "89d89b71-f441-4011-9346-04854c65fa6b")
-	)
-	(label "PX1_LVDS_13_P"
-		(at 118.11 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ac32399-8a89-4e02-97af-7a949ce22a95")
 	)
 	(label "~{INT}2"
 		(at 53.34 185.42 0)
@@ -9303,17 +9349,6 @@
 			(justify left bottom)
 		)
 		(uuid "999323f8-3cfc-4a57-a88e-194e58f75be3")
-	)
-	(label "PX1_LVDS_23_P"
-		(at 118.11 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a9851e9-e1f9-40d7-9212-61f1490f6c77")
 	)
 	(label "PX1_LVDS_7_P"
 		(at 180.34 36.83 0)
@@ -9480,17 +9515,6 @@
 		)
 		(uuid "b55f57ac-f858-40cc-b083-214c429db373")
 	)
-	(label "PX1_LVDS_15_P"
-		(at 118.11 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "b58e2187-0ff5-4b3c-b975-3bd6dab87bd7")
-	)
 	(label "PX2_LVDS_5_N"
 		(at 35.56 69.85 0)
 		(fields_autoplaced yes)
@@ -9501,17 +9525,6 @@
 			(justify left bottom)
 		)
 		(uuid "b59509f5-ad63-4e6b-b863-250868aaaf77")
-	)
-	(label "PX1_LVDS_15_N"
-		(at 118.11 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "b625585e-27f9-474e-9dce-ea850a30b5dd")
 	)
 	(label "PX2_LVDS_20_N"
 		(at 83.82 135.89 180)
@@ -9799,17 +9812,6 @@
 		)
 		(uuid "dc095607-8698-4e73-86d6-806ecf543e99")
 	)
-	(label "PX2_LVDS_14_N"
-		(at 83.82 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "dc2a438a-fd4a-4396-ae0d-f0d11360eb68")
-	)
 	(label "PX2_LVDS_13_N"
 		(at 35.56 100.33 0)
 		(fields_autoplaced yes)
@@ -9886,17 +9888,6 @@
 			(justify left bottom)
 		)
 		(uuid "e87e6ef8-2d96-45a3-bc6f-b43a82a74b02")
-	)
-	(label "PX1_LVDS_21_P"
-		(at 118.11 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "e93feb48-cfe1-4e63-a4f3-937d3e3ce3c5")
 	)
 	(label "LAT"
 		(at 118.11 52.07 0)
@@ -10021,7 +10012,7 @@
 		(uuid "150a4209-5667-4e20-9031-87e7adb6831a")
 	)
 	(hierarchical_label "OCXO_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 115.57 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10033,7 +10024,7 @@
 		(uuid "18933345-88e9-466e-8ba7-5afc1c7652d5")
 	)
 	(hierarchical_label "+5V_PG"
-		(shape input)
+		(shape bidirectional)
 		(at 166.37 36.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10057,7 +10048,7 @@
 		(uuid "22b9be2d-2a46-4726-bcd6-57079a3d38a9")
 	)
 	(hierarchical_label "GPS_ENA"
-		(shape input)
+		(shape output)
 		(at 86.36 140.97 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10105,7 +10096,7 @@
 		(uuid "5fd6789b-0ecf-4550-85bf-622010efa14e")
 	)
 	(hierarchical_label "FAN_PWM"
-		(shape input)
+		(shape output)
 		(at 259.08 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10117,7 +10108,7 @@
 		(uuid "61b8a68c-a51e-40ec-80f3-c290fdb413d3")
 	)
 	(hierarchical_label "RTC_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 115.57 133.35 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10129,7 +10120,7 @@
 		(uuid "6e417f47-926c-4ce7-b3de-f17eb15263dc")
 	)
 	(hierarchical_label "RTC_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 115.57 135.89 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10141,7 +10132,7 @@
 		(uuid "77fdc935-fdcc-46a8-a950-bc2d32fe645b")
 	)
 	(hierarchical_label "DAC_SIN"
-		(shape input)
+		(shape output)
 		(at 86.36 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10153,7 +10144,7 @@
 		(uuid "81434ca8-535a-4d95-8f63-87afc8c84225")
 	)
 	(hierarchical_label "TEMP_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 115.57 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10165,7 +10156,7 @@
 		(uuid "8d31410f-3541-4fa1-90c1-882c7c1bd8a2")
 	)
 	(hierarchical_label "DAC_SCLK"
-		(shape input)
+		(shape output)
 		(at 86.36 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10177,7 +10168,7 @@
 		(uuid "98fd63d7-bd9a-4532-bcb6-22a9fb7a20d4")
 	)
 	(hierarchical_label "VCCO_PG"
-		(shape input)
+		(shape bidirectional)
 		(at 86.36 44.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10189,7 +10180,7 @@
 		(uuid "99b82fe9-489a-49d4-80e6-c4e9d68c70af")
 	)
 	(hierarchical_label "~{DAC_CS}"
-		(shape input)
+		(shape output)
 		(at 86.36 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10201,7 +10192,7 @@
 		(uuid "ad351fbc-c676-4042-9e9a-2babea887266")
 	)
 	(hierarchical_label "OCXO_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 115.57 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10213,7 +10204,7 @@
 		(uuid "b5af645d-e7c8-49aa-a99d-22efb63acc20")
 	)
 	(hierarchical_label "GPS_TX"
-		(shape input)
+		(shape output)
 		(at 86.36 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10261,7 +10252,7 @@
 		(uuid "cfa8c586-0225-4081-8b45-fba74269915e")
 	)
 	(hierarchical_label "OCXO_ENA"
-		(shape input)
+		(shape output)
 		(at 115.57 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10273,7 +10264,7 @@
 		(uuid "dd4af965-5b95-4961-b856-f742b4bafe7f")
 	)
 	(hierarchical_label "TEMP_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 115.57 97.79 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10285,7 +10276,7 @@
 		(uuid "e4013d2f-7198-4533-9277-078a5743efa7")
 	)
 	(hierarchical_label "+1.8V_PG"
-		(shape input)
+		(shape bidirectional)
 		(at 232.41 128.27 0)
 		(fields_autoplaced yes)
 		(effects
