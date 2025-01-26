@@ -608,17 +608,6 @@
 				)
 			)
 			(symbol "PSA08-11SRWA_0_1"
-				(rectangle
-					(start -8.89 12.7)
-					(end 8.89 -15.24)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -4.6482 -6.5786) (xy -1.2446 -2.2606) (xy -1.8034 -5.3848) (xy -5.1816 -9.6774) (xy -4.6482 -6.5786)
@@ -830,6 +819,17 @@
 				)
 			)
 			(symbol "PSA08-11SRWA_1_1"
+				(rectangle
+					(start -8.89 12.7)
+					(end 8.89 -15.24)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(text "k"
 					(at -1.4224 3.3782 0)
 					(effects
@@ -1558,19 +1558,6 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLC59282_REV_0_1"
-				(rectangle
-					(start -10.16 25.4)
-					(end 10.16 -25.4)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
 			(symbol "TLC59282_REV_1_0"
 				(pin power_in line
 					(at -5.08 -30.48 90)
@@ -1610,6 +1597,17 @@
 				)
 			)
 			(symbol "TLC59282_REV_1_1"
+				(rectangle
+					(start -10.16 25.4)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin output line
 					(at 17.78 -10.16 180)
 					(length 7.62)
@@ -14703,7 +14701,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 74.93 327.66 0)
 			(effects
 				(font
@@ -14723,6 +14721,60 @@
 		)
 		(property "PartNum" "PSA08-11SRWA"
 			(at 55.88 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 74.93 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 74.93 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 74.93 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 74.93 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 74.93 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 74.93 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14835,7 +14887,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -14855,6 +14907,60 @@
 		)
 		(property "PartNum" "TLC59282DBQ"
 			(at 20.955 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 53.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15211,7 +15317,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 113.03 140.97 0)
 			(effects
 				(font
@@ -15361,7 +15467,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 172.72 181.61 0)
 			(effects
 				(font
@@ -15511,7 +15617,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 232.41 222.25 0)
 			(effects
 				(font
@@ -15661,7 +15767,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 292.1 262.89 0)
 			(effects
 				(font
@@ -15811,7 +15917,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 358.14 100.33 0)
 			(effects
 				(font
@@ -15961,7 +16067,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 417.83 140.97 0)
 			(effects
 				(font
@@ -16111,7 +16217,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 477.52 181.61 0)
 			(effects
 				(font
@@ -16261,7 +16367,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 537.21 222.25 0)
 			(effects
 				(font
@@ -17715,7 +17821,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 140.97 327.66 0)
 			(effects
 				(font
@@ -17910,7 +18016,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 205.74 327.66 0)
 			(effects
 				(font
@@ -18105,7 +18211,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 269.24 327.66 0)
 			(effects
 				(font
@@ -18300,7 +18406,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 471.17 327.66 0)
 			(effects
 				(font
@@ -18495,7 +18601,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 335.28 327.66 0)
 			(effects
 				(font
@@ -18690,7 +18796,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 403.86 327.66 0)
 			(effects
 				(font
@@ -18885,7 +18991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 535.94 327.66 0)
 			(effects
 				(font
