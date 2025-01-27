@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "USB-B panel mount breakout")
-		(date "2018-04-24")
-		(rev "v1.0.0")
+		(date "2025-01-27")
+		(rev "v1.1.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"

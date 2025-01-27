@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "USB-B panel mount breakout")
-		(date "2018-04-24")
-		(rev "v1.0.0")
+		(date "2025-01-27")
+		(rev "v1.1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -631,7 +631,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005adea025")
 		(sheetname "Root")
-		(sheetfile "/home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch")
+		(sheetfile "usbbbrkout.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -711,7 +711,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005ad927dd")
 		(sheetname "Root")
-		(sheetfile "/home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch")
+		(sheetfile "usbbbrkout.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -791,7 +791,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005ad928a6")
 		(sheetname "Root")
-		(sheetfile "/home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch")
+		(sheetfile "usbbbrkout.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -871,7 +871,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005adea065")
 		(sheetname "Root")
-		(sheetfile "/home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch")
+		(sheetfile "usbbbrkout.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -973,10 +973,88 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3443be3c-c52a-4aed-88af-1e1dc096bc47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bc8778f-b2f7-4b4b-8a96-eee1c7c58ff5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b379bdd-4a0c-45fc-a68e-15e62cffb7ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f464613-3987-447e-b7f8-b6e17e1c81bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bfa44d0-552a-4ed8-8425-afad2a497b03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Frequency" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "460abe53-1862-472e-bd03-56fae656aa4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*")
 		(path "/00000000-0000-0000-0000-00005adfc07a")
 		(sheetname "Root")
-		(sheetfile "/home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch")
+		(sheetfile "usbbbrkout.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -14 -7)
@@ -1555,7 +1633,7 @@
 		(property ki_fp_filters "R_* Resistor_*")
 		(path "/00000000-0000-0000-0000-00005ae28356")
 		(sheetname "Root")
-		(sheetfile "/home/guest/cae/kicad/usbbbrkout/usbbbrkout.sch")
+		(sheetfile "usbbbrkout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -1.07)
@@ -1818,7 +1896,7 @@
 		(layer "Edge.Cuts")
 		(uuid "eef17377-ce1c-43a8-ba83-f5ac6475a1c7")
 	)
-	(gr_text "v1.0.0"
+	(gr_text "v1.1.0"
 		(at 142.494 94.996 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00005adddd75")

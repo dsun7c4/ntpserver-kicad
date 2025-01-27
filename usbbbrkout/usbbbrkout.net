@@ -1,14 +1,14 @@
 (export (version "E")
   (design
     (source "/home/guest/cae/kicad/usbbbrkout/usbbbrkout.kicad_sch")
-    (date "2025-01-26T09:41:09-0500")
+    (date "2025-01-27T10:13:25-0500")
     (tool "Eeschema 8.0.6")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
         (title "USB-B panel mount breakout")
         (company)
-        (rev "v1.0.0")
-        (date "2018-04-24")
+        (rev "v1.1.0")
+        (date "2025-01-27")
         (source "usbbbrkout.kicad_sch")
         (comment (number "1") (value ""))
         (comment (number "2") (value ""))
