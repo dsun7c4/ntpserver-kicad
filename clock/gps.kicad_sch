@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "GPS Receiver")
-		(date "2019-12-09")
-		(rev "1.1.2")
+		(date "2025-01-27")
+		(rev "v1.2.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"

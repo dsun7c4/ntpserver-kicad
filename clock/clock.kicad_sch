@@ -5,9 +5,9 @@
 	(uuid "af8799b6-3e96-4eeb-860f-5e780f757b36")
 	(paper "A4")
 	(title_block
-		(title "Clock")
-		(date "2019-12-09")
-		(rev "1.1.2")
+		(title "Clock, NTP server w/ GPS disciplined OCXO")
+		(date "2025-01-27")
+		(rev "v1.2.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
