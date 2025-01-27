@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "USB-A panel mount breakout")
-		(date "2018-04-23")
-		(rev "v1.0.0")
+		(date "2025-01-27")
+		(rev "v1.1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -340,6 +340,84 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2cd98c2b-647a-4f39-a7c8-f6b85fe27518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f748887c-d20b-4fe7-8601-e9ba1633ac91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82bf4f91-8900-4952-8e67-108c8cb017d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be293ad1-f0c1-4180-9eb9-4a3d99504a83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae6eb150-4fd4-43cd-a40e-408f572811fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e9b66ed-4129-4932-aa03-0692cfef762e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Frequency" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "635c3e70-8259-4403-bb36-fa92852e3e1d")
 			(effects
 				(font
 					(size 1 1)
@@ -1878,7 +1956,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f115da23-8d9f-4ca9-bccf-0457ad11c7f9")
 	)
-	(gr_text "v1.0.0"
+	(gr_text "v1.1.0"
 		(at 142.24 95.25 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00005adddd75")
