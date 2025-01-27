@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "RJ45 panel mount breakout")
-		(date "2018-04-19")
-		(rev "v1.0.0")
+		(date "2025-01-27")
+		(rev "v1.1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -2689,7 +2689,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "v1.0.0"
+	(gr_text "v1.1.0"
 		(at 152.146 101.6 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00005adddd75")

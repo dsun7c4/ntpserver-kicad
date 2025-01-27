@@ -1,14 +1,14 @@
 (export (version "E")
   (design
     (source "/home/guest/cae/kicad/rj45brkout/rj45brkout.kicad_sch")
-    (date "2025-01-19T09:43:48-0500")
+    (date "2025-01-27T09:34:05-0500")
     (tool "Eeschema 8.0.6")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
         (title "rj45 panel mount breakout")
         (company)
-        (rev "v1.0.0")
-        (date "2018-04-19")
+        (rev "v1.1.0")
+        (date "2025-01-27")
         (source "rj45brkout.kicad_sch")
         (comment (number "1") (value ""))
         (comment (number "2") (value ""))

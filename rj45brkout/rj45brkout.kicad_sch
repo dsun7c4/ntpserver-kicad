@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "rj45 panel mount breakout")
-		(date "2018-04-19")
-		(rev "v1.0.0")
+		(date "2025-01-27")
+		(rev "v1.1.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
@@ -1195,6 +1195,7 @@
 	)
 	(label "DA+"
 		(at 137.16 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1205,6 +1206,7 @@
 	)
 	(label "DD+"
 		(at 137.16 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1215,6 +1217,7 @@
 	)
 	(label "DC-"
 		(at 137.16 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1225,6 +1228,7 @@
 	)
 	(label "LEDL-"
 		(at 137.16 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1235,6 +1239,7 @@
 	)
 	(label "DD-"
 		(at 137.16 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1245,6 +1250,7 @@
 	)
 	(label "LEDR-"
 		(at 162.56 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1255,6 +1261,7 @@
 	)
 	(label "LEDL+"
 		(at 137.16 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1265,6 +1272,7 @@
 	)
 	(label "DB-"
 		(at 137.16 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1275,6 +1283,7 @@
 	)
 	(label "DC+"
 		(at 137.16 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1285,6 +1294,7 @@
 	)
 	(label "DB+"
 		(at 137.16 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1295,6 +1305,7 @@
 	)
 	(label "LEDR+"
 		(at 161.29 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1305,6 +1316,7 @@
 	)
 	(label "DA-"
 		(at 137.16 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
