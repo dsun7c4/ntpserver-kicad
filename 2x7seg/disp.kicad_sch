@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "2 Digit 7-Segment Display")
-		(date "2016-09-10")
-		(rev "v1.2.0")
+		(date "2025-01-27")
+		(rev "v1.3.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"

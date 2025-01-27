@@ -1,14 +1,14 @@
 (export (version "E")
   (design
     (source "/home/guest/cae/kicad/2x7seg/disp.kicad_sch")
-    (date "2025-01-25T07:35:06-0500")
+    (date "2025-01-27T08:53:25-0500")
     (tool "Eeschema 8.0.6")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
         (title "2 Digit 7-Segment Display")
         (company)
-        (rev "v1.2.0")
-        (date "2016-09-10")
+        (rev "v1.3.0")
+        (date "2025-01-27")
         (source "disp.kicad_sch")
         (comment (number "1") (value ""))
         (comment (number "2") (value ""))
