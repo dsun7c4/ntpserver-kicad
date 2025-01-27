@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Connector/Terminator")
+		(date "2025-01-27")
+		(rev "v1.2.0")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -8571,7 +8576,7 @@
 			)
 		)
 	)
-	(gr_text "v1.1.0"
+	(gr_text "v1.2.0"
 		(at 138.176 110.49 0)
 		(layer "F.SilkS")
 		(uuid "8b2e7485-6e5e-4df9-8f25-5b97a993dd84")

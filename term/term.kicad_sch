@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Connector/Terminator")
-		(date "2017-01-30")
-		(rev "v1.1.0")
+		(date "2025-01-27")
+		(rev "v1.2.0")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
