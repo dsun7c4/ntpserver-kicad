@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "8 Digit 16-Segment Display")
-		(date "2019-12-12")
-		(rev "v1.0.0")
+		(date "2025-01-27")
+		(rev "v1.1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -6050,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6592,7 +6592,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7134,7 +7134,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7676,7 +7676,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8218,7 +8218,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8760,7 +8760,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9302,7 +9302,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9844,7 +9844,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11820,7 +11820,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16-Channel, Constant-Current LED Driver"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11851,6 +11851,84 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8b0d56f-23cf-41d8-b6fb-89453d817357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a6198dc-b2d6-4b75-b2fc-9739f3a4c1c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4460468-4db2-4a0d-a8e3-e0f670a36d2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b134436-e9ec-488e-9f1b-81960632f548")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec698bf5-0128-484a-a423-c41d96b20d5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f8c0f74-9453-4171-90c7-05eaac100c13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Frequency" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75138857-7ee7-4ebe-8fee-1b2fa2847eeb")
 			(effects
 				(font
 					(size 1 1)
@@ -15240,7 +15318,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17975,7 +18053,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20710,7 +20788,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23445,7 +23523,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -26180,7 +26258,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -28915,7 +28993,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -31650,7 +31728,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -34385,7 +34463,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.80\" 16 Segment Single Digit Display"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -34417,6 +34495,90 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b6f85747-9d62-4c55-baa0-3510d38f634b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "21397b11-6d36-4a03-aca0-df92e564a0f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Tolerance" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "28ea0595-31c8-42f2-acbb-4688a442f545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Dielectric" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "18b81efc-0c62-480a-a1a6-6574af21d7f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Power" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0693d5b-513f-4700-a3a3-c3367f8a874c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Current" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f6d0ca00-83b0-49b1-8c96-be8d296d37cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Frequency" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3ae906c1-df0d-444b-bdb5-fa8811191f19")
 			(effects
 				(font
 					(size 1 1)
@@ -38694,7 +38856,7 @@
 		(layer "Edge.Cuts")
 		(uuid "00000000-0000-0000-0000-00005d8aaa83")
 	)
-	(gr_text "v1.0.0"
+	(gr_text "v1.1.0"
 		(at 167.513 89.154 0)
 		(layer "F.SilkS")
 		(uuid "00000000-0000-0000-0000-00005df28d0e")

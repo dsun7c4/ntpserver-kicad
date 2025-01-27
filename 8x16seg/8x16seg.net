@@ -1,14 +1,14 @@
 (export (version "E")
   (design
     (source "/home/guest/cae/kicad/8x16seg/8x16seg.kicad_sch")
-    (date "2025-01-26T09:29:56-0500")
+    (date "2025-01-27T09:05:59-0500")
     (tool "Eeschema 8.0.6")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
         (title "8 Digit 16-Segment Display")
         (company)
-        (rev "v1.0.0")
-        (date "2019-12-12")
+        (rev "v1.1.0")
+        (date "2025-01-27")
         (source "8x16seg.kicad_sch")
         (comment (number "1") (value ""))
         (comment (number "2") (value ""))
